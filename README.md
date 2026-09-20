@@ -80,3 +80,9 @@ To build Open-RMF from scratch, follow these steps:
    ```
 
 Once Isaac Sim, the ROS 2 AMR workspace, and Open-RMF are all sourced and running, you can dispatch tasks to the fleet!
+
+## RMF Map and Navigation Alignment
+
+A critical part of successfully deploying Open-RMF with local Nav2 stacks is ensuring that the **RMF topological map origin and the Nav2 local occupancy grid map origin are perfectly matched.** If these origins drift or are misaligned, the coordinates Open-RMF sends to the robots will not match the physical layout of the warehouse, leading to severe pathing failures and collisions.
+
+*(Further explanation and visual diagrams demonstrating exactly how this alignment was achieved will be added here...)*
