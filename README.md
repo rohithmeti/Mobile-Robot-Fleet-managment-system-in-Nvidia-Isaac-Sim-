@@ -1,5 +1,7 @@
 # Mobile-Robot-Fleet-Management-System-in-NVIDIA-Isaac-Sim
 
+<video src="https://github.com/rohithmeti/Multi-AMR-Fleet-Coordination-Isaac-Sim-OpenRMF/raw/main/docs/videos/fleet_simulation.mp4" controls="controls" muted="muted" style="max-height:640px; width:100%;"></video>
+
 ![Isaac Sim AMR View](docs/images/isaac_sim_amr_view.jpeg)
 
 ![ROS2 Humble](https://img.shields.io/badge/ROS2-Humble-blue)
