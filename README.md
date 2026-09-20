@@ -155,3 +155,7 @@ Use the standard ROS 2 `rmf_building_map_tools` package to compile the building 
 ros2 run rmf_building_map_tools building_map_generator nav warehousermf.building.yaml .
 ```
 This parses the `building.yaml` and outputs the `0.yaml` nav-graph file containing all the nodes and edges required by the Open-RMF fleet adapter to safely route the robots.
+
+---
+
+**Keywords / Search Tags:** `Open-RMF Simulation`, `NVIDIA Isaac Sim`, `AMR Fleet Management`, `ROS 2 Humble`, `Multi-Robot Coordination`, `Traffic Deconfliction`, `Autonomous Mobile Robots`, `OpenRMF Fleet Adapter`, `RobotClientAPI`, `Warehouse Automation Simulation`, `ROS 2 Nav2`, `Digital Twin`
