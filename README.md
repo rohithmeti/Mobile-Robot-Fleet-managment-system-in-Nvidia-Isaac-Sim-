@@ -45,6 +45,17 @@ source install/setup.bash
 ```
 *Note: The `team_venv` folder contains the Python virtual environment with specific dependencies (like WebSockets) required for the simulation.*
 
+If you need to create your own virtual environment from scratch instead of using `team_venv`, here are the core third-party Python libraries required for the fleet adapter and WMS scripts to function (these are independent of the standard ROS 2 Python libraries):
+
+```bash
+python3 -m venv ~/my_rmf_venv
+source ~/my_rmf_venv/bin/activate
+pip install Flask==2.0.1 Flask-SocketIO==5.0.1 fastapi==0.63.0 uvicorn==0.15.0 websockets==10.4
+pip install numpy scipy pandas Shapely pyproj
+pip install requests PyYAML
+```
+*(Make sure you also build and source the `rmf_fleet_adapter_python` package in your ROS workspace so the `rmf_adapter` bindings are available to your python scripts!)*
+
 ## Launch Instructions
 
 To launch the full pipeline, open **8 separate terminals**. In *every* terminal, navigate to the workspace and source the setup file first:
