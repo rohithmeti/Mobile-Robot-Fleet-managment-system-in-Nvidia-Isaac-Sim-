@@ -1,0 +1,64 @@
+iw_hub_1/laserscan_multi_merger:
+  ros__parameters:
+    destination_frame: "iw_hub_1/base_link"
+    cloud_destination_topic: "/iw_hub_1/merged_cloud"
+    scan_destination_topic: "/iw_hub_1/scan_merged_1"
+    laserscan_topics: "/iw_hub_1/front_scan /iw_hub_1/rear_scan"
+    angle_min: -3.141592
+    angle_max: 3.141592
+    angle_increment: 0.0058
+    scan_time: 0.0333333
+    range_min: 0.12
+    range_max: 25.0
+
+iw_hub_2/laserscan_multi_merger:
+  ros__parameters:
+    destination_frame: "iw_hub_2/base_link"
+    cloud_destination_topic: "/iw_hub_2/merged_cloud"
+    scan_destination_topic: "/iw_hub_2/scan_merged_1"
+    laserscan_topics: "/iw_hub_2/front_scan /iw_hub_2/rear_scan"
+    angle_min: -3.141592
+    angle_max: 3.141592
+    angle_increment: 0.0058
+    scan_time: 0.0333333
+    range_min: 0.12
+    range_max: 25.0
+
+iw_hub_3/laserscan_multi_merger:
+  ros__parameters:
+    destination_frame: "iw_hub_3/base_link"
+    cloud_destination_topic: "/iw_hub_3/merged_cloud"
+    scan_destination_topic: "/iw_hub_3/scan_merged_1"
+    laserscan_topics: "/iw_hub_3/front_scan /iw_hub_3/rear_scan"
+    angle_min: -3.141592
+    angle_max: 3.141592
+    angle_increment: 0.0058
+    scan_time: 0.0333333
+    range_min: 0.12
+    range_max: 25.0
+
+iw_hub_4/laserscan_multi_merger:
+  ros__parameters:
+    destination_frame: "iw_hub_4/base_link"
+    cloud_destination_topic: "/iw_hub_4/merged_cloud"
+    scan_destination_topic: "/iw_hub_4/scan_merged_1"
+    laserscan_topics: "/iw_hub_4/front_scan /iw_hub_4/rear_scan"
+    angle_min: -3.141592
+    angle_max: 3.141592
+    angle_increment: 0.0058
+    scan_time: 0.0333333
+    range_min: 0.12
+    range_max: 25.0
+
+iw_hub_5/laserscan_multi_merger:
+  ros__parameters:
+    destination_frame: "iw_hub_5/base_link"
+    cloud_destination_topic: "/iw_hub_5/merged_cloud"
+    scan_destination_topic: "/iw_hub_5/scan_merged_1"
+    laserscan_topics: "/iw_hub_5/front_scan /iw_hub_5/rear_scan"
+    angle_min: -3.141592
+    angle_max: 3.141592
+    angle_increment: 0.0058
+    scan_time: 0.0333333
+    range_min: 0.12
+    range_max: 25.0

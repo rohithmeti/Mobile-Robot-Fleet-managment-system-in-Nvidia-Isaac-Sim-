@@ -1,0 +1,87 @@
+import json, yaml
+
+with open("new_warehouse_map.site.json") as f:
+    site = json.load(f)
+
+level = site["levels"]["1"]
+anchors = level["anchors"]
+lanes = site["navigation"]["guided"]["lanes"]
+locations = site["navigation"]["guided"]["locations"]
+
+anchor_to_loc = {}
+for loc in locations.values():
+    anchor_to_loc[str(loc["anchor"])] = loc
+
+vertices = []
+anchor_idx = {}
+for i, (aid, adata) in enumerate(anchors.items()):
+    x, y = adata["Translate2D"]
+    name = ""
+    props = {}
+    if aid in anchor_to_loc:
+        loc = anchor_to_loc[aid]
+        name = loc["name"]
+        tags = loc.get("tags", [])
+        if "Charger" in tags:
+            props["is_charger"] = [4, True]
+        if "ParkingSpot" in tags:
+            props["is_parking_spot"] = [4, True]
+        if "Charger" in tags or "ParkingSpot" in tags:
+            props["is_holding_point"] = [4, True]
+        # FIX: any named location (entry/exit/pickup/dropoff) needs is_holding_point
+        # so RMF can plan to stop there. Without this, go_to_place tasks fail silently.
+        if name and not props.get("is_holding_point"):
+            props["is_holding_point"] = [4, True]
+    vertices.append([x, y, 0.0, name, props])
+    anchor_idx[aid] = i
+
+lane_list = []
+for lid, ldata in lanes.items():
+    a, b = ldata["anchors"]
+    lane_list.append([
+        anchor_idx[str(a)],
+        anchor_idx[str(b)],
+        {
+            "graph_idx": [2, 0],
+            "bidirectional": [4, False],
+            "orientation": [1, ""],
+            "speed_limit": [3, 0.0]
+        }
+    ])
+
+hub_anchors = ["8", "9", "10", "11", "12"]
+measurements = []
+for i in range(len(hub_anchors) - 1):
+    measurements.append([
+        anchor_idx[hub_anchors[i]],
+        anchor_idx[hub_anchors[i+1]],
+        {"distance": [2, 3.0]}
+    ])
+
+building = {
+    "name": "new_warehouse_map",
+    "levels": {
+        "L1": {
+            "elevation": 0.0,
+            "floorplans": [{
+                "filename": "my_new_warehouse1_map.png",
+                "x_offset": -4.23,
+                "y_offset": 86.15,
+                "yaw": 0.0,
+                "scale": 0.05
+            }],
+            "vertices": vertices,
+            "lanes": lane_list,
+            "walls": [],
+            "measurements": measurements,
+            "models": [],
+            "floors": [],
+            "doors": []
+        }
+    }
+}
+
+with open("new_warehouse_map.building.yaml", "w") as f:
+    yaml.dump(building, f, default_flow_style=None)
+
+print("Done")

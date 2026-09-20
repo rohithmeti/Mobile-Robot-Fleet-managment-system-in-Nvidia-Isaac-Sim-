@@ -1,0 +1,16 @@
+name: build
+on:
+  pull_request:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  build_and_test:
+    name: nlohmann_json_schema_validator_vendor
+    uses: open-rmf/rmf_ci_templates/.github/workflows/reusable_build.yaml@main
+    with:
+      dist-matrix: '[{"ros_distribution": "humble", "ubuntu_distribution": "jammy"}, {"ros_distribution": "rolling", "ubuntu_distribution": "jammy"}, {"ros_distribution": "galactic", "ubuntu_distribution": "focal"}]'
+      # NOTE: Avoid adding comments in the packages lines, this can break some of the called scripts in github actions
+      packages: |
+        nlohmann_json_schema_validator_vendor

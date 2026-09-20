@@ -1,0 +1,30 @@
+name: unit-tests
+
+on:
+  pull_request:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+env:
+  ZENOH_VERSION: 1.5.0
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    container:
+      image: osrf/ros:${{ matrix.ros_distribution }}-desktop
+    strategy:
+      fail-fast: false
+      matrix:
+        ros_distribution: [jazzy, kilted]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: build-and-test
+        uses: ./.github/actions/build-and-test
+        with:
+          ros-distribution: ${{ matrix.ros_distribution }}
+          zenoh-version: ${{ env.ZENOH_VERSION }}
+          integration-testing: OFF

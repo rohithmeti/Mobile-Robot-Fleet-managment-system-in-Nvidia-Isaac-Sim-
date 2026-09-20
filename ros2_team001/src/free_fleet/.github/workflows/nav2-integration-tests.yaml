@@ -1,0 +1,64 @@
+name: nav2-integration-tests
+
+on:
+  pull_request:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  ZENOH_VERSION: 1.5.0
+
+jobs:
+  integration-tests:
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    container:
+      image: osrf/ros:${{ matrix.ros_distribution }}-desktop
+    strategy:
+      fail-fast: false
+      matrix:
+        ros_distribution: [jazzy, kilted]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Extract branch name
+        run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
+        id: extract_branch
+
+      - name: Install docker-compose
+        run: |
+          apt update
+          apt install docker-compose -y
+
+      - name: Start test fixture containers
+        env:
+          ROS_DISTRO: ${{ matrix.ros_distribution }}
+          ZENOH_VERSION: ${{ env.ZENOH_VERSION }}
+        run: docker-compose -f ".github/docker/integration-tests/nav2-docker-compose.yaml" up -d --build
+
+      - name: build-and-test
+        uses: ./.github/actions/build-and-test
+        with:
+          ros-distribution: ${{ matrix.ros_distribution }}
+          zenoh-version: ${{ env.ZENOH_VERSION }}
+          nav2-integration-testing: ON
+
+      - name: Stop test fixture containers
+        if: always()
+        run: docker-compose -f ".github/docker/integration-tests/nav2-docker-compose.yaml" down
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          files: ros_ws/coveragepy/.coverage
+          flags: tests
+          fail_ci_if_error: true
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

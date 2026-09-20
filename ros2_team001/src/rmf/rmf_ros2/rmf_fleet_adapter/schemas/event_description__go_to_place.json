@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/open-rmf/rmf_ros2/main/rmf_fleet_adapter/schemas/event_description__go_to_place.json",
+  "title": "Go To Place Event Description",
+  "description": "Have a robot go to a place",
+  "oneOf": [
+    {
+      "$ref": "place.json"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "place": { "$ref": "place.json" },
+        "followed_by": {
+          "description": "A list of places that the robot might go after it reaches this one. It will not actually go to these places unless other activities bring it there, but the traffic system will be told to expect the robot to proceed through these places.",
+          "type": "array",
+          "items": { "$ref": "place.json" }
+        },
+        "start_at_departure": { "$ref": "#/$defs/start_at_departure" }
+      },
+      "required": ["place"]
+    },
+    {
+      "type": "object",
+      "properties" : {
+        "one_of" : {
+          "type": "array",
+          "description": "A list of places to choose from. Will try to go to the nearest one.",
+          "items": { "$ref": "place.json" },
+          "minItems": 1
+        },
+        "constraints" : {
+          "type": "array",
+          "description": "list of constraints to use",
+          "items": {"$ref": "#/$defs/constraint"}
+        },
+        "start_at_departure": { "$ref": "#/$defs/start_at_departure" }
+      },
+      "required": ["one_of"]
+    }
+  ],
+  "$defs": {
+    "constraint": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "string",
+          "description": "The type of constraint, e.g. prefer_same_map"
+        },
+        "description": {
+          "description": "A complete description of the constraint"
+        }
+      },
+      "required": ["category"]
+    },
+    "start_at_departure": {
+      "type": "boolean",
+      "default": false,
+      "description": "(Optional) Determines how [unix_millis_earliest_start_time] is interpreted. If true, the event is considered to start when the robot departs from its current location. If false (default), the event is considered to start when the robot arrives at the destination."
+    }
+  }
+}

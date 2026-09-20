@@ -1,0 +1,755 @@
+building_name: new_warehouse_map
+levels:
+  L1:
+    lanes:
+    - - 0
+      - 1
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 1
+      - 2
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 3
+      - 4
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 5
+      - 6
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 7
+      - 5
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 8
+      - 7
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 9
+      - 8
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 10
+      - 11
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 11
+      - 0
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 6
+      - 12
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 12
+      - 13
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 14
+      - 6
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 15
+      - 7
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 16
+      - 8
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 17
+      - 9
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 18
+      - 5
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 2
+      - 3
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 0
+      - 6
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 6
+      - 14
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 1
+      - 5
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 5
+      - 18
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 2
+      - 7
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 7
+      - 15
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 3
+      - 8
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 8
+      - 16
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 4
+      - 9
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 9
+      - 17
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 13
+      - 10
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 13
+      - 19
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 19
+      - 20
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 20
+      - 21
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 21
+      - 22
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 23
+      - 24
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 24
+      - 25
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 25
+      - 26
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 26
+      - 27
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 27
+      - 28
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 26
+      - 29
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 29
+      - 30
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 30
+      - 27
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 29
+      - 31
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 31
+      - 32
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 32
+      - 30
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 31
+      - 33
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 33
+      - 34
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 34
+      - 32
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 33
+      - 35
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 35
+      - 36
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 36
+      - 34
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 28
+      - 37
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 37
+      - 38
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 38
+      - 39
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 39
+      - 40
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 40
+      - 10
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 41
+      - 23
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 19
+      - 42
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 42
+      - 43
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 43
+      - 44
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 44
+      - 45
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 45
+      - 46
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 46
+      - 47
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 47
+      - 48
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 48
+      - 49
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 49
+      - 41
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 38
+      - 50
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 50
+      - 51
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 51
+      - 52
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 52
+      - 53
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 53
+      - 54
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 54
+      - 55
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 55
+      - 56
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 56
+      - 57
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 57
+      - 58
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 58
+      - 59
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 59
+      - 60
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 60
+      - 61
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 61
+      - 62
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 62
+      - 63
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 63
+      - 64
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 64
+      - 65
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 65
+      - 66
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 66
+      - 39
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 53
+      - 62
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 54
+      - 61
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 55
+      - 60
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 56
+      - 59
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 49
+      - 67
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 67
+      - 68
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 68
+      - 69
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 69
+      - 70
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 70
+      - 71
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 71
+      - 72
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 72
+      - 73
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 73
+      - 74
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 74
+      - 75
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 75
+      - 76
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 76
+      - 77
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 77
+      - 78
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 78
+      - 79
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 79
+      - 23
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 23
+      - 28
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 46
+      - 38
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 72
+      - 80
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 80
+      - 81
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 81
+      - 73
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 80
+      - 82
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 82
+      - 83
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 83
+      - 81
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 82
+      - 84
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 84
+      - 85
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 85
+      - 86
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 84
+      - 87
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 87
+      - 88
+      - is_bidirectional: false
+        speed_limit: 0.0
+    - - 88
+      - 85
+      - is_bidirectional: false
+        speed_limit: 0.0
+    vertices:
+    - - 5.295132
+      - 12.1389
+      - name: ''
+    - - 5.383469
+      - 9.172029
+      - name: ''
+    - - 5.3927283
+      - 6.146195
+      - name: ''
+    - - 5.435849
+      - 2.88514
+      - name: ''
+    - - 5.455705
+      - -0.13785884
+      - name: ''
+    - - 3.7141113
+      - 9.159169
+      - name: ''
+    - - 3.7176178
+      - 12.098419
+      - name: ''
+    - - 3.7573197
+      - 6.1219525
+      - name: ''
+    - - 3.8346748
+      - 2.9503777
+      - name: ''
+    - - 3.766249
+      - -0.09714541
+      - name: ''
+    - - 5.288832
+      - 17.95048
+      - is_holding_point: true
+        name: docking_room_entry
+    - - 5.553863
+      - 14.83165
+      - name: ''
+    - - 3.5656767
+      - 15.179765
+      - name: ''
+    - - 3.4347706
+      - 18.00324
+      - is_holding_point: true
+        name: docking_room_exit
+    - - 0.0
+      - 12.0
+      - is_charger: true
+        is_holding_point: true
+        is_parking_spot: true
+        name: iw_hub_5_dock
+    - - 0.0
+      - 6.0
+      - is_charger: true
+        is_holding_point: true
+        is_parking_spot: true
+        name: iw_hub_3_dock
+    - - 0.0
+      - 3.0
+      - is_charger: true
+        is_holding_point: true
+        is_parking_spot: true
+        name: iw_hub_2_dock
+    - - 0.0
+      - -0.0
+      - is_charger: true
+        is_holding_point: true
+        is_parking_spot: true
+        name: iw_hub_1_dock
+    - - 0.0
+      - 9.0
+      - is_charger: true
+        is_holding_point: true
+        is_parking_spot: true
+        name: iw_hub_4_dock
+    - - -0.019181982
+      - 21.04512
+      - name: ''
+    - - -0.10671962
+      - 22.481844
+      - name: ''
+    - - -0.16232148
+      - 23.506966
+      - name: ''
+    - - -0.19502306
+      - 25.502337
+      - name: ''
+    - - 26.33044
+      - 17.623844
+      - name: ''
+    - - 26.287228
+      - 12.390319
+      - name: ''
+    - - 28.150791
+      - 12.3139
+      - name: ''
+    - - 28.154636
+      - 9.701292
+      - is_holding_point: true
+        name: pick_pallet_1
+    - - 24.751913
+      - 9.713415
+      - name: ''
+    - - 24.770105
+      - 17.731457
+      - name: ''
+    - - 28.158987
+      - 6.3750067
+      - is_holding_point: true
+        name: pallet_pick_2
+    - - 24.712831
+      - 6.599036
+      - name: ''
+    - - 28.175615
+      - 3.4287689
+      - is_holding_point: true
+        name: pallet_pick_3
+    - - 24.750784
+      - 3.7313728
+      - name: ''
+    - - 28.248425
+      - 0.28811577
+      - is_holding_point: true
+        name: pallet_pick_4
+    - - 24.678965
+      - 0.38499022
+      - name: ''
+    - - 28.233824
+      - -2.6026618
+      - is_holding_point: true
+        name: pallet_pick_5
+    - - 24.759636
+      - -2.4742641
+      - name: ''
+    - - 20.611431
+      - 17.75528
+      - name: ''
+    - - 17.307846
+      - 17.719128
+      - name: ''
+    - - 15.793127
+      - 17.68873
+      - name: ''
+    - - 9.134008
+      - 17.671606
+      - name: ''
+    - - 26.419094
+      - 21.07673
+      - name: ''
+    - - 3.263547
+      - 21.892672
+      - name: ''
+    - - 6.289393
+      - 21.894087
+      - name: ''
+    - - 10.946787
+      - 21.786621
+      - name: ''
+    - - 15.677069
+      - 21.734365
+      - name: ''
+    - - 17.195263
+      - 21.717377
+      - name: ''
+    - - 20.704006
+      - 21.72034
+      - name: ''
+    - - 24.918037
+      - 21.669472
+      - name: ''
+    - - 26.430689
+      - 21.658302
+      - name: ''
+    - - 17.463223
+      - 15.852907
+      - name: ''
+    - - 17.550001
+      - 14.772044
+      - name: ''
+    - - 17.661587
+      - 13.037695
+      - name: ''
+    - - 18.168598
+      - 11.235381
+      - name: ''
+    - - 18.216902
+      - 7.7580333
+      - name: ''
+    - - 18.203497
+      - 3.9712453
+      - name: ''
+    - - 18.238985
+      - 0.17796016
+      - name: ''
+    - - 18.28658
+      - -2.819415
+      - name: ''
+    - - 13.972145
+      - -2.7882285
+      - is_holding_point: true
+        name: pallet_place_1
+    - - 13.896404
+      - 0.16998523
+      - is_holding_point: true
+        name: pallet_place_2
+    - - 13.985774
+      - 3.9776793
+      - is_holding_point: true
+        name: pallet_place_3
+    - - 14.053518
+      - 7.743623
+      - is_holding_point: true
+        name: pallet_place_4
+    - - 14.347787
+      - 11.254886
+      - is_holding_point: true
+        name: pallet_place_5
+    - - 14.941435
+      - 12.176378
+      - name: ''
+    - - 15.628381
+      - 13.010063
+      - name: ''
+    - - 15.862055
+      - 13.849346
+      - name: ''
+    - - 15.802046
+      - 14.91594
+      - name: ''
+    - - 35.64628
+      - 21.43518
+      - name: ''
+    - - 35.5268
+      - 18.271688
+      - name: ''
+    - - 35.55977
+      - 15.659144
+      - name: ''
+    - - 35.64079
+      - 13.392599
+      - name: ''
+    - - 36.727055
+      - 12.040161
+      - name: ''
+    - - 37.657265
+      - 9.122032
+      - name: ''
+    - - 33.415638
+      - 9.054874
+      - name: ''
+    - - 33.453655
+      - 10.5474415
+      - name: ''
+    - - 33.868813
+      - 11.707244
+      - name: ''
+    - - 33.957676
+      - 15.00043
+      - name: ''
+    - - 33.91095
+      - 17.70872
+      - name: ''
+    - - 32.788696
+      - 17.685297
+      - name: ''
+    - - 31.596813
+      - 17.68486
+      - name: ''
+    - - 37.66552
+      - 6.177602
+      - name: ''
+    - - 33.48371
+      - 6.1425133
+      - name: ''
+    - - 37.59187
+      - 3.1174407
+      - name: ''
+    - - 33.628242
+      - 2.9557836
+      - name: ''
+    - - 37.70771
+      - -0.3417275
+      - name: ''
+    - - 33.766243
+      - -0.5230193
+      - name: ''
+    - - 33.62822
+      - 3.0070257
+      - name: ''
+    - - 37.52608
+      - -3.4126165
+      - name: ''
+    - - 33.45547
+      - -3.4410899
+      - name: ''

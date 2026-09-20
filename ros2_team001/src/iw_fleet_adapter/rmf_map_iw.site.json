@@ -1,0 +1,77 @@
+{
+  "format_version": "0.1",
+  "properties": {
+    "name": "rmf_map_iw",
+    "geographic_offset": {
+      "anchor": [
+        0.0,
+        0.0
+      ],
+      "zoom": 15,
+      "visible": true
+    }
+  },
+  "levels": {
+    "1": {
+      "properties": {
+        "name": "L1",
+        "elevation": 0.0
+      },
+      "anchors": {},
+      "drawings": {
+        "4": {
+          "properties": {
+            "name": "<Unnamed>",
+            "source": {
+              "Local": "ros2_team001/src/iw_hub_navigation/maps/my_warehouse_map.png"
+            },
+            "pose": {
+              "trans": [
+                -23.7,
+                -5.88,
+                0.0
+              ],
+              "rot": {
+                "yaw": {
+                  "deg": 0.0
+                }
+              }
+            },
+            "pixels_per_meter": 20.0
+          }
+        }
+      },
+      "rankings": {
+        "drawings": [
+          3,
+          4
+        ]
+      }
+    }
+  },
+  "navigation": {
+    "guided": {
+      "graphs": {
+        "7": {
+          "name": "<Unnamed>",
+          "color": [
+            1.0,
+            0.50000024,
+            0.3
+          ]
+        }
+      },
+      "ranking": [
+        7
+      ],
+      "lanes": {},
+      "locations": {}
+    }
+  },
+  "scenarios": {
+    "6": {
+      "name": "Default Scenario",
+      "parent_scenario": null
+    }
+  }
+}

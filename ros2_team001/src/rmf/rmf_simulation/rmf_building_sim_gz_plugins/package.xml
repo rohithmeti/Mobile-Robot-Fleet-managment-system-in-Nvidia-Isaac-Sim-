@@ -1,0 +1,33 @@
+<package format="3">
+  <name>rmf_building_sim_gz_plugins</name>
+  <version>2.6.1</version>
+  <description>
+    Gazebo plugins for building infrastructure simulation
+  </description>
+  <author>Luca Della Vedova</author>
+  <author>Yadunund</author>
+  <author>Kevin Ma</author>
+  <author>Rushyendra Maganty</author>
+  <maintainer email="luca@openrobotics.org">Luca Della Vedova</maintainer>
+  <maintainer email="marco@openrobotics.org">Marco A. Gutiérrez</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>rmf_door_msgs</depend>
+  <depend>rmf_lift_msgs</depend>
+  <depend>rmf_fleet_msgs</depend>
+  <depend>menge_vendor</depend>
+  <depend>gz_gui_vendor</depend>
+  <depend>gz_msgs_vendor</depend>
+  <depend>gz_plugin_vendor</depend>
+  <depend>gz_rendering_vendor</depend>
+  <depend>gz_sim_vendor</depend>
+  <depend>gz_transport_vendor</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>

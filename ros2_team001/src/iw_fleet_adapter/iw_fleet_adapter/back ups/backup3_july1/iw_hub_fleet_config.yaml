@@ -1,0 +1,49 @@
+rmf_fleet:
+  name: "iw_hub_fleet"
+  limits:
+    linear: [1.5, 2.5]
+    angular: [0.8, 3.2]
+  profile: 
+    footprint: 1.16
+    vicinity: 1.5
+  reversible: false 
+  battery_system:
+    voltage: 24.0
+    capacity: 40.0
+    charging_current: 10.0
+  mechanical_system:
+    mass: 80.0
+    moment_of_inertia: 20.0
+    friction_coefficient: 0.22
+  ambient_system:
+    power: 20.0
+  tool_system:
+    power: 0.0
+  recharge_threshold: 0.20
+  recharge_soc: 1.0
+  publish_fleet_state: 10.0
+  account_for_battery_drain: true
+  task_capabilities: 
+    loop: true
+    delivery: true
+  responsive_wait: false
+  finishing_request: "charge"
+  
+  robots:
+    iw_hub_1:
+      charger: "iw_hub_1_dock"
+    iw_hub_2:
+      charger: "iw_hub_2_dock"
+    iw_hub_3:
+      charger: "iw_hub_3_dock"
+    iw_hub_4:
+      charger: "iw_hub_4_dock"
+    iw_hub_5:
+      charger: "iw_hub_5_dock"
+
+  robot_state_update_frequency: 10.0
+
+reference_coordinates:
+  L1:
+    rmf:   [[0.0, 0.0], [0.0, 3.0], [0.0, 6.0], [0.0, 9.0], [0.0, 12.0]]
+    robot: [[0.0, 0.0], [0.0, 3.0], [0.0, 6.0], [0.0, 9.0], [0.0, 12.0]]

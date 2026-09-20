@@ -1,0 +1,66 @@
+rmf_fleet:
+  name: "iw_hub_fleet"
+  limits:
+    linear: [0.6, 0.75]
+    angular: [0.5, 1.0]
+  profile: 
+    footprint: 1.16
+    vicinity: 1.5
+  reversible: false 
+  battery_system:
+    voltage: 24.0
+    capacity: 40.0
+    charging_current: 10.0
+  mechanical_system:
+    mass: 80.0
+    moment_of_inertia: 20.0
+    friction_coefficient: 0.22
+  ambient_system:
+    power: 20.0
+  tool_system:
+    power: 0.0
+  recharge_threshold: 0.20
+  recharge_soc: 1.0
+  
+  # INCREASED PUBLISH FREQUENCIES
+  publish_fleet_state: 20.0 
+  robot_state_update_frequency: 20.0 
+  
+  account_for_battery_drain: false
+  task_capabilities: 
+    loop: true
+    delivery: true
+    
+  # REQUIRED EASY-FULL-CONTROL PARAMETERS
+  responsive_wait: false
+  max_delay: 45.0 
+  finishing_request: "nothing"
+  
+  robots:
+    iw_hub_1:
+      charger: "iw_hub_1_dock"
+      responsive_wait: false
+    iw_hub_2:
+      charger: "iw_hub_2_dock"
+      responsive_wait: false
+    iw_hub_3:
+      charger: "iw_hub_3_dock"
+      responsive_wait: false
+    iw_hub_4:
+      charger: "iw_hub_4_dock"
+      responsive_wait: false
+    iw_hub_5:
+      charger: "iw_hub_5_dock"
+      responsive_wait: false
+
+reference_coordinates:
+  L1:
+    rmf:   [[0.0, 0.0], [0.0, 3.0], [0.0, 6.0], [0.0, 9.0], [0.0, 12.0]]
+    robot: [[0.0, 0.0], [0.0, 3.0], [0.0, 6.0], [0.0, 9.0], [0.0, 12.0]]
+
+# REQUIRED: Dummy Fleet Manager connection details for the parser
+fleet_manager:
+  ip: "127.0.0.1"
+  port: 7001
+  user: "admin"
+  password: "password"

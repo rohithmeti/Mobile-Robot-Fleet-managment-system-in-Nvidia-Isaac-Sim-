@@ -1,0 +1,106 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Tool Properties
+    Name: Tool Properties
+  - Class: rviz_common/Views
+    Name: Views
+  - Class: nav2_rviz_plugins/Navigation 2
+    Name: Navigation 2
+
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Reference Frame: map
+      Value: true
+    - Class: rviz_default_plugins/RobotModel
+      Name: RobotModel
+      Description Topic:
+        Value: /iw_hub_1/robot_description
+      Enabled: true
+    - Class: rviz_default_plugins/Map
+      Name: Static Map
+      Topic:
+        Durability Policy: Transient Local
+        Reliability Policy: Reliable
+        Value: /iw_hub_1/map
+      Value: true
+    - Class: rviz_default_plugins/LaserScan
+      Name: Front LiDAR
+      Topic:
+        Durability Policy: Volatile
+        Reliability Policy: Reliable
+        Value: /front_2d_lidar_iw_1
+      Color: 0; 255; 0
+      Size (m): 0.05
+      Value: true
+    - Class: rviz_default_plugins/LaserScan
+      Name: Back LiDAR
+      Topic:
+        Durability Policy: Volatile
+        Reliability Policy: Reliable
+        Value: /back_2d_lidar_iw_1
+      Color: 255; 0; 0
+      Size (m): 0.05
+      Value: true
+    - Class: rviz_default_plugins/Map
+      Name: Global Costmap
+      Alpha: 0.5
+      Color Scheme: costmap
+      Topic:
+        Durability Policy: Transient Local
+        Reliability Policy: Reliable
+        Value: /iw_hub_1/global_costmap/costmap
+      Value: true
+    - Class: rviz_default_plugins/Map
+      Name: Local Costmap
+      Alpha: 0.7
+      Color Scheme: costmap
+      Topic:
+        Durability Policy: Transient Local
+        Reliability Policy: Reliable
+        Value: /iw_hub_1/local_costmap/costmap
+      Value: true
+    - Class: rviz_default_plugins/Path
+      Name: Global Plan
+      Topic:
+        Value: /iw_hub_1/plan
+      Color: 0; 255; 0
+      Line Width: 0.1
+      Value: true
+    - Class: rviz_default_plugins/Path
+      Name: Local Plan
+      Topic:
+        Value: /iw_hub_1/local_plan
+      Color: 0; 12; 255
+      Line Width: 0.1
+      Value: true
+    - Class: rviz_default_plugins/PoseArray
+      Name: AMCL Particles
+      Topic:
+        Value: /iw_hub_1/particle_cloud
+      Value: true
+    - Class: rviz_default_plugins/TF
+      Name: TF
+      Enabled: true
+
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: map
+    Frame Rate: 30
+
+  Tools:
+    - Class: rviz_default_plugins/SetInitialPose
+      Topic:
+        Value: /iw_hub_1/initialpose
+    - Class: rviz_default_plugins/PublishPoint
+      Topic:
+        Value: /iw_hub_1/clicked_point
+    - Class: nav2_rviz_plugins/GoalTool
+
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Target Frame: <Fixed Frame>

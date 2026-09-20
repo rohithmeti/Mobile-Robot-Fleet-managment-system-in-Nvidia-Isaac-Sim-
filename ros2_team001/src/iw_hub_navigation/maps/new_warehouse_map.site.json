@@ -1,0 +1,3285 @@
+{
+  "format_version": "0.1",
+  "properties": {
+    "name": "new_warehouse_map.site"
+  },
+  "levels": {
+    "1": {
+      "properties": {
+        "name": "L1",
+        "elevation": 0.0
+      },
+      "anchors": {
+        "6": {
+          "Translate2D": [
+            39.213543,
+            -5.0415745
+          ]
+        },
+        "7": {
+          "Translate2D": [
+            38.99037,
+            85.18433
+          ]
+        },
+        "8": {
+          "Translate2D": [
+            0.0,
+            0.0
+          ]
+        },
+        "9": {
+          "Translate2D": [
+            0.0,
+            3.0
+          ]
+        },
+        "10": {
+          "Translate2D": [
+            0.0,
+            6.0
+          ]
+        },
+        "11": {
+          "Translate2D": [
+            0.0,
+            9.0
+          ]
+        },
+        "12": {
+          "Translate2D": [
+            0.0,
+            12.0
+          ]
+        },
+        "18": {
+          "Translate2D": [
+            -2.8265228,
+            84.82029
+          ]
+        },
+        "19": {
+          "Translate2D": [
+            -2.624228,
+            -4.910105
+          ]
+        },
+        "26": {
+          "Translate2D": [
+            5.295132,
+            12.1389
+          ]
+        },
+        "27": {
+          "Translate2D": [
+            5.383469,
+            9.172029
+          ]
+        },
+        "28": {
+          "Translate2D": [
+            5.3927283,
+            6.146195
+          ]
+        },
+        "30": {
+          "Translate2D": [
+            5.435849,
+            2.88514
+          ]
+        },
+        "31": {
+          "Translate2D": [
+            5.455705,
+            -0.13785884
+          ]
+        },
+        "32": {
+          "Translate2D": [
+            3.7176178,
+            12.098419
+          ]
+        },
+        "33": {
+          "Translate2D": [
+            3.7141113,
+            9.159169
+          ]
+        },
+        "34": {
+          "Translate2D": [
+            3.7573197,
+            6.1219525
+          ]
+        },
+        "35": {
+          "Translate2D": [
+            3.8346748,
+            2.9503777
+          ]
+        },
+        "36": {
+          "Translate2D": [
+            3.766249,
+            -0.09714541
+          ]
+        },
+        "37": {
+          "Translate2D": [
+            5.553863,
+            14.83165
+          ]
+        },
+        "38": {
+          "Translate2D": [
+            5.288832,
+            17.95048
+          ]
+        },
+        "39": {
+          "Translate2D": [
+            3.5656767,
+            15.179765
+          ]
+        },
+        "40": {
+          "Translate2D": [
+            3.4347706,
+            18.00324
+          ]
+        },
+        "87": {
+          "Translate2D": [
+            -2.6744995,
+            74.94935
+          ]
+        },
+        "88": {
+          "Translate2D": [
+            15.054805,
+            74.93244
+          ]
+        },
+        "90": {
+          "Translate2D": [
+            38.970707,
+            75.02785
+          ]
+        },
+        "91": {
+          "Translate2D": [
+            23.812378,
+            74.967476
+          ]
+        },
+        "93": {
+          "Translate2D": [
+            -2.6837158,
+            14.893342
+          ]
+        },
+        "94": {
+          "Translate2D": [
+            2.9488134,
+            14.8854475
+          ]
+        },
+        "96": {
+          "Translate2D": [
+            10.096027,
+            14.831673
+          ]
+        },
+        "97": {
+          "Translate2D": [
+            10.132467,
+            -4.89565
+          ]
+        },
+        "99": {
+          "Translate2D": [
+            6.1232953,
+            14.868057
+          ]
+        },
+        "100": {
+          "Translate2D": [
+            15.179932,
+            14.915215
+          ]
+        },
+        "102": {
+          "Translate2D": [
+            18.07191,
+            14.908037
+          ]
+        },
+        "103": {
+          "Translate2D": [
+            24.187927,
+            14.96017
+          ]
+        },
+        "105": {
+          "Translate2D": [
+            20.124271,
+            14.883803
+          ]
+        },
+        "106": {
+          "Translate2D": [
+            20.225088,
+            -5.0321174
+          ]
+        },
+        "108": {
+          "Translate2D": [
+            26.982103,
+            15.092078
+          ]
+        },
+        "109": {
+          "Translate2D": [
+            33.201294,
+            15.035654
+          ]
+        },
+        "111": {
+          "Translate2D": [
+            30.140926,
+            14.985375
+          ]
+        },
+        "112": {
+          "Translate2D": [
+            30.209986,
+            -4.7661257
+          ]
+        },
+        "114": {
+          "Translate2D": [
+            36.090897,
+            14.931889
+          ]
+        },
+        "115": {
+          "Translate2D": [
+            39.148968,
+            14.8571415
+          ]
+        },
+        "133": {
+          "Translate2D": [
+            -0.057911873,
+            21.56477
+          ]
+        },
+        "134": {
+          "Translate2D": [
+            -0.10671962,
+            22.481844
+          ]
+        },
+        "135": {
+          "Translate2D": [
+            -0.16232148,
+            23.506966
+          ]
+        },
+        "136": {
+          "Translate2D": [
+            -0.19502306,
+            25.502337
+          ]
+        },
+        "137": {
+          "Translate2D": [
+            26.33044,
+            17.623844
+          ]
+        },
+        "138": {
+          "Translate2D": [
+            26.287228,
+            12.390319
+          ]
+        },
+        "139": {
+          "Translate2D": [
+            28.150791,
+            12.3139
+          ]
+        },
+        "140": {
+          "Translate2D": [
+            28.154636,
+            9.701292
+          ]
+        },
+        "141": {
+          "Translate2D": [
+            24.751913,
+            9.713415
+          ]
+        },
+        "142": {
+          "Translate2D": [
+            24.770105,
+            17.731457
+          ]
+        },
+        "143": {
+          "Translate2D": [
+            28.158987,
+            6.3750067
+          ]
+        },
+        "144": {
+          "Translate2D": [
+            24.712831,
+            6.599036
+          ]
+        },
+        "145": {
+          "Translate2D": [
+            28.175615,
+            3.4287689
+          ]
+        },
+        "146": {
+          "Translate2D": [
+            24.750784,
+            3.7313728
+          ]
+        },
+        "147": {
+          "Translate2D": [
+            28.248425,
+            0.28811577
+          ]
+        },
+        "148": {
+          "Translate2D": [
+            24.678965,
+            0.38499022
+          ]
+        },
+        "149": {
+          "Translate2D": [
+            28.233824,
+            -2.6026618
+          ]
+        },
+        "150": {
+          "Translate2D": [
+            24.759636,
+            -2.4742641
+          ]
+        },
+        "151": {
+          "Translate2D": [
+            20.611431,
+            17.75528
+          ]
+        },
+        "152": {
+          "Translate2D": [
+            17.307846,
+            17.719128
+          ]
+        },
+        "153": {
+          "Translate2D": [
+            15.793127,
+            17.68873
+          ]
+        },
+        "154": {
+          "Translate2D": [
+            9.134008,
+            17.671606
+          ]
+        },
+        "155": {
+          "Translate2D": [
+            26.419094,
+            21.07673
+          ]
+        },
+        "156": {
+          "Translate2D": [
+            3.3449965,
+            21.63317
+          ]
+        },
+        "157": {
+          "Translate2D": [
+            6.289393,
+            21.647161
+          ]
+        },
+        "158": {
+          "Translate2D": [
+            10.946787,
+            21.61104
+          ]
+        },
+        "159": {
+          "Translate2D": [
+            15.677069,
+            21.734365
+          ]
+        },
+        "160": {
+          "Translate2D": [
+            17.195263,
+            21.717377
+          ]
+        },
+        "161": {
+          "Translate2D": [
+            20.704006,
+            21.72034
+          ]
+        },
+        "162": {
+          "Translate2D": [
+            24.918037,
+            21.669472
+          ]
+        },
+        "163": {
+          "Translate2D": [
+            26.413414,
+            21.666855
+          ]
+        },
+        "164": {
+          "Translate2D": [
+            17.463223,
+            15.852907
+          ]
+        },
+        "165": {
+          "Translate2D": [
+            17.550001,
+            14.772044
+          ]
+        },
+        "166": {
+          "Translate2D": [
+            17.661587,
+            13.037695
+          ]
+        },
+        "167": {
+          "Translate2D": [
+            18.168598,
+            11.235381
+          ]
+        },
+        "168": {
+          "Translate2D": [
+            18.216902,
+            7.7580333
+          ]
+        },
+        "169": {
+          "Translate2D": [
+            18.203497,
+            3.9712453
+          ]
+        },
+        "170": {
+          "Translate2D": [
+            18.238985,
+            0.17796016
+          ]
+        },
+        "171": {
+          "Translate2D": [
+            18.28658,
+            -2.819415
+          ]
+        },
+        "172": {
+          "Translate2D": [
+            13.972145,
+            -2.7882285
+          ]
+        },
+        "173": {
+          "Translate2D": [
+            13.896404,
+            0.16998523
+          ]
+        },
+        "174": {
+          "Translate2D": [
+            13.985774,
+            3.9776793
+          ]
+        },
+        "175": {
+          "Translate2D": [
+            14.053518,
+            7.743623
+          ]
+        },
+        "176": {
+          "Translate2D": [
+            14.347787,
+            11.254886
+          ]
+        },
+        "177": {
+          "Translate2D": [
+            14.941435,
+            12.176378
+          ]
+        },
+        "178": {
+          "Translate2D": [
+            15.628381,
+            13.010063
+          ]
+        },
+        "179": {
+          "Translate2D": [
+            15.862055,
+            13.849346
+          ]
+        },
+        "180": {
+          "Translate2D": [
+            15.802046,
+            14.91594
+          ]
+        },
+        "181": {
+          "Translate2D": [
+            35.64628,
+            21.43518
+          ]
+        },
+        "182": {
+          "Translate2D": [
+            35.5268,
+            18.271688
+          ]
+        },
+        "183": {
+          "Translate2D": [
+            35.55977,
+            15.659144
+          ]
+        },
+        "184": {
+          "Translate2D": [
+            35.64079,
+            13.392599
+          ]
+        },
+        "185": {
+          "Translate2D": [
+            36.727055,
+            12.040161
+          ]
+        },
+        "186": {
+          "Translate2D": [
+            37.657265,
+            9.122032
+          ]
+        },
+        "187": {
+          "Translate2D": [
+            33.415638,
+            9.054874
+          ]
+        },
+        "188": {
+          "Translate2D": [
+            33.453655,
+            10.5474415
+          ]
+        },
+        "189": {
+          "Translate2D": [
+            33.868813,
+            11.707244
+          ]
+        },
+        "190": {
+          "Translate2D": [
+            33.957676,
+            15.00043
+          ]
+        },
+        "191": {
+          "Translate2D": [
+            33.91095,
+            17.70872
+          ]
+        },
+        "192": {
+          "Translate2D": [
+            32.788696,
+            17.685297
+          ]
+        },
+        "193": {
+          "Translate2D": [
+            31.596813,
+            17.68486
+          ]
+        },
+        "273": {
+          "Translate2D": [
+            37.66552,
+            6.177602
+          ]
+        },
+        "274": {
+          "Translate2D": [
+            33.48371,
+            6.1425133
+          ]
+        },
+        "275": {
+          "Translate2D": [
+            37.59187,
+            3.1174407
+          ]
+        },
+        "276": {
+          "Translate2D": [
+            33.628242,
+            2.9557836
+          ]
+        },
+        "277": {
+          "Translate2D": [
+            37.70771,
+            -0.3417275
+          ]
+        },
+        "278": {
+          "Translate2D": [
+            33.766243,
+            -0.5230193
+          ]
+        },
+        "279": {
+          "Translate2D": [
+            33.62822,
+            3.0070257
+          ]
+        },
+        "280": {
+          "Translate2D": [
+            37.52608,
+            -3.4126165
+          ]
+        },
+        "281": {
+          "Translate2D": [
+            33.45547,
+            -3.4410899
+          ]
+        },
+        "316": {
+          "Translate2D": [
+            -0.26937652,
+            28.660858
+          ]
+        },
+        "317": {
+          "Translate2D": [
+            -0.3453695,
+            31.904823
+          ]
+        },
+        "318": {
+          "Translate2D": [
+            -0.41274858,
+            35.885395
+          ]
+        },
+        "319": {
+          "Translate2D": [
+            -0.4663291,
+            41.39083
+          ]
+        },
+        "320": {
+          "Translate2D": [
+            -0.5298791,
+            46.533638
+          ]
+        },
+        "321": {
+          "Translate2D": [
+            -0.59318376,
+            53.494503
+          ]
+        },
+        "322": {
+          "Translate2D": [
+            -0.5020294,
+            59.19052
+          ]
+        },
+        "323": {
+          "Translate2D": [
+            -0.45375633,
+            63.53143
+          ]
+        },
+        "324": {
+          "Translate2D": [
+            -0.46552372,
+            70.348175
+          ]
+        },
+        "325": {
+          "Translate2D": [
+            -0.41054726,
+            72.47319
+          ]
+        },
+        "326": {
+          "Translate2D": [
+            3.2492118,
+            72.33509
+          ]
+        },
+        "327": {
+          "Translate2D": [
+            5.8840437,
+            72.24649
+          ]
+        },
+        "329": {
+          "Translate2D": [
+            10.882085,
+            72.082
+          ]
+        },
+        "330": {
+          "Translate2D": [
+            17.207218,
+            71.99885
+          ]
+        },
+        "331": {
+          "Translate2D": [
+            21.723751,
+            71.81288
+          ]
+        },
+        "332": {
+          "Translate2D": [
+            26.188618,
+            71.898224
+          ]
+        },
+        "333": {
+          "Translate2D": [
+            31.003222,
+            72.00699
+          ]
+        },
+        "334": {
+          "Translate2D": [
+            37.03392,
+            72.049545
+          ]
+        },
+        "335": {
+          "Translate2D": [
+            36.088833,
+            68.32628
+          ]
+        },
+        "336": {
+          "Translate2D": [
+            36.208427,
+            62.2981
+          ]
+        },
+        "337": {
+          "Translate2D": [
+            36.469925,
+            56.41539
+          ]
+        },
+        "338": {
+          "Translate2D": [
+            36.488853,
+            51.24129
+          ]
+        },
+        "339": {
+          "Translate2D": [
+            36.63617,
+            44.534283
+          ]
+        },
+        "340": {
+          "Translate2D": [
+            36.67289,
+            37.637314
+          ]
+        },
+        "341": {
+          "Translate2D": [
+            36.83779,
+            27.724434
+          ]
+        },
+        "342": {
+          "Translate2D": [
+            36.874664,
+            25.440723
+          ]
+        },
+        "343": {
+          "Translate2D": [
+            36.888596,
+            24.24056
+          ]
+        },
+        "382": {
+          "Translate2D": [
+            5.854001,
+            25.725962
+          ]
+        },
+        "383": {
+          "Translate2D": [
+            5.8659015,
+            32.15896
+          ]
+        },
+        "384": {
+          "Translate2D": [
+            5.791816,
+            38.62005
+          ]
+        },
+        "385": {
+          "Translate2D": [
+            5.74291,
+            46.284714
+          ]
+        },
+        "386": {
+          "Translate2D": [
+            5.58327,
+            54.14728
+          ]
+        },
+        "387": {
+          "Translate2D": [
+            5.7232456,
+            63.228275
+          ]
+        },
+        "388": {
+          "Translate2D": [
+            10.938419,
+            63.058872
+          ]
+        },
+        "389": {
+          "Translate2D": [
+            10.784847,
+            27.873096
+          ]
+        },
+        "390": {
+          "Translate2D": [
+            10.750804,
+            33.89167
+          ]
+        },
+        "391": {
+          "Translate2D": [
+            10.64292,
+            50.297886
+          ]
+        },
+        "392": {
+          "Translate2D": [
+            10.607012,
+            58.25334
+          ]
+        },
+        "393": {
+          "Translate2D": [
+            17.12909,
+            62.77573
+          ]
+        },
+        "394": {
+          "Translate2D": [
+            30.536654,
+            62.107304
+          ]
+        },
+        "395": {
+          "Translate2D": [
+            25.825562,
+            62.130733
+          ]
+        },
+        "396": {
+          "Translate2D": [
+            20.783384,
+            62.31485
+          ]
+        },
+        "420": {
+          "Translate2D": [
+            15.46164,
+            58.368458
+          ]
+        },
+        "421": {
+          "Translate2D": [
+            15.484145,
+            50.380547
+          ]
+        },
+        "422": {
+          "Translate2D": [
+            15.474874,
+            42.065334
+          ]
+        },
+        "423": {
+          "Translate2D": [
+            15.78372,
+            34.315018
+          ]
+        },
+        "424": {
+          "Translate2D": [
+            16.12539,
+            27.922684
+          ]
+        },
+        "425": {
+          "Translate2D": [
+            10.637417,
+            41.845806
+          ]
+        },
+        "426": {
+          "Translate2D": [
+            20.66578,
+            27.375753
+          ]
+        },
+        "427": {
+          "Translate2D": [
+            20.484745,
+            33.76992
+          ]
+        },
+        "428": {
+          "Translate2D": [
+            20.509432,
+            42.114857
+          ]
+        },
+        "429": {
+          "Translate2D": [
+            20.50034,
+            50.46528
+          ]
+        },
+        "430": {
+          "Translate2D": [
+            20.385174,
+            58.377975
+          ]
+        },
+        "431": {
+          "Translate2D": [
+            25.802984,
+            58.06739
+          ]
+        },
+        "432": {
+          "Translate2D": [
+            25.82337,
+            50.48027
+          ]
+        },
+        "433": {
+          "Translate2D": [
+            25.884424,
+            41.95539
+          ]
+        },
+        "434": {
+          "Translate2D": [
+            25.939486,
+            33.66171
+          ]
+        },
+        "435": {
+          "Translate2D": [
+            25.967964,
+            27.425343
+          ]
+        },
+        "436": {
+          "Translate2D": [
+            31.784561,
+            21.60679
+          ]
+        },
+        "437": {
+          "Translate2D": [
+            31.495804,
+            27.38082
+          ]
+        },
+        "438": {
+          "Translate2D": [
+            31.06078,
+            33.636673
+          ]
+        },
+        "439": {
+          "Translate2D": [
+            30.76585,
+            41.961315
+          ]
+        },
+        "440": {
+          "Translate2D": [
+            30.516943,
+            51.16117
+          ]
+        },
+        "441": {
+          "Translate2D": [
+            30.116081,
+            57.623566
+          ]
+        },
+        "483": {
+          "Translate2D": [
+            21.705936,
+            76.218765
+          ]
+        },
+        "484": {
+          "Translate2D": [
+            29.28245,
+            76.29608
+          ]
+        },
+        "485": {
+          "Translate2D": [
+            34.620068,
+            76.362595
+          ]
+        },
+        "486": {
+          "Translate2D": [
+            34.379185,
+            83.692535
+          ]
+        },
+        "487": {
+          "Translate2D": [
+            21.81198,
+            83.69625
+          ]
+        },
+        "488": {
+          "Translate2D": [
+            6.976573,
+            83.600266
+          ]
+        },
+        "489": {
+          "Translate2D": [
+            0.22187614,
+            83.602325
+          ]
+        },
+        "490": {
+          "Translate2D": [
+            0.12542725,
+            76.54475
+          ]
+        },
+        "491": {
+          "Translate2D": [
+            12.1557455,
+            76.36821
+          ]
+        },
+        "492": {
+          "Translate2D": [
+            17.248878,
+            76.38833
+          ]
+        }
+      },
+      "drawings": {
+        "3": {
+          "properties": {
+            "name": "wearhouse",
+            "source": {
+              "Local": "my_new_warehouse1_map.png"
+            },
+            "pose": {
+              "trans": [
+                -4.23,
+                86.15,
+                0.0
+              ],
+              "rot": {
+                "yaw": {
+                  "deg": 0.0
+                }
+              }
+            },
+            "pixels_per_meter": 20.0
+          }
+        }
+      },
+      "walls": {
+        "20": {
+          "anchors": [
+            19,
+            18
+          ]
+        },
+        "21": {
+          "anchors": [
+            18,
+            7
+          ]
+        },
+        "22": {
+          "anchors": [
+            7,
+            6
+          ]
+        },
+        "23": {
+          "anchors": [
+            6,
+            19
+          ]
+        },
+        "86": {
+          "anchors": [
+            87,
+            88
+          ]
+        },
+        "89": {
+          "anchors": [
+            90,
+            91
+          ]
+        },
+        "92": {
+          "anchors": [
+            93,
+            94
+          ]
+        },
+        "95": {
+          "anchors": [
+            96,
+            97
+          ]
+        },
+        "98": {
+          "anchors": [
+            99,
+            100
+          ]
+        },
+        "101": {
+          "anchors": [
+            102,
+            103
+          ]
+        },
+        "104": {
+          "anchors": [
+            105,
+            106
+          ]
+        },
+        "107": {
+          "anchors": [
+            108,
+            109
+          ]
+        },
+        "110": {
+          "anchors": [
+            111,
+            112
+          ]
+        },
+        "113": {
+          "anchors": [
+            114,
+            115
+          ]
+        }
+      },
+      "rankings": {
+        "drawings": [
+          3
+        ]
+      }
+    }
+  },
+  "navigation": {
+    "guided": {
+      "graphs": {},
+      "ranking": [],
+      "lanes": {
+        "41": {
+          "anchors": [
+            26,
+            27
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "43": {
+          "anchors": [
+            27,
+            28
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "47": {
+          "anchors": [
+            30,
+            31
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "52": {
+          "anchors": [
+            33,
+            32
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "54": {
+          "anchors": [
+            34,
+            33
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "56": {
+          "anchors": [
+            35,
+            34
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "58": {
+          "anchors": [
+            36,
+            35
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "59": {
+          "anchors": [
+            38,
+            37
+          ],
+          "forward": {
+            "orientation_constraint": {
+              "AbsoluteYaw": {
+                "deg": 0.0
+              }
+            }
+          },
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "60": {
+          "anchors": [
+            37,
+            26
+          ],
+          "forward": {
+            "orientation_constraint": "Forwards"
+          },
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "61": {
+          "anchors": [
+            32,
+            39
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "62": {
+          "anchors": [
+            39,
+            40
+          ],
+          "forward": {
+            "orientation_constraint": "Forwards"
+          },
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "65": {
+          "anchors": [
+            12,
+            32
+          ],
+          "forward": {
+            "orientation_constraint": "Forwards"
+          },
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "69": {
+          "anchors": [
+            10,
+            34
+          ],
+          "forward": {
+            "orientation_constraint": "Forwards"
+          },
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "71": {
+          "anchors": [
+            9,
+            35
+          ],
+          "forward": {
+            "orientation_constraint": "Forwards"
+          },
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "73": {
+          "anchors": [
+            8,
+            36
+          ],
+          "forward": {
+            "orientation_constraint": "Forwards"
+          },
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "77": {
+          "anchors": [
+            11,
+            33
+          ],
+          "forward": {
+            "orientation_constraint": "Forwards"
+          },
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "79": {
+          "anchors": [
+            28,
+            30
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "118": {
+          "anchors": [
+            26,
+            32
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "119": {
+          "anchors": [
+            32,
+            12
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "120": {
+          "anchors": [
+            27,
+            33
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "121": {
+          "anchors": [
+            33,
+            11
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "122": {
+          "anchors": [
+            28,
+            34
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "123": {
+          "anchors": [
+            34,
+            10
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "124": {
+          "anchors": [
+            30,
+            35
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "125": {
+          "anchors": [
+            35,
+            9
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "126": {
+          "anchors": [
+            31,
+            36
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "127": {
+          "anchors": [
+            36,
+            8
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "194": {
+          "anchors": [
+            40,
+            133
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "195": {
+          "anchors": [
+            133,
+            134
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "196": {
+          "anchors": [
+            134,
+            135
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "197": {
+          "anchors": [
+            135,
+            136
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "198": {
+          "anchors": [
+            137,
+            138
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "199": {
+          "anchors": [
+            138,
+            139
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "200": {
+          "anchors": [
+            139,
+            140
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "201": {
+          "anchors": [
+            140,
+            141
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "202": {
+          "anchors": [
+            141,
+            142
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "204": {
+          "anchors": [
+            140,
+            143
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "206": {
+          "anchors": [
+            143,
+            144
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "207": {
+          "anchors": [
+            144,
+            141
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "208": {
+          "anchors": [
+            143,
+            145
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "210": {
+          "anchors": [
+            145,
+            146
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "211": {
+          "anchors": [
+            146,
+            144
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "212": {
+          "anchors": [
+            145,
+            147
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "213": {
+          "anchors": [
+            147,
+            148
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "214": {
+          "anchors": [
+            148,
+            146
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "216": {
+          "anchors": [
+            147,
+            149
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "217": {
+          "anchors": [
+            149,
+            150
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "218": {
+          "anchors": [
+            150,
+            148
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "220": {
+          "anchors": [
+            142,
+            151
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "221": {
+          "anchors": [
+            151,
+            152
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "222": {
+          "anchors": [
+            152,
+            153
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "223": {
+          "anchors": [
+            153,
+            154
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "224": {
+          "anchors": [
+            154,
+            38
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "225": {
+          "anchors": [
+            155,
+            137
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "226": {
+          "anchors": [
+            133,
+            156
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "227": {
+          "anchors": [
+            156,
+            157
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "228": {
+          "anchors": [
+            157,
+            158
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "229": {
+          "anchors": [
+            158,
+            159
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "230": {
+          "anchors": [
+            159,
+            160
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "231": {
+          "anchors": [
+            160,
+            161
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "232": {
+          "anchors": [
+            161,
+            162
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "233": {
+          "anchors": [
+            162,
+            163
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "234": {
+          "anchors": [
+            163,
+            155
+          ],
+          "graphs": "All"
+        },
+        "235": {
+          "anchors": [
+            152,
+            164
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "236": {
+          "anchors": [
+            164,
+            165
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "237": {
+          "anchors": [
+            165,
+            166
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "238": {
+          "anchors": [
+            166,
+            167
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "239": {
+          "anchors": [
+            167,
+            168
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "240": {
+          "anchors": [
+            168,
+            169
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "241": {
+          "anchors": [
+            169,
+            170
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "242": {
+          "anchors": [
+            170,
+            171
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "243": {
+          "anchors": [
+            171,
+            172
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "244": {
+          "anchors": [
+            172,
+            173
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "245": {
+          "anchors": [
+            173,
+            174
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "246": {
+          "anchors": [
+            174,
+            175
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "247": {
+          "anchors": [
+            175,
+            176
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "248": {
+          "anchors": [
+            176,
+            177
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "249": {
+          "anchors": [
+            177,
+            178
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "250": {
+          "anchors": [
+            178,
+            179
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "251": {
+          "anchors": [
+            179,
+            180
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "252": {
+          "anchors": [
+            180,
+            153
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "253": {
+          "anchors": [
+            167,
+            176
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "254": {
+          "anchors": [
+            168,
+            175
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "255": {
+          "anchors": [
+            169,
+            174
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "256": {
+          "anchors": [
+            170,
+            173
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "258": {
+          "anchors": [
+            181,
+            182
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "259": {
+          "anchors": [
+            182,
+            183
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "260": {
+          "anchors": [
+            183,
+            184
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "261": {
+          "anchors": [
+            184,
+            185
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "262": {
+          "anchors": [
+            185,
+            186
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "263": {
+          "anchors": [
+            186,
+            187
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "264": {
+          "anchors": [
+            187,
+            188
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "265": {
+          "anchors": [
+            188,
+            189
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "266": {
+          "anchors": [
+            189,
+            190
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "267": {
+          "anchors": [
+            190,
+            191
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "268": {
+          "anchors": [
+            191,
+            192
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "269": {
+          "anchors": [
+            192,
+            193
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "270": {
+          "anchors": [
+            193,
+            137
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "271": {
+          "anchors": [
+            137,
+            142
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "272": {
+          "anchors": [
+            160,
+            152
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "282": {
+          "anchors": [
+            186,
+            273
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "283": {
+          "anchors": [
+            273,
+            274
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "284": {
+          "anchors": [
+            274,
+            187
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "285": {
+          "anchors": [
+            273,
+            275
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "286": {
+          "anchors": [
+            275,
+            276
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "287": {
+          "anchors": [
+            276,
+            274
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "288": {
+          "anchors": [
+            275,
+            277
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "289": {
+          "anchors": [
+            277,
+            278
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "290": {
+          "anchors": [
+            278,
+            279
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "291": {
+          "anchors": [
+            277,
+            280
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "292": {
+          "anchors": [
+            280,
+            281
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "293": {
+          "anchors": [
+            281,
+            278
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "347": {
+          "anchors": [
+            136,
+            316
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "348": {
+          "anchors": [
+            316,
+            317
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "349": {
+          "anchors": [
+            317,
+            318
+          ],
+          "graphs": "All"
+        },
+        "350": {
+          "anchors": [
+            318,
+            319
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "351": {
+          "anchors": [
+            319,
+            320
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "352": {
+          "anchors": [
+            320,
+            321
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "353": {
+          "anchors": [
+            321,
+            322
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "354": {
+          "anchors": [
+            322,
+            323
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "355": {
+          "anchors": [
+            323,
+            324
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "356": {
+          "anchors": [
+            324,
+            325
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "357": {
+          "anchors": [
+            325,
+            326
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "358": {
+          "anchors": [
+            326,
+            327
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "361": {
+          "anchors": [
+            329,
+            330
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "362": {
+          "anchors": [
+            330,
+            331
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "363": {
+          "anchors": [
+            331,
+            332
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "364": {
+          "anchors": [
+            332,
+            333
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "365": {
+          "anchors": [
+            333,
+            334
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "366": {
+          "anchors": [
+            334,
+            335
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "367": {
+          "anchors": [
+            335,
+            336
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "368": {
+          "anchors": [
+            336,
+            337
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "369": {
+          "anchors": [
+            337,
+            338
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "370": {
+          "anchors": [
+            338,
+            339
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "371": {
+          "anchors": [
+            339,
+            340
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "372": {
+          "anchors": [
+            340,
+            341
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "373": {
+          "anchors": [
+            341,
+            342
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "374": {
+          "anchors": [
+            342,
+            343
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "375": {
+          "anchors": [
+            343,
+            181
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "376": {
+          "anchors": [
+            182,
+            191
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "377": {
+          "anchors": [
+            157,
+            38
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "397": {
+          "anchors": [
+            40,
+            38
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "398": {
+          "anchors": [
+            382,
+            157
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "399": {
+          "anchors": [
+            383,
+            382
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "400": {
+          "anchors": [
+            384,
+            383
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "401": {
+          "anchors": [
+            385,
+            384
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "402": {
+          "anchors": [
+            386,
+            385
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "403": {
+          "anchors": [
+            320,
+            385
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "404": {
+          "anchors": [
+            317,
+            383
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "405": {
+          "anchors": [
+            387,
+            386
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "406": {
+          "anchors": [
+            388,
+            387
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "407": {
+          "anchors": [
+            323,
+            387
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "408": {
+          "anchors": [
+            327,
+            387
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "409": {
+          "anchors": [
+            158,
+            389
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "410": {
+          "anchors": [
+            389,
+            390
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "412": {
+          "anchors": [
+            391,
+            392
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "413": {
+          "anchors": [
+            388,
+            329
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "414": {
+          "anchors": [
+            393,
+            388
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "415": {
+          "anchors": [
+            336,
+            394
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "416": {
+          "anchors": [
+            394,
+            395
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "417": {
+          "anchors": [
+            395,
+            396
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "418": {
+          "anchors": [
+            396,
+            393
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "419": {
+          "anchors": [
+            392,
+            388
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "442": {
+          "anchors": [
+            393,
+            420
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "443": {
+          "anchors": [
+            420,
+            421
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "444": {
+          "anchors": [
+            421,
+            422
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "445": {
+          "anchors": [
+            422,
+            423
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "446": {
+          "anchors": [
+            423,
+            424
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "447": {
+          "anchors": [
+            424,
+            160
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "448": {
+          "anchors": [
+            330,
+            393
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "449": {
+          "anchors": [
+            391,
+            421
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "450": {
+          "anchors": [
+            390,
+            425
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "451": {
+          "anchors": [
+            425,
+            391
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "452": {
+          "anchors": [
+            425,
+            422
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "453": {
+          "anchors": [
+            390,
+            423
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "454": {
+          "anchors": [
+            161,
+            426
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "455": {
+          "anchors": [
+            426,
+            427
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "456": {
+          "anchors": [
+            427,
+            428
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "457": {
+          "anchors": [
+            428,
+            429
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "458": {
+          "anchors": [
+            429,
+            430
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "459": {
+          "anchors": [
+            430,
+            396
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "460": {
+          "anchors": [
+            396,
+            331
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "461": {
+          "anchors": [
+            332,
+            395
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "462": {
+          "anchors": [
+            395,
+            431
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "463": {
+          "anchors": [
+            431,
+            432
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "464": {
+          "anchors": [
+            432,
+            433
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "465": {
+          "anchors": [
+            433,
+            434
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "466": {
+          "anchors": [
+            434,
+            435
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "467": {
+          "anchors": [
+            435,
+            163
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "468": {
+          "anchors": [
+            430,
+            431
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "469": {
+          "anchors": [
+            429,
+            432
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "470": {
+          "anchors": [
+            428,
+            433
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "471": {
+          "anchors": [
+            427,
+            434
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "472": {
+          "anchors": [
+            163,
+            436
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "473": {
+          "anchors": [
+            436,
+            181
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "474": {
+          "anchors": [
+            436,
+            437
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "475": {
+          "anchors": [
+            437,
+            438
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "476": {
+          "anchors": [
+            438,
+            439
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "477": {
+          "anchors": [
+            439,
+            440
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "478": {
+          "anchors": [
+            440,
+            441
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "479": {
+          "anchors": [
+            441,
+            394
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "480": {
+          "anchors": [
+            394,
+            333
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "481": {
+          "anchors": [
+            437,
+            341
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "482": {
+          "anchors": [
+            440,
+            338
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "494": {
+          "anchors": [
+            327,
+            329
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "511": {
+          "anchors": [
+            40,
+            156
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "512": {
+          "anchors": [
+            389,
+            424
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "513": {
+          "anchors": [
+            426,
+            435
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "514": {
+          "anchors": [
+            136,
+            382
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "516": {
+          "anchors": [
+            330,
+            492
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "517": {
+          "anchors": [
+            492,
+            491
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "518": {
+          "anchors": [
+            491,
+            490
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "519": {
+          "anchors": [
+            490,
+            489
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "520": {
+          "anchors": [
+            489,
+            488
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "521": {
+          "anchors": [
+            488,
+            487
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "522": {
+          "anchors": [
+            487,
+            486
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "523": {
+          "anchors": [
+            486,
+            485
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "524": {
+          "anchors": [
+            485,
+            484
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "525": {
+          "anchors": [
+            484,
+            483
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        },
+        "526": {
+          "anchors": [
+            483,
+            331
+          ],
+          "reverse": "Disable",
+          "graphs": "All"
+        }
+      },
+      "locations": {
+        "13": {
+          "anchor": 8,
+          "tags": [
+            "Charger",
+            "ParkingSpot"
+          ],
+          "name": "iw_hub_1_dock",
+          "graphs": "All"
+        },
+        "14": {
+          "anchor": 9,
+          "tags": [
+            "Charger",
+            "ParkingSpot"
+          ],
+          "name": "iw_hub_2_dock",
+          "graphs": "All"
+        },
+        "15": {
+          "anchor": 10,
+          "tags": [
+            "Charger",
+            "ParkingSpot"
+          ],
+          "name": "iw_hub_3_dock",
+          "graphs": "All"
+        },
+        "16": {
+          "anchor": 11,
+          "tags": [
+            "Charger",
+            "ParkingSpot"
+          ],
+          "name": "iw_hub_4_dock",
+          "graphs": "All"
+        },
+        "17": {
+          "anchor": 12,
+          "tags": [
+            "Charger",
+            "ParkingSpot"
+          ],
+          "name": "iw_hub_5_dock",
+          "graphs": "All"
+        },
+        "82": {
+          "anchor": 38,
+          "tags": [],
+          "name": "docking_room_entry",
+          "graphs": "All"
+        },
+        "83": {
+          "anchor": 40,
+          "tags": [],
+          "name": "docking_room_exit",
+          "graphs": "All"
+        },
+        "203": {
+          "anchor": 140,
+          "tags": [],
+          "name": "pick_pallet_1",
+          "graphs": "All"
+        },
+        "205": {
+          "anchor": 143,
+          "tags": [],
+          "name": "pallet_pick_2",
+          "graphs": "All"
+        },
+        "209": {
+          "anchor": 145,
+          "tags": [],
+          "name": "pallet_pick_3",
+          "graphs": "All"
+        },
+        "215": {
+          "anchor": 147,
+          "tags": [],
+          "name": "pallet_pick_4",
+          "graphs": "All"
+        },
+        "219": {
+          "anchor": 149,
+          "tags": [],
+          "name": "pallet_pick_5",
+          "graphs": "All"
+        },
+        "294": {
+          "anchor": 172,
+          "tags": [],
+          "name": "pallet_place_1",
+          "graphs": "All"
+        },
+        "295": {
+          "anchor": 173,
+          "tags": [],
+          "name": "pallet_place_2",
+          "graphs": "All"
+        },
+        "296": {
+          "anchor": 174,
+          "tags": [],
+          "name": "pallet_place_3",
+          "graphs": "All"
+        },
+        "297": {
+          "anchor": 175,
+          "tags": [],
+          "name": "pallet_place_4",
+          "graphs": "All"
+        },
+        "298": {
+          "anchor": 176,
+          "tags": [],
+          "name": "pallet_place_5",
+          "graphs": "All"
+        },
+        "301": {
+          "anchor": 133,
+          "tags": [],
+          "name": "docking_room_exit_to_highway",
+          "graphs": "All"
+        },
+        "302": {
+          "anchor": 153,
+          "tags": [],
+          "name": "room2_exit_jucntion",
+          "graphs": "All"
+        },
+        "303": {
+          "anchor": 152,
+          "tags": [],
+          "name": "room2_entry_junction",
+          "graphs": "All"
+        },
+        "304": {
+          "anchor": 142,
+          "tags": [],
+          "name": "room3_exit_junction",
+          "graphs": "All"
+        },
+        "305": {
+          "anchor": 137,
+          "tags": [],
+          "name": "room3_entry_junction",
+          "graphs": "All"
+        },
+        "306": {
+          "anchor": 191,
+          "tags": [],
+          "name": "room4_exit_junction",
+          "graphs": "All"
+        },
+        "307": {
+          "anchor": 181,
+          "tags": [],
+          "name": "room4_entry_highway_to_junction",
+          "graphs": "All"
+        },
+        "308": {
+          "anchor": 160,
+          "tags": [],
+          "name": "room2_entry_highway_to_junction",
+          "graphs": "All"
+        },
+        "309": {
+          "anchor": 163,
+          "tags": [],
+          "name": "room3_entry_highway_to_junction",
+          "graphs": "All"
+        },
+        "310": {
+          "anchor": 182,
+          "tags": [],
+          "name": "room4_entry_junction",
+          "graphs": "All"
+        },
+        "493": {
+          "anchor": 325,
+          "tags": [],
+          "name": "Left_cornor",
+          "graphs": "All"
+        },
+        "506": {
+          "anchor": 391,
+          "tags": [],
+          "name": "2nd_row_go_rack1",
+          "graphs": "All"
+        },
+        "508": {
+          "anchor": 334,
+          "tags": [],
+          "name": "Right_cornor",
+          "graphs": "All"
+        },
+        "515": {
+          "anchor": 492,
+          "tags": [],
+          "name": "wearhouse_enternace",
+          "graphs": "All"
+        },
+        "527": {
+          "anchor": 440,
+          "tags": [],
+          "name": "4th_row_go_rack1",
+          "graphs": "All"
+        },
+        "528": {
+          "anchor": 433,
+          "tags": [],
+          "name": "3rd_row_return_rack1",
+          "graphs": "All"
+        },
+        "529": {
+          "anchor": 422,
+          "tags": [],
+          "name": "2nd_row_return_rack2",
+          "graphs": "All"
+        },
+        "530": {
+          "anchor": 387,
+          "tags": [],
+          "name": "first_row_return_node",
+          "graphs": "All"
+        },
+        "531": {
+          "anchor": 385,
+          "tags": [],
+          "name": "first_row_return_rack1",
+          "graphs": "All"
+        }
+      }
+    }
+  },
+  "scenarios": {
+    "5": {
+      "name": "Default Scenario",
+      "parent_scenario": null
+    }
+  }
+}

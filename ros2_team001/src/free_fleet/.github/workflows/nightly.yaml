@@ -1,0 +1,188 @@
+name: nightly
+
+on:
+  schedule:
+    # 2am SGT
+    - cron: '0 18 * * *'
+defaults:
+  run:
+    shell: bash
+
+env:
+  ZENOH_VERSION: 1.5.0
+
+jobs:
+  build-minimal-nav2-docker-images:
+    name: Push minimal nav2 docker images to GitHub Packages
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        ros_distribution: [jazzy, kilted]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Login to docker
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push minimal-nav2-bringup
+        uses: docker/build-push-action@v5
+        with:
+          push: true
+          build-args: |
+            ROS_DISTRO=${{ matrix.ros_distribution }}
+          tags: ghcr.io/${{ github.repository }}/minimal-nav2-bringup:${{ matrix.ros_distribution }}-latest
+          context: .github/docker/minimal-nav2-bringup
+
+      - name: Build and push minimal-zenoh-bridge-ros2dds
+        uses: docker/build-push-action@v5
+        with:
+          push: true
+          build-args: |
+            ROS_DISTRO=${{ matrix.ros_distribution }}
+            ZENOH_VERSION=${{ env.ZENOH_VERSION }}
+            FREE_FLEET_BRANCH=main
+          tags: ghcr.io/${{ github.repository }}/minimal-zenoh-bridge-ros2dds:${{ matrix.ros_distribution }}-latest
+          context: .github/docker/minimal-zenoh-bridge-ros2dds
+
+  nav1-integration-tests:
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    container:
+      image: osrf/ros:${{ matrix.ros_distribution }}-desktop
+    strategy:
+      fail-fast: false
+      matrix:
+        ros_distribution: [jazzy, kilted]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Install docker-compose
+        run: |
+          sudo apt update && sudo apt install docker-compose -y
+
+      - name: Start test fixture containers
+        env:
+          ZENOH_VERSION: ${{ env.ZENOH_VERSION }}
+        run: docker-compose -f ".github/docker/integration-tests/nav1-docker-compose.yaml" up -d --build
+
+      - name: build-and-test
+        uses: ./.github/actions/build-and-test
+        with:
+          ros-distribution: ${{ matrix.ros_distribution }}
+          zenoh-version: ${{ env.ZENOH_VERSION }}
+          nav1-integration-testing: ON
+
+      - name: Stop test fixture containers
+        if: always()
+        run: docker-compose -f ".github/docker/integration-tests/nav1-docker-compose.yaml" down
+
+  retry-nav1-integration-tests-on-failure:
+    if: failure() && fromJSON(github.run_attempt) < 3
+    needs: [nav1-integration-tests]
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_REPO: ${{ github.repository }}
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run retry-workflow.yaml -F run_id=${{ github.run_id }}
+
+  nav2-integration-tests:
+    needs: build-minimal-nav2-docker-images
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    container:
+      image: osrf/ros:${{ matrix.ros_distribution }}-desktop
+    strategy:
+      fail-fast: false
+      matrix:
+        ros_distribution: [jazzy, kilted]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Install docker-compose
+        run: |
+          sudo apt update && sudo apt install docker-compose -y
+
+      - name: Start test fixture containers
+        env:
+          ROS_DISTRO: ${{ matrix.ros_distribution }}
+          ZENOH_VERSION: ${{ env.ZENOH_VERSION }}
+        run: docker-compose -f ".github/docker/integration-tests/nav2-docker-compose.yaml" up -d --build
+
+      - name: build-and-test
+        uses: ./.github/actions/build-and-test
+        with:
+          ros-distribution: ${{ matrix.ros_distribution }}
+          zenoh-version: ${{ env.ZENOH_VERSION }}
+          nav2-integration-testing: ON
+
+      - name: Stop test fixture containers
+        if: always()
+        run: docker-compose -f ".github/docker/integration-tests/nav2-docker-compose.yaml" down
+
+  e2e-tests:
+    needs: nav2-integration-tests
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    container:
+      image: osrf/ros:${{ matrix.ros_distribution }}-desktop
+    strategy:
+      fail-fast: false
+      matrix:
+        ros_distribution: [jazzy]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install docker-compose
+        run: |
+          sudo apt update && sudo apt install docker-compose -y
+
+      - name: Start test fixture
+        env:
+          ROS_DISTRO: ${{ matrix.ros_distribution }}
+          ZENOH_VERSION: ${{ env.ZENOH_VERSION }}
+        run: docker-compose -f ".github/docker/integration-tests/nav2-docker-compose.yaml" up -d --build
+
+      - name: Setup
+        run: |
+          apt update
+          apt install -y ros-${{ matrix.ros_distribution }}-rmw-cyclonedds-cpp python3-pip
+          pip3 install nudged eclipse-zenoh==${{ env.ZENOH_VERSION }} pycdr2 rosbags --break-system-packages
+          colcon mixin add default https://raw.githubusercontent.com/colcon/colcon-mixin-repository/master/index.yaml
+          colcon mixin update default
+          rosdep update
+          rosdep install --from-paths . -yir
+
+      # Due to https://github.com/DLu/tf_transformations/issues/15
+      - name: install transforms3d
+        if: ${{ matrix.ros_distribution != 'jazzy' }}
+        run: |
+          sudo apt install python3-transforms3d
+        shell: bash
+
+      - name: Build
+        run: /ros_entrypoint.sh colcon build --packages-up-to free_fleet_examples --event-handlers=console_cohesion+ --mixin release --cmake-args -DNAV2_INTEGRATION_TESTING=ON
+
+      - name: Tests
+        env:
+          RMW_IMPLEMENTATION: rmw_cyclonedds_cpp
+          ROS_DOMAIN_ID: 0
+        run: . ./install/setup.bash && cd free_fleet_examples/tests/e2e/ && python3 -m unittest
+
+      - name: Stop test fixture containers
+        if: always()
+        run: docker-compose -f ".github/docker/integration-tests/nav2-docker-compose.yaml" down

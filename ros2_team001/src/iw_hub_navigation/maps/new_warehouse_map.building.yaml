@@ -1,0 +1,2267 @@
+levels:
+  L1:
+    doors: []
+    elevation: 0.0
+    floorplans:
+    - {filename: my_new_warehouse1_map.png, scale: 0.05, x_offset: -4.23, y_offset: 86.15,
+      yaw: 0.0}
+    floors: []
+    lanes:
+    - - 9
+      - 10
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 10
+      - 11
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 12
+      - 13
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 15
+      - 14
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 16
+      - 15
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 17
+      - 16
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 18
+      - 17
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 20
+      - 19
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 19
+      - 9
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 14
+      - 21
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 21
+      - 22
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 6
+      - 14
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 4
+      - 16
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 3
+      - 17
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 2
+      - 18
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 5
+      - 15
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 11
+      - 12
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 9
+      - 14
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 14
+      - 6
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 10
+      - 15
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 15
+      - 5
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 11
+      - 16
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 16
+      - 4
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 12
+      - 17
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 17
+      - 3
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 13
+      - 18
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 18
+      - 2
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 22
+      - 43
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 43
+      - 44
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 44
+      - 45
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 45
+      - 46
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 47
+      - 48
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 48
+      - 49
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 49
+      - 50
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 50
+      - 51
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 51
+      - 52
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 50
+      - 53
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 53
+      - 54
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 54
+      - 51
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 53
+      - 55
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 55
+      - 56
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 56
+      - 54
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 55
+      - 57
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 57
+      - 58
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 58
+      - 56
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 57
+      - 59
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 59
+      - 60
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 60
+      - 58
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 52
+      - 61
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 61
+      - 62
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 62
+      - 63
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 63
+      - 64
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 64
+      - 20
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 65
+      - 47
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 43
+      - 66
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 66
+      - 67
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 67
+      - 68
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 68
+      - 69
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 69
+      - 70
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 70
+      - 71
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 71
+      - 72
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 72
+      - 73
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 73
+      - 65
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 62
+      - 74
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 74
+      - 75
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 75
+      - 76
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 76
+      - 77
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 77
+      - 78
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 78
+      - 79
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 79
+      - 80
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 80
+      - 81
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 81
+      - 82
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 82
+      - 83
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 83
+      - 84
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 84
+      - 85
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 85
+      - 86
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 86
+      - 87
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 87
+      - 88
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 88
+      - 89
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 89
+      - 90
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 90
+      - 63
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 77
+      - 86
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 78
+      - 85
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 79
+      - 84
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 80
+      - 83
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 91
+      - 92
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 92
+      - 93
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 93
+      - 94
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 94
+      - 95
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 95
+      - 96
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 96
+      - 97
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 97
+      - 98
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 98
+      - 99
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 99
+      - 100
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 100
+      - 101
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 101
+      - 102
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 102
+      - 103
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 103
+      - 47
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 47
+      - 52
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 70
+      - 62
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 96
+      - 104
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 104
+      - 105
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 105
+      - 97
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 104
+      - 106
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 106
+      - 107
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 107
+      - 105
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 106
+      - 108
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 108
+      - 109
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 109
+      - 110
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 108
+      - 111
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 111
+      - 112
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 112
+      - 109
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 46
+      - 113
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 113
+      - 114
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 114
+      - 115
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 115
+      - 116
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 116
+      - 117
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 117
+      - 118
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 118
+      - 119
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 119
+      - 120
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 120
+      - 121
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 121
+      - 122
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 122
+      - 123
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 123
+      - 124
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 125
+      - 126
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 126
+      - 127
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 127
+      - 128
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 128
+      - 129
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 129
+      - 130
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 130
+      - 131
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 131
+      - 132
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 132
+      - 133
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 133
+      - 134
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 134
+      - 135
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 135
+      - 136
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 136
+      - 137
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 137
+      - 138
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 138
+      - 139
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 139
+      - 91
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 92
+      - 101
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 67
+      - 20
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 22
+      - 20
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 140
+      - 67
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 141
+      - 140
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 142
+      - 141
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 143
+      - 142
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 144
+      - 143
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 117
+      - 143
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 114
+      - 141
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 145
+      - 144
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 146
+      - 145
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 120
+      - 145
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 124
+      - 145
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 68
+      - 147
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 147
+      - 148
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 149
+      - 150
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 146
+      - 125
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 151
+      - 146
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 132
+      - 152
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 152
+      - 153
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 153
+      - 154
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 154
+      - 151
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 150
+      - 146
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 151
+      - 155
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 155
+      - 156
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 156
+      - 157
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 157
+      - 158
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 158
+      - 159
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 159
+      - 70
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 126
+      - 151
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 149
+      - 156
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 148
+      - 160
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 160
+      - 149
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 160
+      - 157
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 148
+      - 158
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 71
+      - 161
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 161
+      - 162
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 162
+      - 163
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 163
+      - 164
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 164
+      - 165
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 165
+      - 154
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 154
+      - 127
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 128
+      - 153
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 153
+      - 166
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 166
+      - 167
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 167
+      - 168
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 168
+      - 169
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 169
+      - 170
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 170
+      - 73
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 165
+      - 166
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 164
+      - 167
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 163
+      - 168
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 162
+      - 169
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 73
+      - 171
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 171
+      - 91
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 171
+      - 172
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 172
+      - 173
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 173
+      - 174
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 174
+      - 175
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 175
+      - 176
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 176
+      - 152
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 152
+      - 129
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 172
+      - 137
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 175
+      - 134
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 124
+      - 125
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 127
+      - 177
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 177
+      - 178
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 178
+      - 179
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 179
+      - 180
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 180
+      - 181
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 181
+      - 182
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 182
+      - 183
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 183
+      - 184
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 184
+      - 185
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 185
+      - 186
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    - - 186
+      - 126
+      - bidirectional: [4, false]
+        graph_idx: [2, 0]
+        orientation: [1, '']
+        speed_limit: [3, 0.0]
+    measurements:
+    - - 2
+      - 3
+      - distance: [2, 3.0]
+    - - 3
+      - 4
+      - distance: [2, 3.0]
+    - - 4
+      - 5
+      - distance: [2, 3.0]
+    - - 5
+      - 6
+      - distance: [2, 3.0]
+    models: []
+    vertices:
+    - - 39.213543
+      - -5.0415745
+      - 0.0
+      - ''
+      - {}
+    - - 38.99037
+      - 85.18433
+      - 0.0
+      - ''
+      - {}
+    - - 0.0
+      - 0.0
+      - 0.0
+      - iw_hub_1_dock
+      - is_charger: [4, true]
+        is_holding_point: [4, true]
+        is_parking_spot: [4, true]
+    - - 0.0
+      - 3.0
+      - 0.0
+      - iw_hub_2_dock
+      - is_charger: [4, true]
+        is_holding_point: [4, true]
+        is_parking_spot: [4, true]
+    - - 0.0
+      - 6.0
+      - 0.0
+      - iw_hub_3_dock
+      - is_charger: [4, true]
+        is_holding_point: [4, true]
+        is_parking_spot: [4, true]
+    - - 0.0
+      - 9.0
+      - 0.0
+      - iw_hub_4_dock
+      - is_charger: [4, true]
+        is_holding_point: [4, true]
+        is_parking_spot: [4, true]
+    - - 0.0
+      - 12.0
+      - 0.0
+      - iw_hub_5_dock
+      - is_charger: [4, true]
+        is_holding_point: [4, true]
+        is_parking_spot: [4, true]
+    - - -2.8265228
+      - 84.82029
+      - 0.0
+      - ''
+      - {}
+    - - -2.624228
+      - -4.910105
+      - 0.0
+      - ''
+      - {}
+    - - 5.295132
+      - 12.1389
+      - 0.0
+      - ''
+      - {}
+    - - 5.383469
+      - 9.172029
+      - 0.0
+      - ''
+      - {}
+    - - 5.3927283
+      - 6.146195
+      - 0.0
+      - ''
+      - {}
+    - - 5.435849
+      - 2.88514
+      - 0.0
+      - ''
+      - {}
+    - - 5.455705
+      - -0.13785884
+      - 0.0
+      - ''
+      - {}
+    - - 3.7176178
+      - 12.098419
+      - 0.0
+      - ''
+      - {}
+    - - 3.7141113
+      - 9.159169
+      - 0.0
+      - ''
+      - {}
+    - - 3.7573197
+      - 6.1219525
+      - 0.0
+      - ''
+      - {}
+    - - 3.8346748
+      - 2.9503777
+      - 0.0
+      - ''
+      - {}
+    - - 3.766249
+      - -0.09714541
+      - 0.0
+      - ''
+      - {}
+    - - 5.553863
+      - 14.83165
+      - 0.0
+      - ''
+      - {}
+    - - 5.288832
+      - 17.95048
+      - 0.0
+      - docking_room_entry
+      - is_holding_point: [4, true]
+    - - 3.5656767
+      - 15.179765
+      - 0.0
+      - ''
+      - {}
+    - - 3.4347706
+      - 18.00324
+      - 0.0
+      - docking_room_exit
+      - is_holding_point: [4, true]
+    - - -2.6744995
+      - 74.94935
+      - 0.0
+      - ''
+      - {}
+    - - 15.054805
+      - 74.93244
+      - 0.0
+      - ''
+      - {}
+    - - 38.970707
+      - 75.02785
+      - 0.0
+      - ''
+      - {}
+    - - 23.812378
+      - 74.967476
+      - 0.0
+      - ''
+      - {}
+    - - -2.6837158
+      - 14.893342
+      - 0.0
+      - ''
+      - {}
+    - - 2.9488134
+      - 14.8854475
+      - 0.0
+      - ''
+      - {}
+    - - 10.096027
+      - 14.831673
+      - 0.0
+      - ''
+      - {}
+    - - 10.132467
+      - -4.89565
+      - 0.0
+      - ''
+      - {}
+    - - 6.1232953
+      - 14.868057
+      - 0.0
+      - ''
+      - {}
+    - - 15.179932
+      - 14.915215
+      - 0.0
+      - ''
+      - {}
+    - - 18.07191
+      - 14.908037
+      - 0.0
+      - ''
+      - {}
+    - - 24.187927
+      - 14.96017
+      - 0.0
+      - ''
+      - {}
+    - - 20.124271
+      - 14.883803
+      - 0.0
+      - ''
+      - {}
+    - - 20.225088
+      - -5.0321174
+      - 0.0
+      - ''
+      - {}
+    - - 26.982103
+      - 15.092078
+      - 0.0
+      - ''
+      - {}
+    - - 33.201294
+      - 15.035654
+      - 0.0
+      - ''
+      - {}
+    - - 30.140926
+      - 14.985375
+      - 0.0
+      - ''
+      - {}
+    - - 30.209986
+      - -4.7661257
+      - 0.0
+      - ''
+      - {}
+    - - 36.090897
+      - 14.931889
+      - 0.0
+      - ''
+      - {}
+    - - 39.148968
+      - 14.8571415
+      - 0.0
+      - ''
+      - {}
+    - - -0.019181982
+      - 21.04512
+      - 0.0
+      - docking_room_exit_to_highway
+      - is_holding_point: [4, true]
+    - - -0.10671962
+      - 22.481844
+      - 0.0
+      - ''
+      - {}
+    - - -0.16232148
+      - 23.506966
+      - 0.0
+      - ''
+      - {}
+    - - -0.19502306
+      - 25.502337
+      - 0.0
+      - ''
+      - {}
+    - - 26.33044
+      - 17.623844
+      - 0.0
+      - room3_entry_junction
+      - is_holding_point: [4, true]
+    - - 26.287228
+      - 12.390319
+      - 0.0
+      - ''
+      - {}
+    - - 28.150791
+      - 12.3139
+      - 0.0
+      - ''
+      - {}
+    - - 28.154636
+      - 9.701292
+      - 0.0
+      - pick_pallet_1
+      - is_holding_point: [4, true]
+    - - 24.751913
+      - 9.713415
+      - 0.0
+      - ''
+      - {}
+    - - 24.770105
+      - 17.731457
+      - 0.0
+      - room3_exit_junction
+      - is_holding_point: [4, true]
+    - - 28.158987
+      - 6.3750067
+      - 0.0
+      - pallet_pick_2
+      - is_holding_point: [4, true]
+    - - 24.712831
+      - 6.599036
+      - 0.0
+      - ''
+      - {}
+    - - 28.175615
+      - 3.4287689
+      - 0.0
+      - pallet_pick_3
+      - is_holding_point: [4, true]
+    - - 24.750784
+      - 3.7313728
+      - 0.0
+      - ''
+      - {}
+    - - 28.248425
+      - 0.28811577
+      - 0.0
+      - pallet_pick_4
+      - is_holding_point: [4, true]
+    - - 24.678965
+      - 0.38499022
+      - 0.0
+      - ''
+      - {}
+    - - 28.233824
+      - -2.6026618
+      - 0.0
+      - pallet_pick_5
+      - is_holding_point: [4, true]
+    - - 24.759636
+      - -2.4742641
+      - 0.0
+      - ''
+      - {}
+    - - 20.611431
+      - 17.75528
+      - 0.0
+      - ''
+      - {}
+    - - 17.307846
+      - 17.719128
+      - 0.0
+      - room2_entry_junction
+      - is_holding_point: [4, true]
+    - - 15.793127
+      - 17.68873
+      - 0.0
+      - room2_exit_jucntion
+      - is_holding_point: [4, true]
+    - - 9.134008
+      - 17.671606
+      - 0.0
+      - ''
+      - {}
+    - - 26.419094
+      - 21.07673
+      - 0.0
+      - ''
+      - {}
+    - - 3.263547
+      - 21.892672
+      - 0.0
+      - ''
+      - {}
+    - - 6.289393
+      - 21.894087
+      - 0.0
+      - ''
+      - {}
+    - - 10.946787
+      - 21.786621
+      - 0.0
+      - ''
+      - {}
+    - - 15.677069
+      - 21.734365
+      - 0.0
+      - ''
+      - {}
+    - - 17.195263
+      - 21.717377
+      - 0.0
+      - room2_entry_highway_to_junction
+      - is_holding_point: [4, true]
+    - - 20.704006
+      - 21.72034
+      - 0.0
+      - ''
+      - {}
+    - - 24.918037
+      - 21.669472
+      - 0.0
+      - ''
+      - {}
+    - - 26.430689
+      - 21.658302
+      - 0.0
+      - room3_entry_highway_to_junction
+      - is_holding_point: [4, true]
+    - - 17.463223
+      - 15.852907
+      - 0.0
+      - ''
+      - {}
+    - - 17.550001
+      - 14.772044
+      - 0.0
+      - ''
+      - {}
+    - - 17.661587
+      - 13.037695
+      - 0.0
+      - ''
+      - {}
+    - - 18.168598
+      - 11.235381
+      - 0.0
+      - ''
+      - {}
+    - - 18.216902
+      - 7.7580333
+      - 0.0
+      - ''
+      - {}
+    - - 18.203497
+      - 3.9712453
+      - 0.0
+      - ''
+      - {}
+    - - 18.238985
+      - 0.17796016
+      - 0.0
+      - ''
+      - {}
+    - - 18.28658
+      - -2.819415
+      - 0.0
+      - ''
+      - {}
+    - - 13.972145
+      - -2.7882285
+      - 0.0
+      - pallet_place_1
+      - is_holding_point: [4, true]
+    - - 13.896404
+      - 0.16998523
+      - 0.0
+      - pallet_place_2
+      - is_holding_point: [4, true]
+    - - 13.985774
+      - 3.9776793
+      - 0.0
+      - pallet_place_3
+      - is_holding_point: [4, true]
+    - - 14.053518
+      - 7.743623
+      - 0.0
+      - pallet_place_4
+      - is_holding_point: [4, true]
+    - - 14.347787
+      - 11.254886
+      - 0.0
+      - pallet_place_5
+      - is_holding_point: [4, true]
+    - - 14.941435
+      - 12.176378
+      - 0.0
+      - ''
+      - {}
+    - - 15.628381
+      - 13.010063
+      - 0.0
+      - ''
+      - {}
+    - - 15.862055
+      - 13.849346
+      - 0.0
+      - ''
+      - {}
+    - - 15.802046
+      - 14.91594
+      - 0.0
+      - ''
+      - {}
+    - - 35.64628
+      - 21.43518
+      - 0.0
+      - room4_entry_highway_to_junction
+      - is_holding_point: [4, true]
+    - - 35.5268
+      - 18.271688
+      - 0.0
+      - room4_entry_junction
+      - is_holding_point: [4, true]
+    - - 35.55977
+      - 15.659144
+      - 0.0
+      - ''
+      - {}
+    - - 35.64079
+      - 13.392599
+      - 0.0
+      - ''
+      - {}
+    - - 36.727055
+      - 12.040161
+      - 0.0
+      - ''
+      - {}
+    - - 37.657265
+      - 9.122032
+      - 0.0
+      - ''
+      - {}
+    - - 33.415638
+      - 9.054874
+      - 0.0
+      - ''
+      - {}
+    - - 33.453655
+      - 10.5474415
+      - 0.0
+      - ''
+      - {}
+    - - 33.868813
+      - 11.707244
+      - 0.0
+      - ''
+      - {}
+    - - 33.957676
+      - 15.00043
+      - 0.0
+      - ''
+      - {}
+    - - 33.91095
+      - 17.70872
+      - 0.0
+      - room4_exit_junction
+      - is_holding_point: [4, true]
+    - - 32.788696
+      - 17.685297
+      - 0.0
+      - ''
+      - {}
+    - - 31.596813
+      - 17.68486
+      - 0.0
+      - ''
+      - {}
+    - - 37.66552
+      - 6.177602
+      - 0.0
+      - ''
+      - {}
+    - - 33.48371
+      - 6.1425133
+      - 0.0
+      - ''
+      - {}
+    - - 37.59187
+      - 3.1174407
+      - 0.0
+      - ''
+      - {}
+    - - 33.628242
+      - 2.9557836
+      - 0.0
+      - ''
+      - {}
+    - - 37.70771
+      - -0.3417275
+      - 0.0
+      - ''
+      - {}
+    - - 33.766243
+      - -0.5230193
+      - 0.0
+      - ''
+      - {}
+    - - 33.62822
+      - 3.0070257
+      - 0.0
+      - ''
+      - {}
+    - - 37.52608
+      - -3.4126165
+      - 0.0
+      - ''
+      - {}
+    - - 33.45547
+      - -3.4410899
+      - 0.0
+      - ''
+      - {}
+    - - -0.26937652
+      - 28.660858
+      - 0.0
+      - ''
+      - {}
+    - - -0.3453695
+      - 31.904823
+      - 0.0
+      - ''
+      - {}
+    - - -0.41274858
+      - 35.885395
+      - 0.0
+      - ''
+      - {}
+    - - -0.4663291
+      - 41.39083
+      - 0.0
+      - ''
+      - {}
+    - - -0.5298791
+      - 46.533638
+      - 0.0
+      - ''
+      - {}
+    - - -0.59318376
+      - 53.494503
+      - 0.0
+      - ''
+      - {}
+    - - -0.5020294
+      - 59.19052
+      - 0.0
+      - ''
+      - {}
+    - - -0.53498363
+      - 64.67178
+      - 0.0
+      - ''
+      - {}
+    - - -0.46552372
+      - 70.348175
+      - 0.0
+      - ''
+      - {}
+    - - -0.41054726
+      - 72.47319
+      - 0.0
+      - Left_cornor
+      - is_holding_point: [4, true]
+    - - 3.2492118
+      - 72.33509
+      - 0.0
+      - ''
+      - {}
+    - - 5.8840437
+      - 72.24649
+      - 0.0
+      - ''
+      - {}
+    - - 10.882085
+      - 72.082
+      - 0.0
+      - ''
+      - {}
+    - - 17.207218
+      - 71.99885
+      - 0.0
+      - ''
+      - {}
+    - - 21.723751
+      - 71.81288
+      - 0.0
+      - ''
+      - {}
+    - - 26.188618
+      - 71.898224
+      - 0.0
+      - ''
+      - {}
+    - - 31.003222
+      - 72.00699
+      - 0.0
+      - ''
+      - {}
+    - - 37.03392
+      - 72.049545
+      - 0.0
+      - Right_cornor
+      - is_holding_point: [4, true]
+    - - 36.088833
+      - 68.32628
+      - 0.0
+      - ''
+      - {}
+    - - 36.208427
+      - 62.2981
+      - 0.0
+      - ''
+      - {}
+    - - 36.469925
+      - 56.41539
+      - 0.0
+      - ''
+      - {}
+    - - 36.488853
+      - 51.24129
+      - 0.0
+      - ''
+      - {}
+    - - 36.63617
+      - 44.534283
+      - 0.0
+      - ''
+      - {}
+    - - 36.67289
+      - 37.637314
+      - 0.0
+      - ''
+      - {}
+    - - 36.83779
+      - 27.724434
+      - 0.0
+      - ''
+      - {}
+    - - 36.874664
+      - 25.440723
+      - 0.0
+      - ''
+      - {}
+    - - 36.888596
+      - 24.24056
+      - 0.0
+      - ''
+      - {}
+    - - 5.313038
+      - 26.439203
+      - 0.0
+      - ''
+      - {}
+    - - 5.0713305
+      - 32.158787
+      - 0.0
+      - ''
+      - {}
+    - - 5.2595663
+      - 38.299614
+      - 0.0
+      - ''
+      - {}
+    - - 5.74291
+      - 46.284714
+      - 0.0
+      - ''
+      - {}
+    - - 5.58327
+      - 54.14728
+      - 0.0
+      - ''
+      - {}
+    - - 5.7232456
+      - 63.228275
+      - 0.0
+      - ''
+      - {}
+    - - 10.938419
+      - 63.058872
+      - 0.0
+      - ''
+      - {}
+    - - 10.784847
+      - 27.873096
+      - 0.0
+      - ''
+      - {}
+    - - 10.750804
+      - 33.89167
+      - 0.0
+      - ''
+      - {}
+    - - 10.64292
+      - 50.297886
+      - 0.0
+      - test_point_1
+      - is_holding_point: [4, true]
+    - - 10.607012
+      - 58.25334
+      - 0.0
+      - ''
+      - {}
+    - - 17.12909
+      - 62.77573
+      - 0.0
+      - ''
+      - {}
+    - - 30.536654
+      - 62.107304
+      - 0.0
+      - ''
+      - {}
+    - - 25.825562
+      - 62.130733
+      - 0.0
+      - ''
+      - {}
+    - - 20.783384
+      - 62.31485
+      - 0.0
+      - test_point_2
+      - is_holding_point: [4, true]
+    - - 15.46164
+      - 58.368458
+      - 0.0
+      - ''
+      - {}
+    - - 15.484145
+      - 50.380547
+      - 0.0
+      - ''
+      - {}
+    - - 15.474874
+      - 42.065334
+      - 0.0
+      - ''
+      - {}
+    - - 15.646972
+      - 34.228878
+      - 0.0
+      - ''
+      - {}
+    - - 15.966102
+      - 25.710932
+      - 0.0
+      - ''
+      - {}
+    - - 10.637417
+      - 41.845806
+      - 0.0
+      - ''
+      - {}
+    - - 20.66578
+      - 27.375753
+      - 0.0
+      - ''
+      - {}
+    - - 20.484745
+      - 33.76992
+      - 0.0
+      - ''
+      - {}
+    - - 20.509432
+      - 42.114857
+      - 0.0
+      - ''
+      - {}
+    - - 20.50034
+      - 50.46528
+      - 0.0
+      - ''
+      - {}
+    - - 20.385174
+      - 58.377975
+      - 0.0
+      - ''
+      - {}
+    - - 25.802984
+      - 58.06739
+      - 0.0
+      - ''
+      - {}
+    - - 25.82337
+      - 50.48027
+      - 0.0
+      - ''
+      - {}
+    - - 25.884424
+      - 41.95539
+      - 0.0
+      - ''
+      - {}
+    - - 25.939486
+      - 33.66171
+      - 0.0
+      - ''
+      - {}
+    - - 25.967964
+      - 27.425343
+      - 0.0
+      - ''
+      - {}
+    - - 31.784561
+      - 21.60679
+      - 0.0
+      - ''
+      - {}
+    - - 31.495804
+      - 27.38082
+      - 0.0
+      - ''
+      - {}
+    - - 31.06078
+      - 33.636673
+      - 0.0
+      - ''
+      - {}
+    - - 30.76585
+      - 41.961315
+      - 0.0
+      - ''
+      - {}
+    - - 30.493269
+      - 50.529808
+      - 0.0
+      - ''
+      - {}
+    - - 30.116081
+      - 57.623566
+      - 0.0
+      - ''
+      - {}
+    - - 21.705936
+      - 76.218765
+      - 0.0
+      - ''
+      - {}
+    - - 29.28245
+      - 76.29608
+      - 0.0
+      - ''
+      - {}
+    - - 34.620068
+      - 76.16389
+      - 0.0
+      - ''
+      - {}
+    - - 34.379185
+      - 83.692535
+      - 0.0
+      - ''
+      - {}
+    - - 21.81198
+      - 83.69625
+      - 0.0
+      - ''
+      - {}
+    - - 6.976573
+      - 83.600266
+      - 0.0
+      - ''
+      - {}
+    - - 0.47727513
+      - 83.06564
+      - 0.0
+      - ''
+      - {}
+    - - 0.4052329
+      - 77.70563
+      - 0.0
+      - ''
+      - {}
+    - - 12.482189
+      - 77.53772
+      - 0.0
+      - ''
+      - {}
+    - - 17.248878
+      - 76.38833
+      - 0.0
+      - ''
+      - {}
+    walls: []
+name: new_warehouse_map

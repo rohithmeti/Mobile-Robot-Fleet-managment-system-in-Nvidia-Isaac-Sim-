@@ -1,0 +1,24 @@
+name: build
+on:
+  pull_request:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  build_and_test:
+    name: rmf_visualization
+    uses: open-rmf/rmf_ci_templates/.github/workflows/reusable_build.yaml@main
+    with:
+      # NOTE: Avoid adding comments in the packages lines, this can break some of the called scripts in github actions
+      packages: |
+        rmf_visualization
+        rmf_visualization_building_systems
+        rmf_visualization_fleet_states
+        rmf_visualization_floorplans
+        rmf_visualization_navgraphs
+        rmf_visualization_obstacles
+        rmf_visualization_rviz2_plugins
+        rmf_visualization_schedule
+      dist-matrix: '[{"ros_distribution": "rolling", "ubuntu_distribution": "noble"}]'
+

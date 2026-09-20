@@ -1,0 +1,21 @@
+name: build
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: '23 0 * * *'
+
+jobs:
+  build_and_test:
+    name: rmf_api_msgs
+    uses: open-rmf/rmf_ci_templates/.github/workflows/reusable_build.yaml@main
+    with:
+      # NOTE: Avoid adding comments in the package lines, this can break some of the called scripts in github actions
+      packages: |
+            rmf_api_msgs
+            rmf_fleet_adapter
+            rmf_task_ros2
+            rmf_task_sequence
