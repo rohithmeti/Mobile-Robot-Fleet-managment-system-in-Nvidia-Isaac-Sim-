@@ -1,5 +1,7 @@
 # Mobile-Robot-Fleet-Management-System-in-NVIDIA-Isaac-Sim
 
+![Isaac Sim AMR View](docs/images/isaac_sim_amr_view.jpeg)
+
 ![ROS2 Humble](https://img.shields.io/badge/ROS2-Humble-blue)
 ![NVIDIA Isaac Sim](https://img.shields.io/badge/Simulator-Isaac%20Sim-green)
 
