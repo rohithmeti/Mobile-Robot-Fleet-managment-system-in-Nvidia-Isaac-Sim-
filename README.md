@@ -1,30 +1,33 @@
 # Mobile-Robot-Fleet-Management-System-in-NVIDIA-Isaac-Sim
 
+![ROS2 Humble](https://img.shields.io/badge/ROS2-Humble-blue)
+![NVIDIA Isaac Sim](https://img.shields.io/badge/Simulator-Isaac%20Sim-green)
+
+**Note:** This repository and its dependencies are strictly built for **ROS 2 Humble**. Ensure you are on the correct ROS 2 distribution before proceeding.
+
 ## Overview
-This repository contains the source code and configuration for simulating and validating multi-robot fleet coordination and dynamic task scheduling. The system integrates **NVIDIA Isaac Sim** for high-fidelity physics and environment rendering, the **ROS 2 Navigation Stack (Nav2)** for local autonomy, and **Open-RMF** for centralized fleet management and traffic deconfliction.
+This repository contains a complete, ready-to-run setup for simulating and validating multi-robot fleet coordination and dynamic task scheduling. The system integrates **NVIDIA Isaac Sim** for high-fidelity physics, the **ROS 2 Navigation Stack (Nav2)** for local autonomy, and **Open-RMF** for centralized fleet management and traffic deconfliction.
 
 We demonstrate how a fleet of five Autonomous Mobile Robots (AMRs) can navigate a constrained warehouse environment, avoiding deadlocks in narrow aisles using a custom schedule-based traffic adapter.
 
-## System Architecture
+## System Architecture & Key Components
 
-Instead of explaining *why* we did it, here is exactly *how* the simulation is constructed:
+1. **Simulation Environment (Isaac Sim):** We simulate a fleet of 5 `iw_hub` industrial differential-drive AMRs inside a realistic USD warehouse environment. Each AMR is equipped with dual RTX-accelerated 2D LiDARs.
+2. **ROS 2 Bridge & Navigation:** Data from Isaac Sim is streamed directly to a ROS 2 network using the ROS Bridge. In the backend, each robot runs its own independent Nav2 stack.
+3. **Open-RMF & Custom Tweaks:** The fleet is orchestrated by Open-RMF. Because Isaac Sim introduces high system constraints and physical delays (unlike idealized 2D simulators), we have tweaked several underlying C++ (`.cpp`/`.hpp`) files within the Open-RMF core to handle these delays gracefully. *(See `ros2_team001/src/rmf/README.md` for details on these modifications).*
+4. **Simulator-Based Fleet Adapters & RobotClient API:** The connection between Open-RMF and the Nav2 stacks is handled by our Fleet Adapter. We utilize a simulated `iw_hub_fleet_config` and an adjusted RobotClient API that translates RMF destination commands into Nav2 `NavigateToPose` actions while streaming the robot's real-time battery and position state back to the dispatcher.
+5. **Task Generation (WMS Script):** We use a custom Warehouse Management System (WMS) Python script located at `scripts/wms_v2.py` to programmatically generate and dispatch tasks (like patrols and deliveries) to the fleet.
 
-1. **Simulation Environment (Isaac Sim):** We use a realistic warehouse constructed from USD assets. We simulated 5 `iw_hub` industrial differential-drive AMRs. Each AMR is equipped with dual RTX-accelerated 2D LiDARs.
-2. **ROS 2 Bridge & Navigation:** Data from Isaac Sim (sensor streams, odometry) is streamed directly to a ROS 2 network using the ROS Bridge. In the backend, each robot runs its own independent ROS 2 Navigation stack (Nav2) using AMCL for localization and DWB for local planning.
-3. **Fleet Management (Open-RMF):** The entire fleet is orchestrated by Open-RMF, acting as the centralized traffic controller and dispatcher. Open-RMF assigns tasks based on bidding and handles space-time conflict resolution (deconfliction) so robots don't gridlock in narrow aisles. 
-
-*Note: We built the entire Open-RMF stack from source rather than relying on standard `apt` installations. This was critical to avoid dependency errors and ensure stable performance across the distributed fleet adapter.*
-
-## Setup and Launch Instructions
+## Setup and Installation
 
 ### 1. NVIDIA Isaac Sim Setup
-1. **Download the Environment:** Download the Isaac Sim USD files and save it into a dedicated folder.
+1. **Download the Environment:** Extract the Isaac Sim USD files (`Collected_Custom_Warehouse_lighting`) into a dedicated folder.
 2. **Install Isaac Sim:** You must install **NVIDIA Isaac Sim version 4.5 or above** (mandatory for compatibility).
-3. **Enable ROS Bridge:** Launch Isaac Sim and ensure the ROS 2 Bridge extension is enabled so that the simulation can communicate with the ROS network.
+3. **Enable ROS Bridge:** Launch Isaac Sim and ensure the ROS 2 Bridge extension is enabled.
 4. Load the `Custom_Warehouse_lighting.usd` environment.
 
 ### 2. ROS 2 Workspace Setup
-This repository contains the ROS 2 packages required to run the AMRs.
+This workspace is designed to be easily cloned and built on any machine running Ubuntu and ROS 2 Humble. All file paths are relative to the workspace.
 
 ```bash
 # Clone this repository
@@ -34,55 +37,77 @@ cd Mobile-Robot-Fleet-managment-system-in-Nvidia-Isaac-Sim-/ros2_team001
 # Source ROS 2 Humble
 source /opt/ros/humble/setup.bash
 
-# Build the workspace
-colcon build --symlink-install
+# Build the entire workspace (Nav2, Adapters, and tweaked Open-RMF)
+colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 
 # Source the built workspace
 source install/setup.bash
 ```
-*Note: The `team_venv` folder contains the Python virtual environment with specific dependencies required for the simulation.*
+*Note: The `team_venv` folder contains the Python virtual environment with specific dependencies (like WebSockets) required for the simulation.*
 
-### 3. Open-RMF Source Build Setup
-To ensure compatibility and avoid common package manager errors, Open-RMF must be built from source. 
-*(Note: We have made some specific changes to the RMF repositories to optimize them for this Isaac Sim environment, which will be explained in further documentation).*
+## Launch Instructions
 
-To build Open-RMF from scratch, follow these steps:
+To launch the full pipeline, open **8 separate terminals**. In *every* terminal, navigate to the workspace and source the setup file first:
+```bash
+cd ~/path/to/Mobile-Robot-Fleet-managment-system-in-Nvidia-Isaac-Sim-/ros2_team001
+source install/setup.bash
+```
 
-1. **Create the workspace:**
-   ```bash
-   mkdir -p ~/Documents/open_rmf_source_build/src
-   cd ~/Documents/open_rmf_source_build
-   ```
-2. **Import the source code:**
-   ```bash
-   wget https://raw.githubusercontent.com/open-rmf/rmf/main/rmf.repos
-   vcs import src < rmf.repos
-   ```
-3. **Clean up unnecessary packages:**
-   ```bash
-   rm -rf src/rmf/rmf_simulation
-   rm -rf src/demonstrations/rmf_demos
-   ```
-4. **Install dependencies:**
-   ```bash
-   sudo apt update && sudo apt install -y nlohmann-json3-dev libwebsocketpp-dev libasio-dev libssl-dev libboost-all-dev eigen3-progs libeigen3-dev ros-humble-ament-cmake-vendor-package
-   source /opt/ros/humble/setup.bash
-   rosdep update
-   rosdep install --from-paths src --ignore-src --rosdistro humble --skip-keys="gz_fuel_tools_vendor gz_transport_vendor" -y
-   ```
-5. **Build Open-RMF (Option A - Standard Build):**
-   ```bash
-   colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
-   ```
-6. **Activate the environment:**
-   ```bash
-   source ~/Documents/open_rmf_source_build/install/setup.bash
-   ```
+Run the following commands in order:
 
-Once Isaac Sim, the ROS 2 AMR workspace, and Open-RMF are all sourced and running, you can dispatch tasks to the fleet!
+**Terminal 1: LiDAR Merger**
+*(Wait for the node to start publishing `/iw_hub_X/scan_merged_1` for each robot)*
+```bash
+ros2 launch ira_laser_tools merger_iw_hub_lidar.launch.py
+```
+
+**Terminal 2: Navigation Stack**
+*(Wait until you see all 5 robots print `[bond] Created bond ... timer active`)*
+```bash
+ros2 launch iw_hub_navigation multi_iw_hub_navigation.launch.py
+```
+
+**Terminal 3: RMF Traffic Scheduler**
+```bash
+ros2 run rmf_traffic_ros2 rmf_traffic_schedule --ros-args -p use_sim_time:=true
+```
+
+**Terminal 4: RMF Task Dispatcher**
+```bash
+source team_venv/bin/activate
+ros2 run rmf_task_ros2 rmf_task_dispatcher --ros-args -p use_sim_time:=true
+```
+
+**Terminal 5: Fleet Adapter**
+*(Wait until all 5 robots print `[iw_hub_X] Snapped to graph waypoint N on L1`)*
+```bash
+source team_venv/bin/activate
+export PYTHONPATH=$PWD/team_venv/lib/python3.10/site-packages:$PYTHONPATH
+ros2 run iw_fleet_adapter fleet_adapter \
+  -c src/iw_fleet_adapter/iw_hub_fleet_config.yaml \
+  -n src/iw_fleet_adapter/0.yaml \
+  -sim
+```
+
+**Terminal 6: WMS Task Dispatcher**
+*(Run this to start assigning tasks to the robots)*
+```bash
+source team_venv/bin/activate
+python3 scripts/wms_v2.py
+```
+
+**Terminal 7: RViz2 (Optional Visualizer)**
+```bash
+ros2 run rviz2 rviz2
+```
+
+**Terminal 8: RMF NavGraph Viewer**
+```bash
+ros2 run rmf_visualization_navgraphs navgraph_visualizer_node --ros-args -p use_sim_time:=true
+```
 
 ## RMF Map and Navigation Alignment
 
 A critical part of successfully deploying Open-RMF with local Nav2 stacks is ensuring that the **RMF topological map origin and the Nav2 local occupancy grid map origin are perfectly matched.** If these origins drift or are misaligned, the coordinates Open-RMF sends to the robots will not match the physical layout of the warehouse, leading to severe pathing failures and collisions.
 
-*(Further explanation and visual diagrams demonstrating exactly how this alignment was achieved will be added here...)*
+*(Detailed explanation, coordinate mappings, and visual diagrams demonstrating exactly how this alignment was achieved will be added here soon...)*
