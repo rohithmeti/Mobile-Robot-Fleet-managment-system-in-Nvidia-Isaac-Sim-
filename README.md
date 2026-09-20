@@ -31,8 +31,8 @@ This workspace is designed to be easily cloned and built on any machine running 
 
 ```bash
 # Clone this repository
-git clone https://github.com/rohithmeti/Mobile-Robot-Fleet-managment-system-in-Nvidia-Isaac-Sim-.git
-cd Mobile-Robot-Fleet-managment-system-in-Nvidia-Isaac-Sim-/ros2_team001
+git clone https://github.com/rohithmeti/Multi-AMR-Fleet-Coordination-Isaac-Sim-OpenRMF.git
+cd Multi-AMR-Fleet-Coordination-Isaac-Sim-OpenRMF/ros2_team001
 
 # Source ROS 2 Humble
 source /opt/ros/humble/setup.bash
@@ -60,7 +60,7 @@ pip install requests PyYAML
 
 To launch the full pipeline, open **8 separate terminals**. In *every* terminal, navigate to the workspace and source the setup file first:
 ```bash
-cd ~/path/to/Mobile-Robot-Fleet-managment-system-in-Nvidia-Isaac-Sim-/ros2_team001
+cd ~/path/to/Multi-AMR-Fleet-Coordination-Isaac-Sim-OpenRMF/ros2_team001
 source install/setup.bash
 ```
 
