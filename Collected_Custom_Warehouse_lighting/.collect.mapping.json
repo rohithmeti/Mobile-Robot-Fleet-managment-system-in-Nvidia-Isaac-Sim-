@@ -1,0 +1,701 @@
+{
+    "version": "1.0",
+    "file_records": [
+        {
+            "source_url": "/home/carrubuntu/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_PushcartA_D.png",
+            "source_hash": "edcebe1a5545471f6973c659faa660469661ed0b",
+            "target_url": "./SubUSDs/textures/T_PushcartA_D.png",
+            "target_hash": "87db00b8f2715a736d4118bfd99b48076d0ed606"
+        },
+        {
+            "source_url": "/home/carrubuntu/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_PushcartA_M.png",
+            "source_hash": "955005f43ed7c88709ec2667034ab3b046888444",
+            "target_url": "./SubUSDs/textures/T_PushcartA_M.png",
+            "target_hash": "cb73c5e91b878ea9474d5606571e4c19de1c6822"
+        },
+        {
+            "source_url": "/home/carrubuntu/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_PushcartA_N.png",
+            "source_hash": "ecf2b033d5f4ee54852bfde60c750f6d515ecbc9",
+            "target_url": "./SubUSDs/textures/T_PushcartA_N.png",
+            "target_hash": "42475cb977a8bb9de72fc5ac87c2609ac14e8b23"
+        },
+        {
+            "source_url": "/home/carrubuntu/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_PushcartA_ORM.png",
+            "source_hash": "9dff85565026361d7c517672a3b3b3dbd0da297a",
+            "target_url": "./SubUSDs/textures/T_PushcartA_ORM.png",
+            "target_hash": "ccdc40543ea3adb847de09fe076ece34e5d7d2b7"
+        },
+        {
+            "source_url": "/home/carrubuntu/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-materials_and_props-5.1.0/Assets/Isaac/5.1/Isaac/Props/Dolly/Materials/Textures/fof_map_shelf_cart_a_base_d.png",
+            "source_hash": "6ff5822610cc210fef3a487d710f817fd50828a2",
+            "target_url": "./SubUSDs/textures/fof_map_shelf_cart_a_base_d.png",
+            "target_hash": "3b8a1e986c82e243715e6ab97ee6d83dfe8ec86e"
+        },
+        {
+            "source_url": "/home/carrubuntu/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-materials_and_props-5.1.0/Assets/Isaac/5.1/Isaac/Props/Dolly/Materials/Textures/fof_map_shelf_cart_a_base_n.png",
+            "source_hash": "d6f3c36987145f81788ebd6159141abc6f43caf8",
+            "target_url": "./SubUSDs/textures/fof_map_shelf_cart_a_base_n.png",
+            "target_hash": "7d61ef9bd15459e31533da21a358476fc7a1bc9f"
+        },
+        {
+            "source_url": "/home/carrubuntu/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-materials_and_props-5.1.0/Assets/Isaac/5.1/Isaac/Props/Dolly/Materials/Textures/fof_map_shelf_cart_a_base_roughness.png",
+            "source_hash": "0dfaee834bc34de48820054bae5027dbbdbee233",
+            "target_url": "./SubUSDs/textures/fof_map_shelf_cart_a_base_roughness.png",
+            "target_hash": "b58a12a7f88eeb64d689f8b561fdf1a8749aff7e"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Collected_iw_collected_iwhub12345at0_fuck/team001/fleet_ws/Collected_team001 project.usd_iwhub_corrected/Collected_iw_collected_iwhub12345at0/usd/Collected_team001 projectrecent/Collected_team001 project/Collected_team001 project/Collected_5 iw hub/Collected_iw_hub/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Idealworks/iwhub/HighResProps/Textures/STL_Robot_albedo.1001.png",
+            "source_hash": "6b3e71dd41920962648649cd91a49df48fbde1e8",
+            "target_url": "./SubUSDs/textures/STL_Robot_albedo.1001.png",
+            "target_hash": "451d30c06c9eafa747d83344ccba2db8f2aced7f"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Collected_iw_collected_iwhub12345at0_fuck/team001/fleet_ws/Collected_team001 project.usd_iwhub_corrected/Collected_iw_collected_iwhub12345at0/usd/Collected_team001 projectrecent/Collected_team001 project/Collected_team001 project/Collected_5 iw hub/Collected_iw_hub/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Idealworks/iwhub/HighResProps/Textures/STL_Robot_albedo.1002.png",
+            "source_hash": "86b0d5f58043947f646aeca94a1ab2834b253da3",
+            "target_url": "./SubUSDs/textures/STL_Robot_albedo.1002.png",
+            "target_hash": "d1ccde3187050fe375d0a4a3192020f4257afd42"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Collected_iw_collected_iwhub12345at0_fuck/team001/fleet_ws/Collected_team001 project.usd_iwhub_corrected/Collected_iw_collected_iwhub12345at0/usd/Collected_team001 projectrecent/Collected_team001 project/Collected_team001 project/Collected_5 iw hub/Collected_iw_hub/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Idealworks/iwhub/HighResProps/Textures/STL_Robot_albedo.1003.png",
+            "source_hash": "3859a8461199d358595314c1f09e25692a011c20",
+            "target_url": "./SubUSDs/textures/STL_Robot_albedo.1003.png",
+            "target_hash": "94f65684ceb112c34ef743482d39a83f3f59191c"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Collected_iw_collected_iwhub12345at0_fuck/team001/fleet_ws/Collected_team001 project.usd_iwhub_corrected/Collected_iw_collected_iwhub12345at0/usd/Collected_team001 projectrecent/Collected_team001 project/Collected_team001 project/Collected_5 iw hub/Collected_iw_hub/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Idealworks/iwhub/HighResProps/Textures/STL_Robot_albedo.1004.png",
+            "source_hash": "29b7514dbd813aa677f91d1cbdd88c1f0fb712c6",
+            "target_url": "./SubUSDs/textures/STL_Robot_albedo.1004.png",
+            "target_hash": "dc44244462c9a382f2303de13906a6ff56c01305"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Collected_iw_collected_iwhub12345at0_fuck/team001/fleet_ws/Collected_team001 project.usd_iwhub_corrected/Collected_iw_collected_iwhub12345at0/usd/Collected_team001 projectrecent/Collected_team001 project/Collected_team001 project/Collected_5 iw hub/Collected_iw_hub/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Idealworks/iwhub/HighResProps/Textures/STL_Robot_emissive.1001.png",
+            "source_hash": "9d3b98858b1c678115e385e2224e798ccd02f19e",
+            "target_url": "./SubUSDs/textures/STL_Robot_emissive.1001.png",
+            "target_hash": "5e5256ad9753cbb0d481c4e859a0a3da9c97933d"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Collected_iw_collected_iwhub12345at0_fuck/team001/fleet_ws/Collected_team001 project.usd_iwhub_corrected/Collected_iw_collected_iwhub12345at0/usd/Collected_team001 projectrecent/Collected_team001 project/Collected_team001 project/Collected_5 iw hub/Collected_iw_hub/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Idealworks/iwhub/HighResProps/Textures/STL_Robot_emissive.1002.png",
+            "source_hash": "74230ed425ccef2a2a52cb8c8083f21810d5eabf",
+            "target_url": "./SubUSDs/textures/STL_Robot_emissive.1002.png",
+            "target_hash": "6e6417e2b672a20119db720db6d5b5cdcc18dc0b"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Collected_iw_collected_iwhub12345at0_fuck/team001/fleet_ws/Collected_team001 project.usd_iwhub_corrected/Collected_iw_collected_iwhub12345at0/usd/Collected_team001 projectrecent/Collected_team001 project/Collected_team001 project/Collected_5 iw hub/Collected_iw_hub/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Idealworks/iwhub/HighResProps/Textures/STL_Robot_emissive.1003.png",
+            "source_hash": "0cbb91f60115de21de444755d08aff9bca426ec0",
+            "target_url": "./SubUSDs/textures/STL_Robot_emissive.1003.png",
+            "target_hash": "0f670864a529c5e3fd3b1ad9dc2654011a31cf41"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Collected_iw_collected_iwhub12345at0_fuck/team001/fleet_ws/Collected_team001 project.usd_iwhub_corrected/Collected_iw_collected_iwhub12345at0/usd/Collected_team001 projectrecent/Collected_team001 project/Collected_team001 project/Collected_5 iw hub/Collected_iw_hub/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Idealworks/iwhub/HighResProps/Textures/STL_Robot_emissive.1004.png",
+            "source_hash": "49ecc00362fefe3a83eae1bdc35de5ac508286e8",
+            "target_url": "./SubUSDs/textures/STL_Robot_emissive.1004.png",
+            "target_hash": "d250dea82f68f72b5e68c514516d0edbe6277108"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Collected_iw_collected_iwhub12345at0_fuck/team001/fleet_ws/Collected_team001 project.usd_iwhub_corrected/Collected_iw_collected_iwhub12345at0/usd/Collected_team001 projectrecent/Collected_team001 project/Collected_team001 project/Collected_5 iw hub/Collected_iw_hub/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Idealworks/iwhub/HighResProps/Textures/STL_Robot_normal.1001.png",
+            "source_hash": "c11a7b311fa591268b0e92704db2cfc87fa80f38",
+            "target_url": "./SubUSDs/textures/STL_Robot_normal.1001.png",
+            "target_hash": "0f4212752e6ab8edff979c1a31d82aaafb5907bb"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Collected_iw_collected_iwhub12345at0_fuck/team001/fleet_ws/Collected_team001 project.usd_iwhub_corrected/Collected_iw_collected_iwhub12345at0/usd/Collected_team001 projectrecent/Collected_team001 project/Collected_team001 project/Collected_5 iw hub/Collected_iw_hub/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Idealworks/iwhub/HighResProps/Textures/STL_Robot_normal.1002.png",
+            "source_hash": "e802e7361aaae2d79277639cc75d27f4ab368101",
+            "target_url": "./SubUSDs/textures/STL_Robot_normal.1002.png",
+            "target_hash": "628fd2fa4749c2c60bea5a177ac98f5ffffcc536"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Collected_iw_collected_iwhub12345at0_fuck/team001/fleet_ws/Collected_team001 project.usd_iwhub_corrected/Collected_iw_collected_iwhub12345at0/usd/Collected_team001 projectrecent/Collected_team001 project/Collected_team001 project/Collected_5 iw hub/Collected_iw_hub/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Idealworks/iwhub/HighResProps/Textures/STL_Robot_normal.1003.png",
+            "source_hash": "f91bd8fafcfa9416fec2076e8f87df9f3afd696a",
+            "target_url": "./SubUSDs/textures/STL_Robot_normal.1003.png",
+            "target_hash": "84c8de5cbe1a57b80f59fdefede44b89962d3a0c"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Collected_iw_collected_iwhub12345at0_fuck/team001/fleet_ws/Collected_team001 project.usd_iwhub_corrected/Collected_iw_collected_iwhub12345at0/usd/Collected_team001 projectrecent/Collected_team001 project/Collected_team001 project/Collected_5 iw hub/Collected_iw_hub/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Idealworks/iwhub/HighResProps/Textures/STL_Robot_normal.1004.png",
+            "source_hash": "11c180ee1d74e9c960f0eca75295f00939ef0a26",
+            "target_url": "./SubUSDs/textures/STL_Robot_normal.1004.png",
+            "target_hash": "b4428d8956afdc05ab850a1404088d14554782c4"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Collected_iw_collected_iwhub12345at0_fuck/team001/fleet_ws/Collected_team001 project.usd_iwhub_corrected/Collected_iw_collected_iwhub12345at0/usd/Collected_team001 projectrecent/Collected_team001 project/Collected_team001 project/Collected_5 iw hub/Collected_iw_hub/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Idealworks/iwhub/HighResProps/Textures/STL_Robot_orm.1001.png",
+            "source_hash": "352b6ed8607b4b89ddd1f8462ee6af84ca283d3c",
+            "target_url": "./SubUSDs/textures/STL_Robot_orm.1001.png",
+            "target_hash": "9cf77e16740a0721212c0f7021d3d4eed711c8c5"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Collected_iw_collected_iwhub12345at0_fuck/team001/fleet_ws/Collected_team001 project.usd_iwhub_corrected/Collected_iw_collected_iwhub12345at0/usd/Collected_team001 projectrecent/Collected_team001 project/Collected_team001 project/Collected_5 iw hub/Collected_iw_hub/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Idealworks/iwhub/HighResProps/Textures/STL_Robot_orm.1002.png",
+            "source_hash": "a0799c06cbad8e19a552fdbdc1d4fba7a7a9615c",
+            "target_url": "./SubUSDs/textures/STL_Robot_orm.1002.png",
+            "target_hash": "9cf803f27c945d8260c44824af194874ee241e77"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Collected_iw_collected_iwhub12345at0_fuck/team001/fleet_ws/Collected_team001 project.usd_iwhub_corrected/Collected_iw_collected_iwhub12345at0/usd/Collected_team001 projectrecent/Collected_team001 project/Collected_team001 project/Collected_5 iw hub/Collected_iw_hub/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Idealworks/iwhub/HighResProps/Textures/STL_Robot_orm.1003.png",
+            "source_hash": "d1e0a5c4372c279be474b3c86d37bf27997c4ce3",
+            "target_url": "./SubUSDs/textures/STL_Robot_orm.1003.png",
+            "target_hash": "8fba1b3622d44420c971f9fc9f8269b701a5c946"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Collected_iw_collected_iwhub12345at0_fuck/team001/fleet_ws/Collected_team001 project.usd_iwhub_corrected/Collected_iw_collected_iwhub12345at0/usd/Collected_team001 projectrecent/Collected_team001 project/Collected_team001 project/Collected_5 iw hub/Collected_iw_hub/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Robots/Idealworks/iwhub/HighResProps/Textures/STL_Robot_orm.1004.png",
+            "source_hash": "6c3d37edb8003092360db95c65ac1d588d5da278",
+            "target_url": "./SubUSDs/textures/STL_Robot_orm.1004.png",
+            "target_hash": "4ab65868c30e6b9114e0e85961bf1564b038c781"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Office/Materials/Textures/T_WallOffice_bc.png",
+            "source_hash": "f8758eba32fe07a067c43377e60293489d901579",
+            "target_url": "./SubUSDs/textures/T_WallOffice_bc.png",
+            "target_hash": "ff8437c5201de0c4512e99691b6b51608ea57048"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Office/Materials/Textures/T_WallOffice_n.png",
+            "source_hash": "71401e7caf457700d7d98315d605e5b6b84518e1",
+            "target_url": "./SubUSDs/textures/T_WallOffice_n.png",
+            "target_hash": "025e6e8cda451f5062325b5f2540404613b2651d"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_BeamsA_D.png",
+            "source_hash": "3290ae2e13c8018503dc02b46a43e7b26f3f1e67",
+            "target_url": "./SubUSDs/textures/T_BeamsA_D.png",
+            "target_hash": "90db564cedcb3ce3d98ba0904ddf3bff59b8b574"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_BeamsA_M.png",
+            "source_hash": "83cb5258959c0fa163437fe629806e57108ce033",
+            "target_url": "./SubUSDs/textures/T_BeamsA_M.png",
+            "target_hash": "8f4b26a188ae6d4e5ab57bd860eeaa1de00f66f6"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_BeamsA_N.png",
+            "source_hash": "cc0ea1bc160f18e663c5dd0439b09da620d910d7",
+            "target_url": "./SubUSDs/textures/T_BeamsA_N.png",
+            "target_hash": "17c50f818650dff91f648de0dd2ec54e379b7450"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_BeamsA_ORM.png",
+            "source_hash": "348b8ea23241950e78f6837bb3bd52750cb03327",
+            "target_url": "./SubUSDs/textures/T_BeamsA_ORM.png",
+            "target_hash": "f98a11d8496183b9b09be7ba0cf9815b19b26bbc"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_BlankMask_M.png",
+            "source_hash": "906c896d0795abd8de4656d61185241e00c1e849",
+            "target_url": "./SubUSDs/textures/T_BlankMask_M.png",
+            "target_hash": "40bbca8c3ad182f38fc7302e9cd02aa5b70f7239"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_Floor_01_D.png",
+            "source_hash": "85c78bbc5c099ce83c47d3a180d34dbbb179eae7",
+            "target_url": "./SubUSDs/textures/T_Floor_01_D.png",
+            "target_hash": "2f7dc1b75a364110f8fd807a9a67770896da4153"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_Floor_01_M.png",
+            "source_hash": "35aa2c79c70bfdf1c608194d2e0e13ef721e43fc",
+            "target_url": "./SubUSDs/textures/T_Floor_01_M.png",
+            "target_hash": "c221ed1140a07800869ee2590e61b8d61ece4493"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_Floor_01_N.png",
+            "source_hash": "ce9a0cb175c1ed91f469178d4fb475ddfbeea729",
+            "target_url": "./SubUSDs/textures/T_Floor_01_N.png",
+            "target_hash": "c886062bbfcd637a9f6b3f1a118ac1d38973cc4b"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_Floor_01_ORM.png",
+            "source_hash": "e59a2763abf639920ecc3f79346b12fd1dd431d7",
+            "target_url": "./SubUSDs/textures/T_Floor_01_ORM.png",
+            "target_hash": "d30ee84a9170b5faee5905bf7a1902a83c884ac8"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_FrameA_D.png",
+            "source_hash": "6efbb91111cf2b840c0ef942dbba34da2577005d",
+            "target_url": "./SubUSDs/textures/T_FrameA_D.png",
+            "target_hash": "3f1715e56ddc723b4b9a5d7409f00653103255c4"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_FrameA_M.png",
+            "source_hash": "58b13fc5821ce48ad76020b374104ecac1c0198a",
+            "target_url": "./SubUSDs/textures/T_FrameA_M.png",
+            "target_hash": "962710d3595ef5c68a66756a48f15505ab7de498"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_FrameA_N.png",
+            "source_hash": "8926fc55fb80cd777a4c8bb4d845c8918e2ad77e",
+            "target_url": "./SubUSDs/textures/T_FrameA_N.png",
+            "target_hash": "0d08d066a62df7a89f47eaf3a09754ab8d1e1909"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_FrameA_ORM.png",
+            "source_hash": "5870e7aa9d2135d18c4189ac4933a2271185e23b",
+            "target_url": "./SubUSDs/textures/T_FrameA_ORM.png",
+            "target_hash": "8940c0ad1502e26820d6f61cf508557efd0d3a97"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_LampCeilingA_D.png",
+            "source_hash": "d9471be8a940344b59f31b23da3d8eee530e231e",
+            "target_url": "./SubUSDs/textures/T_LampCeilingA_D.png",
+            "target_hash": "7ed3babd5c60916c479c6caeac5c1e501e05291e"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_LampCeilingA_N.png",
+            "source_hash": "b08532d413b8349ee16695cddd3cf3edc2dcaeae",
+            "target_url": "./SubUSDs/textures/T_LampCeilingA_N.png",
+            "target_hash": "fe7d8ae0d0d51583427d7aef4f6896f9039450df"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_LampCeilingA_ORM.png",
+            "source_hash": "feab83c4b2b23b4cad5d60ec739f1094add36ac6",
+            "target_url": "./SubUSDs/textures/T_LampCeilingA_ORM.png",
+            "target_hash": "ebddd79a805158c8b191db998bb982bd9bd3572b"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_WallA_01_D.png",
+            "source_hash": "5c7f162e4ed567bcfc316da86c6001ef784b1bb8",
+            "target_url": "./SubUSDs/textures/T_WallA_01_D.png",
+            "target_hash": "c1b76ccf405ab7557ee72ae254962244dc9a8964"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_WallA_01_N.png",
+            "source_hash": "9c9c43df0e310417337b5c982b265685746f916f",
+            "target_url": "./SubUSDs/textures/T_WallA_01_N.png",
+            "target_hash": "c218f7db78b4248558070c0121a4d7f515d16f6d"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_WallA_01_ORM.png",
+            "source_hash": "8111c0fe67f59d9cbf04d8251954b27123e95d30",
+            "target_url": "./SubUSDs/textures/T_WallA_01_ORM.png",
+            "target_hash": "974b25714bdef161d6f72b3b145911dfe7d3c8e6"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_WallA_02_D.png",
+            "source_hash": "9cd9837915b9b0ed15a4f18cc3b42ccf2d2fffe6",
+            "target_url": "./SubUSDs/textures/T_WallA_02_D.png",
+            "target_hash": "f72a9777b1ad4acf487fe1266fb9cf1d0eecc2e2"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_WallA_02_N.png",
+            "source_hash": "613e7cb1134d8953ecf23c22973b6ccd66dc77a0",
+            "target_url": "./SubUSDs/textures/T_WallA_02_N.png",
+            "target_hash": "ed36c9933b5f561c340c87670dd231fcb93439bb"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_WallA_02_ORM.png",
+            "source_hash": "518dd8ac42dfc18bf9aca4ece69f8f17271560f2",
+            "target_url": "./SubUSDs/textures/T_WallA_02_ORM.png",
+            "target_hash": "13d9982bedc9df946829b66e502c996e82342339"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackSetA_01_D.png",
+            "source_hash": "7fe03d54be218e46e4f354a7cc872f899215db5a",
+            "target_url": "./SubUSDs/textures/T_RackSetA_01_D.png",
+            "target_hash": "1c946ed4df0e58f6b09060c28d873822664dd5ff"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackSetA_01_M.png",
+            "source_hash": "629878254ab992bacb94e14a6bc731e022d74196",
+            "target_url": "./SubUSDs/textures/T_RackSetA_01_M.png",
+            "target_hash": "70d43bdc057962ba7b89335787fb3b85f576988c"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackSetA_01_N.png",
+            "source_hash": "f2c6108374260beff861031b0398e53393916632",
+            "target_url": "./SubUSDs/textures/T_RackSetA_01_N.png",
+            "target_hash": "92d8f82c76143c6c2660c3caa1b6a88c11c3da6e"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackSetA_01_ORM.png",
+            "source_hash": "5e25f9cbfd12f7bda7ba0b9db958cc4e85ae3e84",
+            "target_url": "./SubUSDs/textures/T_RackSetA_01_ORM.png",
+            "target_hash": "825f4352a9a30b47bd9e1d35d746eb75b17df729"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackSetA_02_D.png",
+            "source_hash": "de2e9a37081288c2f7b61d441112c509f739855e",
+            "target_url": "./SubUSDs/textures/T_RackSetA_02_D.png",
+            "target_hash": "d8cd783d9933fc06ce864ad15744e45316ed3cf7"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackSetA_02_M.png",
+            "source_hash": "a8c4f98d31bf4267aa00d56568556191783bad9f",
+            "target_url": "./SubUSDs/textures/T_RackSetA_02_M.png",
+            "target_hash": "54bc7c26bfdf3b37a5c564f380c56f44141e63de"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackSetA_02_N.png",
+            "source_hash": "1029869e74c36b2f71f26d725bdb23c9719c85dd",
+            "target_url": "./SubUSDs/textures/T_RackSetA_02_N.png",
+            "target_hash": "c57a38ca70156de6a7c81a4ff528d399e209b4f6"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackSetA_02_ORM.png",
+            "source_hash": "2b06006b89b1559c951bfc7a80f3eb72f22222aa",
+            "target_url": "./SubUSDs/textures/T_RackSetA_02_ORM.png",
+            "target_hash": "d49f12972b518d522dec1acc478eef8aa849997b"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackSetA_03_D.png",
+            "source_hash": "502b81d05e776978f380617de1ba197f9d935b74",
+            "target_url": "./SubUSDs/textures/T_RackSetA_03_D.png",
+            "target_hash": "698913a1af109f75531281313623d85567fcb567"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackSetA_03_M.png",
+            "source_hash": "f6006558f234dffad5a9c7cdee74b362b7413544",
+            "target_url": "./SubUSDs/textures/T_RackSetA_03_M.png",
+            "target_hash": "31ff23e2ff3b9566228f98851c162f1bb38668da"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackSetA_03_N.png",
+            "source_hash": "c9f713d6543fee642c4a0d849bf44ceaff6800d3",
+            "target_url": "./SubUSDs/textures/T_RackSetA_03_N.png",
+            "target_hash": "d458513a3398d85e459d6e8a5ddeae72ad7b8a40"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackSetA_03_ORM.png",
+            "source_hash": "7785f034e49a654b08eb0cecd3ff14a30b495032",
+            "target_url": "./SubUSDs/textures/T_RackSetA_03_ORM.png",
+            "target_hash": "9d1ef79d30423119e2a71899886adc4838374970"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackSetA_04_D.png",
+            "source_hash": "410efab543b361e3f18c14027acf4e23fa4524c6",
+            "target_url": "./SubUSDs/textures/T_RackSetA_04_D.png",
+            "target_hash": "e2a1addffb072f943e921ef14f8fab4024e992b5"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackSetA_04_M.png",
+            "source_hash": "e9bcfddbc8280dcf7dbe84ce87a867f80d9b4924",
+            "target_url": "./SubUSDs/textures/T_RackSetA_04_M.png",
+            "target_hash": "0d699b3adc2bdfbb74a9673766ba95fac73a4028"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackSetA_04_N.png",
+            "source_hash": "4e34fd9089c4153ea7281816fae818bb0f830d80",
+            "target_url": "./SubUSDs/textures/T_RackSetA_04_N.png",
+            "target_hash": "959a0f0f9a6d983945ede8ad73fa69aecb44d7d1"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackSetA_04_ORM.png",
+            "source_hash": "55fab82a736c3efe631400ce68ead4425c9bc194",
+            "target_url": "./SubUSDs/textures/T_RackSetA_04_ORM.png",
+            "target_hash": "e96d377355087ec84ae66091be7cff29abddfb48"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_FloorStripes_D.png",
+            "source_hash": "4b290d6faaf9744469d3abd5fa2d5f3a481af3a8",
+            "target_url": "./SubUSDs/textures/T_FloorStripes_D.png",
+            "target_hash": "b1398f37481b53cf4bde5c78a9a14960574f29ec"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_FloorStripes_M.png",
+            "source_hash": "2f57accf7fdc45ec2cd5b69dc0c3823386ee3425",
+            "target_url": "./SubUSDs/textures/T_FloorStripes_M.png",
+            "target_hash": "6782ecf2617bf4d86f636ea6ffe16dac84c09ab6"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_FloorStripes_N.png",
+            "source_hash": "962b0f19809987aff553f97cabdb81509d45194b",
+            "target_url": "./SubUSDs/textures/T_FloorStripes_N.png",
+            "target_hash": "ca47406e8bcb0d7c0deb5c16b65aec6d8ea89ca9"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_FloorStripes_ORM.png",
+            "source_hash": "b16cacb1221e0b2574308eb2c790cbdbd4800df8",
+            "target_url": "./SubUSDs/textures/T_FloorStripes_ORM.png",
+            "target_hash": "9fca3f5e612a88e7e1551c928e8cd3388bb4e0f7"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackShield_D.png",
+            "source_hash": "d5300904949736d605fd4240b237d10b1acf58fd",
+            "target_url": "./SubUSDs/textures/T_RackShield_D.png",
+            "target_hash": "fa7ecfa2fb4f1ba3ab6d0e60c51465e8a9d82764"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackShield_N.png",
+            "source_hash": "862d248b9bd5c470597ba25affac1ab48776c4e2",
+            "target_url": "./SubUSDs/textures/T_RackShield_N.png",
+            "target_hash": "3b31b92b5c59a222c50c5afc3909325d6f14fb09"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_RackShield_ORM.png",
+            "source_hash": "a7256153ea53704789b05f183917154a84d190ce",
+            "target_url": "./SubUSDs/textures/T_RackShield_ORM.png",
+            "target_hash": "97d02ddf6d9803900b2fbf18fcaebfe7c9483d72"
+        },
+        {
+            "source_url": "/home/carrubuntu/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/MI_PushcartA_01.mdl",
+            "source_hash": "777809f2b0320dee6af8d10996444560827ae037",
+            "target_url": "./SubUSDs/materials/MI_PushcartA_01.mdl",
+            "target_hash": "5db49e9be14ab418087b8b3a1c84f6e7c96c32d8"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Office/Materials/MI_WallOffice_01.mdl",
+            "source_hash": "835392685b94d5b0dda617c18becfbd8df768a31",
+            "target_url": "./SubUSDs/materials/MI_WallOffice_01.mdl",
+            "target_hash": "93782ad7ceb9e9d619d03d17d03aefcdf42dc07c"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/MI_CeilingA_06b.mdl",
+            "source_hash": "b00692a4c8ccdd53949d75072b0beedc81ada0e1",
+            "target_url": "./SubUSDs/materials/MI_CeilingA_06b.mdl",
+            "target_hash": "72b23758168b285e154537fad17a419f2ff361d8"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/MI_Floor_01.mdl",
+            "source_hash": "0148fb1ea0b8d0968b1028d863fc717d0e5aa1d0",
+            "target_url": "./SubUSDs/materials/MI_Floor_01.mdl",
+            "target_hash": "eb8c73a920a0051df3a1da3f6f39637e7431b8d1"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/MI_FrameA_01.mdl",
+            "source_hash": "3d837c3ee921e9eea8f8cd7fff4468cdc654c45c",
+            "target_url": "./SubUSDs/materials/MI_FrameA_01.mdl",
+            "target_hash": "fde43af607a5b66bc66bd29ec9649a6692d0564d"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/MI_LampCeilingA.mdl",
+            "source_hash": "2d7717ca35d9258c945e438bf3fa5244f8d972a1",
+            "target_url": "./SubUSDs/materials/MI_LampCeilingA.mdl",
+            "target_hash": "895af88e9dab58c4bdfb5fbd2b47d4d08009e332"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/MI_WallB_01.mdl",
+            "source_hash": "8e751a813eb6e1e14e94d266b400aa92c3517f2f",
+            "target_url": "./SubUSDs/materials/MI_WallB_01.mdl",
+            "target_hash": "95f23267fcc7d33805045bb169fdaa810bdab232"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/M_Glow.mdl",
+            "source_hash": "b88ebce2d759696e6b13b69b71192b1ca7b66e32",
+            "target_url": "./SubUSDs/materials/M_Glow.mdl",
+            "target_hash": "4c200a0c7a07015523119b8bd44e50628dbfa26e"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Hospital/Materials/M_Wall_PlasterBlue.mdl",
+            "source_hash": "db2d67794a2c1a1bb754899ea460a38ddf2caa30",
+            "target_url": "./SubUSDs/materials/M_Wall_PlasterBlue.mdl",
+            "target_hash": "52be9165726b9bd0a7f4deef69e994e5af7462d8"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Hospital/Materials/UV_78.mdl",
+            "source_hash": "fefee94325471a1576fb963b2fac8b0771e7a2dd",
+            "target_url": "./SubUSDs/materials/UV_78.mdl",
+            "target_hash": "233dd460a0f972d1942496e298905bb2fb2c362b"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/MI_CeilingA_06b.mdl",
+            "source_hash": "3c0e63353d9971dce7f80ab50b38b78b3d06caf5",
+            "target_url": "./SubUSDs/materials/MI_CeilingA_06b_1.mdl",
+            "target_hash": "ac6703c742812d7c7c1f23291b1e7e4a49213368"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/MI_RackShield_01.mdl",
+            "source_hash": "2611960a4da105dd7188659299238a397a90908e",
+            "target_url": "./SubUSDs/materials/MI_RackShield_01.mdl",
+            "target_hash": "b47e284fe9b018885000bc132dfbaa96fa06b10c"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/M_WallBoard_01.mdl",
+            "source_hash": "339df14ff0bbe56920d9165070608be2962f5bb1",
+            "target_url": "./SubUSDs/materials/M_WallBoard_01.mdl",
+            "target_hash": "75b840064cbbc9d5bf377b03a16d1a02bbc9b57f"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/OmniUe4Function.mdl",
+            "source_hash": "24b3f05499695e887b575b7c3f86086628f47709",
+            "target_url": "./SubUSDs/materials/OmniUe4Function.mdl",
+            "target_hash": "9350688f76750a9f57fc3edd3b00b52d1405374f"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/OmniUe4Base.mdl",
+            "source_hash": "f98ce2cb08455d7b1660659b61d2a434bbd695fd",
+            "target_url": "./SubUSDs/materials/OmniUe4Base.mdl",
+            "target_hash": "110b059390ae21f108885f12f41f0ba6576b7185"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Hospital/Materials/Textures/Modo_UV_checker_3.png",
+            "source_hash": "6501e07e086850365981553f9d9ef556628a8d07",
+            "target_url": "./SubUSDs/textures/Modo_UV_checker_3.png",
+            "target_hash": "2567bb7a41c44eeff7014f1d6b9139e9c0b8c30c"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Hospital/Materials/OmniUe4Function.mdl",
+            "source_hash": "24b3f05499695e887b575b7c3f86086628f47709",
+            "target_url": "./SubUSDs/materials/OmniUe4Function_1.mdl",
+            "target_hash": "13f8e64b08666569da2746ac99ddb55034510b1d"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Hospital/Materials/Textures/Tex_Wall_Plaster_normal.png",
+            "source_hash": "253c5c1af8b4f0b8115f3156df0ae03c365e1c28",
+            "target_url": "./SubUSDs/textures/Tex_Wall_Plaster_normal.png",
+            "target_hash": "b801ef016eacd1ac0825cd8ac916f00a90ec7abe"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Hospital/Materials/OmniUe4Base.mdl",
+            "source_hash": "2555a8be4968785b4698811d8387922f5c47c737",
+            "target_url": "./SubUSDs/materials/OmniUe4Base_1.mdl",
+            "target_hash": "99d2925e001e9c6fefedf034c776f59c0839312c"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Hospital/Materials/Textures/Tex_Wall_Plaster_Merge_RAM.png",
+            "source_hash": "9e81cdcb1d1d946bced21d563ad7f9203124aff9",
+            "target_url": "./SubUSDs/textures/Tex_Wall_Plaster_Merge_RAM.png",
+            "target_hash": "309c5f375db245dc1fffcf13ee46ce3d52013507"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Office/Materials/Textures/T_Bookcase_n.png",
+            "source_hash": "a8b0ce568e819d424cd9b54924f019cc0c8c7bc0",
+            "target_url": "./SubUSDs/textures/T_Bookcase_n.png",
+            "target_hash": "a947c37bf403405db06619f12343cae6aee6b3d5"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Office/Materials/Textures/T_Bookcase_bc.png",
+            "source_hash": "faa5620af9683bdb636f093e29e145ce23f9cf79",
+            "target_url": "./SubUSDs/textures/T_Bookcase_bc.png",
+            "target_hash": "1af2e8ac50898543ed4bda0e32ddd30ed2cd663b"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Office/Materials/OmniUe4Function.mdl",
+            "source_hash": "24b3f05499695e887b575b7c3f86086628f47709",
+            "target_url": "./SubUSDs/materials/OmniUe4Function_2.mdl",
+            "target_hash": "fa6de029a82bbb06583149bd421828ebaadaf5fc"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Office/Materials/OmniUe4Base.mdl",
+            "source_hash": "2555a8be4968785b4698811d8387922f5c47c737",
+            "target_url": "./SubUSDs/materials/OmniUe4Base_2.mdl",
+            "target_hash": "99d2925e001e9c6fefedf034c776f59c0839312c"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_Floor_01_N.png",
+            "source_hash": "ab305867ccd7eddfa42ed1322628fa8052485522",
+            "target_url": "./SubUSDs/textures/T_Floor_01_N_1.png",
+            "target_hash": "bcd440247858eab8b7696d028ff311f1b55e257f"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_NewCaar/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/Alum_Anodized_roughness.png",
+            "source_hash": "b67fe5cccdd0d7e4492490e67b21e9c4d6eace1a",
+            "target_url": "./SubUSDs/textures/Alum_Anodized_roughness.png",
+            "target_hash": "7c1e1f7cc7786f124fcb6f06b7c18af8d6167749"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_WallBoard_01_N.png",
+            "source_hash": "9697142e4d9e374bad7ae829c7fcce876ee9f6f8",
+            "target_url": "./SubUSDs/textures/T_WallBoard_01_N.png",
+            "target_hash": "3ee3b3c3220f36f8bdeb50664036d71b66610de3"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_Floor_01_D.png",
+            "source_hash": "4f563f25df5d979c0f178efef63d665a6ab22a14",
+            "target_url": "./SubUSDs/textures/T_Floor_01_D_1.png",
+            "target_hash": "cf9448dcb414bbf428f2970b8dcac7729d26a84d"
+        },
+        {
+            "source_url": "/home/carrubuntu/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_BarelPlasticA_N.png",
+            "source_hash": "9c648baac7fe81ed2cdda12f57435a20ec0e7da3",
+            "target_url": "./SubUSDs/textures/T_BarelPlasticA_N.png",
+            "target_hash": "037b70d2cfb8f3cf8fc5711daba1924cf9396d56"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_WallBoard_01_D.png",
+            "source_hash": "0804bd2f7679fbc2f1b39c450b2f2ae02f02cb9e",
+            "target_url": "./SubUSDs/textures/T_WallBoard_01_D.png",
+            "target_hash": "6cc17b8edac99abd34122c2e166d47cf0bcdebbe"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_BeamsA_N.png",
+            "source_hash": "778ec52a97a31ecadee4c344002340eaa1c031c9",
+            "target_url": "./SubUSDs/textures/T_BeamsA_N_1.png",
+            "target_hash": "23f57befbeb603c99cef1139bf827f9759e98088"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/Alum_Anodized_roughness.png",
+            "source_hash": "7d21699d6bac87bd526910b9199e118a3552131b",
+            "target_url": "./SubUSDs/textures/Alum_Anodized_roughness_1.png",
+            "target_hash": "a8ab2d2a56cd6f9ac09d6e6a7d6fe6e71cae0460"
+        },
+        {
+            "source_url": "/home/carrubuntu/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_BarelPlasticA_M.png",
+            "source_hash": "995eda8b718c9992fe447e74e2000390c8a9e1c8",
+            "target_url": "./SubUSDs/textures/T_BarelPlasticA_M.png",
+            "target_hash": "741543a707d1261227166ba7e8cc5cdbc94c0569"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_WallBoard_01_ORM.png",
+            "source_hash": "2b398b07e7745553cd89b6efbe179798593fb3e3",
+            "target_url": "./SubUSDs/textures/T_WallBoard_01_ORM.png",
+            "target_hash": "46ec48c6c5edd3897b48dcaac55f7821909d7666"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_Floor_01_D.png",
+            "source_hash": "7e86e2c26496c23bd493c2728d921351a6bb7397",
+            "target_url": "./SubUSDs/textures/T_Floor_01_D_2.png",
+            "target_hash": "e631f97f86835b73d86260ac1132f8a73f3cd359"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/OmniUe4Function.mdl",
+            "source_hash": "24b3f05499695e887b575b7c3f86086628f47709",
+            "target_url": "./SubUSDs/materials/OmniUe4Function_3.mdl",
+            "target_hash": "13f8e64b08666569da2746ac99ddb55034510b1d"
+        },
+        {
+            "source_url": "/home/carrubuntu/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_BarelPlasticA_D.png",
+            "source_hash": "f54252d70ba4f1d130594b8b809269fd0da3c0a5",
+            "target_url": "./SubUSDs/textures/T_BarelPlasticA_D.png",
+            "target_hash": "549a057be839009c2712cd0858990f208bc43914"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_WallBoard_01_M.png",
+            "source_hash": "de8a529b520dd71d587120106411121882444d95",
+            "target_url": "./SubUSDs/textures/T_WallBoard_01_M.png",
+            "target_hash": "f2c328da193c15241b8d92fe344f4613d6197840"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_BeamsA_M.png",
+            "source_hash": "0a929f07836cb16d1a18d94a89e1c69579d476b9",
+            "target_url": "./SubUSDs/textures/T_BeamsA_M_1.png",
+            "target_hash": "fd91da4320e449f3f2b674214cf84d0d51be4449"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/OmniUe4Base.mdl",
+            "source_hash": "655c7aef452702f2bcd99beabdb01f32ef4a2ba0",
+            "target_url": "./SubUSDs/materials/OmniUe4Base_3.mdl",
+            "target_hash": "99d2925e001e9c6fefedf034c776f59c0839312c"
+        },
+        {
+            "source_url": "/home/carrubuntu/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_BarelPlasticA_ORM.png",
+            "source_hash": "7f02a7e2875bdce5cbe388eeb2792111dffe7964",
+            "target_url": "./SubUSDs/textures/T_BarelPlasticA_ORM.png",
+            "target_hash": "d71d6ea09f0b8bebb107d87c4fa86e57e3ea795e"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/Textures/T_BeamsA_ORM.png",
+            "source_hash": "0c2763ecf6eeb65d5ad9c9224d66721acd849bf0",
+            "target_url": "./SubUSDs/textures/T_BeamsA_ORM_1.png",
+            "target_hash": "5167fc1a9f1c55555e8a11f5cc801c5688cb299d"
+        },
+        {
+            "source_url": "/home/carrubuntu/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/OmniUe4Function.mdl",
+            "source_hash": "8b85bce40f09e14378059828942a646962c7918a",
+            "target_url": "./SubUSDs/materials/OmniUe4Function_4.mdl",
+            "target_hash": "13f8e64b08666569da2746ac99ddb55034510b1d"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/OmniUe4Function.mdl",
+            "source_hash": "149e0872438ac52677c77b3c7c675309c1776173",
+            "target_url": "./SubUSDs/materials/OmniUe4Function_5.mdl",
+            "target_hash": "fa6de029a82bbb06583149bd421828ebaadaf5fc"
+        },
+        {
+            "source_url": "/home/carrubuntu/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/OmniUe4Base.mdl",
+            "source_hash": "128b111df4ab5dc1040ce72ca2ef370b6682bf00",
+            "target_url": "./SubUSDs/materials/OmniUe4Base_4.mdl",
+            "target_hash": "16300c87b6cdd02b9c9075d3ecd30a21d2d0677d"
+        },
+        {
+            "source_url": "/home/carrubuntu/team001/fleet_ws/usd/Collected_Custom_Warehouse_lighting11/Collected_Custom_Warehouse_lighting/Desktop/Collected_Custom_Warehouse_lighting11/isaac-sim-standalone-5.1.0-linux-x86_64/assets/isaac-sim-assets-environments-5.1.0/Assets/Isaac/5.1/Isaac/Environments/Simple_Warehouse/Materials/OmniUe4Base.mdl",
+            "source_hash": "507f3142b06a8f1a1fe50efbf7bc3aa8109f2d49",
+            "target_url": "./SubUSDs/materials/OmniUe4Base_5.mdl",
+            "target_hash": "b52a14e3be1bf5127d3f1b431add429d006e9fef"
+        }
+    ]
+}
