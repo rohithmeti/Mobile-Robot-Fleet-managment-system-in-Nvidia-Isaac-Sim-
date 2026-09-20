@@ -1,0 +1,13 @@
+/tf_static:=tf_static'].
+carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ ros2 launch iw_hub_navigation iw_hub_navigation.launch.py map:=/home/carrubuntu/ros2_team001/src/iw_hub_navigation/maps/my_warehouse_map.yaml
+
+
+
+ros2 run nav2_map_server map_saver_cli -f my_warehouse_map
+
+ros2 launch iw_hub_navigation iw_hub_navigation.launch.py map:=/home/carrubuntu/ros2_team001/src/iw_hub_navigation/maps/my_warehouse_map.yaml
+
+
+
+
+ros2 run ira_laser_tools laserscan_multi_merger --ros-args -p use_sim_time:=true --params-file ~/ros2_team001/src/iw_hub_navigation/params/merger_params.yaml

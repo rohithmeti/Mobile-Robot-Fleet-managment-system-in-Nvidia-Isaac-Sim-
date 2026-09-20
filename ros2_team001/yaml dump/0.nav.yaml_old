@@ -1,0 +1,323 @@
+---
+building_name: building
+levels:
+  L1:
+    lanes:
+      - - 4
+        - 6
+        - speed_limit: 0.0
+      - - 6
+        - 4
+        - speed_limit: 0.0
+      - - 7
+        - 27
+        - speed_limit: 0.0
+          door_name: hardware_door
+      - - 27
+        - 7
+        - speed_limit: 0.0
+          door_name: hardware_door
+      - - 20
+        - 28
+        - speed_limit: 0.0
+      - - 28
+        - 20
+        - speed_limit: 0.0
+      - - 20
+        - 6
+        - speed_limit: 0.0
+      - - 6
+        - 20
+        - speed_limit: 0.0
+      - - 2
+        - 3
+        - speed_limit: 0.0
+      - - 3
+        - 2
+        - speed_limit: 0.0
+      - - 25
+        - 13
+        - speed_limit: 0.0
+      - - 13
+        - 25
+        - speed_limit: 0.0
+      - - 24
+        - 22
+        - speed_limit: 0.0
+      - - 22
+        - 24
+        - speed_limit: 0.0
+      - - 14
+        - 24
+        - speed_limit: 0.0
+      - - 24
+        - 14
+        - speed_limit: 0.0
+      - - 0
+        - 1
+        - speed_limit: 0.0
+      - - 1
+        - 0
+        - speed_limit: 0.0
+      - - 16
+        - 26
+        - speed_limit: 0.0
+      - - 26
+        - 16
+        - speed_limit: 0.0
+      - - 14
+        - 26
+        - speed_limit: 0.0
+      - - 26
+        - 14
+        - speed_limit: 0.0
+      - - 12
+        - 17
+        - speed_limit: 0.0
+      - - 17
+        - 12
+        - speed_limit: 0.0
+      - - 22
+        - 4
+        - speed_limit: 0.0
+      - - 4
+        - 22
+        - speed_limit: 0.0
+      - - 0
+        - 19
+        - speed_limit: 0.0
+      - - 19
+        - 0
+        - speed_limit: 0.0
+      - - 20
+        - 8
+        - speed_limit: 0.0
+      - - 8
+        - 20
+        - speed_limit: 0.0
+      - - 4
+        - 5
+        - speed_limit: 0.0
+      - - 5
+        - 4
+        - speed_limit: 0.0
+      - - 9
+        - 1
+        - speed_limit: 0.0
+      - - 1
+        - 9
+        - speed_limit: 0.0
+      - - 15
+        - 23
+        - speed_limit: 0.0
+      - - 23
+        - 15
+        - speed_limit: 0.0
+      - - 10
+        - 12
+        - speed_limit: 0.0
+      - - 12
+        - 10
+        - speed_limit: 0.0
+      - - 15
+        - 14
+        - speed_limit: 0.0
+      - - 14
+        - 15
+        - speed_limit: 0.0
+      - - 10
+        - 2
+        - speed_limit: 0.0
+      - - 2
+        - 10
+        - speed_limit: 0.0
+      - - 27
+        - 11
+        - speed_limit: 0.0
+      - - 11
+        - 27
+        - speed_limit: 0.0
+      - - 23
+        - 21
+        - speed_limit: 0.0
+      - - 21
+        - 23
+        - speed_limit: 0.0
+      - - 1
+        - 10
+        - speed_limit: 0.0
+      - - 10
+        - 1
+        - speed_limit: 0.0
+      - - 16
+        - 7
+        - speed_limit: 0.0
+      - - 7
+        - 16
+        - speed_limit: 0.0
+      - - 18
+        - 15
+        - speed_limit: 0.0
+      - - 15
+        - 18
+        - speed_limit: 0.0
+      - - 2
+        - 21
+        - speed_limit: 0.0
+      - - 21
+        - 2
+        - speed_limit: 0.0
+      - - 20
+        - 9
+        - speed_limit: 0.0
+      - - 9
+        - 20
+        - speed_limit: 0.0
+      - - 17
+        - 18
+        - speed_limit: 0.0
+      - - 18
+        - 17
+        - speed_limit: 0.0
+      - - 21
+        - 22
+        - speed_limit: 0.0
+      - - 22
+        - 21
+        - speed_limit: 0.0
+      - - 10
+        - 25
+        - speed_limit: 0.0
+          door_name: coe_door
+      - - 25
+        - 10
+        - speed_limit: 0.0
+          door_name: coe_door
+      - - 6
+        - 7
+        - speed_limit: 0.0
+      - - 7
+        - 6
+        - speed_limit: 0.0
+    vertices:
+      - - 6.8979225
+        - -2.0253696
+        - name: ""
+      - - 10.247854
+        - -3.0920558
+        - name: ""
+      - - 10.086146
+        - -6.9794364
+        - name: ""
+      - - 10.433054
+        - -5.5750957
+        - is_charger: true
+          is_holding_point: true
+          is_parking_spot: true
+          name: tinyRobot1_charger
+      - - 16.855825
+        - -6.881364
+        - name: ""
+      - - 16.846334
+        - -5.404067
+        - is_holding_point: true
+          name: pantry
+      - - 18.739525
+        - -6.873982
+        - name: ""
+      - - 18.794422
+        - -10.372407
+        - name: ""
+      - - 19.895699
+        - -3.40715
+        - is_holding_point: true
+          name: lounge
+      - - 13.130567
+        - -3.964806
+        - name: ""
+      - - 8.911855
+        - -6.181352
+        - name: ""
+      - - 20.948248
+        - -7.497347
+        - is_holding_point: true
+          name: hardware_2
+      - - 7.914645
+        - -7.9188695
+        - name: ""
+      - - 5.3464847
+        - -4.976814
+        - is_holding_point: true
+          name: coe
+      - - 15.157189
+        - -11.227092
+        - name: ""
+      - - 11.553369
+        - -11.315971
+        - name: ""
+      - - 18.813843
+        - -11.0789795
+        - name: ""
+      - - 7.9883037
+        - -10.780257
+        - name: ""
+      - - 9.376501
+        - -11.142885
+        - name: ""
+      - - 6.2640343
+        - -3.5156863
+        - is_parking_spot: true
+          name: supplies
+      - - 18.72902
+        - -3.8959816
+        - name: ""
+      - - 11.565889
+        - -6.9968076
+        - name: ""
+      - - 14.223027
+        - -5.193543
+        - name: ""
+      - - 11.573762
+        - -9.250289
+        - name: ""
+      - - 15.166704
+        - -9.242974
+        - name: ""
+      - - 6.5173054
+        - -5.2329288
+        - name: ""
+      - - 17.067495
+        - -11.097883
+        - name: ""
+      - - 20.893654
+        - -10.308373
+        - name: ""
+      - - 20.423693
+        - -5.312098
+        - is_charger: true
+          is_holding_point: true
+          is_parking_spot: true
+          name: tinyRobot2_charger
+doors:
+  coe_door:
+    endpoints:
+      - - 8.256338
+        - -5.4926333
+      - - 7.899035
+        - -6.304051
+    map: L1
+  hardware_door:
+    endpoints:
+      - - 19.447721
+        - -10.763783
+      - - 19.452404
+        - -9.874535
+    map: L1
+  main_door:
+    endpoints:
+      - - 12.184438
+        - -2.5996943
+      - - 14.079464
+        - -2.55928
+    map: L1
+lifts: {}

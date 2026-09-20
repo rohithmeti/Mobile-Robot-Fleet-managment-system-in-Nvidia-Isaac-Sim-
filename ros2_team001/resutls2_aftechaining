@@ -1,0 +1,1029 @@
+(team_venv) carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ python3 /home/carrubuntu/ros2_team001/scripts/wms_v1.py
+[INFO] [1781507501.188179798] [wms_task_generator]: Dispatched iw_hub_1 -> docking_room_exit [BIDDING, GOES FIRST]
+[INFO] [1781507501.689498766] [wms_task_generator]: single amr patrol task to point [docking_room_exit] 
+(team_venv) carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ 
+
+
+
+
+
+
+
+(team_venv) carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ ros2 run iw_fleet_adapter fleet_adapter   -c ~/ros2_team001/src/iw_fleet_adapter/iw_hub_fleet_config.yaml   -n ~/ros2_team001/src/iw_fleet_adapter/0.yaml 
+[INFO] [1781507470.052987705] [iw_hub_fleet_fleet_adapter]: Parameter [discovery_timeout] set to: 60.000000
+[INFO] [1781507470.059724979] [iw_hub_fleet_fleet_adapter]: Registering to query topic rmf_traffic/query_update_1
+Your navigation graph does not provide lift information. This may cause problems with behaviors around lifts. Please consider regenerating your navigration graph with the latest version of rmf_building_map_tools (from the rmf_traffic_editor repo).
+Your navigation graph does not provide door information. This may cause problems with behaviors around doors. Please consider regenerating your navigration graph with the latest version of rmf_building_map_tools (from the rmf_traffic_editor repo).
+[INFO] [1781507470.167608694] [iw_hub_fleet_command_handle]: MSE: 0.0
+[INFO] [1781507470.168229425] [iw_hub_fleet_command_handle]: [iw_hub_1] Snapped to graph waypoint 17 on L1
+[INFO] [1781507470.168877514] [iw_hub_fleet_command_handle]: [iw_hub_2] Snapped to graph waypoint 16 on L1
+[INFO] [1781507470.169516598] [iw_hub_fleet_command_handle]: [iw_hub_3] Snapped to graph waypoint 15 on L1
+[INFO] [1781507470.170120252] [iw_hub_fleet_command_handle]: [iw_hub_4] Snapped to graph waypoint 18 on L1
+[INFO] [1781507470.170511912] [iw_hub_fleet_command_handle]: Waiting for initial pose of iw_hub_5...
+[INFO] [1781507471.172554731] [iw_hub_fleet_command_handle]: [iw_hub_5] Snapped to graph waypoint 14 on L1
+[INFO] [1781507471.173918217] [iw_hub_fleet_fleet_adapter]: Mirror handling new sync of 1 queries from schedule node [972391ca-b838-4ac9-b955-a5c9afb7714f]
+[INFO] [1781507471.182875448] [iw_hub_fleet_fleet_adapter]: Added a robot named [iw_hub_1] with participant ID [0]
+[INFO] [1781507471.184765114] [iw_hub_fleet_fleet_adapter]: Beginning a new charging task for robot [iw_hub_fleet/iw_hub_1]
+[INFO] [1781507471.184860335] [iw_hub_fleet_fleet_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_1]
+[INFO] [1781507471.184881421] [iw_hub_fleet_fleet_adapter]: Got distance from [17] as 0.000000
+[INFO] [1781507471.184907268] [iw_hub_fleet_fleet_adapter]: Planning for [iw_hub_fleet/iw_hub_1] to [iw_hub_1_dock] from one of these locations:
+ -- L1 < 0 -0> [iw_hub_1_dock] | on waypoint | orientation 0
+[INFO] [1781507471.185465508] [iw_hub_fleet_command_handle]: [iw_hub_1] Charger set to 'iw_hub_1_dock' = waypoint17
+[INFO] [1781507471.185724781] [iw_hub_fleet_fleet_adapter]: Added a robot named [iw_hub_3] with participant ID [2]
+[INFO] [1781507471.187077196] [iw_hub_fleet_fleet_adapter]: Beginning a new charging task for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1781507471.187145652] [iw_hub_fleet_fleet_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1781507471.187159948] [iw_hub_fleet_fleet_adapter]: Got distance from [15] as 0.000000
+[INFO] [1781507471.187182072] [iw_hub_fleet_fleet_adapter]: Planning for [iw_hub_fleet/iw_hub_3] to [iw_hub_3_dock] from one of these locations:
+ -- L1 <0 6> [iw_hub_3_dock] | on waypoint | orientation 0
+[INFO] [1781507471.187609833] [iw_hub_fleet_command_handle]: [iw_hub_3] Charger set to 'iw_hub_3_dock' = waypoint15
+[INFO] [1781507471.187673827] [iw_hub_fleet_fleet_adapter]: Added a robot named [iw_hub_5] with participant ID [4]
+[INFO] [1781507471.188837426] [iw_hub_fleet_fleet_adapter]: Beginning a new charging task for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507471.188898751] [iw_hub_fleet_fleet_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507471.188912422] [iw_hub_fleet_fleet_adapter]: Got distance from [14] as 0.000000
+[INFO] [1781507471.188933442] [iw_hub_fleet_fleet_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [iw_hub_5_dock] from one of these locations:
+ -- L1 < 0 12> [iw_hub_5_dock] | on waypoint | orientation 0
+[INFO] [1781507471.189327113] [iw_hub_fleet_command_handle]: [iw_hub_5] Charger set to 'iw_hub_5_dock' = waypoint14
+[INFO] [1781507471.189380076] [iw_hub_fleet_fleet_adapter]: Added a robot named [iw_hub_2] with participant ID [1]
+[INFO] [1781507471.190669754] [iw_hub_fleet_fleet_adapter]: Beginning a new charging task for robot [iw_hub_fleet/iw_hub_2]
+[INFO] [1781507471.190731863] [iw_hub_fleet_fleet_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_2]
+[INFO] [1781507471.190745111] [iw_hub_fleet_fleet_adapter]: Got distance from [16] as 0.000000
+[INFO] [1781507471.190769539] [iw_hub_fleet_fleet_adapter]: Planning for [iw_hub_fleet/iw_hub_2] to [iw_hub_2_dock] from one of these locations:
+ -- L1 <0 3> [iw_hub_2_dock] | on waypoint | orientation 0
+[INFO] [1781507471.191316217] [iw_hub_fleet_command_handle]: [iw_hub_2] Charger set to 'iw_hub_2_dock' = waypoint16
+[INFO] [1781507471.191381476] [iw_hub_fleet_fleet_adapter]: Added a robot named [iw_hub_4] with participant ID [3]
+[INFO] [1781507471.193122866] [iw_hub_fleet_fleet_adapter]: Beginning a new charging task for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1781507471.193197155] [iw_hub_fleet_fleet_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1781507471.193212990] [iw_hub_fleet_fleet_adapter]: Got distance from [18] as 0.000000
+[INFO] [1781507471.193239811] [iw_hub_fleet_fleet_adapter]: Planning for [iw_hub_fleet/iw_hub_4] to [iw_hub_4_dock] from one of these locations:
+ -- L1 <0 9> [iw_hub_4_dock] | on waypoint | orientation 0
+[INFO] [1781507471.193823124] [iw_hub_fleet_command_handle]: [iw_hub_4] Charger set to 'iw_hub_4_dock' = waypoint18
+[INFO] [1781507471.193859966] [iw_hub_fleet_fleet_adapter]: Charger waypoint for robot [iw_hub_fleet/iw_hub_1] set to index [17]
+[INFO] [1781507471.193882867] [iw_hub_fleet_fleet_adapter]: Robot [iw_hub_fleet/iw_hub_1] is already at its goal [17]
+[INFO] [1781507471.193904642] [iw_hub_fleet_fleet_adapter]: Charging [iw_hub_fleet/iw_hub_1] to [100.000000]
+[INFO] [1781507471.193947086] [iw_hub_fleet_fleet_adapter]: Robot [iw_hub_1] is waiting to charge. All its mutex groups will be released.
+[INFO] [1781507471.193984685] [iw_hub_fleet_fleet_adapter]: iw_hub_fleet/iw_hub_1: Sending reservation request
+[INFO] [1781507471.194002667] [iw_hub_fleet_fleet_adapter]: Robot [iw_hub_1] has begun waiting for its battery to charge to 100.0%. Please ensure that the robot is charging.
+[INFO] [1781507471.194367594] [iw_hub_fleet_fleet_adapter]: Charger waypoint for robot [iw_hub_fleet/iw_hub_3] set to index [15]
+[INFO] [1781507471.194387790] [iw_hub_fleet_fleet_adapter]: Robot [iw_hub_fleet/iw_hub_3] is already at its goal [15]
+[INFO] [1781507471.194404997] [iw_hub_fleet_fleet_adapter]: Charging [iw_hub_fleet/iw_hub_3] to [100.000000]
+[INFO] [1781507471.194422360] [iw_hub_fleet_fleet_adapter]: Robot [iw_hub_3] is waiting to charge. All its mutex groups will be released.
+[INFO] [1781507471.194445352] [iw_hub_fleet_fleet_adapter]: iw_hub_fleet/iw_hub_3: Sending reservation request
+[INFO] [1781507471.194461807] [iw_hub_fleet_fleet_adapter]: Robot [iw_hub_3] has begun waiting for its battery to charge to 100.0%. Please ensure that the robot is charging.
+[INFO] [1781507471.194554075] [iw_hub_fleet_fleet_adapter]: Charger waypoint for robot [iw_hub_fleet/iw_hub_5] set to index [14]
+[INFO] [1781507471.194571460] [iw_hub_fleet_fleet_adapter]: Robot [iw_hub_fleet/iw_hub_5] is already at its goal [14]
+[INFO] [1781507471.194585634] [iw_hub_fleet_fleet_adapter]: Charging [iw_hub_fleet/iw_hub_5] to [100.000000]
+[INFO] [1781507471.194600793] [iw_hub_fleet_fleet_adapter]: Robot [iw_hub_5] is waiting to charge. All its mutex groups will be released.
+[INFO] [1781507471.194619815] [iw_hub_fleet_fleet_adapter]: iw_hub_fleet/iw_hub_5: Sending reservation request
+[INFO] [1781507471.194639717] [iw_hub_fleet_fleet_adapter]: Robot [iw_hub_5] has begun waiting for its battery to charge to 100.0%. Please ensure that the robot is charging.
+[INFO] [1781507471.194723719] [iw_hub_fleet_fleet_adapter]: Charger waypoint for robot [iw_hub_fleet/iw_hub_2] set to index [16]
+[INFO] [1781507471.194740986] [iw_hub_fleet_fleet_adapter]: Robot [iw_hub_fleet/iw_hub_2] is already at its goal [16]
+[INFO] [1781507471.194755398] [iw_hub_fleet_fleet_adapter]: Charging [iw_hub_fleet/iw_hub_2] to [100.000000]
+[INFO] [1781507471.194769485] [iw_hub_fleet_fleet_adapter]: Robot [iw_hub_2] is waiting to charge. All its mutex groups will be released.
+[INFO] [1781507471.194787711] [iw_hub_fleet_fleet_adapter]: iw_hub_fleet/iw_hub_2: Sending reservation request
+[INFO] [1781507471.194804033] [iw_hub_fleet_fleet_adapter]: Robot [iw_hub_2] has begun waiting for its battery to charge to 100.0%. Please ensure that the robot is charging.
+[INFO] [1781507471.194906521] [iw_hub_fleet_fleet_adapter]: Charger waypoint for robot [iw_hub_fleet/iw_hub_4] set to index [18]
+[INFO] [1781507471.194922967] [iw_hub_fleet_fleet_adapter]: Robot [iw_hub_fleet/iw_hub_4] is already at its goal [18]
+[INFO] [1781507471.194937982] [iw_hub_fleet_fleet_adapter]: Charging [iw_hub_fleet/iw_hub_4] to [100.000000]
+[INFO] [1781507471.194951773] [iw_hub_fleet_fleet_adapter]: Robot [iw_hub_4] is waiting to charge. All its mutex groups will be released.
+[INFO] [1781507471.194969895] [iw_hub_fleet_fleet_adapter]: iw_hub_fleet/iw_hub_4: Sending reservation request
+[INFO] [1781507471.194985054] [iw_hub_fleet_fleet_adapter]: Robot [iw_hub_4] has begun waiting for its battery to charge to 100.0%. Please ensure that the robot is charging.
+[INFO] [1781507471.195059136] [iw_hub_fleet_fleet_adapter]: Reservation Negotiator: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_1]
+[INFO] [1781507471.195074534] [iw_hub_fleet_fleet_adapter]: Got distance from [17] as 0.000000
+[INFO] [1781507471.195148266] [iw_hub_fleet_fleet_adapter]: Reservation Negotiator: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1781507471.195161068] [iw_hub_fleet_fleet_adapter]: Got distance from [15] as 0.000000
+[INFO] [1781507471.195207341] [iw_hub_fleet_fleet_adapter]: Reservation Negotiator: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507471.195219272] [iw_hub_fleet_fleet_adapter]: Got distance from [14] as 0.000000
+[INFO] [1781507471.195264109] [iw_hub_fleet_fleet_adapter]: Reservation Negotiator: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_2]
+[INFO] [1781507471.195281693] [iw_hub_fleet_fleet_adapter]: Got distance from [16] as 0.000000
+[INFO] [1781507471.195327742] [iw_hub_fleet_fleet_adapter]: Reservation Negotiator: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1781507471.195339026] [iw_hub_fleet_fleet_adapter]: Got distance from [18] as 0.000000
+[INFO] [1781507490.060803619] [iw_hub_fleet_fleet_adapter]: Requesting new schedule update because update timed out
+[INFO] [1781507490.060882399] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since beginning of recorded history
+[INFO] [1781507501.236574160] [iw_hub_fleet_fleet_adapter]: [Bidder] Received Bidding notice for task_id [patrol.dispatch-0]
+[INFO] [1781507501.237447863] [iw_hub_fleet_fleet_adapter]: Planning for [5] robot(s) and [1] request(s)
+[INFO] [1781507501.238485232] [iw_hub_fleet_fleet_adapter]: Submitted BidProposal to accommodate task [patrol.dispatch-0] by robot [iw_hub_5] with new cost [10.040588]
+[INFO] [1781507503.436831234] [iw_hub_fleet_fleet_adapter]: Bid for task_id [patrol.dispatch-0] awarded to fleet [iw_hub_fleet]. Processing request...
+[INFO] [1781507503.440433634] [iw_hub_fleet_fleet_adapter]: TaskAssignments updated for robots in fleet [iw_hub_fleet] to accommodate task_id [patrol.dispatch-0]
+[INFO] [1781507503.440650122] [iw_hub_fleet_fleet_adapter]: Beginning next task [patrol.dispatch-0] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507503.440830263] [iw_hub_fleet_fleet_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507503.440858489] [iw_hub_fleet_fleet_adapter]: Got distance from [13] as 6.420345
+[INFO] [1781507503.440897053] [iw_hub_fleet_fleet_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [docking_room_exit] from one of these locations:
+ -- L1 < 0 12> [iw_hub_5_dock] | on waypoint | orientation 0
+[INFO] [1781507503.441002381] [iw_hub_fleet_fleet_adapter]: Beginning new task [patrol.dispatch-0] for [iw_hub_fleet/iw_hub_5]. Remaining queue size: 0
+[INFO] [1781507503.441604259] [iw_hub_fleet_fleet_adapter]: Executing final go_to_place [docking_room_exit] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507503.442028974] [iw_hub_fleet_fleet_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:docking_room_exit] via
+ -- t=0 #14 < 0 12  0> yaw=0 approach lanes:
+ -- t=0.181891 #14 <        0        12 0.0264675> yaw=1.51648 approach lanes:
+ -- t=3.26117 #6 <  3.71762   12.0984 0.0264675> yaw=1.51648 approach lanes: 11
+ -- t=5.4995 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=10.0406 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 9 10
+[INFO] [1781507503.442746964] [iw_hub_fleet_command_handle]: [iw_hub_5] New path received with 5 waypoints.
+[INFO] [1781507503.636527184] [iw_hub_fleet_fleet_adapter]: [Bidder] Received Bidding notice for task_id [patrol.dispatch-1]
+[INFO] [1781507503.637002178] [iw_hub_fleet_fleet_adapter]: Planning for [5] robot(s) and [1] request(s)
+[INFO] [1781507503.637548131] [iw_hub_fleet_fleet_adapter]: Submitted BidProposal to accommodate task [patrol.dispatch-1] by robot [iw_hub_5] with new cost [0.000265]
+[INFO] [1781507503.944054508] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 0 — skipping Nav2, confirming arrival
+[INFO] [1781507503.944445520] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 1 — skipping Nav2, confirming arrival
+[INFO] [1781507503.944721861] [iw_hub_fleet_command_handle]: [iw_hub_5] Navigating to waypoint 2: [3.7176178, 12.098419, 0.026467491404909192]
+[INFO] [1781507503.945185007] [iw_hub_client_api]: [iw_hub_5] Navigating to [3.7176178, 12.098419, 0.026467491404909192]
+[INFO] [1781507505.836574821] [iw_hub_fleet_fleet_adapter]: Bid for task_id [patrol.dispatch-1] awarded to fleet [iw_hub_fleet]. Processing request...
+[INFO] [1781507505.837113147] [iw_hub_fleet_fleet_adapter]: TaskAssignments updated for robots in fleet [iw_hub_fleet] to accommodate task_id [patrol.dispatch-1]
+[INFO] [1781507532.928318257] [iw_hub_client_api]: [iw_hub_5] Reached destination.
+[INFO] [1781507532.981074751] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 3 — skipping Nav2, confirming arrival
+[INFO] [1781507532.981430786] [iw_hub_fleet_command_handle]: [iw_hub_5] Navigating to waypoint 4: [3.4347706, 18.00324, 1.617126619591095]
+[INFO] [1781507532.981695644] [iw_hub_client_api]: [iw_hub_5] Navigating to [3.4347706, 18.00324, 1.617126619591095]
+[INFO] [1781507552.983998658] [iw_hub_fleet_fleet_adapter]: Requesting new schedule update because update timed out
+[INFO] [1781507552.984107678] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since version [14]
+[WARN] [1781507562.981742945] [iw_hub_fleet_fleet_adapter]: Requesting replan for [iw_hub_fleet/iw_hub_5] because its command handle seems to be unresponsive
+[INFO] [1781507562.981856904] [iw_hub_fleet_fleet_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507562.982671626] [iw_hub_fleet_command_handle]: [iw_hub_5] Open-RMF issued STOP. Preempting current path.
+[INFO] [1781507562.983009931] [iw_hub_client_api]: [iw_hub_5] Canceling current goal.
+[INFO] [1781507562.983373271] [iw_hub_fleet_fleet_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [docking_room_exit] from one of these locations:
+ -- L1 <3.71762 12.0984> [#6] | on waypoint | orientation 16.0558
+[INFO] [1781507562.984156601] [iw_hub_fleet_fleet_adapter]: Executing final go_to_place [docking_room_exit] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507562.984764617] [iw_hub_fleet_fleet_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:docking_room_exit] via
+ -- t=0 #6 < 3.71762  12.0984 0.280226> yaw=16.0558 approach lanes:
+ -- t=1.92113 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=6.46219 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 9 10
+[INFO] [1781507562.985290913] [iw_hub_client_api]: [iw_hub_5] Goal successfully canceled.
+[INFO] [1781507562.986077460] [iw_hub_fleet_command_handle]: [iw_hub_5] New path received with 3 waypoints.
+[WARN] [1781507562.994160403] [iw_hub_fleet_fleet_adapter]: Failed to update using patch for DB version 15 (mirror version: none, patch base: 14); requesting new update
+[INFO] [1781507562.994203394] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since beginning of recorded history
+[WARN] [1781507563.005996712] [iw_hub_client_api]: [iw_hub_5] Navigation failed or canceled. Status: 5
+[INFO] [1781507563.487187839] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 0 — skipping Nav2, confirming arrival
+[INFO] [1781507563.487524417] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 1 — skipping Nav2, confirming arrival
+[INFO] [1781507563.487788185] [iw_hub_fleet_command_handle]: [iw_hub_5] Navigating to waypoint 2: [3.4347706, 18.00324, 1.617126619591095]
+[INFO] [1781507563.488019345] [iw_hub_client_api]: [iw_hub_5] Navigating to [3.4347706, 18.00324, 1.617126619591095]
+[WARN] [1781507593.488005306] [iw_hub_fleet_fleet_adapter]: Requesting replan for [iw_hub_fleet/iw_hub_5] because its command handle seems to be unresponsive
+[INFO] [1781507593.488135630] [iw_hub_fleet_fleet_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507593.488817911] [iw_hub_fleet_command_handle]: [iw_hub_5] Open-RMF issued STOP. Preempting current path.
+[INFO] [1781507593.489167228] [iw_hub_client_api]: [iw_hub_5] Canceling current goal.
+[INFO] [1781507593.489500303] [iw_hub_fleet_fleet_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [docking_room_exit] from one of these locations:
+ -- lane 10: { L1 <3.56568 15.1798> [#12] } -> { L1 <3.43477 18.0032> [docking_room_exit] } | location <3.93957 17.0708> | orientation 110.654
+ -- lane 27: { L1 <3.43477 18.0032> [docking_room_exit] } -> { L1 <5.28883 17.9505> [docking_room_entry] } | location <3.93957 17.0708> | orientation 110.654
+[INFO] [1781507593.490644637] [iw_hub_fleet_fleet_adapter]: Executing final go_to_place [docking_room_exit] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507593.490960954] [iw_hub_client_api]: [iw_hub_5] Goal successfully canceled.
+[INFO] [1781507593.491008049] [iw_hub_fleet_fleet_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:docking_room_exit] via
+ -- t=0 <3.93957 17.0708 1.93128> yaw=110.654 approach lanes:
+ -- t=0.411854 <3.93957 17.0708 2.06698> yaw=118.429 approach lanes:
+ -- t=1.71874 #13 <3.43477 18.0032 2.06698> yaw=118.429 approach lanes: 10
+[INFO] [1781507593.491953808] [iw_hub_fleet_command_handle]: [iw_hub_5] New path received with 3 waypoints.
+[WARN] [1781507593.511555025] [iw_hub_client_api]: [iw_hub_5] Navigation failed or canceled. Status: 5
+[INFO] [1781507593.993311962] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 0 — skipping Nav2, confirming arrival
+[INFO] [1781507593.993739367] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 1 — skipping Nav2, confirming arrival
+[INFO] [1781507593.994090955] [iw_hub_fleet_command_handle]: [iw_hub_5] Navigating to waypoint 2: [3.4347706, 18.00324, 2.066983971183701]
+[INFO] [1781507593.994413284] [iw_hub_client_api]: [iw_hub_5] Navigating to [3.4347706, 18.00324, 2.066983971183701]
+[INFO] [1781507604.938102251] [iw_hub_client_api]: [iw_hub_5] Reached destination.
+[INFO] [1781507605.009952321] [iw_hub_fleet_command_handle]: [iw_hub_5] Open-RMF issued STOP. Preempting current path.
+[INFO] [1781507605.010259688] [iw_hub_client_api]: [iw_hub_5] Canceling current goal.
+[WARN] [1781507605.011414253] [iw_hub_client_api]: [iw_hub_5] Goal failed to cancel.
+[INFO] [1781507605.011427899] [iw_hub_fleet_fleet_adapter]: Beginning next task [patrol.dispatch-1] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507605.011582130] [iw_hub_fleet_fleet_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507605.011598630] [iw_hub_fleet_fleet_adapter]: Got distance from [13] as 0.179995
+[INFO] [1781507605.011665067] [iw_hub_fleet_fleet_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [docking_room_exit] from one of these locations:
+ -- lane 10: { L1 <3.56568 15.1798> [#12] } -> { L1 <3.43477 18.0032> [docking_room_exit] } | location <3.62684 17.8135> | orientation 114.364
+ -- lane 27: { L1 <3.43477 18.0032> [docking_room_exit] } -> { L1 <5.28883 17.9505> [docking_room_entry] } | location <3.62684 17.8135> | orientation 114.364
+ -- L1 <3.43477 18.0032> [docking_room_exit] | location <3.62684 17.8135> | orientation 114.364
+[INFO] [1781507605.011772555] [iw_hub_fleet_fleet_adapter]: Beginning new task [patrol.dispatch-1] for [iw_hub_fleet/iw_hub_5]. Remaining queue size: 0
+[INFO] [1781507605.012219906] [iw_hub_fleet_fleet_adapter]: Executing final go_to_place [docking_room_exit] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507605.012492867] [iw_hub_fleet_fleet_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:docking_room_exit] via
+ -- t=0 <3.62684 17.8135 1.99602> yaw=114.364 approach lanes:
+ -- t=0.707798 <3.62684 17.8135 2.36226> yaw=135.348 approach lanes:
+ -- t=1.36506 #13 <3.43477 18.0032 2.36226> yaw=135.348 approach lanes: 10
+[INFO] [1781507605.013056608] [iw_hub_fleet_command_handle]: [iw_hub_5] New path received with 3 waypoints.
+[INFO] [1781507605.514141520] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 0 — skipping Nav2, confirming arrival
+[INFO] [1781507605.514478980] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 1 — skipping Nav2, confirming arrival
+[INFO] [1781507605.514762588] [iw_hub_fleet_command_handle]: [iw_hub_5] Navigating to waypoint 2: [3.4347706, 18.00324, 2.3622599306839547]
+[INFO] [1781507605.514990933] [iw_hub_client_api]: [iw_hub_5] Navigating to [3.4347706, 18.00324, 2.3622599306839547]
+[INFO] [1781507613.097913751] [iw_hub_client_api]: [iw_hub_5] Reached destination.
+[INFO] [1781507613.124978431] [iw_hub_fleet_command_handle]: [iw_hub_5] Open-RMF issued STOP. Preempting current path.
+[INFO] [1781507613.125303242] [iw_hub_client_api]: [iw_hub_5] Canceling current goal.
+[INFO] [1781507613.126107768] [iw_hub_fleet_fleet_adapter]: Beginning a new charging task for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507613.126184253] [iw_hub_fleet_fleet_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507613.126223623] [iw_hub_fleet_fleet_adapter]: Got distance from [14] as 8.533204
+[INFO] [1781507613.126275342] [iw_hub_fleet_fleet_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [iw_hub_5_dock] from one of these locations:
+ -- lane 10: { L1 <3.56568 15.1798> [#12] } -> { L1 <3.43477 18.0032> [docking_room_exit] } | location <3.62684 17.8135> | orientation 114.364
+ -- lane 27: { L1 <3.43477 18.0032> [docking_room_exit] } -> { L1 <5.28883 17.9505> [docking_room_entry] } | location <3.62684 17.8135> | orientation 114.364
+ -- L1 <3.43477 18.0032> [docking_room_exit] | location <3.62684 17.8135> | orientation 114.364
+[WARN] [1781507613.126484642] [iw_hub_client_api]: [iw_hub_5] Goal failed to cancel.
+[INFO] [1781507613.127042636] [iw_hub_fleet_fleet_adapter]: Executing final go_to_place [iw_hub_5_dock] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507613.127396894] [iw_hub_fleet_fleet_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:iw_hub_5_dock] via
+ -- t=0 <3.62684 17.8135 1.99602> yaw=114.364 approach lanes:
+ -- t=2.64223 <  3.62684   17.8135 0.0822405> yaw=4.71204 approach lanes:
+ -- t=4.35398 #10 <  5.28883   17.9505 0.0822405> yaw=4.71204 approach lanes: 27
+ -- t=6.56431 #10 < 5.28883  17.9505 -1.48602> yaw=-85.1428 approach lanes:
+ -- t=9.25102 #11 < 5.55386  14.8316 -1.48602> yaw=-85.1428 approach lanes: 7
+ -- t=9.72611 #11 < 5.55386  14.8316 -1.66659> yaw=-95.4884 approach lanes:
+ -- t=12.1295 #0 < 5.29513  12.1389 -1.66659> yaw=-95.4884 approach lanes: 8
+ -- t=14.1902 #0 < 5.29513  12.1389 -3.11513> yaw=-178.484 approach lanes:
+ -- t=18.3215 #14 <       0       12 -3.11513> yaw=-178.484 approach lanes: 17 18
+[INFO] [1781507613.127934921] [iw_hub_fleet_command_handle]: [iw_hub_5] New path received with 9 waypoints.
+[INFO] [1781507613.629069351] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 0 — skipping Nav2, confirming arrival
+[INFO] [1781507613.629427650] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 1 — skipping Nav2, confirming arrival
+[INFO] [1781507613.629709041] [iw_hub_fleet_command_handle]: [iw_hub_5] Navigating to waypoint 2: [5.288832, 17.95048, 0.08224052673117854]
+[INFO] [1781507613.629961637] [iw_hub_client_api]: [iw_hub_5] Navigating to [5.288832, 17.95048, 0.08224052673117854]
+[INFO] [1781507633.634880326] [iw_hub_fleet_fleet_adapter]: Requesting new schedule update because update timed out
+[INFO] [1781507633.634956796] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since version [37]
+[WARN] [1781507639.534551328] [iw_hub_fleet_fleet_adapter]: Failed to update using patch for DB version 38 (mirror version: none, patch base: 37); requesting new update
+[INFO] [1781507639.534629431] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since beginning of recorded history
+[WARN] [1781507643.630056094] [iw_hub_fleet_fleet_adapter]: Requesting replan for [iw_hub_fleet/iw_hub_5] because its command handle seems to be unresponsive
+[INFO] [1781507643.630188101] [iw_hub_fleet_fleet_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507643.630805581] [iw_hub_fleet_command_handle]: [iw_hub_5] Open-RMF issued STOP. Preempting current path.
+[INFO] [1781507643.631324340] [iw_hub_client_api]: [iw_hub_5] Canceling current goal.
+[INFO] [1781507643.631570402] [iw_hub_fleet_fleet_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [iw_hub_5_dock] from one of these locations:
+ -- lane 7: { L1 <5.28883 17.9505> [docking_room_entry] } -> { L1 <5.55386 14.8316> [#11] } | location <4.99917 17.7871> | orientation -159.957
+ -- lane 27: { L1 <3.43477 18.0032> [docking_room_exit] } -> { L1 <5.28883 17.9505> [docking_room_entry] } | location <4.99917 17.7871> | orientation -159.957
+ -- L1 <5.28883 17.9505> [docking_room_entry] | location <4.99917 17.7871> | orientation -159.957
+[INFO] [1781507643.632287152] [iw_hub_fleet_fleet_adapter]: Executing final go_to_place [iw_hub_5_dock] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507643.632749516] [iw_hub_fleet_fleet_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:iw_hub_5_dock] via
+ -- t=0 < 4.99917  17.7871 -2.79178> yaw=-159.957 approach lanes:
+ -- t=2.00814 < 4.99917  17.7871 -1.38527> yaw=-79.3701 approach lanes:
+ -- t=4.61284 #11 < 5.55386  14.8316 -1.38527> yaw=-79.3701 approach lanes: 7
+ -- t=5.21448 #11 < 5.55386  14.8316 -1.66659> yaw=-95.4884 approach lanes:
+ -- t=7.61792 #0 < 5.29513  12.1389 -1.66659> yaw=-95.4884 approach lanes: 8
+ -- t=9.67859 #0 < 5.29513  12.1389 -3.11513> yaw=-178.484 approach lanes:
+ -- t=13.8099 #14 <       0       12 -3.11513> yaw=-178.484 approach lanes: 17 18
+[INFO] [1781507643.634463224] [iw_hub_fleet_command_handle]: [iw_hub_5] New path received with 7 waypoints.
+[INFO] [1781507643.636290439] [iw_hub_client_api]: [iw_hub_5] Goal successfully canceled.
+[WARN] [1781507643.654240756] [iw_hub_client_api]: [iw_hub_5] Navigation failed or canceled. Status: 5
+[INFO] [1781507644.135700427] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 0 — skipping Nav2, confirming arrival
+[INFO] [1781507644.136121093] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 1 — skipping Nav2, confirming arrival
+[INFO] [1781507644.136419837] [iw_hub_fleet_command_handle]: [iw_hub_5] Navigating to waypoint 2: [5.553863, 14.83165, -1.385270370236287]
+[INFO] [1781507644.136653823] [iw_hub_client_api]: [iw_hub_5] Navigating to [5.553863, 14.83165, -1.385270370236287]
+[INFO] [1781507664.145226254] [iw_hub_fleet_fleet_adapter]: Requesting new schedule update because update timed out
+[INFO] [1781507664.145355139] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since version [42]
+[WARN] [1781507674.136735562] [iw_hub_fleet_fleet_adapter]: Requesting replan for [iw_hub_fleet/iw_hub_5] because its command handle seems to be unresponsive
+[INFO] [1781507674.136863792] [iw_hub_fleet_fleet_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507674.137542899] [iw_hub_fleet_command_handle]: [iw_hub_5] Open-RMF issued STOP. Preempting current path.
+[INFO] [1781507674.137805638] [iw_hub_client_api]: [iw_hub_5] Canceling current goal.
+[INFO] [1781507674.138056265] [iw_hub_fleet_fleet_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [iw_hub_5_dock] from one of these locations:
+ -- lane 7: { L1 <5.28883 17.9505> [docking_room_entry] } -> { L1 <5.55386 14.8316> [#11] } | location <4.78634 15.3572> | orientation -59.2309
+ -- L1 <5.55386 14.8316> [#11] | location <4.78634 15.3572> | orientation -59.2309
+[INFO] [1781507674.138817803] [iw_hub_fleet_fleet_adapter]: Executing final go_to_place [iw_hub_5_dock] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507674.139268303] [iw_hub_fleet_fleet_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:iw_hub_5_dock] via
+ -- t=0 < 4.78634  15.3572 -1.03377> yaw=-59.2309 approach lanes:
+ -- t=0.791693 < 4.78634  15.3572 -0.60042> yaw=-34.4015 approach lanes:
+ -- t=2.01184 #11 < 5.55386  14.8316 -0.60042> yaw=-34.4015 approach lanes: 7
+ -- t=3.59455 #11 < 5.55386  14.8316 -1.66659> yaw=-95.4884 approach lanes:
+ -- t=5.99798 #0 < 5.29513  12.1389 -1.66659> yaw=-95.4884 approach lanes: 8
+ -- t=8.05866 #0 < 5.29513  12.1389 -3.11513> yaw=-178.484 approach lanes:
+ -- t=12.19 #14 <       0       12 -3.11513> yaw=-178.484 approach lanes: 17 18
+[INFO] [1781507674.139317119] [iw_hub_client_api]: [iw_hub_5] Goal successfully canceled.
+[INFO] [1781507674.140176116] [iw_hub_fleet_command_handle]: [iw_hub_5] New path received with 7 waypoints.
+[WARN] [1781507674.145363948] [iw_hub_fleet_fleet_adapter]: Failed to update using patch for DB version 43 (mirror version: none, patch base: 42); requesting new update
+[INFO] [1781507674.145406674] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since beginning of recorded history
+[WARN] [1781507674.159755437] [iw_hub_client_api]: [iw_hub_5] Navigation failed or canceled. Status: 5
+[INFO] [1781507674.641130318] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 0 — skipping Nav2, confirming arrival
+[INFO] [1781507674.641474059] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 1 — skipping Nav2, confirming arrival
+[INFO] [1781507674.642042005] [iw_hub_fleet_command_handle]: [iw_hub_5] Navigating to waypoint 2: [5.553863, 14.83165, -0.600419868777458]
+[INFO] [1781507674.642383973] [iw_hub_client_api]: [iw_hub_5] Navigating to [5.553863, 14.83165, -0.600419868777458]
+[INFO] [1781507694.645383903] [iw_hub_fleet_fleet_adapter]: Requesting new schedule update because update timed out
+[INFO] [1781507694.645476114] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since version [46]
+[WARN] [1781507699.535062703] [iw_hub_fleet_fleet_adapter]: Failed to update using patch for DB version 47 (mirror version: none, patch base: 46); requesting new update
+[INFO] [1781507699.535144268] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since beginning of recorded history
+[WARN] [1781507704.642005479] [iw_hub_fleet_fleet_adapter]: Requesting replan for [iw_hub_fleet/iw_hub_5] because its command handle seems to be unresponsive
+[INFO] [1781507704.642186071] [iw_hub_fleet_fleet_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507704.643021933] [iw_hub_fleet_command_handle]: [iw_hub_5] Open-RMF issued STOP. Preempting current path.
+[INFO] [1781507704.643286526] [iw_hub_client_api]: [iw_hub_5] Canceling current goal.
+[INFO] [1781507704.643555767] [iw_hub_fleet_fleet_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [iw_hub_5_dock] from one of these locations:
+ -- lane 7: { L1 <5.28883 17.9505> [docking_room_entry] } -> { L1 <5.55386 14.8316> [#11] } | location < 4.9392 15.1054> | orientation -57.0979
+ -- L1 <5.55386 14.8316> [#11] | location < 4.9392 15.1054> | orientation -57.0979
+[INFO] [1781507704.644250207] [iw_hub_fleet_fleet_adapter]: Executing final go_to_place [iw_hub_5_dock] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507704.644645201] [iw_hub_fleet_fleet_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:iw_hub_5_dock] via
+ -- t=0 <   4.9392   15.1054 -0.996546> yaw=-57.0979 approach lanes:
+ -- t=0.97193 <   4.9392   15.1054 -0.419001> yaw=-24.007 approach lanes:
+ -- t=2.00952 #11 <  5.55386   14.8316 -0.419001> yaw=-24.007 approach lanes: 7
+ -- t=3.819 #11 < 5.55386  14.8316 -1.66659> yaw=-95.4884 approach lanes:
+ -- t=6.22243 #0 < 5.29513  12.1389 -1.66659> yaw=-95.4884 approach lanes: 8
+ -- t=8.28311 #0 < 5.29513  12.1389 -3.11513> yaw=-178.484 approach lanes:
+ -- t=12.4144 #14 <       0       12 -3.11513> yaw=-178.484 approach lanes: 17 18
+[INFO] [1781507704.646180528] [iw_hub_fleet_command_handle]: [iw_hub_5] New path received with 7 waypoints.
+[INFO] [1781507704.646402151] [iw_hub_client_api]: [iw_hub_5] Goal successfully canceled.
+[WARN] [1781507704.666498883] [iw_hub_client_api]: [iw_hub_5] Navigation failed or canceled. Status: 5
+[INFO] [1781507705.148060044] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 0 — skipping Nav2, confirming arrival
+[INFO] [1781507705.148428777] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 1 — skipping Nav2, confirming arrival
+[INFO] [1781507705.148697564] [iw_hub_fleet_command_handle]: [iw_hub_5] Navigating to waypoint 2: [5.553863, 14.83165, -0.41900136664389537]
+[INFO] [1781507705.148982062] [iw_hub_client_api]: [iw_hub_5] Navigating to [5.553863, 14.83165, -0.41900136664389537]
+[INFO] [1781507725.155604102] [iw_hub_fleet_fleet_adapter]: Requesting new schedule update because update timed out
+[INFO] [1781507725.155696560] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since version [51]
+[WARN] [1781507735.148934561] [iw_hub_fleet_fleet_adapter]: Requesting replan for [iw_hub_fleet/iw_hub_5] because its command handle seems to be unresponsive
+[INFO] [1781507735.149021523] [iw_hub_fleet_fleet_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507735.149472487] [iw_hub_fleet_command_handle]: [iw_hub_5] Open-RMF issued STOP. Preempting current path.
+[INFO] [1781507735.149730453] [iw_hub_client_api]: [iw_hub_5] Canceling current goal.
+[INFO] [1781507735.149968981] [iw_hub_fleet_fleet_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [iw_hub_5_dock] from one of these locations:
+ -- lane 7: { L1 <5.28883 17.9505> [docking_room_entry] } -> { L1 <5.55386 14.8316> [#11] } | location < 4.9392 15.1054> | orientation -57.0979
+ -- L1 <5.55386 14.8316> [#11] | location < 4.9392 15.1054> | orientation -57.0979
+[INFO] [1781507735.150495564] [iw_hub_fleet_fleet_adapter]: Executing final go_to_place [iw_hub_5_dock] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507735.150834730] [iw_hub_fleet_fleet_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:iw_hub_5_dock] via
+ -- t=0 <   4.9392   15.1054 -0.996546> yaw=-57.0979 approach lanes:
+ -- t=0.97193 <   4.9392   15.1054 -0.419001> yaw=-24.007 approach lanes:
+ -- t=2.00952 #11 <  5.55386   14.8316 -0.419001> yaw=-24.007 approach lanes: 7
+ -- t=3.819 #11 < 5.55386  14.8316 -1.66659> yaw=-95.4884 approach lanes:
+ -- t=6.22243 #0 < 5.29513  12.1389 -1.66659> yaw=-95.4884 approach lanes: 8
+ -- t=8.28311 #0 < 5.29513  12.1389 -3.11513> yaw=-178.484 approach lanes:
+ -- t=12.4144 #14 <       0       12 -3.11513> yaw=-178.484 approach lanes: 17 18
+[INFO] [1781507735.152771505] [iw_hub_client_api]: [iw_hub_5] Goal successfully canceled.
+[INFO] [1781507735.153257091] [iw_hub_fleet_command_handle]: [iw_hub_5] New path received with 7 waypoints.
+[WARN] [1781507735.154266341] [iw_hub_client_api]: [iw_hub_5] Navigation failed or canceled. Status: 5
+[WARN] [1781507735.155560127] [iw_hub_fleet_fleet_adapter]: Failed to update using patch for DB version 52 (mirror version: none, patch base: 51); requesting new update
+[INFO] [1781507735.155601154] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since beginning of recorded history
+[INFO] [1781507735.654436521] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 0 — skipping Nav2, confirming arrival
+[INFO] [1781507735.654799895] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 1 — skipping Nav2, confirming arrival
+[INFO] [1781507735.655080805] [iw_hub_fleet_command_handle]: [iw_hub_5] Navigating to waypoint 2: [5.553863, 14.83165, -0.41900136664389537]
+[INFO] [1781507735.655310618] [iw_hub_client_api]: [iw_hub_5] Navigating to [5.553863, 14.83165, -0.41900136664389537]
+[INFO] [1781507755.665841700] [iw_hub_fleet_fleet_adapter]: Requesting new schedule update because update timed out
+[INFO] [1781507755.665959734] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since version [55]
+[WARN] [1781507759.535490218] [iw_hub_fleet_fleet_adapter]: Failed to update using patch for DB version 56 (mirror version: none, patch base: 55); requesting new update
+[INFO] [1781507759.535564742] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since beginning of recorded history
+[WARN] [1781507765.655375356] [iw_hub_fleet_fleet_adapter]: Requesting replan for [iw_hub_fleet/iw_hub_5] because its command handle seems to be unresponsive
+[INFO] [1781507765.655473866] [iw_hub_fleet_fleet_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507765.655946206] [iw_hub_fleet_command_handle]: [iw_hub_5] Open-RMF issued STOP. Preempting current path.
+[INFO] [1781507765.656231835] [iw_hub_client_api]: [iw_hub_5] Canceling current goal.
+[INFO] [1781507765.656527332] [iw_hub_fleet_fleet_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [iw_hub_5_dock] from one of these locations:
+ -- lane 7: { L1 <5.28883 17.9505> [docking_room_entry] } -> { L1 <5.55386 14.8316> [#11] } | location < 4.9392 15.1054> | orientation -57.0979
+ -- L1 <5.55386 14.8316> [#11] | location < 4.9392 15.1054> | orientation -57.0979
+[INFO] [1781507765.657234939] [iw_hub_fleet_fleet_adapter]: Executing final go_to_place [iw_hub_5_dock] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507765.657580486] [iw_hub_fleet_fleet_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:iw_hub_5_dock] via
+ -- t=0 <   4.9392   15.1054 -0.996546> yaw=-57.0979 approach lanes:
+ -- t=0.97193 <   4.9392   15.1054 -0.419001> yaw=-24.007 approach lanes:
+ -- t=2.00952 #11 <  5.55386   14.8316 -0.419001> yaw=-24.007 approach lanes: 7
+ -- t=3.819 #11 < 5.55386  14.8316 -1.66659> yaw=-95.4884 approach lanes:
+ -- t=6.22243 #0 < 5.29513  12.1389 -1.66659> yaw=-95.4884 approach lanes: 8
+ -- t=8.28311 #0 < 5.29513  12.1389 -3.11513> yaw=-178.484 approach lanes:
+ -- t=12.4144 #14 <       0       12 -3.11513> yaw=-178.484 approach lanes: 17 18
+[INFO] [1781507765.659761076] [iw_hub_fleet_command_handle]: [iw_hub_5] New path received with 7 waypoints.
+[INFO] [1781507765.660109011] [iw_hub_client_api]: [iw_hub_5] Goal successfully canceled.
+[WARN] [1781507765.679136860] [iw_hub_client_api]: [iw_hub_5] Navigation failed or canceled. Status: 5
+[INFO] [1781507766.161153501] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 0 — skipping Nav2, confirming arrival
+[INFO] [1781507766.161503750] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 1 — skipping Nav2, confirming arrival
+[INFO] [1781507766.161768565] [iw_hub_fleet_command_handle]: [iw_hub_5] Navigating to waypoint 2: [5.553863, 14.83165, -0.41900136664389537]
+[INFO] [1781507766.161993455] [iw_hub_client_api]: [iw_hub_5] Navigating to [5.553863, 14.83165, -0.41900136664389537]
+[INFO] [1781507770.084125714] [iw_hub_fleet_fleet_adapter]: Cache sizes:
+ - DifferentialDrive: 420
+ - ShortestPath: 111
+ - Euclidean: 0
+[INFO] [1781507786.166312498] [iw_hub_fleet_fleet_adapter]: Requesting new schedule update because update timed out
+[INFO] [1781507786.166397982] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since version [60]
+[WARN] [1781507791.524600837] [iw_hub_client_api]: [iw_hub_5] Navigation failed or canceled. Status: 6
+[INFO] [1781507791.591768869] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 3 — skipping Nav2, confirming arrival
+[INFO] [1781507791.592073820] [iw_hub_fleet_command_handle]: [iw_hub_5] Navigating to waypoint 4: [5.295132, 12.1389, -1.6665865648298643]
+[INFO] [1781507791.592297787] [iw_hub_client_api]: [iw_hub_5] Navigating to [5.295132, 12.1389, -1.6665865648298643]
+[WARN] [1781507791.595978215] [iw_hub_fleet_fleet_adapter]: Failed to update using patch for DB version 64 (mirror version: none, patch base: 60); requesting new update
+[INFO] [1781507791.596028614] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since beginning of recorded history
+[INFO] [1781507811.606340797] [iw_hub_fleet_fleet_adapter]: Requesting new schedule update because update timed out
+[INFO] [1781507811.606424012] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since version [64]
+[INFO] [1781507818.524780002] [iw_hub_client_api]: [iw_hub_5] Reached destination.
+[INFO] [1781507818.622923248] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 5 — skipping Nav2, confirming arrival
+[INFO] [1781507818.623248296] [iw_hub_fleet_command_handle]: [iw_hub_5] Navigating to waypoint 6: [0.0, 12.0, -3.115125162184884]
+[INFO] [1781507818.623478073] [iw_hub_client_api]: [iw_hub_5] Navigating to [0.0, 12.0, -3.115125162184884]
+[WARN] [1781507818.626476933] [iw_hub_fleet_fleet_adapter]: Failed to update using patch for DB version 68 (mirror version: none, patch base: 64); requesting new update
+[INFO] [1781507818.626546042] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since beginning of recorded history
+[INFO] [1781507839.536826688] [iw_hub_fleet_fleet_adapter]: Requesting new schedule update because update timed out
+[INFO] [1781507839.536928164] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since version [69]
+[WARN] [1781507848.623581642] [iw_hub_fleet_fleet_adapter]: Requesting replan for [iw_hub_fleet/iw_hub_5] because its command handle seems to be unresponsive
+[INFO] [1781507848.623697977] [iw_hub_fleet_fleet_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507848.624273597] [iw_hub_fleet_command_handle]: [iw_hub_5] Open-RMF issued STOP. Preempting current path.
+[INFO] [1781507848.624519131] [iw_hub_client_api]: [iw_hub_5] Canceling current goal.
+[INFO] [1781507848.624766482] [iw_hub_fleet_fleet_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [iw_hub_5_dock] from one of these locations:
+ -- L1 <3.71762 12.0984> [#6] | location <4.25016 12.6534> | orientation -0.605336
+ -- lane 9: { L1 <3.71762 12.0984> [#6] } -> { L1 <3.56568 15.1798> [#12] } | location <4.25016 12.6534> | orientation -0.605336
+ -- lane 17: { L1 <5.29513 12.1389> [#0] } -> { L1 <3.71762 12.0984> [#6] } | location <4.25016 12.6534> | orientation -0.605336
+[INFO] [1781507848.625396579] [iw_hub_fleet_fleet_adapter]: Executing final go_to_place [iw_hub_5_dock] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507848.625797799] [iw_hub_fleet_fleet_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:iw_hub_5_dock] via
+ -- t=0 <   4.25016    12.6534 -0.0105651> yaw=-0.605336 approach lanes:
+ -- t=3.15627 < 4.25016  12.6534 -2.33558> yaw=-133.819 approach lanes:
+ -- t=4.26561 #6 < 3.71762  12.0984 -2.33558> yaw=-133.819 approach lanes:
+ -- t=5.49004 #6 < 3.71762  12.0984 -3.11513> yaw=-178.484 approach lanes:
+ -- t=8.56932 #14 <       0       12 -3.11513> yaw=-178.484 approach lanes: 18
+[INFO] [1781507848.626924691] [iw_hub_client_api]: [iw_hub_5] Goal successfully canceled.
+[INFO] [1781507848.627391879] [iw_hub_fleet_command_handle]: [iw_hub_5] New path received with 5 waypoints.
+[WARN] [1781507848.636525413] [iw_hub_fleet_fleet_adapter]: Failed to update using patch for DB version 70 (mirror version: none, patch base: 69); requesting new update
+[INFO] [1781507848.636563313] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since beginning of recorded history
+[WARN] [1781507848.646833666] [iw_hub_client_api]: [iw_hub_5] Navigation failed or canceled. Status: 5
+[INFO] [1781507849.128449155] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 0 — skipping Nav2, confirming arrival
+[INFO] [1781507849.129096273] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 1 — skipping Nav2, confirming arrival
+[INFO] [1781507849.129469344] [iw_hub_fleet_command_handle]: [iw_hub_5] Navigating to waypoint 2: [3.7176178, 12.098419, -2.3355777017388526]
+[INFO] [1781507849.129942238] [iw_hub_client_api]: [iw_hub_5] Navigating to [3.7176178, 12.098419, -2.3355777017388526]
+[INFO] [1781507869.136757682] [iw_hub_fleet_fleet_adapter]: Requesting new schedule update because update timed out
+[INFO] [1781507869.136838705] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since version [73]
+[WARN] [1781507879.129662533] [iw_hub_fleet_fleet_adapter]: Requesting replan for [iw_hub_fleet/iw_hub_5] because its command handle seems to be unresponsive
+[INFO] [1781507879.129793260] [iw_hub_fleet_fleet_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507879.130415346] [iw_hub_fleet_command_handle]: [iw_hub_5] Open-RMF issued STOP. Preempting current path.
+[INFO] [1781507879.130683999] [iw_hub_client_api]: [iw_hub_5] Canceling current goal.
+[INFO] [1781507879.130920470] [iw_hub_fleet_fleet_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [iw_hub_5_dock] from one of these locations:
+ -- L1 <3.71762 12.0984> [#6] | on waypoint | orientation -174.827
+[INFO] [1781507879.131564191] [iw_hub_fleet_fleet_adapter]: Executing final go_to_place [iw_hub_5_dock] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507879.131932112] [iw_hub_fleet_fleet_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:iw_hub_5_dock] via
+ -- t=0 #6 < 3.71762  12.0984 -3.05131> yaw=-174.827 approach lanes:
+ -- t=0.282439 #6 < 3.71762  12.0984 -3.11513> yaw=-178.484 approach lanes:
+ -- t=3.36172 #14 <       0       12 -3.11513> yaw=-178.484 approach lanes: 18
+[INFO] [1781507879.133653207] [iw_hub_fleet_command_handle]: [iw_hub_5] New path received with 3 waypoints.
+[INFO] [1781507879.134042783] [iw_hub_client_api]: [iw_hub_5] Goal successfully canceled.
+[WARN] [1781507879.136861437] [iw_hub_fleet_fleet_adapter]: Failed to update using patch for DB version 74 (mirror version: none, patch base: 73); requesting new update
+[INFO] [1781507879.136890592] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since beginning of recorded history
+[WARN] [1781507879.153827313] [iw_hub_client_api]: [iw_hub_5] Navigation failed or canceled. Status: 5
+[INFO] [1781507879.634933014] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 0 — skipping Nav2, confirming arrival
+[INFO] [1781507879.635323082] [iw_hub_fleet_command_handle]: [iw_hub_5] Yaw-only wp 1 — skipping Nav2, confirming arrival
+[INFO] [1781507879.635649351] [iw_hub_fleet_command_handle]: [iw_hub_5] Navigating to waypoint 2: [0.0, 12.0, -3.115125162184884]
+[INFO] [1781507879.635899730] [iw_hub_client_api]: [iw_hub_5] Navigating to [0.0, 12.0, -3.115125162184884]
+[INFO] [1781507899.637120369] [iw_hub_fleet_fleet_adapter]: Requesting new schedule update because update timed out
+[INFO] [1781507899.637203799] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since version [78]
+[INFO] [1781507908.668785527] [iw_hub_client_api]: [iw_hub_5] Reached destination.
+[INFO] [1781507908.671075270] [iw_hub_fleet_command_handle]: [iw_hub_5] Open-RMF issued STOP. Preempting current path.
+[INFO] [1781507908.671452784] [iw_hub_client_api]: [iw_hub_5] Canceling current goal.
+[INFO] [1781507908.671783676] [iw_hub_fleet_fleet_adapter]: Charging [iw_hub_fleet/iw_hub_5] to [100.000000]
+[INFO] [1781507908.671843919] [iw_hub_fleet_fleet_adapter]: Robot [iw_hub_5] is waiting to charge. All its mutex groups will be released.
+[INFO] [1781507908.671894028] [iw_hub_fleet_fleet_adapter]: iw_hub_fleet/iw_hub_5: Sending reservation request
+[INFO] [1781507908.671913455] [iw_hub_fleet_fleet_adapter]: Robot [iw_hub_5] has begun waiting for its battery to charge to 100.0%. Please ensure that the robot is charging.
+[INFO] [1781507908.672055486] [iw_hub_fleet_fleet_adapter]: Reservation Negotiator: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1781507908.672080996] [iw_hub_fleet_fleet_adapter]: Got distance from [14] as 0.327775
+[WARN] [1781507908.672579643] [iw_hub_client_api]: [iw_hub_5] Goal failed to cancel.
+[WARN] [1781507908.677425272] [iw_hub_fleet_fleet_adapter]: Failed to update using patch for DB version 81 (mirror version: none, patch base: 78); requesting new update
+[INFO] [1781507908.677463072] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since beginning of recorded history
+[INFO] [1781507928.687134560] [iw_hub_fleet_fleet_adapter]: Requesting new schedule update because update timed out
+[INFO] [1781507928.687213591] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since version [81]
+[WARN] [1781507939.537122677] [iw_hub_fleet_fleet_adapter]: Failed to update using patch for DB version 82 (mirror version: none, patch base: 81); requesting new update
+[INFO] [1781507939.537179260] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since beginning of recorded history
+[INFO] [1781507959.547480879] [iw_hub_fleet_fleet_adapter]: Requesting new schedule update because update timed out
+[INFO] [1781507959.547557684] [iw_hub_fleet_fleet_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since version [82]
+
+
+(team_venv) carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ source install/setup.bash
+(team_venv) carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ ros2 run rmf_task_ros2 rmf_task_dispatcher 
+~Initializing Dispatcher Node~
+[INFO] [1781507461.627786560] [rmf_dispatcher_node]:  Declared Time Window Param as: 2.000000 secs
+[INFO] [1781507461.627952339] [rmf_dispatcher_node]:  Declared Terminated Tasks Max Size Param as: 100
+[INFO] [1781507461.627992377] [rmf_dispatcher_node]:  Declared publish_active_tasks_period as: 2 secs
+[INFO] [1781507461.628034166] [rmf_dispatcher_node]:  Use timestamp with task_id: false
+[INFO] [1781507461.628069967] [rmf_dispatcher_node]:  Use unique hex string with task_id: false
+[INFO] [1781507461.637929000] [rmf_dispatcher_node]: Starting task dispatcher node
+[INFO] [1781507501.182557619] [rmf_dispatcher_node]: Add Task [patrol.dispatch-0] to a bidding queue
+[INFO] [1781507501.236079236] [rmf_dispatcher_node]:  - Start new bidding task: patrol.dispatch-0
+[INFO] [1781507501.689693739] [rmf_dispatcher_node]: Add Task [patrol.dispatch-1] to a bidding queue
+[INFO] [1781507503.436178255] [rmf_dispatcher_node]: Determined winning Fleet Adapter: [iw_hub_fleet], from 1 responses
+[INFO] [1781507503.436350911] [rmf_dispatcher_node]: Dispatcher Bidding Result: task [patrol.dispatch-0] is awarded to fleet adapter [iw_hub_fleet], with expected robot [iw_hub_5].
+[INFO] [1781507503.636033203] [rmf_dispatcher_node]:  - Start new bidding task: patrol.dispatch-1
+[INFO] [1781507505.836183878] [rmf_dispatcher_node]: Determined winning Fleet Adapter: [iw_hub_fleet], from 1 responses
+[INFO] [1781507505.836297409] [rmf_dispatcher_node]: Dispatcher Bidding Result: task [patrol.dispatch-1] is awarded to fleet adapter [iw_hub_fleet], with expected robot [iw_hub_5].
+
+
+
+
+
+carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ source install/setup.bash
+carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ ros2 run rmf_traffic_ros2 rmf_traffic_schedule 
+[INFO] [1781507459.514849813] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: Successfully loaded logfile .rmf_schedule_node.yaml 
+[INFO] [1781507459.516519709] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: Set up heartbeat on /rmf_traffic/heartbeat with liveliness lease duration of 10000 ms and deadline of 10000 ms
+[INFO] [1781507459.532161459] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: Beginning traffic schedule node
+[INFO] [1781507470.056482196] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: Registered new query [1]
+[INFO] [1781507470.169475842] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: Registered participant [0] named [iw_hub_1] owned by [iw_hub_fleet]
+[INFO] [1781507470.169902702] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: Registered participant [1] named [iw_hub_2] owned by [iw_hub_fleet]
+[INFO] [1781507470.170068997] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: Registered participant [2] named [iw_hub_3] owned by [iw_hub_fleet]
+[INFO] [1781507470.170699778] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: Registered participant [3] named [iw_hub_4] owned by [iw_hub_fleet]
+[INFO] [1781507471.173813474] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: Registered participant [4] named [iw_hub_5] owned by [iw_hub_fleet]
+[INFO] [1781507490.063032817] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: [ScheduleNode::update_mirrors] Sending remedial update starting from the beginning going to 5 for query 1
+[INFO] [1781507563.003613229] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: [ScheduleNode::update_mirrors] Sending remedial update starting from the beginning going to 15 for query 1
+[INFO] [1781507639.544397056] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: [ScheduleNode::update_mirrors] Sending remedial update starting from the beginning going to 38 for query 1
+[INFO] [1781507674.154583423] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: [ScheduleNode::update_mirrors] Sending remedial update starting from the beginning going to 43 for query 1
+[INFO] [1781507699.544934949] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: [ScheduleNode::update_mirrors] Sending remedial update starting from the beginning going to 47 for query 1
+[INFO] [1781507735.165183569] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: [ScheduleNode::update_mirrors] Sending remedial update starting from the beginning going to 52 for query 1
+[INFO] [1781507759.545457798] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: [ScheduleNode::update_mirrors] Sending remedial update starting from the beginning going to 56 for query 1
+[INFO] [1781507791.605668949] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: [ScheduleNode::update_mirrors] Sending remedial update starting from the beginning going to 64 for query 1
+[INFO] [1781507818.635825358] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: [ScheduleNode::update_mirrors] Sending remedial update starting from the beginning going to 68 for query 1
+[INFO] [1781507848.646042202] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: [ScheduleNode::update_mirrors] Sending remedial update starting from the beginning going to 70 for query 1
+[INFO] [1781507879.146375620] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: [ScheduleNode::update_mirrors] Sending remedial update starting from the beginning going to 74 for query 1
+[INFO] [1781507908.686561741] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: [ScheduleNode::update_mirrors] Sending remedial update starting from the beginning going to 81 for query 1
+[INFO] [1781507939.546867354] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: [ScheduleNode::update_mirrors] Sending remedial update starting from the beginning going to 82 for query 1
+[INFO] [1781507979.557183530] [rmf_traffic_schedule_node_972391ca_b838_4ac9_b955_a5c9afb7714f]: [ScheduleNode::update_mirrors] Sending remedial update starting from the beginning going to 82 for query 1
+
+
+NFO] [1781507442.675568579] [iw_hub_2.waypoint_follower]: Activating
+[component_container_isolated-2] [INFO] [1781507442.675638688] [iw_hub_2.waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[component_container_isolated-3] [INFO] [1781507442.711262952] [iw_hub_3.lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[component_container_isolated-3] [INFO] [1781507442.711333052] [iw_hub_3.lifecycle_manager_navigation]: Managed nodes are active
+[component_container_isolated-3] [INFO] [1781507442.711357240] [iw_hub_3.lifecycle_manager_navigation]: Creating bond timer...
+[component_container_isolated-1] [INFO] [1781507442.714202792] [iw_hub_1.lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[component_container_isolated-1] [INFO] [1781507442.714279036] [iw_hub_1.lifecycle_manager_navigation]: Activating velocity_smoother
+[component_container_isolated-1] [INFO] [1781507442.715148465] [iw_hub_1.velocity_smoother]: Activating
+[component_container_isolated-1] [INFO] [1781507442.715222292] [iw_hub_1.velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[component_container_isolated-4] [INFO] [1781507442.761708794] [iw_hub_4.lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[component_container_isolated-4] [INFO] [1781507442.761770553] [iw_hub_4.lifecycle_manager_navigation]: Activating velocity_smoother
+[component_container_isolated-4] [INFO] [1781507442.762576649] [iw_hub_4.velocity_smoother]: Activating
+[component_container_isolated-4] [INFO] [1781507442.762668629] [iw_hub_4.velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[component_container_isolated-2] [INFO] [1781507442.779527001] [iw_hub_2.lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[component_container_isolated-2] [INFO] [1781507442.779599684] [iw_hub_2.lifecycle_manager_navigation]: Activating velocity_smoother
+[component_container_isolated-2] [INFO] [1781507442.780549749] [iw_hub_2.velocity_smoother]: Activating
+[component_container_isolated-2] [INFO] [1781507442.780621979] [iw_hub_2.velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1781507442.817948075] [iw_hub_1.lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[component_container_isolated-1] [INFO] [1781507442.818003692] [iw_hub_1.lifecycle_manager_navigation]: Managed nodes are active
+[component_container_isolated-1] [INFO] [1781507442.818035583] [iw_hub_1.lifecycle_manager_navigation]: Creating bond timer...
+[component_container_isolated-4] [INFO] [1781507442.865067992] [iw_hub_4.lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[component_container_isolated-4] [INFO] [1781507442.865140108] [iw_hub_4.lifecycle_manager_navigation]: Managed nodes are active
+[component_container_isolated-4] [INFO] [1781507442.865158750] [iw_hub_4.lifecycle_manager_navigation]: Creating bond timer...
+[component_container_isolated-2] [INFO] [1781507442.883326785] [iw_hub_2.lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[component_container_isolated-2] [INFO] [1781507442.883443781] [iw_hub_2.lifecycle_manager_navigation]: Managed nodes are active
+[component_container_isolated-2] [INFO] [1781507442.883469802] [iw_hub_2.lifecycle_manager_navigation]: Creating bond timer...
+[component_container_isolated-5] [INFO] [1781507503.947067138] [iw_hub_5.bt_navigator]: Begin navigating from current location (0.00, 12.00) to (3.72, 12.10)
+[component_container_isolated-5] [INFO] [1781507503.978001840] [iw_hub_5.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-5] [WARN] [1781507503.978111691] [iw_hub_5.controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded goal_checker . This warning will appear once.
+[component_container_isolated-5] [INFO] [1781507505.029572819] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507506.079572525] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507507.079576219] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507508.129578930] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507509.129716830] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507510.179583290] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507511.229611722] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507512.229659528] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507513.279577104] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507514.279575464] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507515.329678597] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507516.329579645] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507517.379575917] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507518.429613305] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507519.429587019] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507520.479574725] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507521.479572470] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507522.529573585] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507523.529535823] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507524.579569034] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507525.629573190] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507526.629574653] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507527.679568896] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507528.679572398] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507529.729576372] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507530.779648048] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507531.779578897] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507532.829574419] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507532.897149572] [iw_hub_5.controller_server]: Reached the goal!
+[component_container_isolated-5] [INFO] [1781507532.927419652] [iw_hub_5.bt_navigator]: Goal succeeded
+[component_container_isolated-5] [INFO] [1781507532.984291836] [iw_hub_5.bt_navigator]: Begin navigating from current location (3.48, 12.03) to (3.43, 18.00)
+[component_container_isolated-5] [INFO] [1781507533.015026643] [iw_hub_5.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-5] [INFO] [1781507534.065965280] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507535.115963108] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507536.115961814] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507537.165966692] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507538.215964696] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507539.215965895] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507540.265968338] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507541.315965205] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507542.315966424] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507543.366015900] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507544.415964198] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507545.415959851] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507546.465998003] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507547.465965859] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507548.515964431] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507549.565965692] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507550.565963446] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507551.615960543] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507552.615967178] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507553.665976162] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507554.715967401] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507555.715964964] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507556.766007509] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507557.765970325] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507558.815966447] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507559.865963443] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507560.915976515] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507561.915969177] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507562.965966076] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [ERROR] [1781507563.004811123] [iw_hub_5.bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[component_container_isolated-5] [INFO] [1781507563.004929823] [iw_hub_5.bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507563.005045955] [iw_hub_5.bt_navigator]: Goal canceled
+[component_container_isolated-5] [INFO] [1781507563.015972468] [iw_hub_5.controller_server]: Goal was canceled. Stopping the robot.
+[component_container_isolated-5] [INFO] [1781507563.016030367] [iw_hub_5.controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507563.489727703] [iw_hub_5.bt_navigator]: Begin navigating from current location (3.94, 12.10) to (3.43, 18.00)
+[component_container_isolated-5] [INFO] [1781507563.520394523] [iw_hub_5.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-5] [INFO] [1781507564.571361177] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507565.621359580] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507566.621356858] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507567.671360157] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507568.671359974] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507569.721362567] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507570.771358278] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507571.771357694] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507572.821358759] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507573.871358057] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507574.871356085] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507575.921355169] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507576.921357178] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507577.971357155] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507579.021357606] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507580.021360136] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507581.071358673] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507582.071357405] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507583.121357109] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507584.171358907] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507585.171362701] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507586.221374965] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507587.221356548] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507588.271374697] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507589.321378528] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507590.321358611] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507591.371399514] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507592.371358263] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507593.421355905] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [ERROR] [1781507593.510253085] [iw_hub_5.bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[component_container_isolated-5] [INFO] [1781507593.510352355] [iw_hub_5.bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507593.510487430] [iw_hub_5.bt_navigator]: Goal canceled
+[component_container_isolated-5] [INFO] [1781507593.521357145] [iw_hub_5.controller_server]: Goal was canceled. Stopping the robot.
+[component_container_isolated-5] [INFO] [1781507593.521410683] [iw_hub_5.controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507593.997093585] [iw_hub_5.bt_navigator]: Begin navigating from current location (3.76, 17.31) to (3.43, 18.00)
+[component_container_isolated-5] [INFO] [1781507594.037617417] [iw_hub_5.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-5] [INFO] [1781507595.088239139] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507596.138238963] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507597.138235470] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507598.188236266] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507599.188243186] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507600.238239617] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507601.288236975] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507602.288237989] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507603.338239035] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507604.338234558] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507604.906286014] [iw_hub_5.controller_server]: Reached the goal!
+[component_container_isolated-5] [INFO] [1781507604.937387435] [iw_hub_5.bt_navigator]: Goal succeeded
+[component_container_isolated-5] [INFO] [1781507605.516419607] [iw_hub_5.bt_navigator]: Begin navigating from current location (3.60, 17.84) to (3.43, 18.00)
+[component_container_isolated-5] [INFO] [1781507605.536926943] [iw_hub_5.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-5] [INFO] [1781507606.587568016] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507607.637567962] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507608.637568336] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507609.687567617] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507610.687571882] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507611.737570015] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507612.787572880] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507613.056880244] [iw_hub_5.controller_server]: Reached the goal!
+[component_container_isolated-5] [INFO] [1781507613.096883810] [iw_hub_5.bt_navigator]: Goal succeeded
+[component_container_isolated-5] [INFO] [1781507613.631364778] [iw_hub_5.bt_navigator]: Begin navigating from current location (3.57, 17.94) to (5.29, 17.95)
+[component_container_isolated-5] [INFO] [1781507613.652006223] [iw_hub_5.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-5] [INFO] [1781507614.702638849] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507615.752640338] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507616.752642305] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507617.802646639] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507618.802641986] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507619.852670796] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507620.902644831] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507621.902644340] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507622.952651240] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507623.952641588] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507625.002647354] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507626.052646938] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507627.052636868] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507628.102642705] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507629.102643035] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507630.152654195] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507631.152648892] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507632.202642982] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507633.252666698] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507634.252651692] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507635.302642956] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507636.302643883] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507637.352652651] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507638.402646738] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507639.402641621] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507640.452663911] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507641.452668612] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507642.502649701] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507643.552652771] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507643.652651161] [iw_hub_5.controller_server]: Goal was canceled. Stopping the robot.
+[component_container_isolated-5] [INFO] [1781507643.652716076] [iw_hub_5.controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507643.652877475] [iw_hub_5.bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507643.653051837] [iw_hub_5.bt_navigator]: Goal canceled
+[component_container_isolated-5] [INFO] [1781507644.138253907] [iw_hub_5.bt_navigator]: Begin navigating from current location (5.16, 17.87) to (5.55, 14.83)
+[component_container_isolated-5] [INFO] [1781507644.208991895] [iw_hub_5.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-5] [INFO] [1781507645.309870235] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507646.359713527] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507647.459713999] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507648.559710984] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507649.609712885] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507650.709710890] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507651.759711263] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507652.859708892] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507653.959711605] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507655.009707191] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507656.109745064] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507657.159714490] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507658.259741269] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507659.309710246] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507660.409716666] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507661.459712024] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507662.559709133] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507663.609715363] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507664.709716248] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507665.759715498] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507666.859711801] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507667.909713492] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507669.009710882] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507670.059712623] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507671.159713101] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507672.209715156] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507673.309732218] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [ERROR] [1781507674.158785455] [iw_hub_5.bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[component_container_isolated-5] [INFO] [1781507674.158885721] [iw_hub_5.bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507674.159009197] [iw_hub_5.bt_navigator]: Goal canceled
+[component_container_isolated-5] [INFO] [1781507674.159713652] [iw_hub_5.controller_server]: Goal was canceled. Stopping the robot.
+[component_container_isolated-5] [INFO] [1781507674.159762290] [iw_hub_5.controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507674.644487465] [iw_hub_5.bt_navigator]: Begin navigating from current location (4.97, 15.09) to (5.55, 14.83)
+[component_container_isolated-5] [INFO] [1781507674.715136188] [iw_hub_5.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-5] [INFO] [1781507675.815810265] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507676.915818785] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507677.965806661] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507679.065807372] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507680.115804978] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507681.215810327] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507682.265805616] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507683.365808675] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507684.465824002] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507685.515810838] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507686.615812408] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507687.665805509] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507688.765845274] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507689.865808584] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507690.915809814] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507692.015810758] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507693.065809530] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507694.165841570] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507695.215806649] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507696.315809470] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507697.415808338] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507698.465813052] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507699.565809862] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507700.615807512] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507701.715813783] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507702.815806945] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507703.865807336] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [ERROR] [1781507704.665048061] [iw_hub_5.bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[component_container_isolated-5] [INFO] [1781507704.665191448] [iw_hub_5.bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507704.665383552] [iw_hub_5.bt_navigator]: Goal canceled
+[component_container_isolated-5] [INFO] [1781507704.665809209] [iw_hub_5.controller_server]: Goal was canceled. Stopping the robot.
+[component_container_isolated-5] [INFO] [1781507704.665850332] [iw_hub_5.controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507705.151330707] [iw_hub_5.bt_navigator]: Begin navigating from current location (5.08, 14.89) to (5.55, 14.83)
+[component_container_isolated-5] [INFO] [1781507705.202027867] [iw_hub_5.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-5] [INFO] [1781507706.302647101] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507707.402697201] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507708.452645315] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507709.552646263] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507710.602643328] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507711.702638233] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507712.752657051] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507713.852668266] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507714.902642255] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507716.002656433] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507717.102643502] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507718.152652042] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507719.252639171] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507720.302643106] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507721.402642399] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507722.502644979] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507723.552651727] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507724.652643904] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507725.702655979] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507726.802651335] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507727.902640239] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507728.952646666] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507730.052644579] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507731.102643397] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507732.202641232] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507733.302649185] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507734.352650710] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507735.152643938] [iw_hub_5.controller_server]: Goal was canceled. Stopping the robot.
+[component_container_isolated-5] [INFO] [1781507735.152696459] [iw_hub_5.controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507735.152884589] [iw_hub_5.bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507735.153048415] [iw_hub_5.bt_navigator]: Goal canceled
+[component_container_isolated-5] [INFO] [1781507735.656853408] [iw_hub_5.bt_navigator]: Begin navigating from current location (5.08, 14.89) to (5.55, 14.83)
+[component_container_isolated-5] [INFO] [1781507735.727586627] [iw_hub_5.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-5] [INFO] [1781507736.828300059] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507737.928283164] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507738.978283933] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507740.078284674] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507741.128287473] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507742.228283255] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507743.328290062] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507744.378281498] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507745.478280794] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507746.528280409] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507747.628281328] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507748.678283877] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507749.778283457] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507750.828282626] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507751.928283782] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507753.028287316] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507754.078284132] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507755.178280868] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507756.228281834] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507757.328281464] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507758.428297496] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507759.478280746] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507760.578282777] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507761.628282109] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507762.728289962] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507763.828246776] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507764.878280536] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [ERROR] [1781507765.677444303] [iw_hub_5.bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[component_container_isolated-5] [INFO] [1781507765.677589294] [iw_hub_5.bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507765.677774057] [iw_hub_5.bt_navigator]: Goal canceled
+[component_container_isolated-5] [INFO] [1781507765.678281333] [iw_hub_5.controller_server]: Goal was canceled. Stopping the robot.
+[component_container_isolated-5] [INFO] [1781507765.678327178] [iw_hub_5.controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507766.163604268] [iw_hub_5.bt_navigator]: Begin navigating from current location (5.08, 14.89) to (5.55, 14.83)
+[component_container_isolated-5] [INFO] [1781507766.224539573] [iw_hub_5.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-5] [INFO] [1781507767.325207107] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507768.425203996] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507769.475203305] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507770.575204481] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507771.625205349] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507772.725214219] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507773.775205163] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507774.875207522] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507775.925200976] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507777.025208216] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507778.125209054] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507779.175208504] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507780.275207393] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507781.325205392] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507782.425205876] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507783.525209056] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507784.575206460] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507785.675209954] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507786.725204639] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507787.825212576] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507788.875205357] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507789.975212536] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507791.075209217] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507791.523843668] [iw_hub_5.bt_navigator]: Received goal preemption request
+[component_container_isolated-5] [INFO] [1781507791.524018875] [iw_hub_5.bt_navigator]: Begin navigating from current location (5.08, 14.89) to (5.41, 14.89)
+[component_container_isolated-5] [INFO] [1781507791.593814578] [iw_hub_5.bt_navigator]: Received goal preemption request
+[component_container_isolated-5] [INFO] [1781507791.593947348] [iw_hub_5.bt_navigator]: Begin navigating from current location (5.08, 14.89) to (5.30, 12.14)
+[component_container_isolated-5] [INFO] [1781507792.075212446] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507793.125203900] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507794.175208901] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507795.175213591] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507796.225209949] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507797.225207242] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507798.275207127] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507799.325207010] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507800.325211701] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507801.375214864] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507802.375204304] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507803.425205929] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507804.475207603] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507805.475202497] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507806.525205562] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507807.525200309] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507808.575209290] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507809.625207234] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507810.625214209] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507811.675207278] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507812.675207706] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507813.725207559] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507814.775208728] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507815.775206933] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507816.825208494] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507817.875205857] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507818.493349053] [iw_hub_5.controller_server]: Reached the goal!
+[component_container_isolated-5] [INFO] [1781507818.524225755] [iw_hub_5.bt_navigator]: Goal succeeded
+[component_container_isolated-5] [INFO] [1781507818.625118167] [iw_hub_5.bt_navigator]: Begin navigating from current location (5.42, 12.35) to (0.00, 12.00)
+[component_container_isolated-5] [INFO] [1781507818.656179018] [iw_hub_5.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-5] [INFO] [1781507819.706974569] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507820.756971109] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507821.756973122] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507822.806970990] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507823.856969968] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507824.856977819] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507825.906968136] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507826.906965378] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507827.956967972] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507829.006969505] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507830.006971346] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507831.057023019] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507832.056973217] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507833.106969950] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507834.156973316] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507835.156969445] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507836.206967973] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507837.206967603] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507838.256979325] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507839.306970887] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507840.306968557] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507841.356968794] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507842.356974254] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507843.406968253] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507844.456975571] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507845.456970003] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507846.506981291] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507847.506969705] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507848.556974088] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [ERROR] [1781507848.645852911] [iw_hub_5.bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[component_container_isolated-5] [INFO] [1781507848.645945693] [iw_hub_5.bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507848.646074499] [iw_hub_5.bt_navigator]: Goal canceled
+[component_container_isolated-5] [INFO] [1781507848.656973633] [iw_hub_5.controller_server]: Goal was canceled. Stopping the robot.
+[component_container_isolated-5] [INFO] [1781507848.657028744] [iw_hub_5.controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507849.131973552] [iw_hub_5.bt_navigator]: Begin navigating from current location (4.06, 12.65) to (3.72, 12.10)
+[component_container_isolated-5] [INFO] [1781507849.152772980] [iw_hub_5.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-5] [INFO] [1781507850.203459020] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507851.253469704] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507852.253462714] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507853.303463220] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507854.353468225] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507855.353454971] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507856.403455304] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507857.403460398] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507858.453460950] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507859.503463086] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507860.503547570] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507861.553463491] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507862.553462332] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507863.603461352] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507864.653459944] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507865.653459975] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507866.703456277] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507867.703460079] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507868.753462375] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507869.803528474] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507870.803456111] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507871.853462213] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507872.853463009] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507873.903457463] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507874.953459192] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507875.953415673] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507877.003456811] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507878.003459799] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507879.053464726] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [ERROR] [1781507879.152739587] [iw_hub_5.bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[component_container_isolated-5] [INFO] [1781507879.152853514] [iw_hub_5.bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507879.153462581] [iw_hub_5.controller_server]: Goal was canceled. Stopping the robot.
+[component_container_isolated-5] [INFO] [1781507879.153506805] [iw_hub_5.controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[component_container_isolated-5] [INFO] [1781507879.153606529] [iw_hub_5.bt_navigator]: Goal canceled
+[component_container_isolated-5] [INFO] [1781507879.637575819] [iw_hub_5.bt_navigator]: Begin navigating from current location (3.62, 12.18) to (0.00, 12.00)
+[component_container_isolated-5] [INFO] [1781507879.658846885] [iw_hub_5.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-5] [INFO] [1781507880.709649742] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507881.759640887] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507882.759639994] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507883.809652821] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507884.809646965] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507885.859642033] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507886.909646633] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507887.909642182] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507888.959651031] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507889.959641125] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507891.009646611] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507892.059669098] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507893.059653447] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507894.109645484] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507895.109648801] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507896.159641999] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507897.209644952] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507898.209648373] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507899.259647063] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507900.259647718] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507901.309651183] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507902.359646927] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507903.359659611] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507904.409653413] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507905.409640832] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507906.459636074] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507907.509642977] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507908.509646220] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507908.631840402] [iw_hub_5.controller_server]: Reached the goal!
+[component_container_isolated-5] [INFO] [1781507908.668163277] [iw_hub_5.bt_navigator]: Goal succeeded
+[component_container_isolated-5] [INFO] [1781507917.860002621] [iw_hub_5.bt_navigator]: Begin navigating from current location (0.21, 11.97) to (-0.10, 11.93)
+[component_container_isolated-5] [INFO] [1781507917.880793954] [iw_hub_5.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-5] [INFO] [1781507918.931428455] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507919.981403596] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507920.981401660] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507922.031414744] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507923.031401544] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507924.081401186] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507925.131403728] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507926.131400325] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507927.181406882] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507928.181399918] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507929.231407291] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507930.281471189] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507931.281409909] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507932.331398367] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507933.381398935] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507934.381402506] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507935.431404984] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507936.431395750] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507937.481399473] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507938.531410635] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507939.531415721] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507940.581413988] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507941.581416975] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507942.631402019] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507943.681412071] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507944.681401693] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507945.731404171] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507946.731399599] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507947.781401541] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507948.831402878] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507949.831402131] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507950.881409022] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507951.881401665] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507952.931402259] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507953.981400172] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507954.981376402] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507956.031397894] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507957.031400450] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507958.081408113] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1781507958.547559774] [iw_hub_5.controller_server]: Reached the goal!
+[component_container_isolated-5] [INFO] [1781507958.580234137] [iw_hub_5.bt_navigator]: Goal succeeded
+

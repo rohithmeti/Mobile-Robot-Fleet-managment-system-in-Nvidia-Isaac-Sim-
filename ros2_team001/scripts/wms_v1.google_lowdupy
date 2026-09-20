@@ -1,0 +1,64 @@
+import rclpy
+from rclpy.qos import QoSProfile, ReliabilityPolicy, DurabilityPolicy
+from rmf_task_msgs.msg import ApiRequest
+import json
+import time
+import uuid
+
+def main():
+    rclpy.init()
+    node = rclpy.create_node('wms_task_generator')
+
+    qos = QoSProfile(
+        depth=10,
+        reliability=ReliabilityPolicy.RELIABLE,
+        durability=DurabilityPolicy.TRANSIENT_LOCAL
+    )
+    pub = node.create_publisher(ApiRequest, '/task_api_requests', qos)
+    time.sleep(1.0)
+
+    # Grab the actual simulation time to satisfy the JSON schema
+    current_sim_time_ms = int(node.get_clock().now().nanoseconds / 1000000)
+
+    # --- TASK 1: Open Auction for the Exit ---
+    payload_1 = {
+        "type": "dispatch_task_request",
+        "request": {
+            "unix_millis_earliest_start_time": current_sim_time_ms,
+            "category": "patrol",
+            "description": {
+                "places": ["docking_room_exit"],
+                "rounds": 1
+            }
+        }
+    }
+    msg_1 = ApiRequest()
+    msg_1.request_id = "wms_exit_A_" + str(uuid.uuid4())[:8]
+    msg_1.json_msg = json.dumps(payload_1)
+    pub.publish(msg_1)
+    node.get_logger().info("Dispatched Task 1 to network for bidding.")
+
+    time.sleep(0.5)
+
+    # --- TASK 2: Open Auction for the Exit ---
+    payload_2 = {
+        "type": "dispatch_task_request",
+        "request": {
+            "unix_millis_earliest_start_time": current_sim_time_ms,
+            "category": "patrol",
+            "description": {
+                "places": ["docking_room_exit"],
+                "rounds": 1
+            }
+        }
+    }
+    msg_2 = ApiRequest()
+    msg_2.request_id = "wms_exit_B_" + str(uuid.uuid4())[:8]
+    msg_2.json_msg = json.dumps(payload_2)
+    pub.publish(msg_2)
+    node.get_logger().info("Dispatched Task 2 to network for bidding.")
+
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

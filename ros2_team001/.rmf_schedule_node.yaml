@@ -1,0 +1,75 @@
+- operation: Add
+  participant_description:
+    name: iw_hub_1
+    group: iw_hub_fleet
+    responsiveness: Responsive
+    profile:
+      footprint:
+        type: Circle
+        index: 0
+      vicinity:
+        type: Circle
+        index: 1
+      shape_context:
+        - 1.1599999999999999
+        - 1.5
+- operation: Add
+  participant_description:
+    name: iw_hub_2
+    group: iw_hub_fleet
+    responsiveness: Responsive
+    profile:
+      footprint:
+        type: Circle
+        index: 0
+      vicinity:
+        type: Circle
+        index: 1
+      shape_context:
+        - 1.1599999999999999
+        - 1.5
+- operation: Add
+  participant_description:
+    name: iw_hub_3
+    group: iw_hub_fleet
+    responsiveness: Responsive
+    profile:
+      footprint:
+        type: Circle
+        index: 0
+      vicinity:
+        type: Circle
+        index: 1
+      shape_context:
+        - 1.1599999999999999
+        - 1.5
+- operation: Add
+  participant_description:
+    name: iw_hub_4
+    group: iw_hub_fleet
+    responsiveness: Responsive
+    profile:
+      footprint:
+        type: Circle
+        index: 0
+      vicinity:
+        type: Circle
+        index: 1
+      shape_context:
+        - 1.1599999999999999
+        - 1.5
+- operation: Add
+  participant_description:
+    name: iw_hub_5
+    group: iw_hub_fleet
+    responsiveness: Responsive
+    profile:
+      footprint:
+        type: Circle
+        index: 0
+      vicinity:
+        type: Circle
+        index: 1
+      shape_context:
+        - 1.1599999999999999
+        - 1.5

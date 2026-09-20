@@ -1,0 +1,41 @@
+coordinate_system: reference_image
+crowd_sim:
+  agent_groups:
+    - {agents_name: [], agents_number: 0, group_id: 0, profile_selector: external_agent, state_selector: external_static, x: 0, y: 0}
+  agent_profiles:
+    - {ORCA_tau: 1, ORCA_tauObst: 0.40000000000000002, class: 1, max_accel: 0, max_angle_vel: 0, max_neighbors: 10, max_speed: 0, name: external_agent, neighbor_dist: 5, obstacle_set: 1, pref_speed: 0, r: 0.25}
+  enable: 0
+  goal_sets: []
+  model_types: []
+  obstacle_set: {class: 1, file_name: L1_navmesh.nav, type: nav_mesh}
+  states:
+    - {final: 1, goal_set: -1, name: external_static, navmesh_file_name: ""}
+  transitions: []
+  update_time_step: 0.10000000000000001
+graphs:
+  {}
+levels:
+  L1:
+    drawing:
+      filename: src/iw_hub_navigation/maps/my_warehouse_map.png
+      pose: [-23.7, -5.88, 0.0]
+    elevation: 0
+    layers:
+      {}
+vertices:
+      - [0.0, 0.0, 0.0, "iw_hub_1_charger", {is_charger: [4, true]}]
+      - [-3.0, 0.0, 0.0, "iw_hub_2_charger", {is_charger: [4, true]}]
+      - [-6.0, 0.0, 0.0, "iw_hub_3_charger", {is_charger: [4, true]}]
+      - [-9.0, 0.0, 0.0, "iw_hub_4_charger", {is_charger: [4, true]}]
+      - [-12.0, 0.0, 0.0, "iw_hub_5_charger", {is_charger: [4, true]}]
+      - [-6.0, -5.0, 0.0, "hub"]
+      - [0.0, -5.0, 0.0, "delivery_point"]
+    lanes:
+      - [0, 5, {bidirectional: [4, true], graph_idx: [2, 0]}]
+      - [1, 5, {bidirectional: [4, true], graph_idx: [2, 0]}]
+      - [2, 5, {bidirectional: [4, true], graph_idx: [2, 0]}]
+      - [3, 5, {bidirectional: [4, true], graph_idx: [2, 0]}]
+      - [4, 5, {bidirectional: [4, true], graph_idx: [2, 0]}]
+      - [5, 6, {bidirectional: [4, true], graph_idx: [2, 0]}]
+lifts: {}
+name: iw_hub_warehouse

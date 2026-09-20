@@ -1,0 +1,1348 @@
+/L99
+
+
+carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ cd ~/ros2_team001
+source install/setup.bash
+source ~/ros2_team001/team_venv/bin/activate
+(team_venv) carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ ros2 run iw_fleet_adapter fleet_adapter \
+  -c ~/ros2_team001/src/iw_fleet_adapter/iw_hub_fleet_config.yaml \un iw_fleet_adapter fleet_adapter \
+  -n ~/ros2_team001/src/iw_fleet_adapter/0.yaml
+[WARN] [1782948234.881961058] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[INFO] [1782948234.920285764] [iw_hub_fleet_easy_adapter]: Parameter [discovery_timeout] set to: 60.000000
+[INFO] [1782948234.933443221] [iw_hub_fleet_easy_adapter]: Registering to query topic rmf_traffic/query_update_1
+Your navigation graph does not provide lift information. This may cause problems with behaviors around lifts. Please consider regenerating your navigration graph with the latest version of rmf_building_map_tools (from the rmf_traffic_editor repo).
+Your navigation graph does not provide door information. This may cause problems with behaviors around doors. Please consider regenerating your navigration graph with the latest version of rmf_building_map_tools (from the rmf_traffic_editor repo).
+[retreat_to_charger_interval] value is not provided, default to 10 seconds
+Default fleet finishing task set to [park]
+[WARN] [1782948235.074949837] [iw_hub_fleet_easy_adapter]: [FleetUpdateHandle::set_retreat_to_charger_interval] This parameter is no longer being used.
+[INFO] [1782948235.075035521] [iw_hub_fleet_easy_adapter]: Fleet [iw_hub_fleet] is configured to perform delivery tasks
+[INFO] [1782948235.075053179] [iw_hub_fleet_easy_adapter]: Fleet [iw_hub_fleet] is configured to perform patrol tasks
+[INFO] [1782948235.075081462] [iw_hub_fleet_easy_adapter]: Finished configuring Easy Full Control adapter for fleet [iw_hub_fleet]
+[INFO] [1782948235.075240698] [iw_hub_fleet_easy_adapter]: Adding robot [iw_hub_1] to fleet [iw_hub_fleet].
+[INFO] [1782948235.075648762] [iw_hub_fleet_easy_adapter]: Adding robot [iw_hub_2] to fleet [iw_hub_fleet].
+[INFO] [1782948235.075917922] [iw_hub_fleet_easy_adapter]: Adding robot [iw_hub_3] to fleet [iw_hub_fleet].
+[INFO] [1782948235.076159384] [iw_hub_fleet_easy_adapter]: Adding robot [iw_hub_4] to fleet [iw_hub_fleet].
+[INFO] [1782948235.076407195] [iw_hub_fleet_easy_adapter]: Adding robot [iw_hub_5] to fleet [iw_hub_fleet].
+[INFO] [1782948235.077619491] [iw_hub_fleet_easy_adapter]: Mirror handling new sync of 1 queries from schedule node [69c2c471-7fb9-4bda-aa19-d4d03aeb20ba]
+[INFO] [1782948235.087789440] [iw_hub_fleet_easy_adapter]: Added a robot named [iw_hub_1] with participant ID [0]
+[INFO] [1782948235.091024909] [iw_hub_fleet_easy_adapter]: Beginning a new parking task for robot [iw_hub_fleet/iw_hub_1]
+[INFO] [1782948235.091111366] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [17] for robot [iw_hub_fleet/iw_hub_1]
+[INFO] [1782948235.091183264] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_1]
+[INFO] [1782948235.091203552] [iw_hub_fleet_easy_adapter]: Got distance from [17] as 0.000000
+[INFO] [1782948235.091242433] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_1] to [iw_hub_1_dock] from one of these locations:
+ -- L1 < 0 -0> [iw_hub_1_dock] | on waypoint | orientation 0
+[INFO] [1782948235.092546581] [iw_hub_fleet_easy_adapter]: Added a robot named [iw_hub_3] with participant ID [2]
+[INFO] [1782948235.094691044] [iw_hub_fleet_easy_adapter]: Beginning a new parking task for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948235.094755141] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [15] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948235.094806814] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948235.094822799] [iw_hub_fleet_easy_adapter]: Got distance from [15] as 0.000000
+[INFO] [1782948235.094854285] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_3] to [iw_hub_3_dock] from one of these locations:
+ -- L1 <0 6> [iw_hub_3_dock] | on waypoint | orientation 0
+[INFO] [1782948235.095017562] [iw_hub_fleet_easy_adapter]: Added a robot named [iw_hub_2] with participant ID [1]
+[INFO] [1782948235.096829336] [iw_hub_fleet_easy_adapter]: Beginning a new parking task for robot [iw_hub_fleet/iw_hub_2]
+[INFO] [1782948235.096895264] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [16] for robot [iw_hub_fleet/iw_hub_2]
+[INFO] [1782948235.096960514] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_2]
+[INFO] [1782948235.096997661] [iw_hub_fleet_easy_adapter]: Got distance from [16] as 0.000000
+[INFO] [1782948235.097036991] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_2] to [iw_hub_2_dock] from one of these locations:
+ -- L1 <0 3> [iw_hub_2_dock] | on waypoint | orientation 0
+[INFO] [1782948235.097237897] [iw_hub_fleet_easy_adapter]: Added a robot named [iw_hub_4] with participant ID [3]
+[INFO] [1782948235.098996343] [iw_hub_fleet_easy_adapter]: Beginning a new parking task for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948235.099049208] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [18] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948235.099097470] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948235.099111240] [iw_hub_fleet_easy_adapter]: Got distance from [18] as 0.000000
+[INFO] [1782948235.099140888] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_4] to [iw_hub_4_dock] from one of these locations:
+ -- L1 <0 9> [iw_hub_4_dock] | on waypoint | orientation 0
+[INFO] [1782948235.099280205] [iw_hub_fleet_easy_adapter]: Added a robot named [iw_hub_5] with participant ID [4]
+[INFO] [1782948235.100848377] [iw_hub_fleet_easy_adapter]: Beginning a new parking task for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782948235.100902729] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [14] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782948235.100954733] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782948235.100977872] [iw_hub_fleet_easy_adapter]: Got distance from [14] as 0.000000
+[INFO] [1782948235.101009294] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [iw_hub_5_dock] from one of these locations:
+ -- L1 < 0 12> [iw_hub_5_dock] | on waypoint | orientation 0
+[INFO] [1782948235.101146901] [iw_hub_fleet_easy_adapter]: Successfully added robot [iw_hub_1] to the fleet [iw_hub_fleet].
+[INFO] [1782948235.101180151] [iw_hub_fleet_easy_adapter]: Robot [iw_hub_fleet/iw_hub_1] is already at its goal [17]
+[INFO] [1782948235.101634280] [iw_hub_fleet_easy_adapter]: Successfully added robot [iw_hub_3] to the fleet [iw_hub_fleet].
+[INFO] [1782948235.101657545] [iw_hub_fleet_easy_adapter]: Robot [iw_hub_fleet/iw_hub_3] is already at its goal [15]
+[INFO] [1782948235.101748020] [iw_hub_fleet_easy_adapter]: Successfully added robot [iw_hub_2] to the fleet [iw_hub_fleet].
+[INFO] [1782948235.101770377] [iw_hub_fleet_easy_adapter]: Robot [iw_hub_fleet/iw_hub_2] is already at its goal [16]
+[INFO] [1782948235.101842672] [iw_hub_fleet_easy_adapter]: Successfully added robot [iw_hub_4] to the fleet [iw_hub_fleet].
+[INFO] [1782948235.101862095] [iw_hub_fleet_easy_adapter]: Robot [iw_hub_fleet/iw_hub_4] is already at its goal [18]
+[INFO] [1782948235.101933393] [iw_hub_fleet_easy_adapter]: Successfully added robot [iw_hub_5] to the fleet [iw_hub_fleet].
+[INFO] [1782948235.101977242] [iw_hub_fleet_easy_adapter]: Charger waypoint for robot [iw_hub_fleet/iw_hub_1] set to index [17]
+[INFO] [1782948235.102014140] [iw_hub_fleet_easy_adapter]: Robot [iw_hub_fleet/iw_hub_5] is already at its goal [14]
+[INFO] [1782948235.102089471] [iw_hub_fleet_easy_adapter]: Charger waypoint for robot [iw_hub_fleet/iw_hub_3] set to index [15]
+[INFO] [1782948235.102131406] [iw_hub_fleet_easy_adapter]: Charger waypoint for robot [iw_hub_fleet/iw_hub_2] set to index [16]
+[INFO] [1782948235.102174093] [iw_hub_fleet_easy_adapter]: Charger waypoint for robot [iw_hub_fleet/iw_hub_4] set to index [18]
+[INFO] [1782948235.102212212] [iw_hub_fleet_easy_adapter]: Charger waypoint for robot [iw_hub_fleet/iw_hub_5] set to index [14]
+[INFO] [1782948235.102246881] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [17] for robot [iw_hub_fleet/iw_hub_1]
+[INFO] [1782948235.102282849] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [15] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948235.102307472] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [16] for robot [iw_hub_fleet/iw_hub_2]
+[INFO] [1782948235.102330978] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [18] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948235.102373560] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [14] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782948254.934662866] [iw_hub_fleet_easy_adapter]: Requesting new schedule update because update timed out
+[INFO] [1782948254.934740457] [iw_hub_fleet_easy_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since beginning of recorded history
+[INFO] [1782948274.944014336] [iw_hub_fleet_easy_adapter]: Requesting new schedule update because update timed out
+[INFO] [1782948274.944096897] [iw_hub_fleet_easy_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since version [5]
+[INFO] [1782948286.339252933] [iw_hub_fleet_easy_adapter]: [Bidder] Received Bidding notice for task_id [patrol.dispatch-0]
+[INFO] [1782948286.340219117] [iw_hub_fleet_easy_adapter]: Planning for [5] robot(s) and [1] request(s)
+[INFO] [1782948286.343238103] [iw_hub_fleet_easy_adapter]: Submitted BidProposal to accommodate task [patrol.dispatch-0] by robot [iw_hub_5] with new cost [103.139509]
+[INFO] [1782948288.539441217] [iw_hub_fleet_easy_adapter]: Bid for task_id [patrol.dispatch-0] awarded to fleet [iw_hub_fleet]. Processing request...
+[INFO] [1782948288.542776741] [iw_hub_fleet_easy_adapter]: TaskAssignments updated for robots in fleet [iw_hub_fleet] to accommodate task_id [patrol.dispatch-0]
+[INFO] [1782948288.542915559] [iw_hub_fleet_easy_adapter]: Beginning next task [patrol.dispatch-0] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782948288.543141083] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782948288.543164037] [iw_hub_fleet_easy_adapter]: Got distance from [26] as 36.359763
+[INFO] [1782948288.543210780] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [pick_pallet_1] from one of these locations:
+ -- L1 < 0 12> [iw_hub_5_dock] | on waypoint | orientation 0
+[INFO] [1782948288.543319731] [iw_hub_fleet_easy_adapter]: Beginning new task [patrol.dispatch-0] for [iw_hub_fleet/iw_hub_5]. Remaining queue size: 0
+[INFO] [1782948288.546376770] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pick_pallet_1] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782948288.547192972] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:pick_pallet_1] via
+ -- t=0 #14 < 0 12  0> yaw=0 approach lanes:
+ -- t=0.181891 #14 <        0        12 0.0264675> yaw=1.51648 approach lanes:
+ -- t=3.26117 #6 <  3.71762   12.0984 0.0264675> yaw=1.51648 approach lanes: 11
+ -- t=5.4995 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=10.0406 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 9 10
+ -- t=11.2936 #13 <3.43477 18.0032 2.41955> yaw=138.63 approach lanes:
+ -- t=14.9619 #19 <-0.019182   21.0451   2.41955> yaw=138.63 approach lanes: 27
+ -- t=17.9205 #19 <-0.019182   21.0451  0.252667> yaw=14.4768 approach lanes:
+ -- t=20.7807 #42 < 3.26355  21.8927 0.252667> yaw=14.4768 approach lanes: 54
+ -- t=21.346 #42 <    3.26355     21.8927 0.000467638> yaw=0.0267937 approach lanes:
+ -- t=23.9632 #43 <    6.28939     21.8941 0.000467638> yaw=0.0267937 approach lanes: 55
+ -- t=23.9632 #43 <    6.28939     21.8941 -0.00738425> yaw=-0.423086 approach lanes:
+ -- t=37.9917 #49 <    26.4307     21.6583 -0.00738425> yaw=-0.423086 approach lanes: 56 57 58 59 60 61
+ -- t=40.2063 #49 < 26.4307  21.6583 -1.57905> yaw=-90.4731 approach lanes:
+ -- t=46.9857 #24 < 26.2872  12.3903 -1.57905> yaw=-90.4731 approach lanes: 62 53 31
+ -- t=49.1582 #24 <  26.2872   12.3903 -0.040984> yaw=-2.34821 approach lanes:
+ -- t=51.0017 #25 <  28.1508   12.3139 -0.040984> yaw=-2.34821 approach lanes: 32
+ -- t=53.1621 #25 < 28.1508  12.3139 -1.56932> yaw=-89.9157 approach lanes:
+ -- t=55.5038 #26 < 28.1546  9.70129 -1.56932> yaw=-89.9157 approach lanes: 33
+[INFO] [1782948288.567199755] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [ 3.7176178  12.098419    1.61712662]
+[INFO] [1782948294.339201487] [iw_hub_fleet_easy_adapter]: [Bidder] Received Bidding notice for task_id [patrol.dispatch-1]
+[INFO] [1782948294.339566537] [iw_hub_fleet_easy_adapter]: Planning for [5] robot(s) and [1] request(s)
+[INFO] [1782948294.344487203] [iw_hub_fleet_easy_adapter]: Submitted BidProposal to accommodate task [patrol.dispatch-1] by robot [iw_hub_4] with new cost [108.094851]
+[INFO] [1782948296.539612009] [iw_hub_fleet_easy_adapter]: Bid for task_id [patrol.dispatch-1] awarded to fleet [iw_hub_fleet]. Processing request...
+[INFO] [1782948296.540323110] [iw_hub_fleet_easy_adapter]: TaskAssignments updated for robots in fleet [iw_hub_fleet] to accommodate task_id [patrol.dispatch-1]
+[INFO] [1782948296.540589843] [iw_hub_fleet_easy_adapter]: Beginning next task [patrol.dispatch-1] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948296.541034871] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948296.541079474] [iw_hub_fleet_easy_adapter]: Got distance from [29] as 40.535857
+[INFO] [1782948296.541133058] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_4] to [pallet_pick_2] from one of these locations:
+ -- L1 <0 9> [iw_hub_4_dock] | on waypoint | orientation 0
+[INFO] [1782948296.541267143] [iw_hub_fleet_easy_adapter]: Beginning new task [patrol.dispatch-1] for [iw_hub_fleet/iw_hub_4]. Remaining queue size: 0
+[INFO] [1782948296.588617509] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_pick_2] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948296.589715313] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [graph-wp:5] via
+ -- t=0 #18 <0 9 0> yaw=0 approach lanes:
+ -- t=0.231379 #18 <       0        9 0.042829> yaw=2.45392 approach lanes:
+ -- t=3.30973 #5 < 3.71411  9.15917 0.042829> yaw=2.45392 approach lanes: 15
+ -- t=5.46819 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+[INFO] [1782948296.592609461] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [3.7141113  9.159169   1.56960334]
+[INFO] [1782948302.339176586] [iw_hub_fleet_easy_adapter]: [Bidder] Received Bidding notice for task_id [patrol.dispatch-2]
+[INFO] [1782948302.339638967] [iw_hub_fleet_easy_adapter]: Planning for [5] robot(s) and [1] request(s)
+[INFO] [1782948302.343633424] [iw_hub_fleet_easy_adapter]: Submitted BidProposal to accommodate task [patrol.dispatch-2] by robot [iw_hub_3] with new cost [111.905721]
+[INFO] [1782948304.539350973] [iw_hub_fleet_easy_adapter]: Bid for task_id [patrol.dispatch-2] awarded to fleet [iw_hub_fleet]. Processing request...
+[INFO] [1782948304.539940892] [iw_hub_fleet_easy_adapter]: TaskAssignments updated for robots in fleet [iw_hub_fleet] to accommodate task_id [patrol.dispatch-2]
+[INFO] [1782948304.540093453] [iw_hub_fleet_easy_adapter]: Beginning next task [patrol.dispatch-2] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948304.540390796] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948304.540419746] [iw_hub_fleet_easy_adapter]: Got distance from [31] as 44.552914
+[INFO] [1782948304.540465519] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_3] to [pallet_pick_3] from one of these locations:
+ -- L1 <0 6> [iw_hub_3_dock] | on waypoint | orientation 0
+[INFO] [1782948304.540598198] [iw_hub_fleet_easy_adapter]: Beginning new task [patrol.dispatch-2] for [iw_hub_fleet/iw_hub_3]. Remaining queue size: 0
+[INFO] [1782948304.837593844] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_pick_3] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948304.838585630] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [graph-wp:7] via
+ -- t=0 #15 <0 6 0> yaw=0 approach lanes:
+ -- t=0.201389 #15 <        0         6 0.0324459> yaw=1.85901 approach lanes:
+ -- t=3.30759 #7 <  3.75732   6.12195 0.0324459> yaw=1.85901 approach lanes: 12
+ -- t=5.49831 #7 <3.75732 6.12195 1.58502> yaw=90.8151 approach lanes:
+[INFO] [1782948304.842978454] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [3.7573197  6.1219525  1.58502168]
+[INFO] [1782948346.054495555] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948346.055136688] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+[INFO] [1782948347.055523908] [iw_hub_fleet_easy_adapter]: Replanning for [iw_hub_fleet/iw_hub_4] because a traffic dependency is excessively delayed
+[INFO] [1782948347.055789494] [iw_hub_fleet_easy_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948347.055979985] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_4] to [pallet_pick_2] from one of these locations:
+ -- L1 <3.71411 9.15917> [#5] | location <3.66194 9.12866> | orientation 76.103
+ -- lane 4: { L1 <3.75732 6.12195> [#7] } -> { L1 <3.71411 9.15917> [#5] } | location <3.66194 9.12866> | orientation 76.103
+ -- lane 15: { L1 <0 9> [iw_hub_4_dock] } -> { L1 <3.71411 9.15917> [#5] } | location <3.66194 9.12866> | orientation 76.103
+ -- lane 20: { L1 <3.71411 9.15917> [#5] } -> { L1 <0 9> [iw_hub_4_dock] } | location <3.66194 9.12866> | orientation 76.103
+[INFO] [1782948347.058267904] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_pick_2] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948347.058998267] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [place:pallet_pick_2] via
+ -- t=0 <3.66194 9.12866 1.32825> yaw=76.103 approach lanes:
+ -- t=1.24882 <3.66194 9.12866 0.52919> yaw=30.3203 approach lanes:
+ -- t=1.5598 #5 <3.71411 9.15917 0.52919> yaw=30.3203 approach lanes:
+ -- t=3.11032 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+ -- t=5.66982 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+ -- t=5.91355 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=10.4546 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 9 10
+ -- t=11.7076 #13 <3.43477 18.0032 2.41955> yaw=138.63 approach lanes:
+ -- t=15.376 #19 <-0.019182   21.0451   2.41955> yaw=138.63 approach lanes: 27
+ -- t=18.3346 #19 <-0.019182   21.0451  0.252667> yaw=14.4768 approach lanes:
+ -- t=21.1948 #42 < 3.26355  21.8927 0.252667> yaw=14.4768 approach lanes: 54
+ -- t=21.7601 #42 <    3.26355     21.8927 0.000467638> yaw=0.0267937 approach lanes:
+ -- t=24.3773 #43 <    6.28939     21.8941 0.000467638> yaw=0.0267937 approach lanes: 55
+ -- t=24.3773 #43 <    6.28939     21.8941 -0.00738425> yaw=-0.423086 approach lanes:
+ -- t=38.4057 #49 <    26.4307     21.6583 -0.00738425> yaw=-0.423086 approach lanes: 56 57 58 59 60 61
+ -- t=40.6203 #49 < 26.4307  21.6583 -1.57905> yaw=-90.4731 approach lanes:
+ -- t=47.3997 #24 < 26.2872  12.3903 -1.57905> yaw=-90.4731 approach lanes: 62 53 31
+ -- t=49.5723 #24 <  26.2872   12.3903 -0.040984> yaw=-2.34821 approach lanes:
+ -- t=51.4157 #25 <  28.1508   12.3139 -0.040984> yaw=-2.34821 approach lanes: 32
+ -- t=53.5764 #25 < 28.1508  12.3139 -1.56949> yaw=-89.9251 approach lanes:
+ -- t=58.1356 #29 <  28.159  6.37501 -1.56949> yaw=-89.9251 approach lanes: 33 36
+[INFO] [1782948347.061198562] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [ 3.7176178  12.098419    1.61712662]
+-------------------------------------------------
+[rmf_traffic::agv::Planner::plan] WARNING: A rare anomaly has occurred in the planner. The Route Validator has failed to recognize a specified route dependency: 11 on {3 0 0 0}. These are the trajectories:
+0. t=1.78295e+09 p=( 3.56767  6.04958 0.728705) v=<0 0 0> --> 1. t=1.78295e+09 p=( 3.56767  6.04958 0.728705) v=<0 0 0> --> 2. t=1.78295e+09 p=( 3.56767  6.04958 0.728705) v=<0 0 0> --> 3. t=1.78295e+09 p=( 3.56767  6.04958 0.628705) v=<   0    0 -0.8> --> 4. t=1.78295e+09 p=( 3.56767  6.04958 0.464573) v=<   0    0 -0.8> --> 5. t=1.78295e+09 p=( 3.56767  6.04958 0.364573) v=< 0  0 -0> --> 6. t=1.78295e+09 p=(  3.6625  6.08576 0.364573) v=<0.665548 0.253995        0> --> 7. t=1.78295e+09 p=( 3.75732  6.12195 0.364573) v=<0 0 0> --> 8. t=1.78295e+09 p=( 3.75732  6.12195 0.364573) v=<0 0 0> --> 9. t=1.78295e+09 p=( 3.75732  6.12195 0.464573) v=<  0   0 0.8> --> 10. t=1.78295e+09 p=(3.75732 6.12195  1.4696) v=<  0   0 0.8> --> 11. t=1.78295e+09 p=(3.75732 6.12195  1.5696) v=<0 0 0> --> 12. t=1.78295e+09 p=(3.75433 6.57194  1.5696) v=<-0.00996434     1.49997           0> --> 13. t=1.78295e+09 p=(3.71411 9.15917  1.5696) v=<-0.00996434     1.49997           0> --> 14. t=1.78295e+09 p=(3.72061 11.6484  1.5696) v=<-0.00996434     1.49997           0> --> 15. t=1.78295e+09 p=(3.71762 12.0984  1.5696) v=<-0  0  0> --> 16. t=1.78295e+09 p=(3.71762 12.0984 1.59336) v=<       0        0 0.389967> --> 17. t=1.78295e+09 p=(3.71762 12.0984 1.61713) v=<0 0 0> --> 18. t=1.78295e+09 p=(3.69609 12.5479 1.61713) v=<-0.0717693    1.49828          0> --> 19. t=1.78295e+09 p=(3.56568 15.1798 1.61713) v=<-0.0717693    1.49828          0> --> 20. t=1.78295e+09 p=( 3.4563 17.5538 1.61713) v=<-0.0717693    1.49828          0> --> 21. t=1.78295e+09 p=(3.43477 18.0032 1.61713) v=<-0  0  0> --> 22. t=1.78295e+09 p=(3.43477 18.0032 1.71713) v=<  0   0 0.8> --> 23. t=1.78295e+09 p=(3.43477 18.0032 2.31955) v=<  0   0 0.8> --> 24. t=1.78295e+09 p=(3.43477 18.0032 2.41955) v=<0 0 0> --> 25. t=1.78295e+09 p=(3.09707 18.3007 2.41955) v=<-1.12568 0.991383        0> --> 26. t=1.78295e+09 p=(0.318523  20.7477  2.41955) v=<-1.12568 0.991383        0> --> 27. t=1.78295e+09 p=(-0.019182   21.0451   2.41955) v=<-0  0  0> --> 28. t=1.78295e+09 p=(-0.019182   21.0451   2.31955) v=<   0    0 -0.8> --> 29. t=1.78295e+09 p=(-0.019182   21.0451  0.352667) v=<   0    0 -0.8> --> 30. t=1.78295e+09 p=(-0.019182   21.0451  0.252667) v=< 0  0 -0> --> 31. t=1.78295e+09 p=( 0.41653  21.1576 0.252667) v=< 1.45237 0.374981        0> --> 32. t=1.78295e+09 p=( 2.82783  21.7802 0.252667) v=< 1.45237 0.374981        0> --> 33. t=1.78295e+09 p=( 3.26355  21.8927 0.252667) v=<0 0 0> --> 34. t=1.78295e+09 p=( 3.26355  21.8927 0.152667) v=<   0    0 -0.8> --> 35. t=1.78295e+09 p=( 3.26355  21.8927 0.100468) v=<   0    0 -0.8> --> 36. t=1.78295e+09 p=(    3.26355     21.8927 0.000467638) v=< 0  0 -0> --> 37. t=1.78295e+09 p=(    3.71355     21.8929 0.000467638) v=<        1.5 0.000701457           0> --> 38. t=1.78295e+09 p=(    5.83939     21.8939 0.000467638) v=<        1.5 0.000701457           0> --> 39. t=1.78295e+09 p=(    6.28939     21.8941 0.000467638) v=<0 0 0> --> 40. t=1.78295e+09 p=(    6.73936     21.8888 -0.00738425) v=<    1.4999 -0.0175586          0> --> 41. t=1.78295e+09 p=(    10.9468     21.7866 -0.00738425) v=<    1.4999 -0.0175586          0> --> 42. t=1.78295e+09 p=(    15.6771     21.7344 -0.00738425) v=<    1.4999 -0.0175586          0> --> 43. t=1.78295e+09 p=(    17.1953     21.7174 -0.00738425) v=<    1.4999 -0.0175586          0> --> 44. t=1.78295e+09 p=(     20.704     21.7203 -0.00738425) v=<    1.4999 -0.0175586          0> --> 45. t=1.78295e+09 p=(     24.918     21.6695 -0.00738425) v=<    1.4999 -0.0175586          0> --> 46. t=1.78295e+09 p=(    25.9807     21.6636 -0.00738425) v=<    1.4999 -0.0175586          0> --> 47. t=1.78295e+09 p=(    26.4307     21.6583 -0.00738425) v=< 0 -0  0> --> 48. t=1.78295e+09 p=(  26.4307   21.6583 -0.107384) v=<   0    0 -0.8> --> 49. t=1.78295e+09 p=( 26.4307  21.6583 -1.47905) v=<   0    0 -0.8> --> 50. t=1.78295e+09 p=( 26.4307  21.6583 -1.57905) v=< 0  0 -0> --> 51. t=1.78295e+09 p=( 26.4237  21.2084 -1.57905) v=<-0.023216  -1.49982         0> --> 52. t=1.78295e+09 p=( 26.4191  21.0767 -1.57905) v=<-0.023216  -1.49982         0> --> 53. t=1.78295e+09 p=( 26.3304  17.6238 -1.57905) v=<-0.023216  -1.49982         0> --> 54. t=1.78295e+09 p=( 26.2942  12.8403 -1.57905) v=<-0.023216  -1.49982         0> --> 55. t=1.78295e+09 p=( 26.2872  12.3903 -1.57905) v=<-0 -0  0> --> 56. t=1.78295e+09 p=( 26.2872  12.3903 -1.47905) v=<  0   0 0.8> --> 57. t=1.78295e+09 p=(  26.2872   12.3903 -0.140984) v=<  0   0 0.8> --> 58. t=1.78295e+09 p=(  26.2872   12.3903 -0.040984) v=<0 0 0> --> 59. t=1.78295e+09 p=(  26.7369   12.3719 -0.040984) v=<   1.49874 -0.0614587          0> --> 60. t=1.78295e+09 p=(  27.7012   12.3323 -0.040984) v=<   1.49874 -0.0614587          0> --> 61. t=1.78295e+09 p=(  28.1508   12.3139 -0.040984) v=< 0 -0  0> --> 62. t=1.78295e+09 p=(  28.1508   12.3139 -0.140984) v=<   0    0 -0.8> --> 63. t=1.78295e+09 p=( 28.1508  12.3139 -1.46515) v=<   0    0 -0.8> --> 64. t=1.78295e+09 p=( 28.1508  12.3139 -1.56515) v=< 0  0 -0> --> 65. t=1.78295e+09 p=(  28.152  11.8639 -1.56515) v=<0.00419081   -1.49999          0> --> 66. t=1.78295e+09 p=( 28.1546  9.70129 -1.56515) v=<0.00419081   -1.49999          0> --> 67. t=1.78295e+09 p=(  28.159  6.37501 -1.56515) v=<0.00419081   -1.49999          0> --> 68. t=1.78295e+09 p=( 28.1744  3.87877 -1.56515) v=<0.00419081   -1.49999          0> --> 69. t=1.78295e+09 p=( 28.1756  3.42877 -1.56515) v=< 0 -0  0> --> (finished)
+vs
+0. t=1.78295e+09 p=(3.66194 9.12866 1.32825) v=<0 0 0> --> 1. t=1.78295e+09 p=(3.66194 9.12866 1.32825) v=<0 0 0> --> (finished)
+Please provide this information to the RMF developers for debugging.
+-------------------------------------------------
+-------------------------------------------------
+[rmf_traffic::agv::Planner::plan] WARNING: A rare anomaly has occurred in the planner. The Route Validator has failed to recognize a specified route dependency: 10 on {3 0 0 0}. These are the trajectories:
+0. t=1.78295e+09 p=( 3.56767  6.04958 0.728705) v=<0 0 0> --> 1. t=1.78295e+09 p=( 3.56767  6.04958 0.728705) v=<0 0 0> --> 2. t=1.78295e+09 p=( 3.56767  6.04958 0.628705) v=<   0    0 -0.8> --> 3. t=1.78295e+09 p=( 3.56767  6.04958 0.464573) v=<   0    0 -0.8> --> 4. t=1.78295e+09 p=( 3.56767  6.04958 0.364573) v=< 0  0 -0> --> 5. t=1.78295e+09 p=(  3.6625  6.08576 0.364573) v=<0.665548 0.253995        0> --> 6. t=1.78295e+09 p=( 3.75732  6.12195 0.364573) v=<0 0 0> --> 7. t=1.78295e+09 p=( 3.75732  6.12195 0.364573) v=<0 0 0> --> 8. t=1.78295e+09 p=( 3.75732  6.12195 0.464573) v=<  0   0 0.8> --> 9. t=1.78295e+09 p=(3.75732 6.12195  1.4696) v=<  0   0 0.8> --> 10. t=1.78295e+09 p=(3.75732 6.12195  1.5696) v=<0 0 0> --> 11. t=1.78295e+09 p=(3.75433 6.57194  1.5696) v=<-0.00996434     1.49997           0> --> 12. t=1.78295e+09 p=(3.71411 9.15917  1.5696) v=<-0.00996434     1.49997           0> --> 13. t=1.78295e+09 p=(3.72061 11.6484  1.5696) v=<-0.00996434     1.49997           0> --> 14. t=1.78295e+09 p=(3.71762 12.0984  1.5696) v=<-0  0  0> --> 15. t=1.78295e+09 p=(3.71762 12.0984 1.59336) v=<       0        0 0.389967> --> 16. t=1.78295e+09 p=(3.71762 12.0984 1.61713) v=<0 0 0> --> 17. t=1.78295e+09 p=(3.69609 12.5479 1.61713) v=<-0.0717693    1.49828          0> --> 18. t=1.78295e+09 p=(3.56568 15.1798 1.61713) v=<-0.0717693    1.49828          0> --> 19. t=1.78295e+09 p=( 3.4563 17.5538 1.61713) v=<-0.0717693    1.49828          0> --> 20. t=1.78295e+09 p=(3.43477 18.0032 1.61713) v=<-0  0  0> --> 21. t=1.78295e+09 p=(3.43477 18.0032 1.71713) v=<  0   0 0.8> --> 22. t=1.78295e+09 p=(3.43477 18.0032 2.31955) v=<  0   0 0.8> --> 23. t=1.78295e+09 p=(3.43477 18.0032 2.41955) v=<0 0 0> --> 24. t=1.78295e+09 p=(3.09707 18.3007 2.41955) v=<-1.12568 0.991383        0> --> 25. t=1.78295e+09 p=(0.318523  20.7477  2.41955) v=<-1.12568 0.991383        0> --> 26. t=1.78295e+09 p=(-0.019182   21.0451   2.41955) v=<-0  0  0> --> 27. t=1.78295e+09 p=(-0.019182   21.0451   2.31955) v=<   0    0 -0.8> --> 28. t=1.78295e+09 p=(-0.019182   21.0451  0.352667) v=<   0    0 -0.8> --> 29. t=1.78295e+09 p=(-0.019182   21.0451  0.252667) v=< 0  0 -0> --> 30. t=1.78295e+09 p=( 0.41653  21.1576 0.252667) v=< 1.45237 0.374981        0> --> 31. t=1.78295e+09 p=( 2.82783  21.7802 0.252667) v=< 1.45237 0.374981        0> --> 32. t=1.78295e+09 p=( 3.26355  21.8927 0.252667) v=<0 0 0> --> 33. t=1.78295e+09 p=( 3.26355  21.8927 0.152667) v=<   0    0 -0.8> --> 34. t=1.78295e+09 p=( 3.26355  21.8927 0.100468) v=<   0    0 -0.8> --> 35. t=1.78295e+09 p=(    3.26355     21.8927 0.000467638) v=< 0  0 -0> --> 36. t=1.78295e+09 p=(    3.71355     21.8929 0.000467638) v=<        1.5 0.000701457           0> --> 37. t=1.78295e+09 p=(    5.83939     21.8939 0.000467638) v=<        1.5 0.000701457           0> --> 38. t=1.78295e+09 p=(    6.28939     21.8941 0.000467638) v=<0 0 0> --> 39. t=1.78295e+09 p=(    6.73936     21.8888 -0.00738425) v=<    1.4999 -0.0175586          0> --> 40. t=1.78295e+09 p=(    10.9468     21.7866 -0.00738425) v=<    1.4999 -0.0175586          0> --> 41. t=1.78295e+09 p=(    15.6771     21.7344 -0.00738425) v=<    1.4999 -0.0175586          0> --> 42. t=1.78295e+09 p=(    17.1953     21.7174 -0.00738425) v=<    1.4999 -0.0175586          0> --> 43. t=1.78295e+09 p=(     20.704     21.7203 -0.00738425) v=<    1.4999 -0.0175586          0> --> 44. t=1.78295e+09 p=(     24.918     21.6695 -0.00738425) v=<    1.4999 -0.0175586          0> --> 45. t=1.78295e+09 p=(    25.9807     21.6636 -0.00738425) v=<    1.4999 -0.0175586          0> --> 46. t=1.78295e+09 p=(    26.4307     21.6583 -0.00738425) v=< 0 -0  0> --> 47. t=1.78295e+09 p=(  26.4307   21.6583 -0.107384) v=<   0    0 -0.8> --> 48. t=1.78295e+09 p=( 26.4307  21.6583 -1.49073) v=<   0    0 -0.8> --> 49. t=1.78295e+09 p=( 26.4307  21.6583 -1.59073) v=< 0  0 -0> --> 50. t=1.78295e+09 p=( 26.4249  21.3675 -1.59073) v=<-0.0240379   -1.20567          0> --> 51. t=1.78295e+09 p=( 26.4191  21.0767 -1.59073) v=<-0 -0  0> --> 52. t=1.78295e+09 p=( 26.4075  20.6269 -1.59647) v=<-0.0385003   -1.49951          0> --> 53. t=1.78295e+09 p=(  26.342  18.0737 -1.59647) v=<-0.0385003   -1.49951          0> --> 54. t=1.78295e+09 p=( 26.3304  17.6238 -1.59647) v=<-0 -0  0> --> 55. t=1.78295e+09 p=( 26.3267  17.1739 -1.57905) v=<-0.0123847   -1.49995          0> --> 56. t=1.78295e+09 p=( 26.2909  12.8403 -1.57905) v=<-0.0123847   -1.49995          0> --> 57. t=1.78295e+09 p=( 26.2872  12.3903 -1.57905) v=<-0 -0  0> --> 58. t=1.78295e+09 p=( 26.2872  12.3903 -1.47905) v=<  0   0 0.8> --> 59. t=1.78295e+09 p=(  26.2872   12.3903 -0.140984) v=<  0   0 0.8> --> 60. t=1.78295e+09 p=(  26.2872   12.3903 -0.040984) v=<0 0 0> --> 61. t=1.78295e+09 p=(  26.7369   12.3719 -0.040984) v=<   1.49874 -0.0614587          0> --> 62. t=1.78295e+09 p=(  27.7012   12.3323 -0.040984) v=<   1.49874 -0.0614587          0> --> 63. t=1.78295e+09 p=(  28.1508   12.3139 -0.040984) v=< 0 -0  0> --> 64. t=1.78295e+09 p=(  28.1508   12.3139 -0.140984) v=<   0    0 -0.8> --> 65. t=1.78295e+09 p=( 28.1508  12.3139 -1.46515) v=<   0    0 -0.8> --> 66. t=1.78295e+09 p=( 28.1508  12.3139 -1.56515) v=< 0  0 -0> --> 67. t=1.78295e+09 p=(  28.152  11.8639 -1.56515) v=<0.00419081   -1.49999          0> --> 68. t=1.78295e+09 p=( 28.1546  9.70129 -1.56515) v=<0.00419081   -1.49999          0> --> 69. t=1.78295e+09 p=(  28.159  6.37501 -1.56515) v=<0.00419081   -1.49999          0> --> 70. t=1.78295e+09 p=( 28.1744  3.87877 -1.56515) v=<0.00419081   -1.49999          0> --> 71. t=1.78295e+09 p=( 28.1756  3.42877 -1.56515) v=< 0 -0  0> --> (finished)
+vs
+0. t=1.78295e+09 p=(3.66194 9.12866 1.32825) v=<0 0 0> --> 1. t=1.78295e+09 p=(3.66194 9.12866 1.32825) v=<0 0 0> --> (finished)
+Please provide this information to the RMF developers for debugging.
+-------------------------------------------------
+-------------------------------------------------
+[rmf_traffic::agv::Planner::plan] WARNING: A rare anomaly has occurred in the planner. The Route Validator has failed to recognize a specified route dependency: 10 on {3 0 0 0}. These are the trajectories:
+0. t=1.78295e+09 p=( 3.56767  6.04958 0.728705) v=<0 0 0> --> 1. t=1.78295e+09 p=( 3.56767  6.04958 0.728705) v=<0 0 0> --> 2. t=1.78295e+09 p=( 3.56767  6.04958 0.628705) v=<   0    0 -0.8> --> 3. t=1.78295e+09 p=( 3.56767  6.04958 0.464573) v=<   0    0 -0.8> --> 4. t=1.78295e+09 p=( 3.56767  6.04958 0.364573) v=< 0  0 -0> --> 5. t=1.78295e+09 p=(  3.6625  6.08576 0.364573) v=<0.665548 0.253995        0> --> 6. t=1.78295e+09 p=( 3.75732  6.12195 0.364573) v=<0 0 0> --> 7. t=1.78295e+09 p=( 3.75732  6.12195 0.364573) v=<0 0 0> --> 8. t=1.78295e+09 p=( 3.75732  6.12195 0.464573) v=<  0   0 0.8> --> 9. t=1.78295e+09 p=(3.75732 6.12195  1.4696) v=<  0   0 0.8> --> 10. t=1.78295e+09 p=(3.75732 6.12195  1.5696) v=<0 0 0> --> 11. t=1.78295e+09 p=(3.75433 6.57194  1.5696) v=<-0.00996434     1.49997           0> --> 12. t=1.78295e+09 p=(3.71411 9.15917  1.5696) v=<-0.00996434     1.49997           0> --> 13. t=1.78295e+09 p=(3.72061 11.6484  1.5696) v=<-0.00996434     1.49997           0> --> 14. t=1.78295e+09 p=(3.71762 12.0984  1.5696) v=<-0  0  0> --> 15. t=1.78295e+09 p=(3.71762 12.0984 1.59483) v=<       0        0 0.401848> --> 16. t=1.78295e+09 p=(3.71762 12.0984 1.62007) v=<0 0 0> --> 17. t=1.78295e+09 p=(3.69546 12.5479 1.62007) v=<-0.0738752    1.49818          0> --> 18. t=1.78295e+09 p=(3.58784 14.7303 1.62007) v=<-0.0738752    1.49818          0> --> 19. t=1.78295e+09 p=(3.56568 15.1798 1.62007) v=<-0  0  0> --> 20. t=1.78295e+09 p=(3.54484 15.6293 1.61713) v=<-0.0694706    1.49839          0> --> 21. t=1.78295e+09 p=(3.45561 17.5537 1.61713) v=<-0.0694706    1.49839          0> --> 22. t=1.78295e+09 p=(3.43477 18.0032 1.61713) v=<-0  0  0> --> 23. t=1.78295e+09 p=(3.43477 18.0032 1.71713) v=<  0   0 0.8> --> 24. t=1.78295e+09 p=(3.43477 18.0032 2.31955) v=<  0   0 0.8> --> 25. t=1.78295e+09 p=(3.43477 18.0032 2.41955) v=<0 0 0> --> 26. t=1.78295e+09 p=(3.09707 18.3007 2.41955) v=<-1.12568 0.991383        0> --> 27. t=1.78295e+09 p=(0.318523  20.7477  2.41955) v=<-1.12568 0.991383        0> --> 28. t=1.78295e+09 p=(-0.019182   21.0451   2.41955) v=<-0  0  0> --> 29. t=1.78295e+09 p=(-0.019182   21.0451   2.31955) v=<   0    0 -0.8> --> 30. t=1.78295e+09 p=(-0.019182   21.0451  0.352667) v=<   0    0 -0.8> --> 31. t=1.78295e+09 p=(-0.019182   21.0451  0.252667) v=< 0  0 -0> --> 32. t=1.78295e+09 p=( 0.41653  21.1576 0.252667) v=< 1.45237 0.374981        0> --> 33. t=1.78295e+09 p=( 2.82783  21.7802 0.252667) v=< 1.45237 0.374981        0> --> 34. t=1.78295e+09 p=( 3.26355  21.8927 0.252667) v=<0 0 0> --> 35. t=1.78295e+09 p=( 3.26355  21.8927 0.152667) v=<   0    0 -0.8> --> 36. t=1.78295e+09 p=( 3.26355  21.8927 0.100468) v=<   0    0 -0.8> --> 37. t=1.78295e+09 p=(    3.26355     21.8927 0.000467638) v=< 0  0 -0> --> 38. t=1.78295e+09 p=(    3.71355     21.8929 0.000467638) v=<        1.5 0.000701457           0> --> 39. t=1.78295e+09 p=(    5.83939     21.8939 0.000467638) v=<        1.5 0.000701457           0> --> 40. t=1.78295e+09 p=(    6.28939     21.8941 0.000467638) v=<0 0 0> --> 41. t=1.78295e+09 p=(   6.73933    21.8864 -0.0110467) v=<   1.49978 -0.0255173          0> --> 42. t=1.78295e+09 p=(   10.9468    21.7866 -0.0110467) v=<   1.49978 -0.0255173          0> --> 43. t=1.78295e+09 p=(   15.2271     21.742 -0.0110467) v=<   1.49978 -0.0255173          0> --> 44. t=1.78295e+09 p=(   15.6771    21.7344 -0.0110467) v=< 0 -0  0> --> 45. t=1.78295e+09 p=(    16.127    21.7293 -0.0111891) v=<   1.49991 -0.0167834          0> --> 46. t=1.78295e+09 p=(   16.7453    21.7224 -0.0111891) v=<   1.49991 -0.0167834          0> --> 47. t=1.78295e+09 p=(   17.1953    21.7174 -0.0111891) v=< 0 -0  0> --> 48. t=1.78295e+09 p=(    17.6453     21.7145 -0.00738425) v=<    1.49997 -0.00959465           0> --> 49. t=1.78295e+09 p=(     20.704     21.7203 -0.00738425) v=<    1.49997 -0.00959465           0> --> 50. t=1.78295e+09 p=(     24.918     21.6695 -0.00738425) v=<    1.49997 -0.00959465           0> --> 51. t=1.78295e+09 p=(    25.9807     21.6612 -0.00738425) v=<    1.49997 -0.00959465           0> --> 52. t=1.78295e+09 p=(    26.4307     21.6583 -0.00738425) v=< 0 -0  0> --> 53. t=1.78295e+09 p=(  26.4307   21.6583 -0.107384) v=<   0    0 -0.8> --> 54. t=1.78295e+09 p=( 26.4307  21.6583 -1.47905) v=<   0    0 -0.8> --> 55. t=1.78295e+09 p=( 26.4307  21.6583 -1.57905) v=< 0  0 -0> --> 56. t=1.78295e+09 p=( 26.4237  21.2084 -1.57905) v=<-0.023216  -1.49982         0> --> 57. t=1.78295e+09 p=( 26.4191  21.0767 -1.57905) v=<-0.023216  -1.49982         0> --> 58. t=1.78295e+09 p=( 26.3304  17.6238 -1.57905) v=<-0.023216  -1.49982         0> --> 59. t=1.78295e+09 p=( 26.2942  12.8403 -1.57905) v=<-0.023216  -1.49982         0> --> 60. t=1.78295e+09 p=( 26.2872  12.3903 -1.57905) v=<-0 -0  0> --> 61. t=1.78295e+09 p=( 26.2872  12.3903 -1.47905) v=<  0   0 0.8> --> 62. t=1.78295e+09 p=(  26.2872   12.3903 -0.140984) v=<  0   0 0.8> --> 63. t=1.78295e+09 p=(  26.2872   12.3903 -0.040984) v=<0 0 0> --> 64. t=1.78295e+09 p=(  26.7369   12.3719 -0.040984) v=<   1.49874 -0.0614587          0> --> 65. t=1.78295e+09 p=(  27.7012   12.3323 -0.040984) v=<   1.49874 -0.0614587          0> --> 66. t=1.78295e+09 p=(  28.1508   12.3139 -0.040984) v=< 0 -0  0> --> 67. t=1.78295e+09 p=(  28.1508   12.3139 -0.140984) v=<   0    0 -0.8> --> 68. t=1.78295e+09 p=( 28.1508  12.3139 -1.46515) v=<   0    0 -0.8> --> 69. t=1.78295e+09 p=( 28.1508  12.3139 -1.56515) v=< 0  0 -0> --> 70. t=1.78295e+09 p=(  28.152  11.8639 -1.56515) v=<0.00419081   -1.49999          0> --> 71. t=1.78295e+09 p=( 28.1546  9.70129 -1.56515) v=<0.00419081   -1.49999          0> --> 72. t=1.78295e+09 p=(  28.159  6.37501 -1.56515) v=<0.00419081   -1.49999          0> --> 73. t=1.78295e+09 p=( 28.1744  3.87877 -1.56515) v=<0.00419081   -1.49999          0> --> 74. t=1.78295e+09 p=( 28.1756  3.42877 -1.56515) v=< 0 -0  0> --> (finished)
+vs
+0. t=1.78295e+09 p=(3.66194 9.12866 1.32825) v=<0 0 0> --> 1. t=1.78295e+09 p=(3.66194 9.12866 1.32825) v=<0 0 0> --> (finished)
+Please provide this information to the RMF developers for debugging.
+-------------------------------------------------
+[INFO] [1782948347.307056695] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_pick_2] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948347.307613140] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [graph-wp:5] via
+ -- t=0 <3.66194 9.12866 1.32825> yaw=76.103 approach lanes:
+ -- t=1.24882 <3.66194 9.12866 0.52919> yaw=30.3203 approach lanes:
+ -- t=1.5598 #5 <3.71411 9.15917 0.52919> yaw=30.3203 approach lanes:
+ -- t=5.5598 #5 <3.71411 9.15917 0.52919> yaw=30.3203 approach lanes:
+ -- t=7.11032 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+[INFO] [1782948347.308090733] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_pick_3] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948347.309034387] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [graph-wp:7] via
+ -- t=0 < 3.56767  6.04958 0.728705> yaw=41.7517 approach lanes:
+ -- t=0.705165 < 3.56767  6.04958 0.364573> yaw=20.8885 approach lanes:
+ -- t=1.27506 #7 < 3.75732  6.12195 0.364573> yaw=20.8885 approach lanes: 12
+ -- t=6.27506 #7 < 3.75732  6.12195 0.364573> yaw=20.8885 approach lanes:
+ -- t=8.05062 #7 <3.75732 6.12195 1.58502> yaw=90.8151 approach lanes:
+[INFO] [1782948347.309625444] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pick_pallet_1] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782948347.310607411] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [graph-wp:116] via
+ -- t=0 <3.60754 12.1185 1.07879> yaw=61.8099 approach lanes:
+ -- t=1.82409 <  3.60754   12.1185 -0.180485> yaw=-10.341 approach lanes:
+ -- t=2.24721 #6 <  3.71762   12.0984 -0.180485> yaw=-10.341 approach lanes: 11
+ -- t=4.74422 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=9.28528 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 9 10
+ -- t=10.5383 #13 <3.43477 18.0032 2.41955> yaw=138.63 approach lanes:
+ -- t=14.2066 #19 <-0.019182   21.0451   2.41955> yaw=138.63 approach lanes: 27
+ -- t=15.4498 #19 <-0.019182   21.0451   1.62498> yaw=93.1046 approach lanes:
+ -- t=17.6938 #21 <-0.162321    23.507   1.62498> yaw=93.1046 approach lanes: 28 29
+ -- t=17.8899 #21 <-0.162321    23.507   1.59422> yaw=91.342 approach lanes:
+ -- t=24.0898 #90 <-0.345369   31.9048   1.59422> yaw=91.342 approach lanes: 30 112 113
+ -- t=26.274 #90 <-0.345369   31.9048 0.0468511> yaw=2.68437 approach lanes:
+ -- t=30.4891 #117 <  5.07133   32.1588 0.0468511> yaw=2.68437 approach lanes: 148
+ -- t=32.7084 #117 < 5.07133  32.1588 -1.52856> yaw=-87.5801 approach lanes:
+ -- t=37.1249 #116 < 5.31304  26.4392 -1.52856> yaw=-87.5801 approach lanes: 143
+ -- t=37.585 #116 <5.31304 26.4392 -1.3592> yaw=-77.8763 approach lanes:
+[INFO] [1782948347.315403245] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [3.7141113  9.159169   1.56960334]
+[INFO] [1782948347.319889478] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [3.7573197  6.1219525  1.58502168]
+[INFO] [1782948347.322903305] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [ 3.4347706  18.00324     2.41954606]
+[INFO] [1782948347.363252084] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948347.363701199] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948347.363744827] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] waiting for traffic
+[INFO] [1782948347.364100961] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948347.366382035] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [-1.91819820e-02  2.10451200e+01  1.62498249e+00]
+[INFO] [1782948347.367735810] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+[INFO] [1782948347.367853215] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] done waiting for traffic
+[INFO] [1782948347.368101677] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [place:pallet_pick_2] via
+ -- t=0 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+ -- t=2.5595 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+ -- t=2.80323 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=7.34429 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 9 10
+ -- t=8.59732 #13 <3.43477 18.0032 2.41955> yaw=138.63 approach lanes:
+ -- t=12.2656 #19 <-0.019182   21.0451   2.41955> yaw=138.63 approach lanes: 27
+ -- t=15.2242 #19 <-0.019182   21.0451  0.252667> yaw=14.4768 approach lanes:
+ -- t=18.0845 #42 < 3.26355  21.8927 0.252667> yaw=14.4768 approach lanes: 54
+ -- t=18.6497 #42 <    3.26355     21.8927 0.000467638> yaw=0.0267937 approach lanes:
+ -- t=21.267 #43 <    6.28939     21.8941 0.000467638> yaw=0.0267937 approach lanes: 55
+ -- t=21.267 #43 <    6.28939     21.8941 -0.00738425> yaw=-0.423086 approach lanes:
+ -- t=35.2954 #49 <    26.4307     21.6583 -0.00738425> yaw=-0.423086 approach lanes: 56 57 58 59 60 61
+ -- t=37.51 #49 < 26.4307  21.6583 -1.57905> yaw=-90.4731 approach lanes:
+ -- t=44.2894 #24 < 26.2872  12.3903 -1.57905> yaw=-90.4731 approach lanes: 62 53 31
+ -- t=46.462 #24 <  26.2872   12.3903 -0.040984> yaw=-2.34821 approach lanes:
+ -- t=48.3054 #25 <  28.1508   12.3139 -0.040984> yaw=-2.34821 approach lanes: 32
+ -- t=50.466 #25 < 28.1508  12.3139 -1.56949> yaw=-89.9251 approach lanes:
+ -- t=55.0253 #29 <  28.159  6.37501 -1.56949> yaw=-89.9251 approach lanes: 33 36
+[INFO] [1782948347.370526803] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [ 3.7176178  12.098419    1.61712662]
+[INFO] [1782948347.415766051] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948347.417989290] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948347.418390606] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [ 3.4347706  18.00324     2.41954606]
+[INFO] [1782948347.422412883] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [-0.16232148 23.506966    1.594218  ]
+[INFO] [1782948347.468679533] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948347.469669405] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [-1.9181982e-02  2.1045120e+01  2.5266741e-01]
+[INFO] [1782948347.472556276] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948347.473310656] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [-0.3453695  31.904823    0.04685106]
+[INFO] [1782948347.523260477] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948347.524315938] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948347.525880631] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [3.26354700e+00 2.18926720e+01 4.67637777e-04]
+[INFO] [1782948347.530124429] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [ 5.0713305  32.158787   -1.52856183]
+[INFO] [1782948347.575558597] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948347.576712605] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [ 6.28939300e+00  2.18940870e+01 -7.38424765e-03]
+[INFO] [1782948347.579595024] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948347.580171148] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [ 5.313038   26.439203   -1.35919786]
+[INFO] [1782948347.630261036] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948347.632513895] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [26.430689   21.658302   -1.57905291]
+[INFO] [1782948347.633650208] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948347.634029419] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_5] waiting for traffic
+[INFO] [1782948347.685644780] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948347.686522971] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [26.287228   12.390319   -0.04098397]
+[INFO] [1782948347.736426143] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948347.737200353] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [28.150791   12.3139     -1.56948826]
+[INFO] [1782948347.787225167] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948347.789101404] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [28.158987    6.3750067  -1.56948826]
+[INFO] [1782948347.838598862] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948347.840086658] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948347.840125602] [iw_hub_fleet_easy_adapter]: Got distance from [59] as 37.870055
+[INFO] [1782948347.840215502] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_4] to [pallet_place_2] from one of these locations:
+ -- L1 <3.71411 9.15917> [#5] | location <3.66194 9.12866> | orientation 76.103
+ -- lane 4: { L1 <3.75732 6.12195> [#7] } -> { L1 <3.71411 9.15917> [#5] } | location <3.66194 9.12866> | orientation 76.103
+ -- lane 15: { L1 <0 9> [iw_hub_4_dock] } -> { L1 <3.71411 9.15917> [#5] } | location <3.66194 9.12866> | orientation 76.103
+ -- lane 20: { L1 <3.71411 9.15917> [#5] } -> { L1 <0 9> [iw_hub_4_dock] } | location <3.66194 9.12866> | orientation 76.103
+[INFO] [1782948347.841290057] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_place_2] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948347.841897199] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [place:pallet_place_2] via
+ -- t=0 <3.66194 9.12866 1.32825> yaw=76.103 approach lanes:
+ -- t=1.24882 <3.66194 9.12866 0.52919> yaw=30.3203 approach lanes:
+ -- t=1.5598 #5 <3.71411 9.15917 0.52919> yaw=30.3203 approach lanes:
+ -- t=3.11032 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+ -- t=5.66982 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+ -- t=5.91355 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=10.4546 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 9 10
+ -- t=11.7076 #13 <3.43477 18.0032 2.41955> yaw=138.63 approach lanes:
+ -- t=15.376 #19 <-0.019182   21.0451   2.41955> yaw=138.63 approach lanes: 27
+ -- t=18.3346 #19 <-0.019182   21.0451  0.252667> yaw=14.4768 approach lanes:
+ -- t=21.1948 #42 < 3.26355  21.8927 0.252667> yaw=14.4768 approach lanes: 54
+ -- t=21.7601 #42 <    3.26355     21.8927 0.000467638> yaw=0.0267937 approach lanes:
+ -- t=24.3773 #43 <    6.28939     21.8941 0.000467638> yaw=0.0267937 approach lanes: 55
+ -- t=24.3773 #43 <   6.28939    21.8941 -0.0111891> yaw=-0.641091 approach lanes:
+ -- t=32.2488 #46 <   17.1953    21.7174 -0.0111891> yaw=-0.641091 approach lanes: 56 57 58
+ -- t=34.4131 #46 < 17.1953  21.7174 -1.54265> yaw=-88.3871 approach lanes:
+ -- t=37.6797 #38 < 17.3078  17.7191 -1.54265> yaw=-88.3871 approach lanes: 99
+ -- t=37.8921 #38 < 17.3078  17.7191 -1.50655> yaw=-86.3187 approach lanes:
+ -- t=41.622 #52 < 17.6616  13.0377 -1.50655> yaw=-86.3187 approach lanes: 63 64 65
+ -- t=42.1344 #52 < 17.6616  13.0377 -1.29657> yaw=-74.2881 approach lanes:
+ -- t=43.9826 #53 < 18.1686  11.2354 -1.29657> yaw=-74.2881 approach lanes: 66
+ -- t=44.5637 #53 < 18.1686  11.2354 -1.56144> yaw=-89.464 approach lanes:
+ -- t=52.5355 #56 <  18.239  0.17796 -1.56144> yaw=-89.464 approach lanes: 67 68 69
+ -- t=54.7584 #56 <  18.239  0.17796 -3.13976> yaw=-179.895 approach lanes:
+ -- t=58.2534 #59 < 13.8964 0.169985 -3.13976> yaw=-179.895 approach lanes: 84
+[INFO] [1782948347.843636026] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [ 3.7176178  12.098419    1.61712662]
+[INFO] [1782948347.845253333] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] done waiting for traffic
+[INFO] [1782948347.845329578] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [graph-wp:5] via
+ -- t=0 #7 <3.75732 6.12195 1.58502> yaw=90.8151 approach lanes:
+ -- t=2.62502 #5 <3.71411 9.15917 1.58502> yaw=90.8151 approach lanes: 4
+[INFO] [1782948347.846840502] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [3.7141113  9.159169   1.58502168]
+[INFO] [1782948347.889500234] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948347.889846384] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] waiting for traffic
+[INFO] [1782948347.889980385] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948347.890054387] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] done waiting for traffic
+[INFO] [1782948347.890114629] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [graph-wp:6] via
+ -- t=0 #5 <3.71411 9.15917 1.58502> yaw=90.8151 approach lanes: 4
+ -- t=0 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+ -- t=2.5595 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+ -- t=2.81066 #6 <3.71762 12.0984 1.62007> yaw=92.823 approach lanes:
+[INFO] [1782948347.891135040] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [ 3.4347706  18.00324     2.41954606]
+[INFO] [1782948347.892314170] [iw_hub_fleet_easy_adapter]: Requesting replan for [iw_hub_fleet/iw_hub_3] because it is too far from its commanded path. Details:
+Current location
+ -- L1 <3.75732 6.12195> [#7] | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 5: { L1 <3.83467 2.95038> [#8] } -> { L1 <3.75732 6.12195> [#7] } | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 12: { L1 <0 6> [iw_hub_3_dock] } -> { L1 <3.75732 6.12195> [#7] } | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 22: { L1 <3.75732 6.12195> [#7] } -> { L1 <0 6> [iw_hub_3_dock] } | location <3.56767 6.04958> | orientation 41.7517
+Commanded path:
+ -- t=0 #5 <3.71411 9.15917 1.58502> yaw=90.8151 approach lanes: 4
+ -- t=0 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+ -- t=2.5595 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+ -- t=2.81066 #6 <3.71762 12.0984 1.62007> yaw=92.823 approach lanes:
+[INFO] [1782948347.892850736] [iw_hub_fleet_easy_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948347.892912794] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_3] to [pallet_pick_3] from one of these locations:
+ -- L1 <3.75732 6.12195> [#7] | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 5: { L1 <3.83467 2.95038> [#8] } -> { L1 <3.75732 6.12195> [#7] } | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 12: { L1 <0 6> [iw_hub_3_dock] } -> { L1 <3.75732 6.12195> [#7] } | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 22: { L1 <3.75732 6.12195> [#7] } -> { L1 <0 6> [iw_hub_3_dock] } | location <3.56767 6.04958> | orientation 41.7517
+[INFO] [1782948347.940792045] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948347.942920352] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [-1.9181982e-02  2.1045120e+01  2.5266741e-01]
+[INFO] [1782948347.992374728] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948347.993656210] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [3.26354700e+00 2.18926720e+01 4.67637777e-04]
+[INFO] [1782948348.030083077] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_pick_3] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948348.030564125] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [graph-wp:7] via
+ -- t=0 < 3.56767  6.04958 0.728705> yaw=41.7517 approach lanes:
+ -- t=1 < 3.56767  6.04958 0.728705> yaw=41.7517 approach lanes:
+ -- t=1.70516 < 3.56767  6.04958 0.364573> yaw=20.8885 approach lanes:
+ -- t=2.27506 #7 < 3.75732  6.12195 0.364573> yaw=20.8885 approach lanes:
+ -- t=4.27506 #7 < 3.75732  6.12195 0.364573> yaw=20.8885 approach lanes:
+ -- t=6.03135 #7 <3.75732 6.12195  1.5696> yaw=89.9316 approach lanes:
+[INFO] [1782948348.031157896] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pick_pallet_1] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782948348.031571669] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:pick_pallet_1] via
+ -- t=0 <3.60754 12.1185 1.07879> yaw=61.8099 approach lanes:
+ -- t=0.882106 <3.60754 12.1185 1.58447> yaw=90.7835 approach lanes:
+ -- t=3.52314 #12 <3.56568 15.1798 1.58447> yaw=90.7835 approach lanes: 9
+ -- t=3.72517 #12 <3.56568 15.1798 1.61713> yaw=92.6545 approach lanes:
+ -- t=6.20951 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 10
+ -- t=7.46254 #13 <3.43477 18.0032 2.41955> yaw=138.63 approach lanes:
+ -- t=11.1309 #19 <-0.019182   21.0451   2.41955> yaw=138.63 approach lanes: 27
+ -- t=14.0895 #19 <-0.019182   21.0451  0.252667> yaw=14.4768 approach lanes:
+ -- t=16.9497 #42 < 3.26355  21.8927 0.252667> yaw=14.4768 approach lanes: 54
+ -- t=17.515 #42 <    3.26355     21.8927 0.000467638> yaw=0.0267937 approach lanes:
+ -- t=20.1322 #43 <    6.28939     21.8941 0.000467638> yaw=0.0267937 approach lanes: 55
+ -- t=20.1322 #43 <    6.28939     21.8941 -0.00738425> yaw=-0.423086 approach lanes:
+ -- t=34.1606 #49 <    26.4307     21.6583 -0.00738425> yaw=-0.423086 approach lanes: 56 57 58 59 60 61
+ -- t=36.3752 #49 < 26.4307  21.6583 -1.57905> yaw=-90.4731 approach lanes:
+ -- t=43.1546 #24 < 26.2872  12.3903 -1.57905> yaw=-90.4731 approach lanes: 62 53 31
+ -- t=45.3272 #24 <  26.2872   12.3903 -0.040984> yaw=-2.34821 approach lanes:
+ -- t=47.1706 #25 <  28.1508   12.3139 -0.040984> yaw=-2.34821 approach lanes: 32
+ -- t=49.331 #25 < 28.1508  12.3139 -1.56932> yaw=-89.9157 approach lanes:
+ -- t=51.6728 #26 < 28.1546  9.70129 -1.56932> yaw=-89.9157 approach lanes: 33
+[INFO] [1782948348.032120575] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_place_2] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948348.032657974] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [place:iw_hub_4_dock] via
+ -- t=0 <3.66194 9.12866 1.32825> yaw=76.103 approach lanes:
+ -- t=2.56058 < 3.66194  9.12866 -3.10647> yaw=-177.988 approach lanes:
+ -- t=5.60338 #18 <       0        9 -3.10647> yaw=-177.988 approach lanes: 20
+ -- t=9.77073 #18 <       0        9 0.042829> yaw=2.45392 approach lanes:
+[INFO] [1782948348.034292364] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [ 3.5656767  15.179765    1.61712662]
+[INFO] [1782948348.037851347] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [0.       9.       0.042829]
+[INFO] [1782948348.043203580] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.044142732] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [ 3.4347706  18.00324     2.41954606]
+[INFO] [1782948348.093872677] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948348.094189066] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.095914973] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [3.7573197  6.1219525  1.56960334]
+[INFO] [1782948348.098929023] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [-1.9181982e-02  2.1045120e+01  2.5266741e-01]
+[INFO] [1782948348.103149184] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+[INFO] [1782948348.123567462] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_pick_3] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948348.124352436] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [graph-wp:7] via
+ -- t=0 < 3.56767  6.04958 0.728705> yaw=41.7517 approach lanes:
+ -- t=0.705165 < 3.56767  6.04958 0.364573> yaw=20.8885 approach lanes:
+ -- t=1.27506 #7 < 3.75732  6.12195 0.364573> yaw=20.8885 approach lanes:
+ -- t=3.05062 #7 <3.75732 6.12195 1.58502> yaw=90.8151 approach lanes:
+[INFO] [1782948348.127312114] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [3.7573197  6.1219525  1.58502168]
+[INFO] [1782948348.132574173] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] done waiting for traffic
+[INFO] [1782948348.132657534] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [graph-wp:5] via
+ -- t=0 #18 <       0        9 0.042829> yaw=2.45392 approach lanes:
+ -- t=3.07835 #5 < 3.71411  9.15917 0.042829> yaw=2.45392 approach lanes: 15
+[INFO] [1782948348.134134583] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [3.7141113 9.159169  0.042829 ]
+[INFO] [1782948348.146342861] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948348.146764639] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948348.147104999] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.148652342] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [3.26354700e+00 2.18926720e+01 4.67637777e-04]
+[INFO] [1782948348.149981208] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] waiting for traffic
+[INFO] [1782948348.150146743] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] done waiting for traffic
+[INFO] [1782948348.150190290] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [graph-wp:5] via
+ -- t=0 #7 <3.75732 6.12195 1.58502> yaw=90.8151 approach lanes:
+ -- t=2.62502 #5 <3.71411 9.15917 1.58502> yaw=90.8151 approach lanes: 4
+[INFO] [1782948348.150399342] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+[INFO] [1782948348.153024454] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [3.7141113  9.159169   1.58502168]
+[INFO] [1782948348.153787001] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] done waiting for traffic
+[INFO] [1782948348.153837708] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [graph-wp:5] via
+ -- t=0 #5 < 3.71411  9.15917 0.042829> yaw=2.45392 approach lanes: 15
+ -- t=2.15847 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+[INFO] [1782948348.156326396] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [3.7141113  9.159169   1.56960334]
+[INFO] [1782948348.199023983] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948348.199695067] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948348.200092132] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.201322614] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [ 6.28939300e+00  2.18940870e+01 -7.38424765e-03]
+[INFO] [1782948348.203428086] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] waiting for traffic
+[INFO] [1782948348.203609149] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] done waiting for traffic
+[INFO] [1782948348.203685360] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [graph-wp:5] via
+ -- t=0 #5 <3.71411 9.15917 1.58502> yaw=90.8151 approach lanes: 4
+ -- t=1 #5 <3.71411 9.15917 1.58502> yaw=90.8151 approach lanes:
+[INFO] [1782948348.204069527] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+[INFO] [1782948348.204239934] [iw_hub_fleet_easy_adapter]: Requesting replan for [iw_hub_fleet/iw_hub_3] because it is too far from its commanded path. Details:
+Current location
+ -- L1 <3.75732 6.12195> [#7] | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 5: { L1 <3.83467 2.95038> [#8] } -> { L1 <3.75732 6.12195> [#7] } | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 12: { L1 <0 6> [iw_hub_3_dock] } -> { L1 <3.75732 6.12195> [#7] } | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 22: { L1 <3.75732 6.12195> [#7] } -> { L1 <0 6> [iw_hub_3_dock] } | location <3.56767 6.04958> | orientation 41.7517
+Commanded path:
+ -- t=0 #5 <3.71411 9.15917 1.58502> yaw=90.8151 approach lanes: 4
+ -- t=1 #5 <3.71411 9.15917 1.58502> yaw=90.8151 approach lanes:
+[INFO] [1782948348.204710113] [iw_hub_fleet_easy_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948348.204809242] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_3] to [pallet_pick_3] from one of these locations:
+ -- L1 <3.75732 6.12195> [#7] | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 5: { L1 <3.83467 2.95038> [#8] } -> { L1 <3.75732 6.12195> [#7] } | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 12: { L1 <0 6> [iw_hub_3_dock] } -> { L1 <3.75732 6.12195> [#7] } | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 22: { L1 <3.75732 6.12195> [#7] } -> { L1 <0 6> [iw_hub_3_dock] } | location <3.56767 6.04958> | orientation 41.7517
+[INFO] [1782948348.250729110] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.252476835] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [26.430689   21.658302   -1.57905291]
+[INFO] [1782948348.302630537] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.303626439] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [26.287228   12.390319   -0.04098397]
+[INFO] [1782948348.326611751] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_pick_3] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948348.327491083] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [graph-wp:7] via
+ -- t=0 < 3.56767  6.04958 0.728705> yaw=41.7517 approach lanes:
+ -- t=0.705165 < 3.56767  6.04958 0.364573> yaw=20.8885 approach lanes:
+ -- t=1.27506 #7 < 3.75732  6.12195 0.364573> yaw=20.8885 approach lanes:
+ -- t=3.05062 #7 <3.75732 6.12195 1.58502> yaw=90.8151 approach lanes:
+[INFO] [1782948348.329541702] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [3.7573197  6.1219525  1.58502168]
+[INFO] [1782948348.353423022] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948348.353820351] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] waiting for traffic
+[INFO] [1782948348.353897368] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.355563373] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [28.150791   12.3139     -1.56932462]
+[INFO] [1782948348.405640155] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.406727462] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [28.154636    9.701292   -1.56932462]
+[INFO] [1782948348.456620896] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.458265027] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782948348.458335833] [iw_hub_fleet_easy_adapter]: Got distance from [58] as 37.834371
+[INFO] [1782948348.458445109] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [pallet_place_1] from one of these locations:
+ -- L1 <3.71762 12.0984> [#6] | location <3.60754 12.1185> | orientation 61.8099
+ -- lane 9: { L1 <3.71762 12.0984> [#6] } -> { L1 <3.56568 15.1798> [#12] } | location <3.60754 12.1185> | orientation 61.8099
+ -- lane 11: { L1 < 0 12> [iw_hub_5_dock] } -> { L1 <3.71762 12.0984> [#6] } | location <3.60754 12.1185> | orientation 61.8099
+ -- lane 18: { L1 <3.71762 12.0984> [#6] } -> { L1 < 0 12> [iw_hub_5_dock] } | location <3.60754 12.1185> | orientation 61.8099
+[INFO] [1782948348.459916000] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_place_1] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782948348.460506027] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:pallet_place_1] via
+ -- t=0 <3.60754 12.1185 1.07879> yaw=61.8099 approach lanes:
+ -- t=1.82409 <  3.60754   12.1185 -0.180485> yaw=-10.341 approach lanes:
+ -- t=2.24721 #6 <  3.71762   12.0984 -0.180485> yaw=-10.341 approach lanes:
+ -- t=4.74422 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=9.28528 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 9 10
+ -- t=10.5383 #13 <3.43477 18.0032 2.41955> yaw=138.63 approach lanes:
+ -- t=14.2066 #19 <-0.019182   21.0451   2.41955> yaw=138.63 approach lanes: 27
+ -- t=17.1652 #19 <-0.019182   21.0451  0.252667> yaw=14.4768 approach lanes:
+ -- t=20.0255 #42 < 3.26355  21.8927 0.252667> yaw=14.4768 approach lanes: 54
+ -- t=20.5907 #42 <    3.26355     21.8927 0.000467638> yaw=0.0267937 approach lanes:
+ -- t=23.208 #43 <    6.28939     21.8941 0.000467638> yaw=0.0267937 approach lanes: 55
+ -- t=23.208 #43 <   6.28939    21.8941 -0.0111891> yaw=-0.641091 approach lanes:
+ -- t=31.0795 #46 <   17.1953    21.7174 -0.0111891> yaw=-0.641091 approach lanes: 56 57 58
+ -- t=33.2438 #46 < 17.1953  21.7174 -1.54265> yaw=-88.3871 approach lanes:
+ -- t=36.5104 #38 < 17.3078  17.7191 -1.54265> yaw=-88.3871 approach lanes: 99
+ -- t=36.7228 #38 < 17.3078  17.7191 -1.50655> yaw=-86.3187 approach lanes:
+ -- t=40.4526 #52 < 17.6616  13.0377 -1.50655> yaw=-86.3187 approach lanes: 63 64 65
+ -- t=40.9651 #52 < 17.6616  13.0377 -1.29657> yaw=-74.2881 approach lanes:
+ -- t=42.8133 #53 < 18.1686  11.2354 -1.29657> yaw=-74.2881 approach lanes: 66
+ -- t=43.3862 #53 < 18.1686  11.2354 -1.55492> yaw=-89.0903 approach lanes:
+ -- t=53.3564 #57 < 18.2866 -2.81941 -1.55492> yaw=-89.0903 approach lanes: 67 68 69 70
+ -- t=55.5988 #57 < 18.2866 -2.81941  3.13436> yaw=179.586 approach lanes:
+ -- t=59.0752 #58 < 13.9721 -2.78823  3.13436> yaw=179.586 approach lanes: 71
+[INFO] [1782948348.462241483] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [ 3.4347706  18.00324     2.41954606]
+[INFO] [1782948348.464556607] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] done waiting for traffic
+[INFO] [1782948348.464627895] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [graph-wp:6] via
+ -- t=0 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+ -- t=2.5595 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+[INFO] [1782948348.466053991] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [ 3.7176178  12.098419    1.56960334]
+[INFO] [1782948348.509128416] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948348.509607447] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.509830069] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+[INFO] [1782948348.510830221] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [-1.9181982e-02  2.1045120e+01  2.5266741e-01]
+[INFO] [1782948348.513097627] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] done waiting for traffic
+[INFO] [1782948348.513217062] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [graph-wp:6] via
+ -- t=0 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+ -- t=0.24373 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+[INFO] [1782948348.514347124] [iw_hub_fleet_easy_adapter]: Requesting replan for [iw_hub_fleet/iw_hub_4] because it is too far from its commanded path. Details:
+Current location
+ -- L1 <3.71411 9.15917> [#5] | location <3.66194 9.12866> | orientation 76.103
+ -- lane 4: { L1 <3.75732 6.12195> [#7] } -> { L1 <3.71411 9.15917> [#5] } | location <3.66194 9.12866> | orientation 76.103
+ -- lane 15: { L1 <0 9> [iw_hub_4_dock] } -> { L1 <3.71411 9.15917> [#5] } | location <3.66194 9.12866> | orientation 76.103
+ -- lane 20: { L1 <3.71411 9.15917> [#5] } -> { L1 <0 9> [iw_hub_4_dock] } | location <3.66194 9.12866> | orientation 76.103
+Commanded path:
+ -- t=0 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+ -- t=0.24373 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+[INFO] [1782948348.514456594] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] done waiting for traffic
+[INFO] [1782948348.514498614] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [graph-wp:5] via
+ -- t=0 #7 <3.75732 6.12195 1.58502> yaw=90.8151 approach lanes:
+ -- t=2.62502 #5 <3.71411 9.15917 1.58502> yaw=90.8151 approach lanes: 4
+[INFO] [1782948348.514865193] [iw_hub_fleet_easy_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948348.514959489] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_4] to [pallet_place_2] from one of these locations:
+ -- L1 <3.71411 9.15917> [#5] | location <3.66194 9.12866> | orientation 76.103
+ -- lane 4: { L1 <3.75732 6.12195> [#7] } -> { L1 <3.71411 9.15917> [#5] } | location <3.66194 9.12866> | orientation 76.103
+ -- lane 15: { L1 <0 9> [iw_hub_4_dock] } -> { L1 <3.71411 9.15917> [#5] } | location <3.66194 9.12866> | orientation 76.103
+ -- lane 20: { L1 <3.71411 9.15917> [#5] } -> { L1 <0 9> [iw_hub_4_dock] } | location <3.66194 9.12866> | orientation 76.103
+[INFO] [1782948348.516571516] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [3.7141113  9.159169   1.58502168]
+[INFO] [1782948348.560322171] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948348.560750589] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.560846559] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] waiting for traffic
+[INFO] [1782948348.563014200] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [3.26354700e+00 2.18926720e+01 4.67637777e-04]
+[INFO] [1782948348.612714147] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.614082656] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [ 6.28939300e+00  2.18940870e+01 -1.11891438e-02]
+[INFO] [1782948348.663587597] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.665606759] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [17.195263   21.717377   -1.54264569]
+[INFO] [1782948348.678533501] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_place_2] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948348.679077113] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [place:pallet_place_2] via
+ -- t=0 <3.66194 9.12866 1.32825> yaw=76.103 approach lanes:
+ -- t=1.24882 <3.66194 9.12866 0.52919> yaw=30.3203 approach lanes:
+ -- t=1.5598 #5 <3.71411 9.15917 0.52919> yaw=30.3203 approach lanes:
+ -- t=3.11032 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+ -- t=5.66982 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+ -- t=5.91355 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=10.4546 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 9 10
+ -- t=11.7076 #13 <3.43477 18.0032 2.41955> yaw=138.63 approach lanes:
+ -- t=15.376 #19 <-0.019182   21.0451   2.41955> yaw=138.63 approach lanes: 27
+ -- t=18.3346 #19 <-0.019182   21.0451  0.252667> yaw=14.4768 approach lanes:
+ -- t=21.1948 #42 < 3.26355  21.8927 0.252667> yaw=14.4768 approach lanes: 54
+ -- t=21.7601 #42 <    3.26355     21.8927 0.000467638> yaw=0.0267937 approach lanes:
+ -- t=24.3773 #43 <    6.28939     21.8941 0.000467638> yaw=0.0267937 approach lanes: 55
+ -- t=24.3773 #43 <   6.28939    21.8941 -0.0111891> yaw=-0.641091 approach lanes:
+ -- t=32.2488 #46 <   17.1953    21.7174 -0.0111891> yaw=-0.641091 approach lanes: 56 57 58
+ -- t=34.4131 #46 < 17.1953  21.7174 -1.54265> yaw=-88.3871 approach lanes:
+ -- t=37.6797 #38 < 17.3078  17.7191 -1.54265> yaw=-88.3871 approach lanes: 99
+ -- t=37.8921 #38 < 17.3078  17.7191 -1.50655> yaw=-86.3187 approach lanes:
+ -- t=41.622 #52 < 17.6616  13.0377 -1.50655> yaw=-86.3187 approach lanes: 63 64 65
+ -- t=42.1344 #52 < 17.6616  13.0377 -1.29657> yaw=-74.2881 approach lanes:
+ -- t=43.9826 #53 < 18.1686  11.2354 -1.29657> yaw=-74.2881 approach lanes: 66
+ -- t=44.5637 #53 < 18.1686  11.2354 -1.56144> yaw=-89.464 approach lanes:
+ -- t=52.5355 #56 <  18.239  0.17796 -1.56144> yaw=-89.464 approach lanes: 67 68 69
+ -- t=54.7584 #56 <  18.239  0.17796 -3.13976> yaw=-179.895 approach lanes:
+ -- t=58.2534 #59 < 13.8964 0.169985 -3.13976> yaw=-179.895 approach lanes: 84
+[INFO] [1782948348.681080566] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [ 3.7176178  12.098419    1.61712662]
+[INFO] [1782948348.683243989] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] done waiting for traffic
+[INFO] [1782948348.683316438] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [graph-wp:6] via
+ -- t=0 #5 <3.71411 9.15917 1.58502> yaw=90.8151 approach lanes: 4
+ -- t=0 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+ -- t=2.5595 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+[INFO] [1782948348.684084385] [iw_hub_fleet_easy_adapter]: Requesting replan for [iw_hub_fleet/iw_hub_3] because it is too far from its commanded path. Details:
+Current location
+ -- L1 <3.75732 6.12195> [#7] | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 5: { L1 <3.83467 2.95038> [#8] } -> { L1 <3.75732 6.12195> [#7] } | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 12: { L1 <0 6> [iw_hub_3_dock] } -> { L1 <3.75732 6.12195> [#7] } | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 22: { L1 <3.75732 6.12195> [#7] } -> { L1 <0 6> [iw_hub_3_dock] } | location <3.56767 6.04958> | orientation 41.7517
+Commanded path:
+ -- t=0 #5 <3.71411 9.15917 1.58502> yaw=90.8151 approach lanes: 4
+ -- t=0 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+ -- t=2.5595 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+[INFO] [1782948348.684628198] [iw_hub_fleet_easy_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948348.684766127] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_3] to [pallet_pick_3] from one of these locations:
+ -- L1 <3.75732 6.12195> [#7] | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 5: { L1 <3.83467 2.95038> [#8] } -> { L1 <3.75732 6.12195> [#7] } | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 12: { L1 <0 6> [iw_hub_3_dock] } -> { L1 <3.75732 6.12195> [#7] } | location <3.56767 6.04958> | orientation 41.7517
+ -- lane 22: { L1 <3.75732 6.12195> [#7] } -> { L1 <0 6> [iw_hub_3_dock] } | location <3.56767 6.04958> | orientation 41.7517
+[INFO] [1782948348.714506514] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948348.716917594] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.718414652] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [ 3.4347706  18.00324     2.41954606]
+[INFO] [1782948348.722895867] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [17.307846   17.719128   -1.50654605]
+[INFO] [1782948348.768385851] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948348.768726799] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.770583812] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [-1.9181982e-02  2.1045120e+01  2.5266741e-01]
+[INFO] [1782948348.774086384] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [17.661587   13.037695   -1.29657222]
+[INFO] [1782948348.817271097] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_pick_3] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948348.818044393] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [graph-wp:7] via
+ -- t=0 < 3.56767  6.04958 0.728705> yaw=41.7517 approach lanes:
+ -- t=0.705165 < 3.56767  6.04958 0.364573> yaw=20.8885 approach lanes:
+ -- t=1.27506 #7 < 3.75732  6.12195 0.364573> yaw=20.8885 approach lanes:
+ -- t=3.05062 #7 <3.75732 6.12195 1.58502> yaw=90.8151 approach lanes:
+[INFO] [1782948348.819532465] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948348.821035636] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.821250285] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [3.26354700e+00 2.18926720e+01 4.67637777e-04]
+[INFO] [1782948348.825791490] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [18.168598   11.235381   -1.55491877]
+[INFO] [1782948348.871862059] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948348.874426032] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [ 6.28939300e+00  2.18940870e+01 -1.11891438e-02]
+[INFO] [1782948348.876377349] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.880070038] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [18.28658    -2.819415    3.13436437]
+[INFO] [1782948348.915949956] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_place_1] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782948348.916512766] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:pallet_place_1] via
+ -- t=0 <3.60754 12.1185 1.07879> yaw=61.8099 approach lanes:
+ -- t=0.882106 <3.60754 12.1185 1.58447> yaw=90.7835 approach lanes:
+ -- t=3.52314 #12 <3.56568 15.1798 1.58447> yaw=90.7835 approach lanes: 9
+ -- t=3.72517 #12 <3.56568 15.1798 1.61713> yaw=92.6545 approach lanes:
+ -- t=6.20951 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 10
+ -- t=7.46254 #13 <3.43477 18.0032 2.41955> yaw=138.63 approach lanes:
+ -- t=11.1309 #19 <-0.019182   21.0451   2.41955> yaw=138.63 approach lanes: 27
+ -- t=14.0895 #19 <-0.019182   21.0451  0.252667> yaw=14.4768 approach lanes:
+ -- t=16.9497 #42 < 3.26355  21.8927 0.252667> yaw=14.4768 approach lanes: 54
+ -- t=17.515 #42 <    3.26355     21.8927 0.000467638> yaw=0.0267937 approach lanes:
+ -- t=20.1322 #43 <    6.28939     21.8941 0.000467638> yaw=0.0267937 approach lanes: 55
+ -- t=20.1322 #43 <   6.28939    21.8941 -0.0111891> yaw=-0.641091 approach lanes:
+ -- t=28.0037 #46 <   17.1953    21.7174 -0.0111891> yaw=-0.641091 approach lanes: 56 57 58
+ -- t=30.168 #46 < 17.1953  21.7174 -1.54265> yaw=-88.3871 approach lanes:
+ -- t=33.4346 #38 < 17.3078  17.7191 -1.54265> yaw=-88.3871 approach lanes: 99
+ -- t=33.647 #38 < 17.3078  17.7191 -1.50655> yaw=-86.3187 approach lanes:
+ -- t=37.3769 #52 < 17.6616  13.0377 -1.50655> yaw=-86.3187 approach lanes: 63 64 65
+ -- t=37.8893 #52 < 17.6616  13.0377 -1.29657> yaw=-74.2881 approach lanes:
+ -- t=39.7375 #53 < 18.1686  11.2354 -1.29657> yaw=-74.2881 approach lanes: 66
+ -- t=40.3105 #53 < 18.1686  11.2354 -1.55492> yaw=-89.0903 approach lanes:
+ -- t=50.2806 #57 < 18.2866 -2.81941 -1.55492> yaw=-89.0903 approach lanes: 67 68 69 70
+ -- t=52.523 #57 < 18.2866 -2.81941  3.13436> yaw=179.586 approach lanes:
+ -- t=55.9994 #58 < 13.9721 -2.78823  3.13436> yaw=179.586 approach lanes: 71
+[INFO] [1782948348.916932649] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_place_2] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948348.917552776] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [graph-wp:5] via
+ -- t=0 <3.66194 9.12866 1.32825> yaw=76.103 approach lanes:
+ -- t=1.24882 <3.66194 9.12866 0.52919> yaw=30.3203 approach lanes:
+ -- t=1.5598 #5 <3.71411 9.15917 0.52919> yaw=30.3203 approach lanes:
+ -- t=3.11032 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+[INFO] [1782948348.917923979] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_pick_3] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948348.918709303] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [graph-wp:7] via
+ -- t=0 < 3.56767  6.04958 0.728705> yaw=41.7517 approach lanes:
+ -- t=0.705165 < 3.56767  6.04958 0.364573> yaw=20.8885 approach lanes:
+ -- t=1.27506 #7 < 3.75732  6.12195 0.364573> yaw=20.8885 approach lanes:
+ -- t=3.05062 #7 <3.75732 6.12195 1.58502> yaw=90.8151 approach lanes:
+[INFO] [1782948348.920950716] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [ 3.5656767  15.179765    1.61712662]
+[INFO] [1782948348.925665471] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [3.7141113  9.159169   1.56960334]
+[INFO] [1782948348.929284454] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [3.7573197  6.1219525  1.58502168]
+[INFO] [1782948348.979326799] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948348.979755301] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948348.979798238] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] waiting for traffic
+[INFO] [1782948348.980361855] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948348.980562551] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+[INFO] [1782948348.982818498] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [ 3.4347706  18.00324     2.41954606]
+[INFO] [1782948349.032178773] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948349.033744915] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [-1.9181982e-02  2.1045120e+01  2.5266741e-01]
+[INFO] [1782948349.083219275] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948349.084052209] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [3.26354700e+00 2.18926720e+01 4.67637777e-04]
+[INFO] [1782948349.134228160] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948349.135682099] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [ 6.28939300e+00  2.18940870e+01 -1.11891438e-02]
+[INFO] [1782948349.186522976] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948349.188463858] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [17.195263   21.717377   -1.54264569]
+[INFO] [1782948349.238334479] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948349.239155585] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [17.307846   17.719128   -1.50654605]
+[INFO] [1782948349.289190762] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948349.290043185] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [17.661587   13.037695   -1.29657222]
+[INFO] [1782948349.339957403] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948349.340763262] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [18.168598   11.235381   -1.55491877]
+[INFO] [1782948349.390899917] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948349.392466668] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [18.28658    -2.819415    3.13436437]
+[INFO] [1782948349.442928235] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948349.443978094] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [13.972145   -2.7882285   3.13436437]
+[INFO] [1782948349.494107545] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948349.496732823] [iw_hub_fleet_easy_adapter]: Beginning a new parking task for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782948349.496836936] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [14] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782948349.496903526] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782948349.496922400] [iw_hub_fleet_easy_adapter]: Got distance from [14] as 2.406326
+[INFO] [1782948349.496996960] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [iw_hub_5_dock] from one of these locations:
+ -- L1 <3.71762 12.0984> [#6] | location <3.60754 12.1185> | orientation 61.8099
+ -- lane 9: { L1 <3.71762 12.0984> [#6] } -> { L1 <3.56568 15.1798> [#12] } | location <3.60754 12.1185> | orientation 61.8099
+ -- lane 11: { L1 < 0 12> [iw_hub_5_dock] } -> { L1 <3.71762 12.0984> [#6] } | location <3.60754 12.1185> | orientation 61.8099
+ -- lane 18: { L1 <3.71762 12.0984> [#6] } -> { L1 < 0 12> [iw_hub_5_dock] } | location <3.60754 12.1185> | orientation 61.8099
+[INFO] [1782948349.498211436] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [iw_hub_5_dock] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782948349.498640003] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:iw_hub_5_dock] via
+ -- t=0 <3.60754 12.1185 1.07879> yaw=61.8099 approach lanes:
+ -- t=1.82409 <  3.60754   12.1185 -0.180485> yaw=-10.341 approach lanes:
+ -- t=2.24721 #6 <  3.71762   12.0984 -0.180485> yaw=-10.341 approach lanes:
+ -- t=6.16551 #6 < 3.71762  12.0984 -3.11513> yaw=-178.484 approach lanes:
+ -- t=9.24479 #14 <       0       12 -3.11513> yaw=-178.484 approach lanes: 18
+[INFO] [1782948349.500118762] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [ 0.         12.         -3.11512516]
+[INFO] [1782948349.502079902] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] done waiting for traffic
+[INFO] [1782948349.502152757] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [graph-wp:6] via
+ -- t=0 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+ -- t=2.5595 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+[INFO] [1782948349.504863788] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [ 3.7176178  12.098419    1.56960334]
+[INFO] [1782948349.545553212] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Leg finished.
+[INFO] [1782948349.565922977] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_pick_3] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948349.566473319] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [place:pallet_pick_3] via
+ -- t=0 < 3.59686  6.07483 0.950662> yaw=54.4689 approach lanes:
+ -- t=1.0813 < 3.59686  6.07483 0.285619> yaw=16.3648 approach lanes:
+ -- t=1.59858 #7 < 3.75732  6.12195 0.285619> yaw=16.3648 approach lanes:
+ -- t=3.45356 #7 <3.75732 6.12195  1.5696> yaw=89.9316 approach lanes:
+ -- t=8.03796 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 4 3
+ -- t=8.28169 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=12.8228 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 9 10
+ -- t=14.0758 #13 <3.43477 18.0032 2.41955> yaw=138.63 approach lanes:
+ -- t=17.7441 #19 <-0.019182   21.0451   2.41955> yaw=138.63 approach lanes: 27
+ -- t=20.7027 #19 <-0.019182   21.0451  0.252667> yaw=14.4768 approach lanes:
+ -- t=23.5629 #42 < 3.26355  21.8927 0.252667> yaw=14.4768 approach lanes: 54
+ -- t=24.1282 #42 <    3.26355     21.8927 0.000467638> yaw=0.0267937 approach lanes:
+ -- t=26.7454 #43 <    6.28939     21.8941 0.000467638> yaw=0.0267937 approach lanes: 55
+ -- t=26.7454 #43 <    6.28939     21.8941 -0.00738425> yaw=-0.423086 approach lanes:
+ -- t=40.7739 #49 <    26.4307     21.6583 -0.00738425> yaw=-0.423086 approach lanes: 56 57 58 59 60 61
+ -- t=42.9885 #49 < 26.4307  21.6583 -1.57905> yaw=-90.4731 approach lanes:
+ -- t=49.7679 #24 < 26.2872  12.3903 -1.57905> yaw=-90.4731 approach lanes: 62 53 31
+ -- t=51.9404 #24 <  26.2872   12.3903 -0.040984> yaw=-2.34821 approach lanes:
+ -- t=53.7839 #25 <  28.1508   12.3139 -0.040984> yaw=-2.34821 approach lanes: 32
+ -- t=55.9391 #25 < 28.1508  12.3139 -1.56515> yaw=-89.6766 approach lanes:
+ -- t=62.4625 #31 < 28.1756  3.42877 -1.56515> yaw=-89.6766 approach lanes: 33 36 39
+[INFO] [1782948349.567050489] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_place_2] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948349.567485136] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [place:iw_hub_4_dock] via
+ -- t=0 <3.66194 9.12866 1.32825> yaw=76.103 approach lanes:
+ -- t=2.56058 < 3.66194  9.12866 -3.10647> yaw=-177.988 approach lanes:
+ -- t=5.60338 #18 <       0        9 -3.10647> yaw=-177.988 approach lanes: 20
+ -- t=9.77073 #18 <       0        9 0.042829> yaw=2.45392 approach lanes:
+[INFO] [1782948349.569961863] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [ 3.7176178  12.098419    1.61712662]
+[INFO] [1782948349.573269754] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [0.       9.       0.042829]
+[INFO] [1782948349.596214700] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948349.596987469] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948349.598662534] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [ 3.4347706  18.00324     2.41954606]
+[INFO] [1782948349.604538715] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+[INFO] [1782948349.648620894] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948349.649759252] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [-1.9181982e-02  2.1045120e+01  2.5266741e-01]
+[INFO] [1782948349.699547439] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948349.703486733] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [3.26354700e+00 2.18926720e+01 4.67637777e-04]
+[INFO] [1782948349.750949612] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948349.753061850] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [ 6.28939300e+00  2.18940870e+01 -7.38424765e-03]
+[INFO] [1782948349.802422543] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948349.803383095] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [26.430689   21.658302   -1.57905291]
+[INFO] [1782948349.853324184] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948349.854174954] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [26.287228   12.390319   -0.04098397]
+[INFO] [1782948349.904190740] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948349.905021686] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [28.150791   12.3139     -1.56515258]
+[INFO] [1782948349.955132348] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948349.956159620] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [28.175615    3.4287689  -1.56515258]
+[INFO] [1782948350.005951835] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948350.007533155] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948350.007577917] [iw_hub_fleet_easy_adapter]: Got distance from [60] as 37.354057
+[INFO] [1782948350.007657707] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_3] to [pallet_place_3] from one of these locations:
+ -- L1 <3.75732 6.12195> [#7] | location <3.59686 6.07483> | orientation 54.4689
+ -- lane 5: { L1 <3.83467 2.95038> [#8] } -> { L1 <3.75732 6.12195> [#7] } | location <3.59686 6.07483> | orientation 54.4689
+ -- lane 12: { L1 <0 6> [iw_hub_3_dock] } -> { L1 <3.75732 6.12195> [#7] } | location <3.59686 6.07483> | orientation 54.4689
+ -- lane 22: { L1 <3.75732 6.12195> [#7] } -> { L1 <0 6> [iw_hub_3_dock] } | location <3.59686 6.07483> | orientation 54.4689
+[INFO] [1782948350.011922728] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] done waiting for traffic
+[INFO] [1782948350.012002311] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [graph-wp:5] via
+ -- t=0 #18 <       0        9 0.042829> yaw=2.45392 approach lanes:
+ -- t=3.07835 #5 < 3.71411  9.15917 0.042829> yaw=2.45392 approach lanes: 15
+[INFO] [1782948350.013579311] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [3.7141113 9.159169  0.042829 ]
+[INFO] [1782948350.058332640] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948350.058905162] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+[INFO] [1782948350.059139517] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] done waiting for traffic
+[INFO] [1782948350.059192515] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [graph-wp:5] via
+ -- t=0 #5 < 3.71411  9.15917 0.042829> yaw=2.45392 approach lanes: 15
+ -- t=2.15847 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+[INFO] [1782948350.060396098] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [3.7141113  9.159169   1.56960334]
+[INFO] [1782948350.069182564] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_place_3] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948350.070175014] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] waiting for traffic
+[INFO] [1782948350.071690820] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] done waiting for traffic
+[INFO] [1782948350.071760737] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [graph-wp:7] via
+ -- t=0 < 3.59686  6.07483 0.950662> yaw=54.4689 approach lanes:
+ -- t=1.0813 < 3.59686  6.07483 0.285619> yaw=16.3648 approach lanes:
+ -- t=1.59858 #7 < 3.75732  6.12195 0.285619> yaw=16.3648 approach lanes:
+ -- t=4.59858 #7 < 3.75732  6.12195 0.285619> yaw=16.3648 approach lanes:
+ -- t=6.47283 #7 <3.75732 6.12195 1.58502> yaw=90.8151 approach lanes:
+[INFO] [1782948350.073549520] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [3.7573197  6.1219525  1.58502168]
+[INFO] [1782948350.109329387] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948350.109811234] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948350.109839634] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] waiting for traffic
+[INFO] [1782948350.110647307] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+[INFO] [1782948350.111084275] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] done waiting for traffic
+[INFO] [1782948350.111161851] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [graph-wp:6] via
+ -- t=0 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+ -- t=2.5595 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+ -- t=2.80323 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+[INFO] [1782948350.112936663] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [ 3.7176178  12.098419    1.61712662]
+[INFO] [1782948350.160696177] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948350.161651052] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+[INFO] [1782948350.161989081] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] done waiting for traffic
+[INFO] [1782948350.162194203] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [graph-wp:12] via
+ -- t=0 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=2.35672 #12 <3.56568 15.1798 1.61713> yaw=92.6545 approach lanes: 9
+[INFO] [1782948350.162979670] [iw_hub_fleet_easy_adapter]: Requesting replan for [iw_hub_fleet/iw_hub_4] because it is too far from its commanded path. Details:
+Current location
+ -- L1 <3.71411 9.15917> [#5] | location <3.66194 9.12866> | orientation 76.103
+ -- lane 4: { L1 <3.75732 6.12195> [#7] } -> { L1 <3.71411 9.15917> [#5] } | location <3.66194 9.12866> | orientation 76.103
+ -- lane 15: { L1 <0 9> [iw_hub_4_dock] } -> { L1 <3.71411 9.15917> [#5] } | location <3.66194 9.12866> | orientation 76.103
+ -- lane 20: { L1 <3.71411 9.15917> [#5] } -> { L1 <0 9> [iw_hub_4_dock] } | location <3.66194 9.12866> | orientation 76.103
+Commanded path:
+ -- t=0 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=2.35672 #12 <3.56568 15.1798 1.61713> yaw=92.6545 approach lanes: 9
+[INFO] [1782948350.163519980] [iw_hub_fleet_easy_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948350.163638889] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_4] to [pallet_place_2] from one of these locations:
+ -- L1 <3.71411 9.15917> [#5] | location <3.66194 9.12866> | orientation 76.103
+ -- lane 4: { L1 <3.75732 6.12195> [#7] } -> { L1 <3.71411 9.15917> [#5] } | location <3.66194 9.12866> | orientation 76.103
+ -- lane 15: { L1 <0 9> [iw_hub_4_dock] } -> { L1 <3.71411 9.15917> [#5] } | location <3.66194 9.12866> | orientation 76.103
+ -- lane 20: { L1 <3.71411 9.15917> [#5] } -> { L1 <0 9> [iw_hub_4_dock] } | location <3.66194 9.12866> | orientation 76.103
+[INFO] [1782948350.165494251] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_place_2] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948350.166166783] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [place:pallet_place_2] via
+ -- t=0 <3.66194 9.12866 1.32825> yaw=76.103 approach lanes:
+ -- t=1.24882 <3.66194 9.12866 0.52919> yaw=30.3203 approach lanes:
+ -- t=1.5598 #5 <3.71411 9.15917 0.52919> yaw=30.3203 approach lanes:
+ -- t=3.11032 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+ -- t=5.66982 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+ -- t=5.91355 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=10.4546 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 9 10
+ -- t=11.7076 #13 <3.43477 18.0032 2.41955> yaw=138.63 approach lanes:
+ -- t=15.376 #19 <-0.019182   21.0451   2.41955> yaw=138.63 approach lanes: 27
+ -- t=18.3346 #19 <-0.019182   21.0451  0.252667> yaw=14.4768 approach lanes:
+ -- t=21.1948 #42 < 3.26355  21.8927 0.252667> yaw=14.4768 approach lanes: 54
+ -- t=21.7601 #42 <    3.26355     21.8927 0.000467638> yaw=0.0267937 approach lanes:
+ -- t=24.3773 #43 <    6.28939     21.8941 0.000467638> yaw=0.0267937 approach lanes: 55
+ -- t=24.3773 #43 <   6.28939    21.8941 -0.0111891> yaw=-0.641091 approach lanes:
+ -- t=32.2488 #46 <   17.1953    21.7174 -0.0111891> yaw=-0.641091 approach lanes: 56 57 58
+ -- t=34.4131 #46 < 17.1953  21.7174 -1.54265> yaw=-88.3871 approach lanes:
+ -- t=37.6797 #38 < 17.3078  17.7191 -1.54265> yaw=-88.3871 approach lanes: 99
+ -- t=37.8921 #38 < 17.3078  17.7191 -1.50655> yaw=-86.3187 approach lanes:
+ -- t=41.622 #52 < 17.6616  13.0377 -1.50655> yaw=-86.3187 approach lanes: 63 64 65
+ -- t=42.1344 #52 < 17.6616  13.0377 -1.29657> yaw=-74.2881 approach lanes:
+ -- t=43.9826 #53 < 18.1686  11.2354 -1.29657> yaw=-74.2881 approach lanes: 66
+ -- t=44.5637 #53 < 18.1686  11.2354 -1.56144> yaw=-89.464 approach lanes:
+ -- t=52.5355 #56 <  18.239  0.17796 -1.56144> yaw=-89.464 approach lanes: 67 68 69
+ -- t=54.7584 #56 <  18.239  0.17796 -3.13976> yaw=-179.895 approach lanes:
+ -- t=58.2534 #59 < 13.8964 0.169985 -3.13976> yaw=-179.895 approach lanes: 84
+[INFO] [1782948350.169127450] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [ 3.7176178  12.098419    1.61712662]
+[INFO] [1782948350.172221918] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] done waiting for traffic
+[INFO] [1782948350.172281072] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [graph-wp:5] via
+ -- t=0 #7 <3.75732 6.12195 1.58502> yaw=90.8151 approach lanes:
+ -- t=2.62502 #5 <3.71411 9.15917 1.58502> yaw=90.8151 approach lanes: 4
+[INFO] [1782948350.173742147] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [3.7141113  9.159169   1.58502168]
+[INFO] [1782948350.211811044] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948350.212369631] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] waiting for traffic
+[INFO] [1782948350.212916109] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] done waiting for traffic
+[INFO] [1782948350.213042652] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [graph-wp:6] via
+ -- t=0 #5 <3.71411 9.15917 1.58502> yaw=90.8151 approach lanes: 4
+ -- t=0 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+ -- t=2.5595 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+ -- t=2.81066 #6 <3.71762 12.0984 1.62007> yaw=92.823 approach lanes:
+[INFO] [1782948350.213323214] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948350.213889709] [iw_hub_fleet_easy_adapter]: Requesting replan for [iw_hub_fleet/iw_hub_3] because it is too far from its commanded path. Details:
+Current location
+ -- L1 <3.75732 6.12195> [#7] | location <3.59686 6.07483> | orientation 54.4689
+ -- lane 5: { L1 <3.83467 2.95038> [#8] } -> { L1 <3.75732 6.12195> [#7] } | location <3.59686 6.07483> | orientation 54.4689
+ -- lane 12: { L1 <0 6> [iw_hub_3_dock] } -> { L1 <3.75732 6.12195> [#7] } | location <3.59686 6.07483> | orientation 54.4689
+ -- lane 22: { L1 <3.75732 6.12195> [#7] } -> { L1 <0 6> [iw_hub_3_dock] } | location <3.59686 6.07483> | orientation 54.4689
+Commanded path:
+ -- t=0 #5 <3.71411 9.15917 1.58502> yaw=90.8151 approach lanes: 4
+ -- t=0 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+ -- t=2.5595 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+ -- t=2.81066 #6 <3.71762 12.0984 1.62007> yaw=92.823 approach lanes:
+[INFO] [1782948350.214688458] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [ 3.4347706  18.00324     2.41954606]
+[INFO] [1782948350.215997866] [iw_hub_fleet_easy_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948350.216073350] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_3] to [pallet_place_3] from one of these locations:
+ -- L1 <3.75732 6.12195> [#7] | location <3.59686 6.07483> | orientation 54.4689
+ -- lane 5: { L1 <3.83467 2.95038> [#8] } -> { L1 <3.75732 6.12195> [#7] } | location <3.59686 6.07483> | orientation 54.4689
+ -- lane 12: { L1 <0 6> [iw_hub_3_dock] } -> { L1 <3.75732 6.12195> [#7] } | location <3.59686 6.07483> | orientation 54.4689
+ -- lane 22: { L1 <3.75732 6.12195> [#7] } -> { L1 <0 6> [iw_hub_3_dock] } | location <3.59686 6.07483> | orientation 54.4689
+[INFO] [1782948350.217929336] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_place_3] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948350.218359071] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [place:pallet_place_3] via
+ -- t=0 < 3.59686  6.07483 0.950662> yaw=54.4689 approach lanes:
+ -- t=1.0813 < 3.59686  6.07483 0.285619> yaw=16.3648 approach lanes:
+ -- t=1.59858 #7 < 3.75732  6.12195 0.285619> yaw=16.3648 approach lanes:
+ -- t=3.45356 #7 <3.75732 6.12195  1.5696> yaw=89.9316 approach lanes:
+ -- t=8.03796 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 4 3
+ -- t=8.28169 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=12.8228 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 9 10
+ -- t=14.0758 #13 <3.43477 18.0032 2.41955> yaw=138.63 approach lanes:
+ -- t=17.7441 #19 <-0.019182   21.0451   2.41955> yaw=138.63 approach lanes: 27
+ -- t=20.7027 #19 <-0.019182   21.0451  0.252667> yaw=14.4768 approach lanes:
+ -- t=23.5629 #42 < 3.26355  21.8927 0.252667> yaw=14.4768 approach lanes: 54
+ -- t=24.1282 #42 <    3.26355     21.8927 0.000467638> yaw=0.0267937 approach lanes:
+ -- t=26.7454 #43 <    6.28939     21.8941 0.000467638> yaw=0.0267937 approach lanes: 55
+ -- t=26.7454 #43 <   6.28939    21.8941 -0.0111891> yaw=-0.641091 approach lanes:
+ -- t=34.617 #46 <   17.1953    21.7174 -0.0111891> yaw=-0.641091 approach lanes: 56 57 58
+ -- t=36.7813 #46 < 17.1953  21.7174 -1.54265> yaw=-88.3871 approach lanes:
+ -- t=40.0478 #38 < 17.3078  17.7191 -1.54265> yaw=-88.3871 approach lanes: 99
+ -- t=40.2603 #38 < 17.3078  17.7191 -1.50655> yaw=-86.3187 approach lanes:
+ -- t=43.9901 #52 < 17.6616  13.0377 -1.50655> yaw=-86.3187 approach lanes: 63 64 65
+ -- t=44.5026 #52 < 17.6616  13.0377 -1.29657> yaw=-74.2881 approach lanes:
+ -- t=46.3508 #53 < 18.1686  11.2354 -1.29657> yaw=-74.2881 approach lanes: 66
+ -- t=46.948 #53 < 18.1686  11.2354 -1.57434> yaw=-90.2028 approach lanes:
+ -- t=52.3908 #55 < 18.2035  3.97125 -1.57434> yaw=-90.2028 approach lanes: 67 68
+ -- t=54.6018 #55 <18.2035 3.97125 3.14007> yaw=179.913 approach lanes:
+ -- t=58.0136 #60 <13.9858 3.97768 3.14007> yaw=179.913 approach lanes: 83
+[INFO] [1782948350.218902791] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_place_2] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948350.219380821] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [place:iw_hub_4_dock] via
+ -- t=0 <3.66194 9.12866 1.32825> yaw=76.103 approach lanes:
+ -- t=2.56058 < 3.66194  9.12866 -3.10647> yaw=-177.988 approach lanes:
+ -- t=5.60338 #18 <       0        9 -3.10647> yaw=-177.988 approach lanes: 20
+ -- t=9.77073 #18 <       0        9 0.042829> yaw=2.45392 approach lanes:
+[INFO] [1782948350.220963196] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [ 3.7176178  12.098419    1.61712662]
+[INFO] [1782948350.224003902] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [0.       9.       0.042829]
+[INFO] [1782948350.260942327] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_place_3] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948350.261730283] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to (3.59686 6.07483) via
+ -- t=0 < 3.59686  6.07483 0.950662> yaw=54.4689 approach lanes:
+ -- t=1 < 3.59686  6.07483 0.950662> yaw=54.4689 approach lanes:
+[INFO] [1782948350.263553160] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [3.59685957 6.07483367 0.95066249]
+[INFO] [1782948350.268921048] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948350.269359645] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+[INFO] [1782948350.272479891] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] done waiting for traffic
+[INFO] [1782948350.272541992] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [graph-wp:5] via
+ -- t=0 #18 <       0        9 0.042829> yaw=2.45392 approach lanes:
+ -- t=3.07835 #5 < 3.71411  9.15917 0.042829> yaw=2.45392 approach lanes: 15
+[INFO] [1782948350.273979721] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [3.7141113 9.159169  0.042829 ]
+[INFO] [1782948350.319376351] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_place_3] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782948350.319882426] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948350.319911792] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [place:pallet_place_3] via
+ -- t=0 < 3.59686  6.07483 0.950662> yaw=54.4689 approach lanes:
+ -- t=1.0813 < 3.59686  6.07483 0.285619> yaw=16.3648 approach lanes:
+ -- t=1.59858 #7 < 3.75732  6.12195 0.285619> yaw=16.3648 approach lanes:
+ -- t=3.45356 #7 <3.75732 6.12195  1.5696> yaw=89.9316 approach lanes:
+ -- t=8.03796 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 4 3
+ -- t=8.28169 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=12.8228 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 9 10
+ -- t=14.0758 #13 <3.43477 18.0032 2.41955> yaw=138.63 approach lanes:
+ -- t=17.7441 #19 <-0.019182   21.0451   2.41955> yaw=138.63 approach lanes: 27
+ -- t=20.7027 #19 <-0.019182   21.0451  0.252667> yaw=14.4768 approach lanes:
+ -- t=23.5629 #42 < 3.26355  21.8927 0.252667> yaw=14.4768 approach lanes: 54
+ -- t=24.1282 #42 <    3.26355     21.8927 0.000467638> yaw=0.0267937 approach lanes:
+ -- t=26.7454 #43 <    6.28939     21.8941 0.000467638> yaw=0.0267937 approach lanes: 55
+ -- t=26.7454 #43 <   6.28939    21.8941 -0.0111891> yaw=-0.641091 approach lanes:
+ -- t=34.617 #46 <   17.1953    21.7174 -0.0111891> yaw=-0.641091 approach lanes: 56 57 58
+ -- t=36.7813 #46 < 17.1953  21.7174 -1.54265> yaw=-88.3871 approach lanes:
+ -- t=40.0478 #38 < 17.3078  17.7191 -1.54265> yaw=-88.3871 approach lanes: 99
+ -- t=40.2603 #38 < 17.3078  17.7191 -1.50655> yaw=-86.3187 approach lanes:
+ -- t=43.9901 #52 < 17.6616  13.0377 -1.50655> yaw=-86.3187 approach lanes: 63 64 65
+ -- t=44.5026 #52 < 17.6616  13.0377 -1.29657> yaw=-74.2881 approach lanes:
+ -- t=46.3508 #53 < 18.1686  11.2354 -1.29657> yaw=-74.2881 approach lanes: 66
+ -- t=46.948 #53 < 18.1686  11.2354 -1.57434> yaw=-90.2028 approach lanes:
+ -- t=52.3908 #55 < 18.2035  3.97125 -1.57434> yaw=-90.2028 approach lanes: 67 68
+ -- t=54.6018 #55 <18.2035 3.97125 3.14007> yaw=179.913 approach lanes:
+ -- t=58.0136 #60 <13.9858 3.97768 3.14007> yaw=179.913 approach lanes: 83
+[INFO] [1782948350.320392074] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948350.320540178] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_place_2] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782948350.321021053] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [place:iw_hub_4_dock] via
+ -- t=0 <3.66194 9.12866 1.32825> yaw=76.103 approach lanes:
+ -- t=2.56058 < 3.66194  9.12866 -3.10647> yaw=-177.988 approach lanes:
+ -- t=5.60338 #18 <       0        9 -3.10647> yaw=-177.988 approach lanes: 20
+ -- t=9.77073 #18 <       0        9 0.042829> yaw=2.45392 approach lanes:
+[INFO] [1782948350.323302465] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [ 3.7176178  12.098419    1.61712662]
+[INFO] [1782948350.329640719] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [0.       9.       0.042829]
+[INFO] [1782948350.371285330] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948350.373914858] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948350.374181305] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [ 3.4347706  18.00324     2.41954606]
+[INFO] [1782948350.375742491] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+[INFO] [1782948350.424676239] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Leg finished.
+[INFO] [1782948350.425795246] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [-1.9181982e-02  2.1045120e+01  2.5266741e-01]
+[INFO] [1782948350.482274349] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] done waiting for traffic
+[INFO] [1782948350.482390334] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [graph-wp:5] via
+ -- t=0 #18 <       0        9 0.042829> yaw=2.45392 approach lanes:
+ -- t=3.07835 #5 < 3.71411  9.15917 0.042829> yaw=2.45392 approach lanes: 15
+[INFO] [1782948350.484020190] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [3.7141113 9.159169  0.042829 ]
+[INFO] [1782948350.525994574] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948350.527086019] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+[INFO] [1782948350.527267991] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] done waiting for traffic
+[INFO] [1782948350.527321545] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [graph-wp:5] via
+ -- t=0 #5 < 3.71411  9.15917 0.042829> yaw=2.45392 approach lanes: 15
+ -- t=2.15847 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+[INFO] [1782948350.528933699] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [3.7141113  9.159169   1.56960334]
+[INFO] [1782948350.578620387] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782948350.579106784] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+[INFO] [1782948371.072240294] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] done waiting for traffic
+[INFO] [1782948371.072625375] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [graph-wp:6] via
+ -- t=0 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+ -- t=2.5595 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+ -- t=2.80323 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+[INFO] [1782948371.074428271] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [ 3.7176178  12.098419    1.61712662]
+^C[INFO] [1782948388.502531926] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+Exception in thread Thread-1 (spin):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Traceback (most recent call last):
+  File "/home/carrubuntu/ros2_team001/install/iw_fleet_adapter/lib/iw_fleet_adapter/fleet_adapter", line 33, in <module>
+    sys.exit(load_entry_point('iw-fleet-adapter==0.0.0', 'console_scripts', 'fleet_adapter')())
+  File "/home/carrubuntu/ros2_team001/install/iw_fleet_adapter/lib/python3.10/site-packages/iw_fleet_adapter/fleet_adapter.py", line 161, in main
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    rclpy.spin(node)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+    self._target(*self._args, **self._kwargs)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 323, in spin
+    self.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 653, in _wait_for_ready_callbacks
+    wait_set = _rclpy.WaitSet(
+rclpy._rclpy_pybind11.RCLError: failed to initialize wait set: the given context is not valid, either rcl_init() was not called or rcl_shutdown() was called., at ./src/rcl/wait.c:130
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 677, in _wait_for_ready_callbacks
+    wait_set.wait(timeout_nsec)
+KeyboardInterrupt
+[ros2run]: Interrupt
+(team_venv) carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ 
+ 
+
+
+nope did nt work and byt he the centralnegaotiona file was nt in the scdule folder rather it was  in the agv folder 
+
+
+carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ cd ~/ros2_team001
+source install/setup.bash
+source ~/ros2_team001/team_venv/bin/activate
+ros2 run rmf_task_ros2 rmf_task_dispatcher 
+~Initializing Dispatcher Node~
+[INFO] [1782948219.313830089] [rmf_dispatcher_node]:  Declared Time Window Param as: 2.000000 secs
+[INFO] [1782948219.314747963] [rmf_dispatcher_node]:  Declared Terminated Tasks Max Size Param as: 100
+[INFO] [1782948219.314950179] [rmf_dispatcher_node]:  Declared publish_active_tasks_period as: 2 secs
+[INFO] [1782948219.315062035] [rmf_dispatcher_node]:  Use timestamp with task_id: false
+[INFO] [1782948219.315113639] [rmf_dispatcher_node]:  Use unique hex string with task_id: false
+[INFO] [1782948219.341921441] [rmf_dispatcher_node]: Starting task dispatcher node
+[INFO] [1782948286.269237584] [rmf_dispatcher_node]: Add Task [patrol.dispatch-0] to a bidding queue
+[INFO] [1782948286.338802223] [rmf_dispatcher_node]:  - Start new bidding task: patrol.dispatch-0
+[INFO] [1782948288.538891211] [rmf_dispatcher_node]: Determined winning Fleet Adapter: [iw_hub_fleet], from 1 responses
+[INFO] [1782948288.539061924] [rmf_dispatcher_node]: Dispatcher Bidding Result: task [patrol.dispatch-0] is awarded to fleet adapter [iw_hub_fleet], with expected robot [iw_hub_5].
+[INFO] [1782948294.288757639] [rmf_dispatcher_node]: Add Task [patrol.dispatch-1] to a bidding queue
+[INFO] [1782948294.338770599] [rmf_dispatcher_node]:  - Start new bidding task: patrol.dispatch-1
+[INFO] [1782948296.538874570] [rmf_dispatcher_node]: Determined winning Fleet Adapter: [iw_hub_fleet], from 1 responses
+[INFO] [1782948296.539115013] [rmf_dispatcher_node]: Dispatcher Bidding Result: task [patrol.dispatch-1] is awarded to fleet adapter [iw_hub_fleet], with expected robot [iw_hub_4].
+[INFO] [1782948302.296809545] [rmf_dispatcher_node]: Add Task [patrol.dispatch-2] to a bidding queue
+[INFO] [1782948302.338786460] [rmf_dispatcher_node]:  - Start new bidding task: patrol.dispatch-2
+[INFO] [1782948304.538914487] [rmf_dispatcher_node]: Determined winning Fleet Adapter: [iw_hub_fleet], from 1 responses
+[INFO] [1782948304.539055943] [rmf_dispatcher_node]: Dispatcher Bidding Result: task [patrol.dispatch-2] is awarded to fleet adapter [iw_hub_fleet], with expected robot [iw_hub_3].
+^C[INFO] [1782948390.446672197] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1782948390.447008045] [rmf_dispatcher_node]: Closing down task dispatcher
+(team_venv) carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ 
+
+
+
+
+arrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ source install/setup.bash
+ros2 run rmf_traffic_ros2 rmf_traffic_schedule 
+[INFO] [1782948216.081864752] [rmf_traffic_schedule_node_69c2c471_7fb9_4bda_aa19_d4d03aeb20ba]: Successfully loaded logfile .rmf_schedule_node.yaml 
+[INFO] [1782948216.094413943] [rmf_traffic_schedule_node_69c2c471_7fb9_4bda_aa19_d4d03aeb20ba]: Set up heartbeat on /rmf_traffic/heartbeat with liveliness lease duration of 10000 ms and deadline of 10000 ms
+[INFO] [1782948216.135831407] [rmf_traffic_schedule_node_69c2c471_7fb9_4bda_aa19_d4d03aeb20ba]: Beginning traffic schedule node
+[INFO] [1782948234.926825505] [rmf_traffic_schedule_node_69c2c471_7fb9_4bda_aa19_d4d03aeb20ba]: Registered new query [1]
+[INFO] [1782948235.076682834] [rmf_traffic_schedule_node_69c2c471_7fb9_4bda_aa19_d4d03aeb20ba]: Registered participant [0] named [iw_hub_1] owned by [iw_hub_fleet]
+[INFO] [1782948235.077084054] [rmf_traffic_schedule_node_69c2c471_7fb9_4bda_aa19_d4d03aeb20ba]: Registered participant [1] named [iw_hub_2] owned by [iw_hub_fleet]
+[INFO] [1782948235.077197234] [rmf_traffic_schedule_node_69c2c471_7fb9_4bda_aa19_d4d03aeb20ba]: Registered participant [2] named [iw_hub_3] owned by [iw_hub_fleet]
+[INFO] [1782948235.077302205] [rmf_traffic_schedule_node_69c2c471_7fb9_4bda_aa19_d4d03aeb20ba]: Registered participant [3] named [iw_hub_4] owned by [iw_hub_fleet]
+[INFO] [1782948235.077412498] [rmf_traffic_schedule_node_69c2c471_7fb9_4bda_aa19_d4d03aeb20ba]: Registered participant [4] named [iw_hub_5] owned by [iw_hub_fleet]
+[INFO] [1782948254.941221380] [rmf_traffic_schedule_node_69c2c471_7fb9_4bda_aa19_d4d03aeb20ba]: [ScheduleNode::update_mirrors] Sending remedial update starting from the beginning going to 5 for query 1
+Require negotiation for: 2 3 4
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 [3:0]
+ -- 4:1 [2:0]
+ -- [3:0]
+ -- [2:0]
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 [3:0]
+ -- 4:1 [2:0]
+ -- 3:1 [4:0]
+ -- 3:1 [2:0]
+ -- [2:0]
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 [3:0]
+ -- 4:1 [2:0]
+ -- 3:1 [4:0]
+ -- 3:1 [2:0]
+ -- 2:1 [4:0]
+ -- 2:1 [3:0]
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 [3:0]
+ -- 4:1 [2:0]
+ -- 3:1 [4:0]
+ -- 3:1 [2:0]
+ -- {2:1}
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 [3:0]
+ -- 4:1 [2:0]
+ -- {3:1}
+ -- {2:1}
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 [3:0]
+ -- 4:1 [2:0]
+ -- {3:1}
+ -- 2:2 [4:0]
+ -- 2:2 [3:0]
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 [3:0]
+ -- 4:1 [2:0]
+ -- 3:2 [4:0]
+ -- 3:2 [2:0]
+ -- 2:2 [4:0]
+ -- 2:2 [3:0]
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 [3:0]
+ -- 4:1 2:1 [3:0]
+ -- 3:2 [4:0]
+ -- 3:2 [2:0]
+ -- 2:2 [4:0]
+ -- 2:2 [3:0]
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 [3:0]
+ -- 4:1 {2:1}
+ -- 3:2 [4:0]
+ -- 3:2 [2:0]
+ -- 2:2 [4:0]
+ -- 2:2 [3:0]
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 3:1 [2:0]
+ -- 4:1 {2:1}
+ -- 3:2 [4:0]
+ -- 3:2 [2:0]
+ -- 2:2 [4:0]
+ -- 2:2 [3:0]
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 3:1 [2:0]
+ -- 4:1 {2:1}
+ -- 3:2 [4:0]
+ -- 3:2 [2:0]
+ -- 2:2 4:1 [3:0]
+ -- 2:2 [3:0]
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 3:1 [2:0]
+ -- 4:1 {2:1}
+ -- 3:2 [4:0]
+ -- 3:2 [2:0]
+ -- 2:2 4:1 [3:0]
+ -- 2:2 3:1 [4:0]
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 3:1 [2:0]
+ -- 4:1 {2:1}
+ -- 3:2 4:1 [2:0]
+ -- 3:2 [2:0]
+ -- 2:2 4:1 [3:0]
+ -- 2:2 3:1 [4:0]
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 3:1 [2:0]
+ -- 4:1 {2:1}
+ -- 3:2 4:1 [2:0]
+ -- 3:2 2:1 [4:0]
+ -- 2:2 4:1 [3:0]
+ -- 2:2 3:1 [4:0]
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 3:1 [2:0]
+ -- 4:1 2:2 [3:0]
+ -- 3:2 4:1 [2:0]
+ -- 3:2 2:1 [4:0]
+ -- 2:2 4:1 [3:0]
+ -- 2:2 3:1 [4:0]
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 3:1 [2:0]
+ -- 4:1 2:2 [3:0]
+ -- 3:2 4:1 [2:0]
+ -- 3:2 2:1 >4:1
+ -- 2:2 4:1 [3:0]
+ -- 2:2 3:1 [4:0]
+[INFO] [1782948347.305978646] [rmf_traffic_schedule_node_69c2c471_7fb9_4bda_aa19_d4d03aeb20ba]: Resolved negotiation [0]: 3:2 2:1 4:1
+Require negotiation for: 4 3 2
+[1] Active negotiation: 4 3 2
+    Current negotiation state
+ -- 2:1 [3:0]
+ -- 2:1 [4:0]
+ -- [3:0]
+ -- [4:0]
+[1] Active negotiation: 4 3 2
+    Current negotiation state
+ -- 2:1 [3:0]
+ -- 2:1 [4:0]
+ -- [3:0]
+ -- 4:1 [2:0]
+ -- 4:1 [3:0]
+[1] Active negotiation: 4 3 2
+    Current negotiation state
+ -- 2:1 [3:0]
+ -- 2:1 [4:0]
+ -- 3:1 [2:0]
+ -- 3:1 [4:0]
+ -- 4:1 [2:0]
+ -- 4:1 [3:0]
+[1] Active negotiation: 4 3 2
+    Current negotiation state
+ -- {2:1}
+ -- 3:1 [2:0]
+ -- 3:1 [4:0]
+ -- 4:1 [2:0]
+ -- 4:1 [3:0]
+[1] Active negotiation: 4 3 2
+    Current negotiation state
+ -- {2:1}
+ -- {3:1}
+ -- 4:1 [2:0]
+ -- 4:1 [3:0]
+[1] Active negotiation: 4 3 2
+    Current negotiation state
+ -- 2:2 [3:0]
+ -- 2:2 [4:0]
+ -- {3:1}
+ -- 4:1 [2:0]
+ -- 4:1 [3:0]
+[1] Active negotiation: 4 3 2
+    Current negotiation state
+ -- 2:2 [3:0]
+ -- 2:2 [4:0]
+ -- {3:1}
+ -- 4:1 2:1 [3:0]
+ -- 4:1 [3:0]
+[1] Active negotiation: 4 3 2
+    Current negotiation state
+ -- 2:2 [3:0]
+ -- 2:2 [4:0]
+ -- {3:1}
+ -- 4:1 2:1 [3:0]
+ -- 4:1 3:1 [2:0]
+[1] Active negotiation: 4 3 2
+    Current negotiation state
+ -- 2:2 [3:0]
+ -- 2:2 [4:0]
+ -- {3:1}
+ -- 4:1 {2:1}
+ -- 4:1 3:1 [2:0]
+[1] Active negotiation: 4 3 2
+    Current negotiation state
+ -- 2:2 [3:0]
+ -- 2:2 4:1 [3:0]
+ -- {3:1}
+ -- 4:1 {2:1}
+ -- 4:1 3:1 [2:0]
+[1] Active negotiation: 4 3 2
+    Current negotiation state
+ -- 2:2 3:1 [4:0]
+ -- 2:2 4:1 [3:0]
+ -- {3:1}
+ -- 4:1 {2:1}
+ -- 4:1 3:1 [2:0]
+[1] Active negotiation: 4 3 2
+    Current negotiation state
+ -- 2:2 3:1 [4:0]
+ -- 2:2 4:1 >3:1
+ -- {3:1}
+ -- 4:1 {2:1}
+ -- 4:1 3:1 [2:0]
+[INFO] [1782948348.029642890] [rmf_traffic_schedule_node_69c2c471_7fb9_4bda_aa19_d4d03aeb20ba]: Resolved negotiation [1]: 2:2 4:1 3:1
+Require negotiation for: 2 4 3
+[2] Active negotiation: 2 4 3
+    Current negotiation state
+ -- [3:0]
+ -- [4:0]
+ -- 2:1 [3:0]
+ -- 2:1 [4:0]
+[2] Active negotiation: 2 4 3
+    Current negotiation state
+ -- 3:1 [4:0]
+ -- 3:1 [2:0]
+ -- [4:0]
+ -- 2:1 [3:0]
+ -- 2:1 [4:0]
+[2] Active negotiation: 2 4 3
+    Current negotiation state
+ -- 3:1 [4:0]
+ -- 3:1 [2:0]
+ -- [4:0]
+ -- {2:1}
+[2] Active negotiation: 2 4 3
+    Current negotiation state
+ -- {3:1}
+ -- [4:0]
+ -- {2:1}
+[2] Active negotiation: 2 4 3
+    Current negotiation state
+ -- {3:1}
+ -- 4:1 [3:0]
+ -- 4:1 [2:0]
+ -- {2:1}
+[2] Active negotiation: 2 4 3
+    Current negotiation state
+ -- {3:1}
+ -- 4:1 [3:0]
+ -- 4:1 2:1 [3:0]
+ -- {2:1}
+[2] Active negotiation: 2 4 3
+    Current negotiation state
+ -- {3:1}
+ -- 4:1 3:1 [2:0]
+ -- 4:1 2:1 [3:0]
+ -- {2:1}
+[2] Active negotiation: 2 4 3
+    Current negotiation state
+ -- {3:1}
+ -- 4:1 3:1 [2:0]
+ -- 4:1 {2:1}
+ -- {2:1}
+[2] Active negotiation: 2 4 3
+    Current negotiation state
+ -- {3:1}
+ -- 4:1 3:1 [2:0]
+ -- 4:1 {2:1}
+ -- 2:2 [3:0]
+
+
+
+
+one amr back tracked and other 2 too i guess and thy crashed into each other what solution shall we find  now why is it happening the amr way points i saw in the rviz2 it gave and then suddenly changed and then back tracked suddenly it did nt work i did the changes as u asked earlier now check the error and find the solution

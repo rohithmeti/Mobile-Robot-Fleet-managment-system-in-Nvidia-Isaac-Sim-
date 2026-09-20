@@ -1,0 +1,976 @@
+carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ cd ~/ros2_team001
+source install/setup.bash
+source ~/ros2_team001/team_venv/bin/activate
+python3 /home/carrubuntu/ros2_team001/scripts/wms_v2.py
+[INFO] [1782951014.845614830] [wms_task_generator]: Dispatched task1: pick_pallet_1 → pallet_place_1
+[INFO] [1782951022.853899331] [wms_task_generator]: Dispatched task2: pallet_pick_2 → pallet_place_2
+[INFO] [1782951030.861779604] [wms_task_generator]: Dispatched task3: pallet_pick_3 → pallet_place_3
+[INFO] [1782951038.869573522] [wms_task_generator]: All 3 tasks sent. RMF owns assignment, scheduling and traffic.
+(team_venv) carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ cd ~/ros2_team001
+source install/setup.bash
+source ~/ros2_team001/team_venv/bin/activate
+(team_venv) carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ ros2 run iw_fleet_adapter fleet_adapter \
+  -c ~/ros2_team001/src/iw_fleet_adapter/iw_hub_fleet_config.yaml \un iw_fleet_adapter fleet_adapter \
+  -n ~/ros2_team001/src/iw_fleet_adapter/0.yaml fleet_config.yaml \
+[WARN] [1782950980.983924647] [rcl.logging_rosout]: Publisher already registered for provided node name. If this is due to multiple nodes with the same name then all logs for that logger name will go out over the existing publisher. As soon as any node with that name is destructed it will unregister the publisher, preventing any further logs for that name from being published on the rosout topic.
+[INFO] [1782950981.029251832] [iw_hub_fleet_easy_adapter]: Parameter [discovery_timeout] set to: 60.000000
+[INFO] [1782950981.041939299] [iw_hub_fleet_easy_adapter]: Registering to query topic rmf_traffic/query_update_1
+Your navigation graph does not provide lift information. This may cause problems with behaviors around lifts. Please consider regenerating your navigration graph with the latest version of rmf_building_map_tools (from the rmf_traffic_editor repo).
+Your navigation graph does not provide door information. This may cause problems with behaviors around doors. Please consider regenerating your navigration graph with the latest version of rmf_building_map_tools (from the rmf_traffic_editor repo).
+[retreat_to_charger_interval] value is not provided, default to 10 seconds
+Default fleet finishing task set to [park]
+[WARN] [1782950981.201683659] [iw_hub_fleet_easy_adapter]: [FleetUpdateHandle::set_retreat_to_charger_interval] This parameter is no longer being used.
+[INFO] [1782950981.201744900] [iw_hub_fleet_easy_adapter]: Fleet [iw_hub_fleet] is configured to perform delivery tasks
+[INFO] [1782950981.201764419] [iw_hub_fleet_easy_adapter]: Fleet [iw_hub_fleet] is configured to perform patrol tasks
+[INFO] [1782950981.201836015] [iw_hub_fleet_easy_adapter]: Finished configuring Easy Full Control adapter for fleet [iw_hub_fleet]
+[INFO] [1782950981.202537186] [iw_hub_fleet_easy_adapter]: Adding robot [iw_hub_1] to fleet [iw_hub_fleet].
+[INFO] [1782950981.202958620] [iw_hub_fleet_easy_adapter]: Adding robot [iw_hub_2] to fleet [iw_hub_fleet].
+[INFO] [1782950981.203270754] [iw_hub_fleet_easy_adapter]: Adding robot [iw_hub_3] to fleet [iw_hub_fleet].
+[INFO] [1782950981.203537103] [iw_hub_fleet_easy_adapter]: Adding robot [iw_hub_4] to fleet [iw_hub_fleet].
+[INFO] [1782950981.203812315] [iw_hub_fleet_easy_adapter]: Adding robot [iw_hub_5] to fleet [iw_hub_fleet].
+[INFO] [1782950981.205259637] [iw_hub_fleet_easy_adapter]: Mirror handling new sync of 1 queries from schedule node [82656cf6-4cbc-44e3-9731-cb9dddfc2297]
+[INFO] [1782950981.217322654] [iw_hub_fleet_easy_adapter]: Added a robot named [iw_hub_5] with participant ID [4]
+[INFO] [1782950981.219740225] [iw_hub_fleet_easy_adapter]: Beginning a new parking task for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782950981.219885304] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [14] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782950981.219963895] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782950981.219996506] [iw_hub_fleet_easy_adapter]: Got distance from [14] as 0.000000
+[INFO] [1782950981.220049330] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [iw_hub_5_dock] from one of these locations:
+ -- L1 < 0 12> [iw_hub_5_dock] | on waypoint | orientation 0
+[INFO] [1782950981.221079489] [iw_hub_fleet_easy_adapter]: Added a robot named [iw_hub_2] with participant ID [1]
+[INFO] [1782950981.222839103] [iw_hub_fleet_easy_adapter]: Beginning a new parking task for robot [iw_hub_fleet/iw_hub_2]
+[INFO] [1782950981.222893938] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [16] for robot [iw_hub_fleet/iw_hub_2]
+[INFO] [1782950981.222942658] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_2]
+[INFO] [1782950981.222957486] [iw_hub_fleet_easy_adapter]: Got distance from [16] as 0.000000
+[INFO] [1782950981.222986176] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_2] to [iw_hub_2_dock] from one of these locations:
+ -- L1 <0 3> [iw_hub_2_dock] | on waypoint | orientation 0
+[INFO] [1782950981.223132816] [iw_hub_fleet_easy_adapter]: Added a robot named [iw_hub_1] with participant ID [0]
+[INFO] [1782950981.224697958] [iw_hub_fleet_easy_adapter]: Beginning a new parking task for robot [iw_hub_fleet/iw_hub_1]
+[INFO] [1782950981.224847972] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [17] for robot [iw_hub_fleet/iw_hub_1]
+[INFO] [1782950981.224927874] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_1]
+[INFO] [1782950981.224957941] [iw_hub_fleet_easy_adapter]: Got distance from [17] as 0.000000
+[INFO] [1782950981.225010390] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_1] to [iw_hub_1_dock] from one of these locations:
+ -- L1 < 0 -0> [iw_hub_1_dock] | on waypoint | orientation 0
+[INFO] [1782950981.225270659] [iw_hub_fleet_easy_adapter]: Added a robot named [iw_hub_3] with participant ID [2]
+[INFO] [1782950981.227169429] [iw_hub_fleet_easy_adapter]: Beginning a new parking task for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782950981.227228578] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [15] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782950981.227289331] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782950981.227307534] [iw_hub_fleet_easy_adapter]: Got distance from [15] as 0.000000
+[INFO] [1782950981.227343971] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_3] to [iw_hub_3_dock] from one of these locations:
+ -- L1 <0 6> [iw_hub_3_dock] | on waypoint | orientation 0
+[INFO] [1782950981.227523204] [iw_hub_fleet_easy_adapter]: Added a robot named [iw_hub_4] with participant ID [3]
+[INFO] [1782950981.229737538] [iw_hub_fleet_easy_adapter]: Beginning a new parking task for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782950981.229816528] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [18] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782950981.229865613] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782950981.229878545] [iw_hub_fleet_easy_adapter]: Got distance from [18] as 0.000000
+[INFO] [1782950981.229904657] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_4] to [iw_hub_4_dock] from one of these locations:
+ -- L1 <0 9> [iw_hub_4_dock] | on waypoint | orientation 0
+[INFO] [1782950981.230048200] [iw_hub_fleet_easy_adapter]: Successfully added robot [iw_hub_5] to the fleet [iw_hub_fleet].
+[INFO] [1782950981.230111703] [iw_hub_fleet_easy_adapter]: Robot [iw_hub_fleet/iw_hub_5] is already at its goal [14]
+[INFO] [1782950981.230482315] [iw_hub_fleet_easy_adapter]: Successfully added robot [iw_hub_2] to the fleet [iw_hub_fleet].
+[INFO] [1782950981.230504027] [iw_hub_fleet_easy_adapter]: Robot [iw_hub_fleet/iw_hub_2] is already at its goal [16]
+[INFO] [1782950981.230573217] [iw_hub_fleet_easy_adapter]: Successfully added robot [iw_hub_1] to the fleet [iw_hub_fleet].
+[INFO] [1782950981.230587322] [iw_hub_fleet_easy_adapter]: Robot [iw_hub_fleet/iw_hub_1] is already at its goal [17]
+[INFO] [1782950981.230636994] [iw_hub_fleet_easy_adapter]: Successfully added robot [iw_hub_3] to the fleet [iw_hub_fleet].
+[INFO] [1782950981.230650720] [iw_hub_fleet_easy_adapter]: Robot [iw_hub_fleet/iw_hub_3] is already at its goal [15]
+[INFO] [1782950981.230720055] [iw_hub_fleet_easy_adapter]: Successfully added robot [iw_hub_4] to the fleet [iw_hub_fleet].
+[INFO] [1782950981.230765983] [iw_hub_fleet_easy_adapter]: Charger waypoint for robot [iw_hub_fleet/iw_hub_5] set to index [14]
+[INFO] [1782950981.230807879] [iw_hub_fleet_easy_adapter]: Robot [iw_hub_fleet/iw_hub_4] is already at its goal [18]
+[INFO] [1782950981.230898314] [iw_hub_fleet_easy_adapter]: Charger waypoint for robot [iw_hub_fleet/iw_hub_2] set to index [16]
+[INFO] [1782950981.230950705] [iw_hub_fleet_easy_adapter]: Charger waypoint for robot [iw_hub_fleet/iw_hub_1] set to index [17]
+[INFO] [1782950981.231001871] [iw_hub_fleet_easy_adapter]: Charger waypoint for robot [iw_hub_fleet/iw_hub_3] set to index [15]
+[INFO] [1782950981.231038057] [iw_hub_fleet_easy_adapter]: Charger waypoint for robot [iw_hub_fleet/iw_hub_4] set to index [18]
+[INFO] [1782950981.231086971] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [14] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782950981.231133063] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [16] for robot [iw_hub_fleet/iw_hub_2]
+[INFO] [1782950981.231153218] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [17] for robot [iw_hub_fleet/iw_hub_1]
+[INFO] [1782950981.231177150] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [15] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782950981.231215962] [iw_hub_fleet_easy_adapter]: Auto-selected parking spot waypoint [18] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782951001.039099169] [iw_hub_fleet_easy_adapter]: Requesting new schedule update because update timed out
+[INFO] [1782951001.039201953] [iw_hub_fleet_easy_adapter]: [rmf_traffic_ros2::MirrorManager::request_update] Requesting changes for query ID [1] since beginning of recorded history
+[INFO] [1782951014.990512563] [iw_hub_fleet_easy_adapter]: [Bidder] Received Bidding notice for task_id [patrol.dispatch-0]
+[INFO] [1782951014.991266266] [iw_hub_fleet_easy_adapter]: Planning for [5] robot(s) and [1] request(s)
+[INFO] [1782951014.993942890] [iw_hub_fleet_easy_adapter]: Submitted BidProposal to accommodate task [patrol.dispatch-0] by robot [iw_hub_5] with new cost [103.139518]
+[INFO] [1782951017.190315054] [iw_hub_fleet_easy_adapter]: Bid for task_id [patrol.dispatch-0] awarded to fleet [iw_hub_fleet]. Processing request...
+[INFO] [1782951017.193960458] [iw_hub_fleet_easy_adapter]: TaskAssignments updated for robots in fleet [iw_hub_fleet] to accommodate task_id [patrol.dispatch-0]
+[INFO] [1782951017.194099944] [iw_hub_fleet_easy_adapter]: Beginning next task [patrol.dispatch-0] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782951017.194316045] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782951017.194338652] [iw_hub_fleet_easy_adapter]: Got distance from [26] as 36.359763
+[INFO] [1782951017.194378138] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_5] to [pick_pallet_1] from one of these locations:
+ -- L1 < 0 12> [iw_hub_5_dock] | on waypoint | orientation 0
+[INFO] [1782951017.194478251] [iw_hub_fleet_easy_adapter]: Beginning new task [patrol.dispatch-0] for [iw_hub_fleet/iw_hub_5]. Remaining queue size: 0
+[INFO] [1782951017.197523133] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pick_pallet_1] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782951017.198124323] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:pick_pallet_1] via
+ -- t=0 #14 < 0 12  0> yaw=0 approach lanes:
+ -- t=0.181891 #14 <        0        12 0.0264675> yaw=1.51648 approach lanes:
+ -- t=3.26117 #6 <  3.71762   12.0984 0.0264675> yaw=1.51648 approach lanes: 11
+ -- t=5.4995 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=10.0406 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 9 10
+ -- t=11.2936 #13 <3.43477 18.0032 2.41955> yaw=138.63 approach lanes:
+ -- t=14.9619 #19 <-0.019182   21.0451   2.41955> yaw=138.63 approach lanes: 27
+ -- t=17.9205 #19 <-0.019182   21.0451  0.252667> yaw=14.4768 approach lanes:
+ -- t=20.7807 #42 < 3.26355  21.8927 0.252667> yaw=14.4768 approach lanes: 54
+ -- t=21.346 #42 <    3.26355     21.8927 0.000467638> yaw=0.0267937 approach lanes:
+ -- t=23.9632 #43 <    6.28939     21.8941 0.000467638> yaw=0.0267937 approach lanes: 55
+ -- t=23.9632 #43 <    6.28939     21.8941 -0.00738425> yaw=-0.423086 approach lanes:
+ -- t=37.9917 #49 <    26.4307     21.6583 -0.00738425> yaw=-0.423086 approach lanes: 56 57 58 59 60 61
+ -- t=40.2063 #49 < 26.4307  21.6583 -1.57905> yaw=-90.4731 approach lanes:
+ -- t=46.9857 #24 < 26.2872  12.3903 -1.57905> yaw=-90.4731 approach lanes: 62 53 31
+ -- t=49.1582 #24 <  26.2872   12.3903 -0.040984> yaw=-2.34821 approach lanes:
+ -- t=51.0017 #25 <  28.1508   12.3139 -0.040984> yaw=-2.34821 approach lanes: 32
+ -- t=53.1621 #25 < 28.1508  12.3139 -1.56932> yaw=-89.9157 approach lanes:
+ -- t=55.5038 #26 < 28.1546  9.70129 -1.56932> yaw=-89.9157 approach lanes: 33
+[INFO] [1782951017.217773454] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [ 3.7176178  12.098419    1.61712662]
+[INFO] [1782951022.989145033] [iw_hub_fleet_easy_adapter]: [Bidder] Received Bidding notice for task_id [patrol.dispatch-1]
+[INFO] [1782951022.989516138] [iw_hub_fleet_easy_adapter]: Planning for [5] robot(s) and [1] request(s)
+[INFO] [1782951022.994029728] [iw_hub_fleet_easy_adapter]: Submitted BidProposal to accommodate task [patrol.dispatch-1] by robot [iw_hub_4] with new cost [108.094830]
+[INFO] [1782951025.188960319] [iw_hub_fleet_easy_adapter]: Bid for task_id [patrol.dispatch-1] awarded to fleet [iw_hub_fleet]. Processing request...
+[INFO] [1782951025.189597436] [iw_hub_fleet_easy_adapter]: TaskAssignments updated for robots in fleet [iw_hub_fleet] to accommodate task_id [patrol.dispatch-1]
+[INFO] [1782951025.189734028] [iw_hub_fleet_easy_adapter]: Beginning next task [patrol.dispatch-1] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782951025.190018762] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782951025.190057136] [iw_hub_fleet_easy_adapter]: Got distance from [29] as 40.535857
+[INFO] [1782951025.190100901] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_4] to [pallet_pick_2] from one of these locations:
+ -- L1 <0 9> [iw_hub_4_dock] | on waypoint | orientation 0
+[INFO] [1782951025.190215626] [iw_hub_fleet_easy_adapter]: Beginning new task [patrol.dispatch-1] for [iw_hub_fleet/iw_hub_4]. Remaining queue size: 0
+[INFO] [1782951025.236077886] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_pick_2] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782951025.237442184] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [graph-wp:5] via
+ -- t=0 #18 <0 9 0> yaw=0 approach lanes:
+ -- t=0.231379 #18 <       0        9 0.042829> yaw=2.45392 approach lanes:
+ -- t=3.30973 #5 < 3.71411  9.15917 0.042829> yaw=2.45392 approach lanes: 15
+ -- t=5.46819 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+[INFO] [1782951025.239453857] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [3.7141113  9.159169   1.56960334]
+[INFO] [1782951030.988429378] [iw_hub_fleet_easy_adapter]: [Bidder] Received Bidding notice for task_id [patrol.dispatch-2]
+[INFO] [1782951030.988892744] [iw_hub_fleet_easy_adapter]: Planning for [5] robot(s) and [1] request(s)
+[INFO] [1782951030.993658036] [iw_hub_fleet_easy_adapter]: Submitted BidProposal to accommodate task [patrol.dispatch-2] by robot [iw_hub_3] with new cost [111.905723]
+[INFO] [1782951033.188124070] [iw_hub_fleet_easy_adapter]: Bid for task_id [patrol.dispatch-2] awarded to fleet [iw_hub_fleet]. Processing request...
+[INFO] [1782951033.188870417] [iw_hub_fleet_easy_adapter]: TaskAssignments updated for robots in fleet [iw_hub_fleet] to accommodate task_id [patrol.dispatch-2]
+[INFO] [1782951033.189096976] [iw_hub_fleet_easy_adapter]: Beginning next task [patrol.dispatch-2] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782951033.189481116] [iw_hub_fleet_easy_adapter]: Selecting a new go_to_place location from [1] choices for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782951033.189521398] [iw_hub_fleet_easy_adapter]: Got distance from [31] as 44.552914
+[INFO] [1782951033.189566747] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_3] to [pallet_pick_3] from one of these locations:
+ -- L1 <0 6> [iw_hub_3_dock] | on waypoint | orientation 0
+[INFO] [1782951033.189713896] [iw_hub_fleet_easy_adapter]: Beginning new task [patrol.dispatch-2] for [iw_hub_fleet/iw_hub_3]. Remaining queue size: 0
+[INFO] [1782951033.590462995] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_pick_3] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782951033.591595395] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [graph-wp:7] via
+ -- t=0 #15 <0 6 0> yaw=0 approach lanes:
+ -- t=0.201389 #15 <        0         6 0.0324459> yaw=1.85901 approach lanes:
+ -- t=3.30759 #7 <  3.75732   6.12195 0.0324459> yaw=1.85901 approach lanes: 12
+ -- t=5.49831 #7 <3.75732 6.12195 1.58502> yaw=90.8151 approach lanes:
+[INFO] [1782951033.596431087] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [3.7573197  6.1219525  1.58502168]
+[INFO] [1782951084.350509612] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782951084.351238800] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+[INFO] [1782951085.351569061] [iw_hub_fleet_easy_adapter]: Replanning for [iw_hub_fleet/iw_hub_4] because a traffic dependency is excessively delayed
+[INFO] [1782951085.351788800] [iw_hub_fleet_easy_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_4]
+[INFO] [1782951085.351944456] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_4] to [pallet_pick_2] from one of these locations:
+ -- L1 <3.71411 9.15917> [#5] | location <3.62241 9.13147> | orientation 75.8692
+ -- lane 4: { L1 <3.75732 6.12195> [#7] } -> { L1 <3.71411 9.15917> [#5] } | location <3.62241 9.13147> | orientation 75.8692
+ -- lane 15: { L1 <0 9> [iw_hub_4_dock] } -> { L1 <3.71411 9.15917> [#5] } | location <3.62241 9.13147> | orientation 75.8692
+ -- lane 20: { L1 <3.71411 9.15917> [#5] } -> { L1 <0 9> [iw_hub_4_dock] } | location <3.62241 9.13147> | orientation 75.8692
+[INFO] [1782951085.354922107] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_pick_2] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782951085.356114085] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [place:pallet_pick_2] via
+ -- t=0 <3.62241 9.13147 1.32417> yaw=75.8692 approach lanes:
+ -- t=1.53854 < 3.62241  9.13147 0.293336> yaw=16.8069 approach lanes:
+ -- t=1.93004 #5 < 3.71411  9.15917 0.293336> yaw=16.8069 approach lanes:
+ -- t=3.77538 #5 <3.71411 9.15917  1.5696> yaw=89.9316 approach lanes:
+ -- t=6.33488 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 3
+ -- t=6.57861 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=11.1197 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 9 10
+ -- t=12.3727 #13 <3.43477 18.0032 2.41955> yaw=138.63 approach lanes:
+ -- t=16.041 #19 <-0.019182   21.0451   2.41955> yaw=138.63 approach lanes: 27
+ -- t=18.9996 #19 <-0.019182   21.0451  0.252667> yaw=14.4768 approach lanes:
+ -- t=21.8599 #42 < 3.26355  21.8927 0.252667> yaw=14.4768 approach lanes: 54
+ -- t=22.4251 #42 <    3.26355     21.8927 0.000467638> yaw=0.0267937 approach lanes:
+ -- t=25.0423 #43 <    6.28939     21.8941 0.000467638> yaw=0.0267937 approach lanes: 55
+ -- t=25.0423 #43 <    6.28939     21.8941 -0.00738425> yaw=-0.423086 approach lanes:
+ -- t=39.0708 #49 <    26.4307     21.6583 -0.00738425> yaw=-0.423086 approach lanes: 56 57 58 59 60 61
+ -- t=41.2854 #49 < 26.4307  21.6583 -1.57905> yaw=-90.4731 approach lanes:
+ -- t=48.0648 #24 < 26.2872  12.3903 -1.57905> yaw=-90.4731 approach lanes: 62 53 31
+ -- t=50.2374 #24 <  26.2872   12.3903 -0.040984> yaw=-2.34821 approach lanes:
+ -- t=52.0808 #25 <  28.1508   12.3139 -0.040984> yaw=-2.34821 approach lanes: 32
+ -- t=54.2414 #25 < 28.1508  12.3139 -1.56949> yaw=-89.9251 approach lanes:
+ -- t=58.8007 #29 <  28.159  6.37501 -1.56949> yaw=-89.9251 approach lanes: 33 36
+[INFO] [1782951085.359787019] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [ 3.7176178  12.098419    1.61712662]
+[INFO] [1782951085.535556164] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_pick_3] for robot [iw_hub_fleet/iw_hub_3]
+[INFO] [1782951085.536794624] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_3] Moving to [place:pallet_pick_3] via
+ -- t=0 <3.63471 6.06557 1.11428> yaw=63.8434 approach lanes:
+ -- t=1.10402 < 3.63471  6.06557 0.431061> yaw=24.698 approach lanes:
+ -- t=1.56869 #7 < 3.75732  6.12195 0.431061> yaw=24.698 approach lanes: 12
+ -- t=3.24187 #7 <3.75732 6.12195  1.5696> yaw=89.9316 approach lanes:
+ -- t=7.82627 #6 <3.71762 12.0984  1.5696> yaw=89.9316 approach lanes: 4 3
+ -- t=8.07 #6 <3.71762 12.0984 1.61713> yaw=92.6545 approach lanes:
+ -- t=12.6111 #13 <3.43477 18.0032 1.61713> yaw=92.6545 approach lanes: 9 10
+ -- t=13.8641 #13 <3.43477 18.0032 2.41955> yaw=138.63 approach lanes:
+ -- t=17.5324 #19 <-0.019182   21.0451   2.41955> yaw=138.63 approach lanes: 27
+ -- t=20.491 #19 <-0.019182   21.0451  0.252667> yaw=14.4768 approach lanes:
+ -- t=23.3513 #42 < 3.26355  21.8927 0.252667> yaw=14.4768 approach lanes: 54
+ -- t=23.9165 #42 <    3.26355     21.8927 0.000467638> yaw=0.0267937 approach lanes:
+ -- t=26.5337 #43 <    6.28939     21.8941 0.000467638> yaw=0.0267937 approach lanes: 55
+ -- t=26.5337 #43 <    6.28939     21.8941 -0.00738425> yaw=-0.423086 approach lanes:
+ -- t=40.5622 #49 <    26.4307     21.6583 -0.00738425> yaw=-0.423086 approach lanes: 56 57 58 59 60 61
+ -- t=42.7768 #49 < 26.4307  21.6583 -1.57905> yaw=-90.4731 approach lanes:
+ -- t=49.5562 #24 < 26.2872  12.3903 -1.57905> yaw=-90.4731 approach lanes: 62 53 31
+ -- t=51.7288 #24 <  26.2872   12.3903 -0.040984> yaw=-2.34821 approach lanes:
+ -- t=53.5722 #25 <  28.1508   12.3139 -0.040984> yaw=-2.34821 approach lanes: 32
+ -- t=55.7274 #25 < 28.1508  12.3139 -1.56515> yaw=-89.6766 approach lanes:
+ -- t=62.2508 #31 < 28.1756  3.42877 -1.56515> yaw=-89.6766 approach lanes: 33 36 39
+[INFO] [1782951085.537703319] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pick_pallet_1] for robot [iw_hub_fleet/iw_hub_5]
+[INFO] [1782951085.538953839] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_5] Moving to [place:iw_hub_5_dock] via
+ -- t=0 <3.65909 12.0953 1.26556> yaw=72.5112 approach lanes:
+ -- t=2.6276 < 3.65909  12.0953 -3.11555> yaw=-178.508 approach lanes:
+ -- t=5.66782 #14 <       0       12 -3.11555> yaw=-178.508 approach lanes: 18
+ -- t=9.84428 #14 <        0        12 0.0264675> yaw=1.51648 approach lanes:
+[INFO] [1782951085.539501140] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_pick_2] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782951085.540699978] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to [place:iw_hub_4_dock] via
+ -- t=0 <3.62241 9.13147 1.32417> yaw=75.8692 approach lanes:
+ -- t=2.56713 < 3.62241  9.13147 -3.10532> yaw=-177.921 approach lanes:
+ -- t=5.58366 #18 <       0        9 -3.10532> yaw=-177.921 approach lanes: 20
+ -- t=9.75246 #18 <       0        9 0.042829> yaw=2.45392 approach lanes:
+[INFO] [1782951085.544491964] [iw_hub_fleet_easy_adapter]: [iw_hub_3] Clearance granted. Navigating to: [ 3.7176178  12.098419    1.61712662]
+[INFO] [1782951085.547318888] [iw_hub_fleet_easy_adapter]: [iw_hub_5] Clearance granted. Navigating to: [ 0.         12.          0.02646749]
+[INFO] [1782951085.551056300] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [0.       9.       0.042829]
+[INFO] [1782951157.841257299] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782951157.841874646] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+[INFO] [1782951158.842110452] [iw_hub_fleet_easy_adapter]: Replanning for [iw_hub_fleet/iw_hub_4] because a traffic dependency is excessively delayed
+[INFO] [1782951158.842297552] [iw_hub_fleet_easy_adapter]: Replanning requested for [iw_hub_fleet/iw_hub_4]
+[INFO] [1782951158.842381330] [iw_hub_fleet_easy_adapter]: Planning for [iw_hub_fleet/iw_hub_4] to [pallet_pick_2] from one of these locations:
+ -- lane 15: { L1 <0 9> [iw_hub_4_dock] } -> { L1 <3.71411 9.15917> [#5] } | location <0.377665  8.87108> | orientation -18.481
+ -- lane 20: { L1 <3.71411 9.15917> [#5] } -> { L1 <0 9> [iw_hub_4_dock] } | location <0.377665  8.87108> | orientation -18.481
+[INFO] [1782951159.013678538] [iw_hub_fleet_easy_adapter]: Executing final go_to_place [pallet_pick_2] for robot [iw_hub_fleet/iw_hub_4]
+[INFO] [1782951159.014810035] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] Moving to (0.377665  8.87108) via
+ -- t=0 < 0.377665   8.87108 -0.322554> yaw=-18.481 approach lanes:
+ -- t=4 < 0.377665   8.87108 -0.322554> yaw=-18.481 approach lanes:
+[INFO] [1782951159.016851073] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Clearance granted. Navigating to: [ 0.37766489  8.87107984 -0.32255355]
+[INFO] [1782951159.903864661] [iw_hub_fleet_easy_adapter]: [iw_hub_4] Leg finished.
+[INFO] [1782951159.904671498] [iw_hub_fleet_easy_adapter]: [iw_hub_fleet/iw_hub_4] waiting for traffic
+^C[INFO] [1782951160.876685509] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+Exception in thread Thread-1 (spin):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+  File "/home/carrubuntu/ros2_team001/install/iw_fleet_adapter/lib/iw_fleet_adapter/fleet_adapter", line 33, in <module>
+    sys.exit(load_entry_point('iw-fleet-adapter==0.0.0', 'console_scripts', 'fleet_adapter')())
+  File "/home/carrubuntu/ros2_team001/install/iw_fleet_adapter/lib/python3.10/site-packages/iw_fleet_adapter/fleet_adapter.py", line 161, in main
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    rclpy.spin(node)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+    executor.spin_once()
+    self._target(*self._args, **self._kwargs)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 323, in spin
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+    self.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 677, in _wait_for_ready_callbacks
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+    wait_set.wait(timeout_nsec)
+    return next(self._cb_iter)
+KeyboardInterrupt
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+[ros2run]: Interrupt
+(team_venv) carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ 
+
+
+
+
+
+
+
+
+
+carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ cd ~/ros2_team001
+source install/setup.bash
+source ~/ros2_team001/team_venv/bin/activate
+ros2 run rmf_task_ros2 rmf_task_dispatcher 
+~Initializing Dispatcher Node~
+[INFO] [1782950976.174623895] [rmf_dispatcher_node]:  Declared Time Window Param as: 2.000000 secs
+[INFO] [1782950976.175533995] [rmf_dispatcher_node]:  Declared Terminated Tasks Max Size Param as: 100
+[INFO] [1782950976.175620793] [rmf_dispatcher_node]:  Declared publish_active_tasks_period as: 2 secs
+[INFO] [1782950976.175698023] [rmf_dispatcher_node]:  Use timestamp with task_id: false
+[INFO] [1782950976.175758531] [rmf_dispatcher_node]:  Use unique hex string with task_id: false
+[INFO] [1782950976.198691550] [rmf_dispatcher_node]: Starting task dispatcher node
+[INFO] [1782951014.840717924] [rmf_dispatcher_node]: Add Task [patrol.dispatch-0] to a bidding queue
+[INFO] [1782951014.989962994] [rmf_dispatcher_node]:  - Start new bidding task: patrol.dispatch-0
+[INFO] [1782951017.189622274] [rmf_dispatcher_node]: Determined winning Fleet Adapter: [iw_hub_fleet], from 1 responses
+[INFO] [1782951017.189818612] [rmf_dispatcher_node]: Dispatcher Bidding Result: task [patrol.dispatch-0] is awarded to fleet adapter [iw_hub_fleet], with expected robot [iw_hub_5].
+[INFO] [1782951022.854239299] [rmf_dispatcher_node]: Add Task [patrol.dispatch-1] to a bidding queue
+[INFO] [1782951022.988790522] [rmf_dispatcher_node]:  - Start new bidding task: patrol.dispatch-1
+[INFO] [1782951025.188518964] [rmf_dispatcher_node]: Determined winning Fleet Adapter: [iw_hub_fleet], from 1 responses
+[INFO] [1782951025.188641291] [rmf_dispatcher_node]: Dispatcher Bidding Result: task [patrol.dispatch-1] is awarded to fleet adapter [iw_hub_fleet], with expected robot [iw_hub_4].
+[INFO] [1782951030.862223865] [rmf_dispatcher_node]: Add Task [patrol.dispatch-2] to a bidding queue
+[INFO] [1782951030.987831443] [rmf_dispatcher_node]:  - Start new bidding task: patrol.dispatch-2
+[INFO] [1782951033.187601182] [rmf_dispatcher_node]: Determined winning Fleet Adapter: [iw_hub_fleet], from 1 responses
+[INFO] [1782951033.187747737] [rmf_dispatcher_node]: Dispatcher Bidding Result: task [patrol.dispatch-2] is awarded to fleet adapter [iw_hub_fleet], with expected robot [iw_hub_3].
+^C[INFO] [1782951168.531178585] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1782951168.531487962] [rmf_dispatcher_node]: Closing down task dispatcher
+(team_venv) carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ 
+
+
+
+
+
+
+
+
+
+
+
+carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ source install/setup.bash
+ros2 run rmf_traffic_ros2 rmf_traffic_schedule
+[INFO] [1782950971.632703897] [rmf_traffic_schedule_node_82656cf6_4cbc_44e3_9731_cb9dddfc2297]: Successfully loaded logfile .rmf_schedule_node.yaml 
+[INFO] [1782950971.645409238] [rmf_traffic_schedule_node_82656cf6_4cbc_44e3_9731_cb9dddfc2297]: Set up heartbeat on /rmf_traffic/heartbeat with liveliness lease duration of 10000 ms and deadline of 10000 ms
+[INFO] [1782950971.689877498] [rmf_traffic_schedule_node_82656cf6_4cbc_44e3_9731_cb9dddfc2297]: Beginning traffic schedule node
+[INFO] [1782950981.035579217] [rmf_traffic_schedule_node_82656cf6_4cbc_44e3_9731_cb9dddfc2297]: Registered new query [1]
+[INFO] [1782950981.204042669] [rmf_traffic_schedule_node_82656cf6_4cbc_44e3_9731_cb9dddfc2297]: Registered participant [0] named [iw_hub_1] owned by [iw_hub_fleet]
+[INFO] [1782950981.204635759] [rmf_traffic_schedule_node_82656cf6_4cbc_44e3_9731_cb9dddfc2297]: Registered participant [1] named [iw_hub_2] owned by [iw_hub_fleet]
+[INFO] [1782950981.204835687] [rmf_traffic_schedule_node_82656cf6_4cbc_44e3_9731_cb9dddfc2297]: Registered participant [2] named [iw_hub_3] owned by [iw_hub_fleet]
+[INFO] [1782950981.204996388] [rmf_traffic_schedule_node_82656cf6_4cbc_44e3_9731_cb9dddfc2297]: Registered participant [3] named [iw_hub_4] owned by [iw_hub_fleet]
+[INFO] [1782950981.205169901] [rmf_traffic_schedule_node_82656cf6_4cbc_44e3_9731_cb9dddfc2297]: Registered participant [4] named [iw_hub_5] owned by [iw_hub_fleet]
+[INFO] [1782951001.047287802] [rmf_traffic_schedule_node_82656cf6_4cbc_44e3_9731_cb9dddfc2297]: [ScheduleNode::update_mirrors] Sending remedial update starting from the beginning going to 5 for query 1
+Require negotiation for: 2 3 4
+
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 [3:0]
+ -- 4:1 [2:0]
+ -- [3:0]
+ -- [2:0]
+
+
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 [3:0]
+ -- 4:1 [2:0]
+ -- [3:0]
+ -- 2:1 [4:0]
+ -- 2:1 [3:0]
+
+
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 [3:0]
+ -- 4:1 [2:0]
+ -- 3:1 [4:0]
+ -- 3:1 [2:0]
+ -- 2:1 [4:0]
+ -- 2:1 [3:0]
+
+
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 [3:0]
+ -- 4:1 [2:0]
+ -- {3:1}
+ -- 2:1 [4:0]
+ -- 2:1 [3:0]
+
+
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 [3:0]
+ -- 4:1 [2:0]
+ -- {3:1}
+ -- 2:1 4:1 [3:0]
+ -- 2:1 [3:0]
+
+
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 [3:0]
+ -- 4:1 [2:0]
+ -- {3:1}
+ -- 2:1 4:1 [3:0]
+ -- 2:1 3:1 [4:0]
+
+
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 3:1 [2:0]
+ -- 4:1 [2:0]
+ -- {3:1}
+ -- 2:1 4:1 [3:0]
+ -- 2:1 3:1 [4:0]
+
+
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 3:1 [2:0]
+ -- 4:1 2:1 [3:0]
+ -- {3:1}
+ -- 2:1 4:1 [3:0]
+ -- 2:1 3:1 [4:0]
+
+
+[0] Active negotiation: 2 3 4
+    Current negotiation state
+ -- 4:1 3:1 [2:0]
+ -- 4:1 2:1 [3:0]
+ -- {3:1}
+ -- 2:1 4:1 >3:1<
+ -- 2:1 3:1 [4:0]
+
+[INFO] [1782951085.533805112] [rmf_traffic_schedule_node_82656cf6_4cbc_44e3_9731_cb9dddfc2297]: Resolved negotiation [0]: 2:1 4:1 3:1
+[INFO] [1782951160.952753985] [rmf_traffic_schedule_node_82656cf6_4cbc_44e3_9731_cb9dddfc2297]: Unregistered participant [0] named [iw_hub_1] owned by [iw_hub_fleet]
+[INFO] [1782951160.965815483] [rmf_traffic_schedule_node_82656cf6_4cbc_44e3_9731_cb9dddfc2297]: Unregistered participant [1] named [iw_hub_2] owned by [iw_hub_fleet]
+^C[INFO] [1782951170.042963180] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1782951170.043365373] [rmf_traffic_schedule_node_82656cf6_4cbc_44e3_9731_cb9dddfc2297]: Closing down traffic schedule node
+carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ 
+
+
+
+
+ll the data in the transform cache'
+[component_container_isolated-2] [INFO] [1782950946.154303347] [iw_hub_2.global_costmap.global_costmap]: start
+[component_container_isolated-1] [INFO] [1782950946.154767751] [iw_hub_1.global_costmap.global_costmap]: start
+[component_container_isolated-4] [INFO] [1782950946.155819862] [iw_hub_4.global_costmap.global_costmap]: start
+[component_container_isolated-5] [INFO] [1782950946.155946871] [iw_hub_5.global_costmap.global_costmap]: start
+[component_container_isolated-3] [INFO] [1782950946.159146383] [iw_hub_3.global_costmap.global_costmap]: start
+[component_container_isolated-2] [INFO] [1782950946.705144552] [iw_hub_2.planner_server]: Activating plugin GridBased of type NavfnPlanner
+[component_container_isolated-2] [INFO] [1782950946.706265499] [iw_hub_2.planner_server]: Creating bond (planner_server) to lifecycle manager.
+[component_container_isolated-4] [INFO] [1782950946.706818493] [iw_hub_4.planner_server]: Activating plugin GridBased of type NavfnPlanner
+[component_container_isolated-5] [INFO] [1782950946.706874188] [iw_hub_5.planner_server]: Activating plugin GridBased of type NavfnPlanner
+[component_container_isolated-4] [INFO] [1782950946.707624758] [iw_hub_4.planner_server]: Creating bond (planner_server) to lifecycle manager.
+[component_container_isolated-5] [INFO] [1782950946.708462172] [iw_hub_5.planner_server]: Creating bond (planner_server) to lifecycle manager.
+[component_container_isolated-3] [INFO] [1782950946.709977088] [iw_hub_3.planner_server]: Activating plugin GridBased of type NavfnPlanner
+[component_container_isolated-3] [INFO] [1782950946.711299506] [iw_hub_3.planner_server]: Creating bond (planner_server) to lifecycle manager.
+[component_container_isolated-2] [INFO] [1782950946.810736035] [iw_hub_2.lifecycle_manager_navigation]: Server planner_server connected with bond.
+[component_container_isolated-2] [INFO] [1782950946.810815460] [iw_hub_2.lifecycle_manager_navigation]: Activating behavior_server
+[component_container_isolated-2] [INFO] [1782950946.811674052] [iw_hub_2.behavior_server]: Activating
+[component_container_isolated-2] [INFO] [1782950946.811722115] [iw_hub_2.behavior_server]: Activating wait
+[component_container_isolated-2] [INFO] [1782950946.811758520] [iw_hub_2.behavior_server]: Activating spin
+[component_container_isolated-2] [INFO] [1782950946.811777428] [iw_hub_2.behavior_server]: Activating backup
+[component_container_isolated-2] [INFO] [1782950946.811796789] [iw_hub_2.behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[component_container_isolated-5] [INFO] [1782950946.811896569] [iw_hub_5.lifecycle_manager_navigation]: Server planner_server connected with bond.
+[component_container_isolated-5] [INFO] [1782950946.811950914] [iw_hub_5.lifecycle_manager_navigation]: Activating behavior_server
+[component_container_isolated-4] [INFO] [1782950946.812492908] [iw_hub_4.lifecycle_manager_navigation]: Server planner_server connected with bond.
+[component_container_isolated-4] [INFO] [1782950946.812540702] [iw_hub_4.lifecycle_manager_navigation]: Activating behavior_server
+[component_container_isolated-5] [INFO] [1782950946.812697435] [iw_hub_5.behavior_server]: Activating
+[component_container_isolated-5] [INFO] [1782950946.812737527] [iw_hub_5.behavior_server]: Activating wait
+[component_container_isolated-5] [INFO] [1782950946.812765212] [iw_hub_5.behavior_server]: Activating spin
+[component_container_isolated-5] [INFO] [1782950946.812782168] [iw_hub_5.behavior_server]: Activating backup
+[component_container_isolated-5] [INFO] [1782950946.812801946] [iw_hub_5.behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[component_container_isolated-4] [INFO] [1782950946.813302528] [iw_hub_4.behavior_server]: Activating
+[component_container_isolated-4] [INFO] [1782950946.813355803] [iw_hub_4.behavior_server]: Activating wait
+[component_container_isolated-4] [INFO] [1782950946.813389194] [iw_hub_4.behavior_server]: Activating spin
+[component_container_isolated-4] [INFO] [1782950946.813407502] [iw_hub_4.behavior_server]: Activating backup
+[component_container_isolated-4] [INFO] [1782950946.813429614] [iw_hub_4.behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[component_container_isolated-3] [INFO] [1782950946.814679659] [iw_hub_3.lifecycle_manager_navigation]: Server planner_server connected with bond.
+[component_container_isolated-3] [INFO] [1782950946.814730152] [iw_hub_3.lifecycle_manager_navigation]: Activating behavior_server
+[component_container_isolated-3] [INFO] [1782950946.815560878] [iw_hub_3.behavior_server]: Activating
+[component_container_isolated-3] [INFO] [1782950946.815613371] [iw_hub_3.behavior_server]: Activating wait
+[component_container_isolated-3] [INFO] [1782950946.815644602] [iw_hub_3.behavior_server]: Activating spin
+[component_container_isolated-3] [INFO] [1782950946.815661333] [iw_hub_3.behavior_server]: Activating backup
+[component_container_isolated-3] [INFO] [1782950946.815677434] [iw_hub_3.behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[component_container_isolated-2] [INFO] [1782950946.914827975] [iw_hub_2.lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[component_container_isolated-2] [INFO] [1782950946.914890551] [iw_hub_2.lifecycle_manager_navigation]: Activating bt_navigator
+[component_container_isolated-5] [INFO] [1782950946.915596065] [iw_hub_5.lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[component_container_isolated-5] [INFO] [1782950946.915664801] [iw_hub_5.lifecycle_manager_navigation]: Activating bt_navigator
+[component_container_isolated-2] [INFO] [1782950946.915690948] [iw_hub_2.bt_navigator]: Activating
+[component_container_isolated-4] [INFO] [1782950946.916187583] [iw_hub_4.lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[component_container_isolated-4] [INFO] [1782950946.916257794] [iw_hub_4.lifecycle_manager_navigation]: Activating bt_navigator
+[component_container_isolated-5] [INFO] [1782950946.916253214] [iw_hub_5.bt_navigator]: Activating
+[component_container_isolated-4] [INFO] [1782950946.917239628] [iw_hub_4.bt_navigator]: Activating
+[component_container_isolated-3] [INFO] [1782950946.918074472] [iw_hub_3.lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[component_container_isolated-3] [INFO] [1782950946.918150054] [iw_hub_3.lifecycle_manager_navigation]: Activating bt_navigator
+[component_container_isolated-3] [INFO] [1782950946.919105644] [iw_hub_3.bt_navigator]: Activating
+[component_container_isolated-5] [INFO] [1782950946.961625864] [iw_hub_5.bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[component_container_isolated-2] [INFO] [1782950946.963550164] [iw_hub_2.bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[component_container_isolated-4] [INFO] [1782950946.965464014] [iw_hub_4.bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[component_container_isolated-3] [INFO] [1782950946.967767211] [iw_hub_3.bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[component_container_isolated-5] [INFO] [1782950947.065275833] [iw_hub_5.lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[component_container_isolated-5] [INFO] [1782950947.065364576] [iw_hub_5.lifecycle_manager_navigation]: Activating waypoint_follower
+[component_container_isolated-5] [INFO] [1782950947.066333878] [iw_hub_5.waypoint_follower]: Activating
+[component_container_isolated-5] [INFO] [1782950947.066435420] [iw_hub_5.waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[component_container_isolated-2] [INFO] [1782950947.066457203] [iw_hub_2.lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[component_container_isolated-2] [INFO] [1782950947.066545027] [iw_hub_2.lifecycle_manager_navigation]: Activating waypoint_follower
+[component_container_isolated-2] [INFO] [1782950947.067454728] [iw_hub_2.waypoint_follower]: Activating
+[component_container_isolated-2] [INFO] [1782950947.067567039] [iw_hub_2.waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[component_container_isolated-4] [INFO] [1782950947.068766518] [iw_hub_4.lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[component_container_isolated-4] [INFO] [1782950947.068871115] [iw_hub_4.lifecycle_manager_navigation]: Activating waypoint_follower
+[component_container_isolated-4] [INFO] [1782950947.069872889] [iw_hub_4.waypoint_follower]: Activating
+[component_container_isolated-4] [INFO] [1782950947.069934486] [iw_hub_4.waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[component_container_isolated-3] [INFO] [1782950947.070742521] [iw_hub_3.lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[component_container_isolated-3] [INFO] [1782950947.070824936] [iw_hub_3.lifecycle_manager_navigation]: Activating waypoint_follower
+[component_container_isolated-3] [INFO] [1782950947.071696387] [iw_hub_3.waypoint_follower]: Activating
+[component_container_isolated-3] [INFO] [1782950947.071763853] [iw_hub_3.waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[component_container_isolated-5] [INFO] [1782950947.169985643] [iw_hub_5.lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[component_container_isolated-5] [INFO] [1782950947.170052037] [iw_hub_5.lifecycle_manager_navigation]: Activating velocity_smoother
+[component_container_isolated-5] [INFO] [1782950947.170890574] [iw_hub_5.velocity_smoother]: Activating
+[component_container_isolated-5] [INFO] [1782950947.170990431] [iw_hub_5.velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[component_container_isolated-2] [INFO] [1782950947.171035242] [iw_hub_2.lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[component_container_isolated-2] [INFO] [1782950947.171104365] [iw_hub_2.lifecycle_manager_navigation]: Activating velocity_smoother
+[component_container_isolated-2] [INFO] [1782950947.172077695] [iw_hub_2.velocity_smoother]: Activating
+[component_container_isolated-2] [INFO] [1782950947.172190495] [iw_hub_2.velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[component_container_isolated-4] [INFO] [1782950947.173068971] [iw_hub_4.lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[component_container_isolated-4] [INFO] [1782950947.173136116] [iw_hub_4.lifecycle_manager_navigation]: Activating velocity_smoother
+[component_container_isolated-4] [INFO] [1782950947.174066603] [iw_hub_4.velocity_smoother]: Activating
+[component_container_isolated-4] [INFO] [1782950947.174156508] [iw_hub_4.velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[component_container_isolated-3] [INFO] [1782950947.174421468] [iw_hub_3.lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[component_container_isolated-3] [INFO] [1782950947.174475685] [iw_hub_3.lifecycle_manager_navigation]: Activating velocity_smoother
+[component_container_isolated-3] [INFO] [1782950947.175497670] [iw_hub_3.velocity_smoother]: Activating
+[component_container_isolated-3] [INFO] [1782950947.175579852] [iw_hub_3.velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1782950947.205679326] [iw_hub_1.planner_server]: Activating plugin GridBased of type NavfnPlanner
+[component_container_isolated-1] [INFO] [1782950947.206867437] [iw_hub_1.planner_server]: Creating bond (planner_server) to lifecycle manager.
+[component_container_isolated-5] [INFO] [1782950947.274284416] [iw_hub_5.lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[component_container_isolated-5] [INFO] [1782950947.274338181] [iw_hub_5.lifecycle_manager_navigation]: Managed nodes are active
+[component_container_isolated-5] [INFO] [1782950947.274353553] [iw_hub_5.lifecycle_manager_navigation]: Creating bond timer...
+[component_container_isolated-2] [INFO] [1782950947.275461343] [iw_hub_2.lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[component_container_isolated-2] [INFO] [1782950947.275544167] [iw_hub_2.lifecycle_manager_navigation]: Managed nodes are active
+[component_container_isolated-2] [INFO] [1782950947.275585770] [iw_hub_2.lifecycle_manager_navigation]: Creating bond timer...
+[component_container_isolated-4] [INFO] [1782950947.277976903] [iw_hub_4.lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[component_container_isolated-4] [INFO] [1782950947.278075564] [iw_hub_4.lifecycle_manager_navigation]: Managed nodes are active
+[component_container_isolated-4] [INFO] [1782950947.278123281] [iw_hub_4.lifecycle_manager_navigation]: Creating bond timer...
+[component_container_isolated-3] [INFO] [1782950947.278515049] [iw_hub_3.lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[component_container_isolated-3] [INFO] [1782950947.278572405] [iw_hub_3.lifecycle_manager_navigation]: Managed nodes are active
+[component_container_isolated-3] [INFO] [1782950947.278586848] [iw_hub_3.lifecycle_manager_navigation]: Creating bond timer...
+[component_container_isolated-1] [INFO] [1782950947.310777908] [iw_hub_1.lifecycle_manager_navigation]: Server planner_server connected with bond.
+[component_container_isolated-1] [INFO] [1782950947.310914145] [iw_hub_1.lifecycle_manager_navigation]: Activating behavior_server
+[component_container_isolated-1] [INFO] [1782950947.311818526] [iw_hub_1.behavior_server]: Activating
+[component_container_isolated-1] [INFO] [1782950947.311854712] [iw_hub_1.behavior_server]: Activating spin
+[component_container_isolated-1] [INFO] [1782950947.311877053] [iw_hub_1.behavior_server]: Activating backup
+[component_container_isolated-1] [INFO] [1782950947.311889243] [iw_hub_1.behavior_server]: Activating wait
+[component_container_isolated-1] [INFO] [1782950947.311903842] [iw_hub_1.behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1782950947.414593164] [iw_hub_1.lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[component_container_isolated-1] [INFO] [1782950947.414660610] [iw_hub_1.lifecycle_manager_navigation]: Activating bt_navigator
+[component_container_isolated-1] [INFO] [1782950947.415551310] [iw_hub_1.bt_navigator]: Activating
+[component_container_isolated-1] [INFO] [1782950947.448323570] [iw_hub_1.bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1782950947.550726307] [iw_hub_1.lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[component_container_isolated-1] [INFO] [1782950947.550806525] [iw_hub_1.lifecycle_manager_navigation]: Activating waypoint_follower
+[component_container_isolated-1] [INFO] [1782950947.551853629] [iw_hub_1.waypoint_follower]: Activating
+[component_container_isolated-1] [INFO] [1782950947.551910221] [iw_hub_1.waypoint_follower]: Creating bond (waypoint_follower) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1782950947.654565149] [iw_hub_1.lifecycle_manager_navigation]: Server waypoint_follower connected with bond.
+[component_container_isolated-1] [INFO] [1782950947.654643087] [iw_hub_1.lifecycle_manager_navigation]: Activating velocity_smoother
+[component_container_isolated-1] [INFO] [1782950947.655520565] [iw_hub_1.velocity_smoother]: Activating
+[component_container_isolated-1] [INFO] [1782950947.655589615] [iw_hub_1.velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[component_container_isolated-1] [INFO] [1782950947.759597362] [iw_hub_1.lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[component_container_isolated-1] [INFO] [1782950947.759666077] [iw_hub_1.lifecycle_manager_navigation]: Managed nodes are active
+[component_container_isolated-1] [INFO] [1782950947.759682345] [iw_hub_1.lifecycle_manager_navigation]: Creating bond timer...
+[component_container_isolated-5] [INFO] [1782951017.221776283] [iw_hub_5.bt_navigator]: Begin navigating from current location (0.00, 12.00) to (3.72, 12.10)
+[component_container_isolated-5] [INFO] [1782951017.252653797] [iw_hub_5.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-5] [WARN] [1782951017.252743537] [iw_hub_5.controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded goal_checker . This warning will appear once.
+[component_container_isolated-5] [INFO] [1782951018.304094563] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951019.354100525] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951020.404089894] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951021.404087128] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951022.454091347] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951023.454087050] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951024.504096551] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951025.240685042] [iw_hub_4.bt_navigator]: Begin navigating from current location (0.00, 9.00) to (3.71, 9.16)
+[component_container_isolated-4] [INFO] [1782951025.281774575] [iw_hub_4.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-4] [WARN] [1782951025.281947423] [iw_hub_4.controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded goal_checker . This warning will appear once.
+[component_container_isolated-5] [INFO] [1782951025.554098298] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951026.333741498] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951026.604102194] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951027.383735945] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951027.604092403] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951028.433721502] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951028.654073417] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951029.433721396] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951029.654118765] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951030.483719940] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951030.704091137] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951031.533710037] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951031.754168070] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951032.533722761] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951032.754141781] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951033.583710622] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951033.598321676] [iw_hub_3.bt_navigator]: Begin navigating from current location (0.00, 6.00) to (3.76, 6.12)
+[component_container_isolated-3] [INFO] [1782951033.639264564] [iw_hub_3.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-3] [WARN] [1782951033.639373749] [iw_hub_3.controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded goal_checker . This warning will appear once.
+[component_container_isolated-5] [INFO] [1782951033.804088751] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951034.633712743] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951034.690423818] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951034.854094963] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951035.683732152] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951035.740429217] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951035.854091948] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951036.683711401] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951036.790457765] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951036.904092293] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951037.733714397] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951037.790433255] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951037.904093649] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951038.783694542] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951038.840427085] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951038.954091592] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951039.833710128] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951039.890425915] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951040.004095090] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951040.833722180] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951040.940427709] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951041.004092704] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951041.883710442] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951041.940429254] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951042.054087234] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951042.933712054] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951042.990471450] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951043.104090790] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951043.933713616] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951043.990431009] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951044.104098405] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951044.983712571] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951045.040424138] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951045.154095958] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951045.983707584] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951046.090427774] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951046.204096623] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951047.033724870] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951047.090458387] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951047.204065780] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951048.083711255] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951048.140426362] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951048.254094174] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951049.083708449] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951049.190454185] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951049.304089999] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951050.133711947] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951050.190427152] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951050.304082657] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951051.183713785] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951051.240423732] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951051.354092342] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951052.183758809] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951052.240429801] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951052.404093998] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951053.233715649] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951053.290425716] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951053.404093813] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951054.233711568] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951054.340426777] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951054.454091378] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951055.283754207] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951055.340442607] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951055.454094124] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951056.333713136] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951056.390427857] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951056.504201983] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951057.333709631] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951057.390433697] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951057.554090462] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951058.383707219] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951058.440426198] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951058.554093163] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951059.433713071] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951059.440425341] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951059.604092534] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951060.433711174] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951060.490439737] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951060.604089883] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951061.483714726] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951061.540424039] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951061.654091169] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951062.533713242] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951062.540429230] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951062.654090033] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951063.533712766] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951063.590427707] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951063.704087368] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951064.583713546] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951064.590427372] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951064.754088397] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951065.583711643] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951065.640425398] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951065.754093015] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951066.633714667] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951066.690436600] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951066.804094211] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951067.683708358] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951067.690424729] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951067.854093724] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951068.683711446] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951068.740433262] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951068.854088054] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951069.733712747] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951069.740425970] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951069.904089228] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951070.733710943] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951070.790437041] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951070.954094543] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951071.783711989] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951071.840427080] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951071.954089897] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951072.833720184] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951072.840434154] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951073.004091783] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951073.883743965] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951073.890427445] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951074.054117527] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951074.883709641] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951074.890424041] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951075.054095401] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951075.933724629] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951075.940430365] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951076.104101388] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951076.933713022] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951076.990424857] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951077.104090006] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951077.983732604] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951077.990425048] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951078.154098144] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951079.033723061] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951079.040423587] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951079.204088633] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951080.033705318] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951080.040423825] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951080.204119163] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951081.083699001] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951081.090430289] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951081.254096218] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951082.133712130] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951082.140424856] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951082.254099597] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951083.133709275] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951083.140427921] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951083.304096765] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951084.183716638] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951084.190458890] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951084.309169351] [iw_hub_4.controller_server]: Reached the goal!
+[component_container_isolated-4] [INFO] [1782951084.341167823] [iw_hub_4.bt_navigator]: Goal succeeded
+[component_container_isolated-5] [INFO] [1782951084.354086930] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951085.190426176] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-5] [INFO] [1782951085.354096036] [iw_hub_5.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951085.360926980] [iw_hub_4.bt_navigator]: Begin navigating from current location (3.62, 9.13) to (3.72, 12.10)
+[component_container_isolated-4] [INFO] [1782951085.401938905] [iw_hub_4.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-3] [INFO] [1782951085.548594192] [iw_hub_3.bt_navigator]: Received goal preemption request
+[component_container_isolated-3] [INFO] [1782951085.548790699] [iw_hub_3.bt_navigator]: Begin navigating from current location (3.63, 6.06) to (3.72, 12.10)
+[component_container_isolated-5] [INFO] [1782951085.552052684] [iw_hub_5.bt_navigator]: Received goal preemption request
+[component_container_isolated-5] [INFO] [1782951085.552265795] [iw_hub_5.bt_navigator]: Begin navigating from current location (3.67, 12.09) to (0.00, 12.00)
+[component_container_isolated-4] [INFO] [1782951085.561176820] [iw_hub_4.bt_navigator]: Received goal preemption request
+[component_container_isolated-4] [INFO] [1782951085.561351206] [iw_hub_4.bt_navigator]: Begin navigating from current location (3.62, 9.13) to (0.00, 9.00)
+[component_container_isolated-5] [INFO] [1782951086.173449046] [iw_hub_5.controller_server]: Reached the goal!
+[component_container_isolated-5] [INFO] [1782951086.212188316] [iw_hub_5.bt_navigator]: Goal succeeded
+[component_container_isolated-3] [INFO] [1782951086.240424324] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951086.452700032] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951087.290439356] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951087.502696746] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951088.290427013] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951088.502696585] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951089.340426916] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951089.552701105] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951090.390440613] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951090.552706234] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951091.390450627] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951091.602700588] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951092.440419732] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951092.652699065] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951093.490424357] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951093.652700234] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951094.540426841] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951094.702699795] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951095.540424669] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951095.702700039] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951096.590429920] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951096.752706475] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951097.640425893] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951097.802700181] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951098.640425749] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951098.802705728] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951099.690432683] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951099.852699987] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951100.740424059] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951100.852694741] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951101.740425609] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951101.902701194] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951102.790491843] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951102.952708428] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951103.790433554] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951103.952699464] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951104.840426424] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951105.002695953] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951105.890426129] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951106.002697254] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951106.890428332] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951107.052700671] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951107.940426635] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951108.102697038] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951108.990428056] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951109.102696539] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951109.990462588] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951110.152700415] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951111.040424015] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951111.152696781] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951112.090421514] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951112.202697585] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951113.140430351] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951113.252698434] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951114.140422369] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951114.252698086] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951115.190422193] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951115.302700735] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951116.190424664] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951116.302700879] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951117.240429715] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951117.352708270] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951118.290424517] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951118.402700570] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951119.340422086] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951119.402699105] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951120.340425440] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951120.452698064] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951121.390428464] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951121.452701015] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951122.390426463] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951122.502696735] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951123.440424408] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951123.552700601] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951124.490427559] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951124.552694825] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951125.490426705] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951125.602702961] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951126.540428134] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951126.602696600] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951127.590430805] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951127.652698825] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951128.590429172] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951128.702700564] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951129.640425824] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951129.702710299] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951130.690425351] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951130.752704862] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951131.690426302] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951131.752698876] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951132.740424232] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951132.802697565] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951133.740422414] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951133.852703170] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951134.790425462] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951134.852697564] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951135.840425698] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951135.902701246] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951136.840424966] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951136.902702284] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951137.890422864] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951137.952701558] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951138.940425476] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951139.002698582] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951139.940425614] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951140.002705730] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951140.990428891] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951141.052703192] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951141.990425406] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951142.052701870] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951143.040426072] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951143.102700334] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951144.090426358] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951144.152701918] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951145.140423855] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951145.152699762] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951146.140431366] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951146.202701216] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951147.190428938] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951147.202702604] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951148.190426206] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951148.252701693] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951149.240421409] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951149.302699505] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951150.290426420] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951150.302699889] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951151.290421754] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951151.352705571] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951152.340387636] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951152.352700893] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951153.390429986] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951153.402698615] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951154.390436034] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951154.452700973] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951155.440434939] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951155.452695570] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951156.490428725] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951156.502700641] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951157.490434050] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951157.552703368] [iw_hub_4.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951157.780921021] [iw_hub_4.controller_server]: Reached the goal!
+[component_container_isolated-4] [INFO] [1782951157.811255838] [iw_hub_4.bt_navigator]: Goal succeeded
+[component_container_isolated-3] [INFO] [1782951158.540432855] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951159.017644931] [iw_hub_4.bt_navigator]: Begin navigating from current location (0.13, 8.96) to (0.38, 8.87)
+[component_container_isolated-4] [INFO] [1782951159.048313144] [iw_hub_4.controller_server]: Received a goal, begin computing control effort.
+[component_container_isolated-3] [INFO] [1782951159.590425529] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-4] [INFO] [1782951159.825085479] [iw_hub_4.controller_server]: Reached the goal!
+[component_container_isolated-4] [INFO] [1782951159.857934495] [iw_hub_4.bt_navigator]: Goal succeeded
+[component_container_isolated-3] [INFO] [1782951160.590424997] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951161.640434016] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951162.640426204] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951163.690425400] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951164.740426687] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951165.740424300] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951166.790425395] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951167.840424022] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951168.840425654] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951169.890425859] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951170.940427219] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951171.940420701] [iw_hub_3.controller_server]: Passing new path to controller.
+[component_container_isolated-3] [INFO] [1782951172.990426436] [iw_hub_3.controller_server]: Passing new path to controller.
+^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[lifecycle_manager-7] [INFO] [1782951173.330882987] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-7] [INFO] [1782951173.330988416] [lifecycle_manager_map]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_map)
+[lifecycle_manager-7] [INFO] [1782951173.331034521] [lifecycle_manager_map]: Terminating bond timer...
+[INFO] [lifecycle_manager-7]: process has finished cleanly [pid 5193]
+[INFO] [map_server-6]: process has finished cleanly [pid 5191]
+[map_ser
+
+
+
+
+
+carrubuntu@CARRUBUNTUWORKSTATION:~/ros2_team001$ cd ~/ros2_team001
+source install/setup.bash
+ros2 launch ira_laser_tools merger_iw_hub_lidar.launch.py
+[INFO] [launch]: All log files can be found below /home/carrubuntu/.ros/log/2026-07-02-05-38-47-506532-CARRUBUNTUWORKSTATION-5080
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [laserscan_multi_merger-1]: process started with pid [5081]
+[INFO] [laserscan_multi_merger-2]: process started with pid [5083]
+[INFO] [laserscan_multi_merger-3]: process started with pid [5085]
+[INFO] [laserscan_multi_merger-4]: process started with pid [5087]
+[INFO] [laserscan_multi_merger-5]: process started with pid [5089]
+[laserscan_multi_merger-3] [INFO] [1782950927.687133185] [iw_hub_3.laserscan_multi_merger]: Waiting for topics ...
+[laserscan_multi_merger-1] [INFO] [1782950927.687384543] [iw_hub_1.laserscan_multi_merger]: Waiting for topics ...
+[laserscan_multi_merger-4] [INFO] [1782950927.687410505] [iw_hub_4.laserscan_multi_merger]: Waiting for topics ...
+[laserscan_multi_merger-2] [INFO] [1782950927.687476676] [iw_hub_2.laserscan_multi_merger]: Waiting for topics ...
+[laserscan_multi_merger-5] [INFO] [1782950927.687510224] [iw_hub_5.laserscan_multi_merger]: Waiting for topics ...
+[laserscan_multi_merger-3] [INFO] [1782950928.687677986] [iw_hub_3.laserscan_multi_merger]: Subscribing to topics	2
+[laserscan_multi_merger-2] [INFO] [1782950928.687871066] [iw_hub_2.laserscan_multi_merger]: Subscribing to topics	2
+[laserscan_multi_merger-4] [INFO] [1782950928.687869868] [iw_hub_4.laserscan_multi_merger]: Subscribing to topics	2
+[laserscan_multi_merger-1] [INFO] [1782950928.687888258] [iw_hub_1.laserscan_multi_merger]: Subscribing to topics	2
+[laserscan_multi_merger-5] [INFO] [1782950928.687900448] [iw_hub_5.laserscan_multi_merger]: Subscribing to topics	2
+[laserscan_multi_merger-1] [WARN] [1782950960.396584596] [iw_hub_1.laserscan_multi_merger]: New subscription discovered on topic '/iw_hub_1/scan_merged_1', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[laserscan_multi_merger-1] [WARN] [1782950960.398228106] [iw_hub_1.laserscan_multi_merger]: New subscription discovered on topic '/iw_hub_1/scan_merged_1', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: DURABILITY_QOS_POLICY
+[laserscan_multi_merger-1] [WARN] [1782950960.402965607] [iw_hub_1.laserscan_multi_merger]: New subscription discovered on topic '/iw_hub_1/scan_merged_1', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[laserscan_multi_merger-2] [WARN] [1782950960.418832179] [iw_hub_2.laserscan_multi_merger]: New subscription discovered on topic '/iw_hub_2/scan_merged_1', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[laserscan_multi_merger-5] [WARN] [1782950960.420185801] [iw_hub_5.laserscan_multi_merger]: New subscription discovered on topic '/iw_hub_5/scan_merged_1', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[laserscan_multi_merger-4] [WARN] [1782950960.424946297] [iw_hub_4.laserscan_multi_merger]: New subscription discovered on topic '/iw_hub_4/scan_merged_1', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[laserscan_multi_merger-1] [WARN] [1782950960.453270281] [iw_hub_1.laserscan_multi_merger]: New subscription discovered on topic '/iw_hub_1/scan_merged_1', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: DURABILITY_QOS_POLICY
+
+
+
+
+
+
